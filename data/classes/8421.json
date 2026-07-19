@@ -1,0 +1,16 @@
+{
+  "code": "8421",
+  "nameEn": "Foreign affairs",
+  "group": "842",
+  "description": "This class includes activities of the provision of services and administration of foreign affairs.",
+  "includes": [
+    "management of foreign affairs",
+    "diplomatic and consular missions overseas",
+    "administration of foreign aid and international assistance programs",
+    "activities of foreign embassies"
+  ],
+  "excludes": [
+    "general public administration, see 8410"
+  ],
+  "implementedAt": "2026-04-17T15:50:00Z"
+}

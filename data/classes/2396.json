@@ -1,0 +1,18 @@
+{
+  "code": "2396",
+  "nameEn": "Cutting, shaping and finishing of stone",
+  "group": "239",
+  "description": "This class includes the cutting, shaping and finishing of stone for construction and other purposes.",
+  "includes": [
+    "cutting, shaping and finishing of stone for construction: flagstones, kerbstones, slabs, columns",
+    "manufacture of stone setts, curbs, cobbles and other stone for paving",
+    "splitting and cutting of slate",
+    "manufacture of articles of stone or of other mineral substances: millstones, grindstones, abrasive wheels, monuments, furniture",
+    "manufacture of stone for laboratory, industrial or other use"
+  ],
+  "excludes": [
+    "activities of stone quarrying, see 0810",
+    "manufacture of abrasive products, see 2399"
+  ],
+  "implementedAt": "2026-04-15T13:40:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "8220",
+  "nameEn": "Activities of call centres",
+  "group": "822",
+  "description": "This class includes inbound and outbound telephone activities for the purpose of providing information or selling goods and services.",
+  "includes": [
+    "inbound call centre activities (answering and handling queries, complaints, and orders)",
+    "outbound call centre activities (telemarketing, market surveys)",
+    "telephone answering services",
+    "customer support centre activities"
+  ],
+  "excludes": [
+    "telemarketing agencies when not operating as call centre, see 7310"
+  ],
+  "implementedAt": "2026-04-17T14:50:00Z"
+}

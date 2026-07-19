@@ -1,0 +1,18 @@
+{
+  "code": "8810",
+  "nameEn": "Social work activities without accommodation for the elderly and disabled",
+  "group": "881",
+  "description": "This class includes the provision of social assistance services directly to the elderly and disabled without providing accommodation.",
+  "includes": [
+    "day care activities for the elderly",
+    "day care activities for disabled persons",
+    "community-based social services for the elderly",
+    "homemaker's aide activities",
+    "visiting and counselling services for the elderly"
+  ],
+  "excludes": [
+    "residential care activities for the elderly, see 8730",
+    "other social work activities, see 8890"
+  ],
+  "implementedAt": "2026-04-17T19:00:00Z"
+}

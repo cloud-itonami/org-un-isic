@@ -1,0 +1,83 @@
+# open-isic
+
+Machine-readable ISIC Rev.4 (UN Statistics Division, International Standard
+Industrial Classification of All Economic Activities, Revision 4) published as
+JSON and served through the shared LangServer + LangGraph + UDF runtime.
+
+- 21 Sections -> 88 Divisions -> **272 Groups** -> 428 Classes
+- Source taxonomy: https://unstats.un.org/unsd/classifications/Econ/isic (public domain)
+- License: Apache-2.0 (code) / public domain (UN data)
+
+## Goal
+
+Give downstream projects — classifiers, dashboards, LLM tools, AT Protocol
+actors — a stable, versioned, JSON-first ISIC dataset that can be consumed
+without scraping the UN PDF.
+
+## Layout
+
+```
+data/classes/{code}.json    one file per 4-digit Class (authoritative data)
+```
+
+Each class JSON carries `code`, `nameEn`, `group`, `description`, `includes[]`,
+`excludes[]`, and `implementedAt`. The group → division → section ancestry is
+resolved from the code itself (`groupOf` / `divisionOf` / `sectionOf`).
+
+## Runtime
+
+The Cloudflare Worker implementation has been retired to
+`_archive/retired-cf-workers/adr-2604282300/60-apps/etzhayyim-project-open-isic/worker`.
+Active writes and classification workflows are owned by:
+
+- `00-contracts/bpmn/com/etzhayyim/open-isic`
+- `40-engine/kotoba/crates/kotoba-kotodama/py/src/kotodama/primitives/open_isic.py`
+- `40-engine/kotoba/crates/kotoba-kotodama/py/src/kotodama/handlers/open_isic.py`
+
+Current coverage: **428 / 428 classes**, **4 / 4 BPMN processes**,
+**4 / 4 LangServer tasks**, **2 / 2 UDF helpers**.
+
+| Group | Title | Classes |
+|-------|-------|---------|
+| 011 | Growing of non-perennial crops | 0111, 0112, 0113, 0114, 0115, 0116, 0119 |
+| 012 | Growing of perennial crops | 0121, 0122, 0123, 0124, 0125, 0126, 0127, 0128, 0129 |
+| 013 | Plant propagation | 0130 |
+| 014 | Animal production | 0141, 0142, 0143, 0144, 0145, 0146, 0149 |
+| 015 | Mixed farming | 0150 |
+| 016 | Support activities to agriculture and post-harvest crop activities | 0161, 0162, 0163, 0164 |
+| 017 | Hunting, trapping and related service activities | 0170 |
+| 021 | Silviculture and other forestry activities | 0210 |
+| 022 | Logging | 0220 |
+| 023 | Gathering of non-wood forest products | 0230 |
+| 024 | Support services to forestry | 0240 |
+| 031 | Fishing | 0311, 0312 |
+| 032 | Aquaculture | 0321, 0322 |
+| 051 | Mining of hard coal | 0510 |
+| 052 | Mining of lignite | 0520 |
+| 061 | Extraction of crude petroleum | 0610 |
+| 062 | Extraction of natural gas | 0620 |
+| 071 | Mining of iron ores | 0710 |
+| 072 | Mining of non-ferrous metal ores | 0721, 0729 |
+| 081 | Quarrying of stone, sand and clay | 0810 |
+| 089 | Other mining and quarrying n.e.c. | 0891, 0892, 0893, 0899 |
+| 091 | Support activities for petroleum and natural gas extraction | 0910 |
+| 099 | Support activities for other mining and quarrying | 0990 |
+| 101 | Processing and preserving of meat and meat products | 1010 |
+| 102 | Processing and preserving of fish, crustaceans and molluscs | 1020 |
+
+## Contributing a group
+
+1. Pick the next unimplemented ISIC group (see the UN source).
+2. Add one JSON file per class under `data/classes/` (`{4-digit-code}.json`)
+   with `code`, `nameEn`, `group`, `description`, `includes`, `excludes`,
+   `implementedAt`.
+3. Run `pytest -q tests/test_open_isic_apqc_primitives.py` from
+   `40-engine/kotoba/crates/kotoba-kotodama/py`.
+
+No runtime code changes are required to publish a new group — the data files
+are the interface.
+
+## Attribution
+
+ISIC Rev.4 © United Nations Statistics Division, public domain.
+Code © etzhayyim.com, Apache-2.0.

@@ -1,0 +1,30 @@
+{
+  "code": "2829",
+  "nameEn": "Manufacture of other special-purpose machinery",
+  "group": "282",
+  "description": "This class includes the manufacture of special-purpose machinery not elsewhere classified.",
+  "includes": [
+    "manufacture of machinery for making paper and paperboard",
+    "manufacture of machinery for processing plastics and rubber: extruders, moulding machines, blow moulding machines",
+    "manufacture of machinery for printing and bookbinding",
+    "manufacture of machinery for working glass: machines for glass cutting, bending and forming",
+    "manufacture of machinery for the manufacture of ceramic products",
+    "manufacture of machinery for the manufacture of rope or cable",
+    "manufacture of robots for special-purpose use",
+    "manufacture of semiconductor manufacturing machinery",
+    "manufacture of machinery for manufacturing tiles, bricks, shaped cement products",
+    "manufacture of machinery for the preparation or making of tobacco products",
+    "manufacture of machinery for the production and hot working of glass or glassware",
+    "manufacture of machinery for public works, building and civil engineering",
+    "manufacture of chassis-mounted specialized equipment for fire-fighting vehicles, snow-removing vehicles, etc."
+  ],
+  "excludes": [
+    "manufacture of agricultural machinery, see 2821",
+    "manufacture of metal-working machinery, see 2822",
+    "manufacture of metallurgical machinery, see 2823",
+    "manufacture of mining and construction machinery, see 2824",
+    "manufacture of food processing machinery, see 2825",
+    "manufacture of textile machinery, see 2826"
+  ],
+  "implementedAt": "2026-04-16T04:10:00Z"
+}

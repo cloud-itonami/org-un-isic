@@ -1,0 +1,15 @@
+{
+  "code": "0892",
+  "nameEn": "Extraction of peat",
+  "group": "089",
+  "description": "This class includes extraction and agglomeration of peat.",
+  "includes": [
+    "extraction of peat",
+    "agglomeration of peat"
+  ],
+  "excludes": [
+    "service activities incidental to peat extraction, see 0990",
+    "manufacture of peat-based fertilizers, see 2012"
+  ],
+  "implementedAt": "2026-04-15T02:20:00Z"
+}

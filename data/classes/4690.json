@@ -1,0 +1,14 @@
+{
+  "code": "4690",
+  "nameEn": "Non-specialised wholesale trade",
+  "group": "469",
+  "description": "This class includes the wholesale of a variety of goods without any particular specialisation.",
+  "includes": [
+    "wholesale of a general range of goods with no particular specialisation",
+    "wholesale of food, beverages and tobacco combined with other goods"
+  ],
+  "excludes": [
+    "retail sale of a general range of goods, see 4711"
+  ],
+  "implementedAt": "2026-04-16T16:00:00Z"
+}

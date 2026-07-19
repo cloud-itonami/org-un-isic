@@ -1,0 +1,16 @@
+{
+  "code": "5310",
+  "nameEn": "Postal activities",
+  "group": "531",
+  "description": "This class includes postal activities undertaken under a universal service obligation.",
+  "includes": [
+    "pick-up, transport and delivery of mail and parcels under a universal service obligation",
+    "activities of national postal systems",
+    "registered mail and parcel delivery services under universal service obligations",
+    "operation of post offices"
+  ],
+  "excludes": [
+    "courier activities (not under universal service obligation), see 5320"
+  ],
+  "implementedAt": "2026-04-17T00:10:00Z"
+}

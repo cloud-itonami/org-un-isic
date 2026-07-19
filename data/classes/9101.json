@@ -1,0 +1,18 @@
+{
+  "code": "9101",
+  "nameEn": "Library and archive activities",
+  "group": "910",
+  "description": "This class includes the provision of library and archive services.",
+  "includes": [
+    "library and reading room activities",
+    "archive activities",
+    "activities of public and private libraries",
+    "digital library activities",
+    "document collection and management"
+  ],
+  "excludes": [
+    "museum activities, see 9102",
+    "historical sites operation, see 9103"
+  ],
+  "implementedAt": "2026-04-17T19:30:00Z"
+}

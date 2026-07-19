@@ -1,0 +1,25 @@
+{
+  "code": "2821",
+  "nameEn": "Manufacture of agricultural and forestry machinery",
+  "group": "282",
+  "description": "This class includes the manufacture of machinery used in agriculture, horticulture, forestry, and related activities.",
+  "includes": [
+    "manufacture of tractors used in agriculture and forestry",
+    "manufacture of ploughs, scarifiers, cultivators, harrows, hoes, rakes",
+    "manufacture of seed drills and planters",
+    "manufacture of fertilizer distributors and manure spreaders",
+    "manufacture of harvesting and threshing machinery: combine harvesters, forage harvesters, straw and fodder balers",
+    "manufacture of milking machines",
+    "manufacture of agricultural spraying machinery",
+    "manufacture of hedge trimmers, brush cutters, powered lawnmowers",
+    "manufacture of poultry-keeping machinery, bee-keeping machinery, equipment for preparing animal feed",
+    "manufacture of machinery for cleaning, sorting or grading eggs, fruit or other agricultural produce",
+    "manufacture of chainsaws for forestry"
+  ],
+  "excludes": [
+    "manufacture of non-powered agricultural hand tools, see 2593",
+    "manufacture of draining machinery for agriculture, see 2813",
+    "manufacture of industrial food processing machinery, see 2825"
+  ],
+  "implementedAt": "2026-04-16T03:10:00Z"
+}

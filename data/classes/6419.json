@@ -1,0 +1,20 @@
+{
+  "code": "6419",
+  "nameEn": "Other monetary intermediation",
+  "group": "641",
+  "description": "This class includes the receiving of deposits and/or close substitutes for deposits and extending of credit or lending funds.",
+  "includes": [
+    "banking and savings banks activities",
+    "credit union and cooperative bank activities",
+    "commercial banks",
+    "savings banks",
+    "credit cooperatives",
+    "postal giro and postal savings bank activities",
+    "money market funds"
+  ],
+  "excludes": [
+    "central banking, see 6411",
+    "credit granting for house purchase by specialist deposit-taking institutions, see 6492"
+  ],
+  "implementedAt": "2026-04-17T05:50:00Z"
+}

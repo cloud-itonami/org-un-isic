@@ -1,0 +1,18 @@
+{
+  "code": "6910",
+  "nameEn": "Legal activities",
+  "group": "691",
+  "description": "This class includes legal representation of one party's interest against another party, whether or not before courts or other judicial bodies.",
+  "includes": [
+    "legal representation and advice by lawyers",
+    "notary public activities",
+    "bailiff and process server activities",
+    "arbitration and mediation services",
+    "intellectual property consulting activities",
+    "title searching services"
+  ],
+  "excludes": [
+    "legal counselling by the court system, see 8423"
+  ],
+  "implementedAt": "2026-04-17T09:00:00Z"
+}

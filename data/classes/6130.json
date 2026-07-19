@@ -1,0 +1,17 @@
+{
+  "code": "6130",
+  "nameEn": "Satellite telecommunications activities",
+  "group": "613",
+  "description": "This class includes operating, maintaining or providing access to satellite communications facilities.",
+  "includes": [
+    "provision of satellite communications: voice, data, video via satellite",
+    "operation of satellite earth stations",
+    "provision of satellite internet access",
+    "provision of satellite telephony services"
+  ],
+  "excludes": [
+    "wired telecommunications, see 6110",
+    "wireless terrestrial telecommunications, see 6120"
+  ],
+  "implementedAt": "2026-04-17T04:00:00Z"
+}

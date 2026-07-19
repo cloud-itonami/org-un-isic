@@ -1,0 +1,18 @@
+{
+  "code": "8030",
+  "nameEn": "Investigation activities",
+  "group": "803",
+  "description": "This class includes the investigation activities carried out by private detective agencies, private investigators, and insurance investigators.",
+  "includes": [
+    "private detective agency activities",
+    "private investigator services",
+    "skip tracing activities",
+    "background investigation services",
+    "insurance investigation services"
+  ],
+  "excludes": [
+    "private security activities, see 8010",
+    "security systems service activities, see 8020"
+  ],
+  "implementedAt": "2026-04-17T13:40:00Z"
+}

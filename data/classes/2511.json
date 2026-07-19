@@ -1,0 +1,24 @@
+{
+  "code": "2511",
+  "nameEn": "Manufacture of structural metal products",
+  "group": "251",
+  "description": "This class includes the manufacture of structural metal products for use in construction and civil engineering.",
+  "includes": [
+    "manufacture of metal frameworks or skeletons for construction and parts thereof: bridges, bridge sections, towers, lattice masts, roofs, roofing frameworks, doors, windows",
+    "manufacture of industrial frameworks in metal: frameworks for blast furnaces, lifting and handling equipment",
+    "manufacture of prefabricated buildings mainly of metal",
+    "manufacture of metal containers for compressed or liquefied gas",
+    "manufacture of shuttering for concrete constructional work",
+    "manufacture of metal cable for use in construction",
+    "manufacture of metal doorframes and window frames, doors, shutters, gates",
+    "manufacture of metal storage bins, tanks and containers",
+    "manufacture of metal stairs, fire escapes, grilles",
+    "manufacture of pillars and columns of metal"
+  ],
+  "excludes": [
+    "manufacture of tanks and reservoirs, see 2512",
+    "manufacture of boilers and pressure vessels, see 2513",
+    "manufacture of metal cables, braided wire etc., see 2592"
+  ],
+  "implementedAt": "2026-04-15T14:40:00Z"
+}

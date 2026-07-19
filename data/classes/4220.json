@@ -1,0 +1,21 @@
+{
+  "code": "4220",
+  "nameEn": "Construction of utility projects",
+  "group": "422",
+  "description": "This class includes the construction of distribution lines for utilities and related buildings and structures.",
+  "includes": [
+    "construction of long-distance pipelines, communication and power lines",
+    "construction of urban pipelines, communication and power lines",
+    "construction of gas mains and water mains",
+    "construction of irrigation systems (canals)",
+    "construction of reservoirs",
+    "construction of sewer and water treatment plants",
+    "construction of offshore structures",
+    "laying of underwater cables"
+  ],
+  "excludes": [
+    "construction of industrial buildings, see 4100",
+    "construction of water intake and treatment works, see 4290"
+  ],
+  "implementedAt": "2026-04-16T11:10:00Z"
+}

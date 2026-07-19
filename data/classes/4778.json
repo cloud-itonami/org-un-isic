@@ -1,0 +1,18 @@
+{
+  "code": "4778",
+  "nameEn": "Other retail sale of new goods in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of new goods in specialised stores not elsewhere classified.",
+  "includes": [
+    "retail sale of photographic, optical and precision equipment",
+    "retail sale of craft supplies and art materials",
+    "retail sale of religious articles",
+    "retail sale of souvenirs, tourist articles",
+    "retail sale of musical instruments",
+    "retail sale of office supplies (not stationery)"
+  ],
+  "excludes": [
+    "retail sale of second-hand goods, see 4779"
+  ],
+  "implementedAt": "2026-04-16T20:00:00Z"
+}

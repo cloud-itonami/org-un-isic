@@ -1,0 +1,19 @@
+{
+  "code": "4923",
+  "nameEn": "Freight transport by road",
+  "group": "492",
+  "description": "This class includes all road freight transport activities.",
+  "includes": [
+    "freight transport by road: trucks, lorries, vans",
+    "hauling of logs within forests",
+    "transport of heavy and oversized cargo",
+    "transport of liquid bulk cargo by road",
+    "refrigerated transport by road",
+    "removal transport (household and office relocation)"
+  ],
+  "excludes": [
+    "log hauling within forests (part of forestry), see 0220",
+    "transport via pipeline, see 4930"
+  ],
+  "implementedAt": "2026-04-16T21:50:00Z"
+}

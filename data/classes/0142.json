@@ -1,0 +1,16 @@
+{
+  "code": "0142",
+  "nameEn": "Raising of horses and other equines",
+  "group": "014",
+  "description": "This class includes raising and breeding of horses, asses, mules or hinnies, and production of raw equine milk and equine semen.",
+  "includes": [
+    "raising and breeding of horses, asses, mules or hinnies",
+    "production of raw equine milk",
+    "production of equine semen"
+  ],
+  "excludes": [
+    "operation of riding schools, see 8551",
+    "operation of racetracks, see 9311"
+  ],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

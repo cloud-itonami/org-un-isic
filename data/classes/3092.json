@@ -1,0 +1,18 @@
+{
+  "code": "3092",
+  "nameEn": "Manufacture of bicycles and invalid carriages",
+  "group": "309",
+  "description": "This class includes the manufacture of non-motorised bicycles and invalid carriages.",
+  "includes": [
+    "manufacture of non-motorised bicycles and other cycles: racing bicycles, mountain bicycles, BMX bicycles, children's bicycles",
+    "manufacture of tricycles (non-motorised)",
+    "manufacture of invalid carriages, with or without motor",
+    "manufacture of parts and accessories for bicycles and invalid carriages: frames, forks, saddles, pedals, chains, brakes, handlebars, wheels"
+  ],
+  "excludes": [
+    "manufacture of motorcycles and mopeds, see 3091",
+    "manufacture of children's scooters, see 3240",
+    "manufacture of baby carriages (prams), see 3240"
+  ],
+  "implementedAt": "2026-04-16T05:50:00Z"
+}

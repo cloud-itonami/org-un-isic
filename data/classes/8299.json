@@ -1,0 +1,19 @@
+{
+  "code": "8299",
+  "nameEn": "Other business support service activities n.e.c.",
+  "group": "829",
+  "description": "This class includes miscellaneous business support activities not elsewhere classified.",
+  "includes": [
+    "shorthand and court reporting activities",
+    "translation and interpretation activities (when not specialized professional)",
+    "coin-operated machine services (photocopiers, laundry, etc.)",
+    "bar code services and similar services",
+    "miscellaneous business support services n.e.c."
+  ],
+  "excludes": [
+    "debt collection, see 8291",
+    "packaging activities, see 8292",
+    "translation by professional agencies, see 7490"
+  ],
+  "implementedAt": "2026-04-17T15:30:00Z"
+}

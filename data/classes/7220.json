@@ -1,0 +1,20 @@
+{
+  "code": "7220",
+  "nameEn": "Research and experimental development on social sciences and humanities",
+  "group": "722",
+  "description": "This class includes the activities of laboratories and institutes engaged in systematic original investigation in social sciences and humanities.",
+  "includes": [
+    "research and development on economics and econometrics",
+    "research and development on history and archaeology",
+    "research and development on jurisprudence",
+    "research and development on linguistics and literature",
+    "research on philosophy and religion",
+    "research on sociology, demography and anthropology",
+    "interdisciplinary research activities"
+  ],
+  "excludes": [
+    "research on natural sciences and engineering, see 7210",
+    "market research, see 7320"
+  ],
+  "implementedAt": "2026-04-17T10:10:00Z"
+}

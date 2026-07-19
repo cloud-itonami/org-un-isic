@@ -1,0 +1,18 @@
+{
+  "code": "6201",
+  "nameEn": "Computer programming activities",
+  "group": "620",
+  "description": "This class includes the writing, modifying, testing and supporting of software.",
+  "includes": [
+    "writing, modifying, testing and supporting of software",
+    "custom software development and programming",
+    "web application development",
+    "mobile application development",
+    "software design and architecture"
+  ],
+  "excludes": [
+    "publishing of ready-made software, see 5820",
+    "computer consultancy, see 6202"
+  ],
+  "implementedAt": "2026-04-17T04:20:00Z"
+}

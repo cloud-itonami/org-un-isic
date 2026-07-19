@@ -1,0 +1,17 @@
+{
+  "code": "6491",
+  "nameEn": "Financial leasing",
+  "group": "649",
+  "description": "This class includes the provision of finance for purchasing assets by extending credit in the form of a lease agreement.",
+  "includes": [
+    "financial leasing of motor vehicles",
+    "financial leasing of industrial equipment",
+    "financial leasing of real estate",
+    "hire purchase arrangements for all types of assets"
+  ],
+  "excludes": [
+    "operational leasing, see 7710",
+    "operational leasing without operators (renting), see various classes in division 77"
+  ],
+  "implementedAt": "2026-04-17T06:20:00Z"
+}

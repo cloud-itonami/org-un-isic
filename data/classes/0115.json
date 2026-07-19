@@ -1,0 +1,14 @@
+{
+  "code": "0115",
+  "nameEn": "Growing of tobacco",
+  "group": "011",
+  "description": "This class includes the growing of unmanufactured tobacco and the preliminary preparation of tobacco leaves (drying, curing).",
+  "includes": [
+    "growing of tobacco",
+    "preliminary preparation of tobacco leaves, such as drying or stripping"
+  ],
+  "excludes": [
+    "manufacture of tobacco products, see 1200"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

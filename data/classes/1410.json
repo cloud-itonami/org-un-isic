@@ -1,0 +1,24 @@
+{
+  "code": "1410",
+  "nameEn": "Manufacture of wearing apparel, except fur apparel",
+  "group": "141",
+  "description": "This class includes the manufacture of all types of wearing apparel (suits, coats, dresses, blouses, shirts, etc.) of any material (woven fabrics, knitted and crocheted fabrics, non-wovens, leather, etc.) and for all uses (men's, women's and children's apparel, work wear, outdoor clothing, etc.).",
+  "includes": [
+    "manufacture of men's, boys', women's and girls' outerwear: suits, coats, overcoats, jackets, trousers, skirts, blouses, dresses",
+    "manufacture of shirts, T-shirts, shorts",
+    "manufacture of work wear: uniforms, overalls, lab coats",
+    "manufacture of sportswear and swimwear",
+    "manufacture of traditional costume, theatrical costume",
+    "manufacture of raincoats and other waterproof outerwear",
+    "manufacture of leather clothing and clothing accessories",
+    "manufacture of baby garments"
+  ],
+  "excludes": [
+    "manufacture of fur apparel, see 1420",
+    "manufacture of knitted and crocheted apparel, see 1430",
+    "manufacture of safety equipment such as fire-resistant and protective safety clothing, see 1410",
+    "tailoring and other custom manufacture, see 1410",
+    "rental of clothing, see 7729"
+  ],
+  "implementedAt": "2026-04-15T07:30:00Z"
+}

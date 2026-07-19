@@ -1,0 +1,20 @@
+{
+  "code": "3315",
+  "nameEn": "Repair of transport equipment, except motor vehicles",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of transport equipment other than motor vehicles.",
+  "includes": [
+    "repair and maintenance of ships and boats",
+    "repair and maintenance of pleasure and sporting boats",
+    "repair and maintenance of railway locomotives and rolling stock",
+    "repair and maintenance of aircraft and spacecraft",
+    "repair and maintenance of aircraft engines",
+    "repair and maintenance of other transport equipment: military vehicles, tanks"
+  ],
+  "excludes": [
+    "repair and maintenance of motor vehicles, see 4520",
+    "repair of bicycles and motorcycles, see 4540",
+    "rebuilding of marine engines, see 3312"
+  ],
+  "implementedAt": "2026-04-16T08:30:00Z"
+}

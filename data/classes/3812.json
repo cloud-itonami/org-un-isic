@@ -1,0 +1,20 @@
+{
+  "code": "3812",
+  "nameEn": "Collection of hazardous waste",
+  "group": "381",
+  "description": "This class includes the collection of solid or non-solid hazardous waste, e.g. explosive, oxidizing, flammable, toxic, irritant, carcinogenic, corrosive or infectious materials.",
+  "includes": [
+    "collection of hazardous waste: solvents, paints, used oils, medical waste",
+    "collection of radioactive nuclear waste",
+    "collection of spent batteries and cells",
+    "collection of used oil from ships",
+    "operation of transfer stations for hazardous waste",
+    "collection of waste oil from households and commercial users"
+  ],
+  "excludes": [
+    "collection of non-hazardous waste, see 3811",
+    "treatment and disposal of hazardous waste, see 3822",
+    "nuclear fuel reprocessing (classified under manufacturing)"
+  ],
+  "implementedAt": "2026-04-16T10:00:00Z"
+}

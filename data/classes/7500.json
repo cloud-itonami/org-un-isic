@@ -1,0 +1,19 @@
+{
+  "code": "7500",
+  "nameEn": "Veterinary activities",
+  "group": "750",
+  "description": "This class includes the provision of animal health care and control services for farm animals or pet animals.",
+  "includes": [
+    "veterinary activities for farm and pet animals",
+    "animal hospital activities",
+    "animal clinic activities",
+    "veterinary inspection of foodstuffs",
+    "post-mortem examination of animals",
+    "livestock health activities"
+  ],
+  "excludes": [
+    "scientific research on animals, see 7210",
+    "animal testing for cosmetics, see 7120"
+  ],
+  "implementedAt": "2026-04-17T11:10:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "code": "4777",
+  "nameEn": "Retail sale of watches, clocks and jewellery in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of watches, clocks and jewellery in specialised stores.",
+  "includes": [
+    "retail sale of jewellery: rings, bracelets, necklaces",
+    "retail sale of watches and clocks",
+    "retail sale of precious metals and precious stones"
+  ],
+  "excludes": [
+    "retail sale of costume jewellery, see 4778"
+  ],
+  "implementedAt": "2026-04-16T19:50:00Z"
+}

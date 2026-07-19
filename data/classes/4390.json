@@ -1,0 +1,21 @@
+{
+  "code": "4390",
+  "nameEn": "Other specialised construction activities",
+  "group": "439",
+  "description": "This class includes specialised construction activities not elsewhere classified.",
+  "includes": [
+    "construction activities specialising in one aspect common to different kinds of structures: foundation work, scaffolding, concrete work",
+    "driving and extraction of steel sheet piling",
+    "grouting and similar foundation and soil stabilization work",
+    "erection of non-self manufactured steel elements",
+    "masonry work",
+    "roofing",
+    "waterproofing",
+    "draining"
+  ],
+  "excludes": [
+    "renting of construction equipment, see 7739",
+    "project management activities, see 4100, 4200, 4300"
+  ],
+  "implementedAt": "2026-04-16T12:40:00Z"
+}

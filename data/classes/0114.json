@@ -1,0 +1,14 @@
+{
+  "code": "0114",
+  "nameEn": "Growing of sugar cane",
+  "group": "011",
+  "description": "This class includes the growing of sugar cane.",
+  "includes": [
+    "growing of sugar cane"
+  ],
+  "excludes": [
+    "growing of sugar beet, see 0113",
+    "manufacture of sugar, see 1072"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

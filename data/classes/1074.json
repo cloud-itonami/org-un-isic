@@ -1,0 +1,19 @@
+{
+  "code": "1074",
+  "nameEn": "Manufacture of macaroni, noodles, couscous and similar farinaceous products",
+  "group": "107",
+  "description": "This class includes the manufacture of pasta products such as macaroni, noodles, couscous and similar farinaceous products.",
+  "includes": [
+    "manufacture of dry pasta products: macaroni, spaghetti, noodles, other pasta",
+    "manufacture of canned, frozen or fresh pasta products",
+    "manufacture of couscous",
+    "manufacture of egg noodles",
+    "manufacture of canned or frozen pasta dishes"
+  ],
+  "excludes": [
+    "manufacture of flour, see 1061",
+    "manufacture of prepared meals, see 1075",
+    "manufacture of soups and broths, see 1079"
+  ],
+  "implementedAt": "2026-04-15T04:20:00Z"
+}

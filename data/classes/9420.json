@@ -1,0 +1,16 @@
+{
+  "code": "9420",
+  "nameEn": "Activities of trade unions",
+  "group": "942",
+  "description": "This class includes promoting the interests of employees through activities of labour unions and other labour organizations.",
+  "includes": [
+    "activities of labour unions",
+    "activities of trade unions",
+    "activities of workers' associations"
+  ],
+  "excludes": [
+    "activities of employers' organizations, see 9411",
+    "activities of professional associations, see 9412"
+  ],
+  "implementedAt": "2026-04-17T21:20:00Z"
+}

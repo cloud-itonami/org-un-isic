@@ -1,0 +1,18 @@
+{
+  "code": "2732",
+  "nameEn": "Manufacture of other electronic and electric wires and cables",
+  "group": "273",
+  "description": "This class includes the manufacture of insulated wire and cable, made of steel, copper, aluminium, etc.",
+  "includes": [
+    "manufacture of insulated wire and cable, made of steel, copper, aluminium",
+    "manufacture of coaxial cable",
+    "manufacture of winding wire",
+    "manufacture of cord sets and extension cords"
+  ],
+  "excludes": [
+    "manufacture of fibre optic cables, see 2731",
+    "manufacture of bare wire, see 2410, 2420",
+    "manufacture of computer cables, see 2620"
+  ],
+  "implementedAt": "2026-04-16T01:00:00Z"
+}

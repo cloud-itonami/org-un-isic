@@ -1,0 +1,19 @@
+{
+  "code": "2512",
+  "nameEn": "Manufacture of tanks, reservoirs and containers of metal",
+  "group": "251",
+  "description": "This class includes the manufacture of tanks, reservoirs and containers of metal for storage or manufacturing use.",
+  "includes": [
+    "manufacture of reservoirs, tanks and similar containers of iron, steel or aluminium for storage and manufacturing (capacity exceeding 300 litres)",
+    "manufacture of metal containers for compressed or liquefied gas",
+    "manufacture of ship or barge sections",
+    "manufacture of aquatic structures: floating docks, pontoons, coffer-dams, landing stages, buoys"
+  ],
+  "excludes": [
+    "manufacture of metal cans and containers for packing, see 2599",
+    "manufacture of steam generators, see 2513",
+    "manufacture of central heating boilers, see 2521",
+    "manufacture of transport containers, see 2920, 3011, 3012"
+  ],
+  "implementedAt": "2026-04-15T14:50:00Z"
+}

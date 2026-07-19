@@ -1,0 +1,19 @@
+{
+  "code": "2812",
+  "nameEn": "Manufacture of fluid power equipment",
+  "group": "281",
+  "description": "This class includes the manufacture of hydraulic and pneumatic components and systems.",
+  "includes": [
+    "manufacture of hydraulic and pneumatic equipment: hydraulic cylinders, hydraulic and pneumatic actuators, hydraulic pumps, hydraulic and pneumatic valves, hydraulic and pneumatic hose assemblies",
+    "manufacture of hydraulic transmissions",
+    "manufacture of hydraulic accumulators",
+    "manufacture of air preparation equipment for pneumatic systems",
+    "manufacture of fluid power systems"
+  ],
+  "excludes": [
+    "manufacture of compressors, see 2813",
+    "manufacture of pumps for liquids, see 2813",
+    "manufacture of valves for non-fluid power use, see 2813"
+  ],
+  "implementedAt": "2026-04-16T01:50:00Z"
+}

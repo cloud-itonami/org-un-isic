@@ -1,0 +1,17 @@
+{
+  "code": "5913",
+  "nameEn": "Motion picture, video and television programme distribution activities",
+  "group": "591",
+  "description": "This class includes the distribution of motion pictures, videotapes, DVDs and similar productions to motion picture theatres, television networks and television stations.",
+  "includes": [
+    "distribution of motion pictures and TV programmes to theatres and broadcasters",
+    "licensing of film rights to television stations",
+    "acquisition of distribution rights",
+    "distribution of video games to end-users"
+  ],
+  "excludes": [
+    "motion picture projection, see 5914",
+    "television broadcasting, see 6020"
+  ],
+  "implementedAt": "2026-04-17T02:50:00Z"
+}

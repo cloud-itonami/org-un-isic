@@ -1,0 +1,17 @@
+{
+  "code": "4763",
+  "nameEn": "Retail sale of sporting equipment in specialised stores",
+  "group": "476",
+  "description": "This class includes the retail sale of sporting goods in specialised stores.",
+  "includes": [
+    "retail sale of sporting equipment: balls, rackets, skis, bicycles",
+    "retail sale of sports apparel and footwear in specialised sports stores",
+    "retail sale of camping and outdoor equipment: tents, sleeping bags",
+    "retail sale of fitness equipment: weights, exercise machines",
+    "retail sale of water sports equipment: surfboards, diving equipment"
+  ],
+  "excludes": [
+    "retail sale of toys, see 4764"
+  ],
+  "implementedAt": "2026-04-16T18:30:00Z"
+}

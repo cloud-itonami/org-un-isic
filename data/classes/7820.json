@@ -1,0 +1,16 @@
+{
+  "code": "7820",
+  "nameEn": "Temporary employment agency activities",
+  "group": "782",
+  "description": "This class includes the supply of workers to client businesses for limited periods of time to temporarily replace or supplement the working force of the client.",
+  "includes": [
+    "temporary staffing services",
+    "supply of temporary workers",
+    "temp-to-hire staffing services"
+  ],
+  "excludes": [
+    "placement agency activities, see 7810",
+    "other human resources provision, see 7830"
+  ],
+  "implementedAt": "2026-04-17T12:30:00Z"
+}

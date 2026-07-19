@@ -1,0 +1,17 @@
+{
+  "code": "5224",
+  "nameEn": "Cargo handling",
+  "group": "522",
+  "description": "This class includes the loading and unloading of goods, luggage and freight regardless of mode of transport.",
+  "includes": [
+    "loading and unloading of goods at ports, airports and railway stations",
+    "stevedoring activities",
+    "operation of terminal facilities at airports, railway stations",
+    "baggage handling at airports",
+    "freight handling at terminals"
+  ],
+  "excludes": [
+    "warehousing and storage, see 5210"
+  ],
+  "implementedAt": "2026-04-16T23:50:00Z"
+}

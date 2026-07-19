@@ -1,0 +1,21 @@
+{
+  "code": "4649",
+  "nameEn": "Wholesale of other household goods",
+  "group": "464",
+  "description": "This class includes the wholesale of household goods not elsewhere classified.",
+  "includes": [
+    "wholesale of china and glassware, cleaning materials",
+    "wholesale of perfumery, cosmetics, soap",
+    "wholesale of pharmaceutical and medical goods",
+    "wholesale of furniture",
+    "wholesale of books, magazines and newspapers",
+    "wholesale of stationery and office supplies",
+    "wholesale of audio and video equipment",
+    "wholesale of watches, clocks and jewellery"
+  ],
+  "excludes": [
+    "wholesale of computers, see 4651",
+    "wholesale of office machinery, see 4659"
+  ],
+  "implementedAt": "2026-04-16T14:10:00Z"
+}

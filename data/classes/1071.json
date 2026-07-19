@@ -1,0 +1,21 @@
+{
+  "code": "1071",
+  "nameEn": "Manufacture of bakery products",
+  "group": "107",
+  "description": "This class includes the manufacture of fresh, frozen or dry bakery products. It includes bread, rolls, biscuits, pies, cakes, pastries, waffles, pancakes and other similar baked goods.",
+  "includes": [
+    "manufacture of fresh bread and rolls",
+    "manufacture of fresh pastry goods and cakes",
+    "manufacture of rusks, biscuits and other dry bakery products",
+    "manufacture of pies, tarts, pasties and similar",
+    "manufacture of frozen bakery products",
+    "manufacture of snack products: pretzels, popcorn, etc."
+  ],
+  "excludes": [
+    "manufacture of starches, see 1062",
+    "manufacture of farinaceous products (pasta, macaroni), see 1074",
+    "manufacture of prepared meals, see 1075",
+    "retail sale of bakery products, see 4721"
+  ],
+  "implementedAt": "2026-04-15T03:50:00Z"
+}

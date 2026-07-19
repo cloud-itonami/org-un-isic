@@ -1,0 +1,17 @@
+{
+  "code": "4651",
+  "nameEn": "Wholesale of computers, computer peripheral equipment and software",
+  "group": "465",
+  "description": "This class includes the wholesale of computers, computer peripheral equipment and software.",
+  "includes": [
+    "wholesale of computers and computer peripheral equipment",
+    "wholesale of software",
+    "wholesale of electronic components",
+    "wholesale of magnetic and optical media"
+  ],
+  "excludes": [
+    "wholesale of electronic parts, see 4652",
+    "wholesale of office machinery and equipment, see 4659"
+  ],
+  "implementedAt": "2026-04-16T14:20:00Z"
+}

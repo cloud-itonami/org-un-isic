@@ -1,0 +1,19 @@
+{
+  "code": "1820",
+  "nameEn": "Reproduction of recorded media",
+  "group": "182",
+  "description": "This class includes the reproduction from master copies of gramophone records, compact discs, video recordings, software and other recorded media.",
+  "includes": [
+    "reproduction of sound recordings on CDs, DVDs and other media",
+    "reproduction of video recordings on CDs, DVDs, Blu-ray and other media",
+    "reproduction of software and other data on CDs, DVDs and other media",
+    "reproduction of gramophone records"
+  ],
+  "excludes": [
+    "publishing of software, see 5820",
+    "publishing of music recordings, see 5920",
+    "production of original sound recordings, see 5920",
+    "printing, see 1811"
+  ],
+  "implementedAt": "2026-04-15T10:10:00Z"
+}

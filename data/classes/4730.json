@@ -1,0 +1,16 @@
+{
+  "code": "4730",
+  "nameEn": "Retail sale of automotive fuel in specialised stores",
+  "group": "473",
+  "description": "This class includes the retail sale of automotive fuel in petrol/service stations.",
+  "includes": [
+    "retail sale of automotive fuel: petrol, diesel, LPG",
+    "retail sale of lubricating and cooling products for motor vehicles",
+    "service stations (petrol stations) activities"
+  ],
+  "excludes": [
+    "wholesale of liquid fuels, see 4661",
+    "retail sale of automotive parts and accessories, see 4530"
+  ],
+  "implementedAt": "2026-04-16T17:00:00Z"
+}

@@ -1,0 +1,28 @@
+{
+  "code": "2410",
+  "nameEn": "Manufacture of basic iron and steel",
+  "group": "241",
+  "description": "This class includes the manufacture of basic iron and steel and ferro-alloys.",
+  "includes": [
+    "operation of blast furnaces, steel converters, rolling and finishing mills",
+    "manufacture of pig iron and spiegeleisen in pigs, blocks or other primary forms",
+    "manufacture of ferro-alloys",
+    "manufacture of ferrous products by direct reduction of iron ore and other spongy ferrous products",
+    "manufacture of iron of exceptional purity by electrolysis or other chemical processes",
+    "manufacture of granular iron and iron powder",
+    "manufacture of steel in ingots or other primary forms",
+    "manufacture of semi-finished products of steel: blooms, billets, slabs, sheet bars",
+    "manufacture of hot-rolled and cold-rolled flat-rolled products of steel",
+    "manufacture of hot-drawn bars and rods of steel",
+    "manufacture of open sections of steel by hot-rolling, drawing or extrusion",
+    "manufacture of wire rod of steel",
+    "manufacture of tubes, pipes and hollow profiles of steel by hot-rolling, drawing or extrusion",
+    "manufacture of railway and tramway track construction material of steel: rails, check-rails, rack rails, switches, crossing frogs, point rods"
+  ],
+  "excludes": [
+    "manufacture of tubes and hollow profiles by cold drawing, see 2420",
+    "manufacture of cold-rolled flat products, see 2420",
+    "manufacture of wire drawn from rods, see 2420"
+  ],
+  "implementedAt": "2026-04-15T14:00:00Z"
+}

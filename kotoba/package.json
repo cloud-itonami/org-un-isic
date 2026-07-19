@@ -1,0 +1,24 @@
+{
+  "name": "@etzhayyim/open-isic-kotoba",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "kotoba reference implementation of open-ISIC (UN ISIC Rev.4) using @etzhayyim/sdk. Mirrors the open-isco kotoba pattern; substrate posture per ADR-2605172000.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "seed": "tsx src/seed.ts",
+    "query": "tsx src/query.ts",
+    "verify": "tsx src/verify.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@etzhayyim/sdk": "git+https://github.com/etzhayyim/com-etzhayyim-sdk.git#12314a0cc5ac2feb49dd9789d5c002398acb6988"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.0"
+  }
+}

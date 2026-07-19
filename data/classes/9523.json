@@ -1,0 +1,17 @@
+{
+  "code": "9523",
+  "nameEn": "Repair of footwear and leather goods",
+  "group": "952",
+  "description": "This class includes the repair of footwear and leather goods.",
+  "includes": [
+    "repair of shoes and boots",
+    "heel-bar activities",
+    "repair of leather goods (bags, belts, suitcases)",
+    "cobbler activities"
+  ],
+  "excludes": [
+    "manufacture of footwear, see 1520",
+    "repair of furniture, see 9524"
+  ],
+  "implementedAt": "2026-04-17T22:40:00Z"
+}

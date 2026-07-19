@@ -1,0 +1,26 @@
+{
+  "code": "3230",
+  "nameEn": "Manufacture of sports goods",
+  "group": "323",
+  "description": "This class includes the manufacture of sporting and athletic goods (except apparel and footwear).",
+  "includes": [
+    "manufacture of articles and equipment for sports, outdoor and indoor games: footballs, basketballs, rackets, golf clubs, skis, tennis balls",
+    "manufacture of gymnasium, athletics and other sports equipment: rowing machines, exercise bikes, treadmills",
+    "manufacture of saddles and harnesses",
+    "manufacture of whips and riding crops",
+    "manufacture of fishing rods and fishing tackle",
+    "manufacture of skates (ice and roller), skis, snowboards, surfboards",
+    "manufacture of bows and crossbows",
+    "manufacture of tight-rope walking equipment",
+    "manufacture of billiard equipment",
+    "manufacture of gymnastic equipment"
+  ],
+  "excludes": [
+    "manufacture of sports apparel, see 1410",
+    "manufacture of sports footwear, see 1520",
+    "manufacture of toy sports equipment, see 3240",
+    "manufacture of boats, see 3012",
+    "manufacture of sports vehicles (cars, motorcycles, bicycles), see respective classes"
+  ],
+  "implementedAt": "2026-04-16T06:50:00Z"
+}

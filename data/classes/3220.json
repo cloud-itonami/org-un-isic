@@ -1,0 +1,22 @@
+{
+  "code": "3220",
+  "nameEn": "Manufacture of musical instruments",
+  "group": "322",
+  "description": "This class includes the manufacture of musical instruments of all kinds.",
+  "includes": [
+    "manufacture of string instruments: guitars, violins, harps, banjos, mandolins",
+    "manufacture of keyboard string instruments: pianos, harpsichords, clavichords",
+    "manufacture of keyboard pipe organs, harmoniums",
+    "manufacture of accordions and similar instruments",
+    "manufacture of wind instruments: trumpets, trombones, flutes, clarinets, saxophones",
+    "manufacture of percussion musical instruments: drums, xylophones, cymbals",
+    "manufacture of electronic musical instruments: electronic keyboards, synthesizers",
+    "manufacture of musical boxes, fairground organs, calliopes",
+    "manufacture of instrument parts and accessories: metronomes, tuning forks, pitch pipes, music stands, music racks, conducting batons"
+  ],
+  "excludes": [
+    "manufacture of toy musical instruments, see 3240",
+    "reproduction of recorded media, see 1820"
+  ],
+  "implementedAt": "2026-04-16T06:40:00Z"
+}

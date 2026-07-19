@@ -1,0 +1,22 @@
+{
+  "code": "1311",
+  "nameEn": "Preparation and spinning of textile fibres",
+  "group": "131",
+  "description": "This class includes the preparation and spinning of textile fibres of all kinds, including natural fibres such as cotton, wool, silk and flax, as well as man-made fibres.",
+  "includes": [
+    "cotton ginning",
+    "preparation of textile fibres: degreasing, combing, carding, blending",
+    "spinning of cotton-type fibres",
+    "spinning of wool-type fibres",
+    "spinning of silk-type fibres",
+    "spinning of flax-type fibres",
+    "texturizing, throwing, twisting and winding of man-made filaments",
+    "manufacture of sewing thread"
+  ],
+  "excludes": [
+    "manufacture of man-made fibres, see 2030",
+    "manufacture of glass fibres, see 2310",
+    "weaving of textiles, see 1312"
+  ],
+  "implementedAt": "2026-04-15T05:50:00Z"
+}

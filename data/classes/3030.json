@@ -1,0 +1,26 @@
+{
+  "code": "3030",
+  "nameEn": "Manufacture of air and spacecraft and related machinery",
+  "group": "303",
+  "description": "This class includes the manufacture of airplanes, helicopters, spacecraft and related machinery and equipment.",
+  "includes": [
+    "manufacture of airplanes for the transport of goods or passengers",
+    "manufacture of military fighting airplanes and helicopters",
+    "manufacture of helicopters",
+    "manufacture of gliders, hang-gliders",
+    "manufacture of dirigibles and balloons",
+    "manufacture of spacecraft and launch vehicles, satellites, planetary probes, orbital stations",
+    "manufacture of aircraft engines: turbojets, turboprops and other gas turbine engines",
+    "manufacture of aircraft engine parts",
+    "manufacture of aircraft parts and equipment: propellers, rotors, landing gear, fuel tanks, fuselage, wings",
+    "manufacture of parts and accessories for aircraft: navigation instruments, communication equipment",
+    "manufacture of unmanned aerial vehicles (UAVs / drones)"
+  ],
+  "excludes": [
+    "manufacture of parachutes, see 1392",
+    "manufacture of aircraft instrumentation and navigation systems, see 2651",
+    "manufacture of ground flying trainers, see 2829",
+    "manufacture of military combat vehicles, see 3040"
+  ],
+  "implementedAt": "2026-04-16T05:20:00Z"
+}

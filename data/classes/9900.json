@@ -1,0 +1,17 @@
+{
+  "code": "9900",
+  "nameEn": "Activities of extraterritorial organizations and bodies",
+  "group": "990",
+  "description": "This class includes the activities of international organizations such as the United Nations and its specialized agencies, regional bodies, the International Monetary Fund, the World Bank, the World Customs Organization, etc.",
+  "includes": [
+    "activities of the United Nations and its agencies",
+    "activities of international monetary institutions",
+    "activities of regional development banks",
+    "activities of international trade organizations",
+    "activities of foreign embassies and consulates (as employers)"
+  ],
+  "excludes": [
+    "activities of foreign affairs ministries, see 8421"
+  ],
+  "implementedAt": "2026-04-18T00:20:00Z"
+}

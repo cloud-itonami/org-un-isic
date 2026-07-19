@@ -1,0 +1,23 @@
+{
+  "code": "2824",
+  "nameEn": "Manufacture of machinery for mining, quarrying and construction",
+  "group": "282",
+  "description": "This class includes the manufacture of machinery used in mining, quarrying, and construction activities.",
+  "includes": [
+    "manufacture of machinery for the extraction of minerals: boring, sinking or drilling equipment for underground or overground mining",
+    "manufacture of tunnelling machinery",
+    "manufacture of coal or rock cutters and tunnelling machines",
+    "manufacture of machinery for sorting, screening, separating, washing, crushing, grinding, mixing or kneading earth, stone, ore or other mineral substances",
+    "manufacture of concrete and mortar mixers",
+    "manufacture of bulldozers, graders, road rollers, scrapers, off-highway dumpers",
+    "manufacture of mechanical shovels, excavators and shovel loaders",
+    "manufacture of pile drivers and pile extractors",
+    "manufacture of concrete pumps, adjustable props, mortar applicators"
+  ],
+  "excludes": [
+    "manufacture of lifting and handling equipment, see 2816",
+    "manufacture of power-driven hand tools, see 2818",
+    "manufacture of machinery for treating metals, see 2823"
+  ],
+  "implementedAt": "2026-04-16T03:40:00Z"
+}

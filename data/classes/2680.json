@@ -1,0 +1,21 @@
+{
+  "code": "2680",
+  "nameEn": "Manufacture of magnetic and optical media",
+  "group": "268",
+  "description": "This class includes the manufacture of magnetic and optical recording media.",
+  "includes": [
+    "manufacture of blank magnetic tapes: audio, video, computer data",
+    "manufacture of magnetic discs and diskettes",
+    "manufacture of hard discs (magnetic)",
+    "manufacture of blank optical discs: CDs, DVDs, Blu-ray discs",
+    "manufacture of magnetic strips",
+    "manufacture of smart cards with magnetic strips",
+    "manufacture of flash memory cards and USB flash drives"
+  ],
+  "excludes": [
+    "manufacture of pre-recorded (recorded) media, see 1820",
+    "manufacture of electronic components, see 2610",
+    "manufacture of computers and peripherals, see 2620"
+  ],
+  "implementedAt": "2026-04-16T00:20:00Z"
+}

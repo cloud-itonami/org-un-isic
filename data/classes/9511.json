@@ -1,0 +1,18 @@
+{
+  "code": "9511",
+  "nameEn": "Repair of computers and peripheral equipment",
+  "group": "951",
+  "description": "This class includes the repair and maintenance of computers and peripheral equipment.",
+  "includes": [
+    "repair and maintenance of desktop and laptop computers",
+    "repair and maintenance of servers",
+    "repair and maintenance of printers and monitors",
+    "data recovery services",
+    "computer installation services"
+  ],
+  "excludes": [
+    "repair of communication equipment, see 9512",
+    "installation of mainframe and similar computers, see 3320"
+  ],
+  "implementedAt": "2026-04-17T22:00:00Z"
+}

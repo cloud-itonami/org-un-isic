@@ -1,0 +1,22 @@
+{
+  "code": "0321",
+  "nameEn": "Marine aquaculture",
+  "group": "032",
+  "description": "This class includes aquaculture (including mariculture) producing fish, crustaceans, molluscs, other aquatic animals and plants in seawater, including operation of hatcheries and fish farms in salt-water-filled tanks or reservoirs, in enclosed sections of the sea, or in saltwater ponds.",
+  "includes": [
+    "culture of finfish in sea water",
+    "culture of bivalves (oysters, mussels, etc.), lobsters, shrimps, fry of crustaceans, larvae of bivalves",
+    "culture of seaweeds and other edible marine algae",
+    "culture of crustaceans, bivalves, other molluscs and other aquatic animals in sea water",
+    "operation of marine fish hatcheries",
+    "operation of marine worm farms",
+    "culture of pearls",
+    "aquaculture in brackish water, in salt-water-filled tanks or reservoirs"
+  ],
+  "excludes": [
+    "frog farming, see 0322",
+    "operation of sport fishing preserves, see 9319",
+    "fishing preserves and angling activities, see 9319"
+  ],
+  "implementedAt": "2026-04-15T01:30:00Z"
+}

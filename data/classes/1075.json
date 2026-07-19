@@ -1,0 +1,19 @@
+{
+  "code": "1075",
+  "nameEn": "Manufacture of prepared meals and dishes",
+  "group": "107",
+  "description": "This class includes the manufacture of ready-to-eat meals and dishes that are packaged and sold for home consumption.",
+  "includes": [
+    "manufacture of prepared meals and dishes: ready meals, pre-cooked meals, frozen meals",
+    "manufacture of chilled or frozen prepared foods",
+    "manufacture of dishes based on meat, fish, vegetables or other food",
+    "manufacture of pizza"
+  ],
+  "excludes": [
+    "manufacture of fresh prepared food, see retail trade (47)",
+    "manufacture of frozen vegetables, see 1030",
+    "manufacture of fruit juices, see 1102",
+    "preparation of meals in food-service activities, see 56"
+  ],
+  "implementedAt": "2026-04-15T04:30:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "9529",
+  "nameEn": "Repair of other personal and household goods",
+  "group": "952",
+  "description": "This class includes the repair of personal and household goods not elsewhere classified.",
+  "includes": [
+    "repair of bicycles",
+    "repair of sporting goods",
+    "repair of watches and jewellery",
+    "repair of musical instruments",
+    "repair of toys and games"
+  ],
+  "excludes": [
+    "repair of consumer electronics, see 9521",
+    "repair of household appliances, see 9522",
+    "repair of footwear and leather goods, see 9523",
+    "repair of furniture, see 9524"
+  ],
+  "implementedAt": "2026-04-17T23:00:00Z"
+}

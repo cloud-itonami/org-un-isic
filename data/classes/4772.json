@@ -1,0 +1,16 @@
+{
+  "code": "4772",
+  "nameEn": "Retail sale of footwear and leather goods in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of footwear and leather goods in specialised stores.",
+  "includes": [
+    "retail sale of shoes, boots, sandals, slippers",
+    "retail sale of handbags, wallets, purses",
+    "retail sale of luggage: suitcases, travel bags",
+    "retail sale of belts, straps (leather)"
+  ],
+  "excludes": [
+    "retail sale of clothing, see 4771"
+  ],
+  "implementedAt": "2026-04-16T19:00:00Z"
+}

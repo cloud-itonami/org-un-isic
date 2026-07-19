@@ -1,0 +1,17 @@
+{
+  "code": "0230",
+  "nameEn": "Gathering of non-wood forest products",
+  "group": "023",
+  "description": "This class includes the gathering of wild growing non-wood forest products.",
+  "includes": [
+    "gathering of wild growing materials: mushrooms, truffles; berries; nuts; balata and other rubber-like gums; cork; lac and resins; balsams; vegetable hair; eelgrass; acorns, horse chestnuts; mosses and lichens"
+  ],
+  "excludes": [
+    "management of forests for growing of these products, see 0210",
+    "growing of mushrooms or truffles, see 0113",
+    "growing of berries or nuts, see 0125",
+    "gathering of fuel wood, see 0220",
+    "production of wood chips, see 1610"
+  ],
+  "implementedAt": "2026-04-15T01:20:00Z"
+}

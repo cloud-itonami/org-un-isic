@@ -1,0 +1,16 @@
+{
+  "code": "2392",
+  "nameEn": "Manufacture of clay building materials",
+  "group": "239",
+  "description": "This class includes the manufacture of clay building materials such as bricks, roofing tiles and other clay construction products.",
+  "includes": [
+    "manufacture of non-refractory ceramic constructional products: clay building bricks, flooring blocks, support or filler tiles and similar products",
+    "manufacture of roofing tiles, chimney pots, cowls, chimney liners, architectural ornaments and other clay building products",
+    "manufacture of pipes, conduits, guttering and pipe fittings of clay"
+  ],
+  "excludes": [
+    "manufacture of refractory ceramic products, see 2391",
+    "manufacture of ceramic floor and wall tiles, see 2393"
+  ],
+  "implementedAt": "2026-04-15T13:00:00Z"
+}

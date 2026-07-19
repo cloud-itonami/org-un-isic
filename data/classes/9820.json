@@ -1,0 +1,14 @@
+{
+  "code": "9820",
+  "nameEn": "Undifferentiated service-producing activities of private households for own use",
+  "group": "982",
+  "description": "This class includes the activities of private households that produce services for their own final consumption where it is not possible to differentiate which type of service is being produced.",
+  "includes": [
+    "undifferentiated service production by private households for own use",
+    "services produced by household members for own consumption"
+  ],
+  "excludes": [
+    "undifferentiated goods-producing activities, see 9810"
+  ],
+  "implementedAt": "2026-04-18T00:10:00Z"
+}

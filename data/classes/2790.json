@@ -1,0 +1,26 @@
+{
+  "code": "2790",
+  "nameEn": "Manufacture of other electrical equipment",
+  "group": "279",
+  "description": "This class includes the manufacture of electrical equipment not elsewhere classified.",
+  "includes": [
+    "manufacture of electrical signalling equipment: traffic lights, fire alarms, burglar alarm systems",
+    "manufacture of electrical capacitors, resistors and similar components",
+    "manufacture of electromagnetic clutches and couplings",
+    "manufacture of electronic chokes (ballasts)",
+    "manufacture of particle accelerators",
+    "manufacture of electrical insulators and insulating fittings",
+    "manufacture of Christmas tree lighting sets",
+    "manufacture of ultrasonic cleaning equipment",
+    "manufacture of solid state inverters, rectifiers and converters",
+    "manufacture of doorbells"
+  ],
+  "excludes": [
+    "manufacture of electronic components, see 2610",
+    "manufacture of electronic measuring instruments, see 2651",
+    "manufacture of watches and clocks, see 2652",
+    "manufacture of irradiation equipment, see 2660",
+    "manufacture of signalling equipment for roads, railways, etc., see 2790"
+  ],
+  "implementedAt": "2026-04-16T01:30:00Z"
+}

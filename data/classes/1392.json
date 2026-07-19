@@ -1,0 +1,21 @@
+{
+  "code": "1392",
+  "nameEn": "Manufacture of made-up textile articles, except apparel",
+  "group": "139",
+  "description": "This class includes the manufacture of made-up textile articles of any textile material, except apparel.",
+  "includes": [
+    "manufacture of blankets and travelling rugs",
+    "manufacture of bed linen, table linen, toilet linen and kitchen linen",
+    "manufacture of curtains, drapes and interior blinds",
+    "manufacture of tarpaulins, tents, camping goods: sleeping bags, camp furniture",
+    "manufacture of parachutes",
+    "manufacture of life-jackets and similar safety equipment",
+    "manufacture of stuffed quilts, eiderdowns, cushions, pouffes, pillows"
+  ],
+  "excludes": [
+    "manufacture of blankets of paper, see 1709",
+    "manufacture of carpets and rugs, see 1393",
+    "manufacture of apparel, see 1410-1430"
+  ],
+  "implementedAt": "2026-04-15T06:30:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "8790",
+  "nameEn": "Other residential care activities",
+  "group": "879",
+  "description": "This class includes the provision of residential care activities not elsewhere classified.",
+  "includes": [
+    "orphanages and children's homes",
+    "halfway houses for persons without specific disabilities",
+    "group homes and supervised transitional living",
+    "juvenile correction facilities"
+  ],
+  "excludes": [
+    "residential nursing care, see 8710",
+    "residential care for mental health, see 8720",
+    "residential care for elderly, see 8730"
+  ],
+  "implementedAt": "2026-04-17T18:50:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "3600",
+  "nameEn": "Water collection, treatment and supply",
+  "group": "360",
+  "description": "This class includes the purification and distribution of water for domestic and industrial purposes.",
+  "includes": [
+    "collection of water from rivers, lakes, wells",
+    "collection of rain water",
+    "purification of water for water supply purposes",
+    "treatment of water for industrial and other purposes",
+    "desalination of sea or ground water to produce water as the principal product",
+    "distribution of water through mains, by trucks or other means",
+    "operation of irrigation canals"
+  ],
+  "excludes": [
+    "operation of irrigation equipment for agricultural purposes, see 0161",
+    "treatment of waste water, see 3700"
+  ],
+  "implementedAt": "2026-04-16T09:30:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "3291",
+  "nameEn": "Manufacture of brooms and brushes",
+  "group": "329",
+  "description": "This class includes the manufacture of brooms, brushes, mops and similar articles.",
+  "includes": [
+    "manufacture of brooms and brushes of all kinds: scrubbing brushes, paint brushes, toothbrushes, nail brushes, shaving brushes",
+    "manufacture of mops and squeegees",
+    "manufacture of hand-operated mechanical floor sweepers",
+    "manufacture of brooms and brushes of vegetable or animal materials",
+    "manufacture of paint rollers",
+    "manufacture of artists' brushes"
+  ],
+  "excludes": [
+    "manufacture of electric floor polishers, see 2750",
+    "manufacture of vacuum cleaners, see 2750"
+  ],
+  "implementedAt": "2026-04-16T07:20:00Z"
+}

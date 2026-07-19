@@ -1,0 +1,19 @@
+{
+  "code": "9601",
+  "nameEn": "Washing and (dry-)cleaning of textile and fur products",
+  "group": "960",
+  "description": "This class includes the washing, cleaning, dyeing, and pressing of textile products.",
+  "includes": [
+    "laundry activities",
+    "dry cleaning activities",
+    "dyeing and pressing of textile products",
+    "laundering of uniforms and workwear",
+    "coin-operated laundry activities",
+    "linen and garment rental for households"
+  ],
+  "excludes": [
+    "industrial laundry activities, see 9601 (same class)",
+    "repair of clothing, see 9529"
+  ],
+  "implementedAt": "2026-04-17T23:10:00Z"
+}

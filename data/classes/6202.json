@@ -1,0 +1,17 @@
+{
+  "code": "6202",
+  "nameEn": "Computer consultancy and computer facilities management activities",
+  "group": "620",
+  "description": "This class includes the provision of computer consultancy and management of computer facilities.",
+  "includes": [
+    "planning and designing of computer systems: hardware and software",
+    "computer systems integration: installing computer hardware, software and communications technology",
+    "management of computer systems on behalf of clients",
+    "IT infrastructure management and outsourcing"
+  ],
+  "excludes": [
+    "computer programming, see 6201",
+    "data processing, see 6311"
+  ],
+  "implementedAt": "2026-04-17T04:30:00Z"
+}

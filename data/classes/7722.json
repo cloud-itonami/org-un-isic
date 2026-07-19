@@ -1,0 +1,15 @@
+{
+  "code": "7722",
+  "nameEn": "Renting of video tapes and disks",
+  "group": "772",
+  "description": "This class includes the renting of video tapes, DVDs and similar audio and video recordings.",
+  "includes": [
+    "renting of video tapes, DVDs, Blu-ray discs",
+    "renting of audio CDs and records",
+    "rental of entertainment software (video games)"
+  ],
+  "excludes": [
+    "renting of recreational goods, see 7721"
+  ],
+  "implementedAt": "2026-04-17T11:40:00Z"
+}

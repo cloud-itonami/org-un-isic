@@ -1,0 +1,18 @@
+{
+  "code": "7420",
+  "nameEn": "Photographic activities",
+  "group": "742",
+  "description": "This class includes the production of still or moving photographic images.",
+  "includes": [
+    "portrait and other photography activities",
+    "aerial photography",
+    "videotaping of weddings, graduations and other events",
+    "photographic film processing services",
+    "photographic restoration services"
+  ],
+  "excludes": [
+    "motion picture production, see 5911",
+    "forestry mapping from aerial photography, see 0210"
+  ],
+  "implementedAt": "2026-04-17T10:50:00Z"
+}

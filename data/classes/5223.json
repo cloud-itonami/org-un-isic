@@ -1,0 +1,17 @@
+{
+  "code": "5223",
+  "nameEn": "Service activities incidental to air transportation",
+  "group": "522",
+  "description": "This class includes activities supporting air transport.",
+  "includes": [
+    "operation of airports: ground handling, landing and takeoff facilities",
+    "air traffic control activities",
+    "airport terminal operations",
+    "activities of airports, airfields and air traffic control centers",
+    "operation of flying schools"
+  ],
+  "excludes": [
+    "cargo handling, see 5224"
+  ],
+  "implementedAt": "2026-04-16T23:40:00Z"
+}

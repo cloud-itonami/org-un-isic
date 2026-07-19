@@ -1,0 +1,51 @@
+{;; Scoped babashka project for the lg-open-isic clj port (ADR-2606280030:
+ ;; langgraph-python → langgraph-clj). This is the APP-LOCAL bb.edn — it does
+ ;; NOT touch the repo-root bb.edn. Source root is `clj/` (the .cljc twins of
+ ;; the former `lg_open_isic/**.py`). The Python was DELETED (ADR-2606280030,
+ ;; DEV-stage twin-removal) now that each twin is verified — the clj twin is the
+ ;; canonical code; this `clj/` tree is the sole runtime.
+ ;;
+ ;; HTTP/JSON/server host capabilities (babashka.http-client, cheshire.core,
+ ;; org.httpkit.server) are all bundled in babashka — no extra deps. The
+ ;; langgraph-clj/langchain-clj git shas are pinned to match the repo-root bb.edn.
+ :paths ["clj"]
+ :deps {com-junkawasaki/langchain-clj
+        {:git/url "https://github.com/com-junkawasaki/langchain-clj"
+         :git/sha "2b03859c3ee722b64f3eddd0b615a54019b17c81"}
+        com-junkawasaki/langgraph-clj
+        {:git/url "https://github.com/com-junkawasaki/langgraph-clj"
+         :git/sha "c7daa07d4e50f55d7e2a02e4b89dbeb2b200961d"}}
+ :tasks
+ {test   {:doc  "Run the lg-open-isic clj test suites (clojure.test under bb)."
+          :task (load-file "run_tests.clj")}
+  server {:doc  "Boot the lg-open-isic httpkit server (port of server.py FastAPI)."
+          :requires ([babashka.http-client :as http]
+                     [org.httpkit.server :as httpkit]
+                     [lg-open-isic.cron :as cron]
+                     [lg-open-isic.graphs.classify-entity :as classify]
+                     [lg-open-isic.server :as server]
+                     [lg-open-isic.store :as store])
+          :task
+          (let [env (fn [name default] (or (System/getenv name) default))
+                enabled? (contains? #{"1" "true" "yes"}
+                                    (.toLowerCase ^String (env "LG_CRON_ENABLED" "true")))
+                port (Integer/parseInt (or (first *command-line-args*) (env "PORT" "8080")))
+                classifier-config {:url (env "VLLM_URL" (:url classify/default-config))
+                                   :model (env "VLLM_MODEL" (:model classify/default-config))}
+                capabilities {:repo-did (env "OPEN_ISIC_REPO_DID" "did:web:open-isic.etzhayyim.com")
+                              :cron {:enabled? enabled?
+                                     :langgraph-json (env "LANGGRAPH_JSON" "/app/langgraph.json")}
+                              :api-key (env "LG_API_KEY" "")}
+                handler (fn [request]
+                          (binding [classify/*classify*
+                                    (fn [subject hint]
+                                      (classify/classify-with
+                                       http/post classifier-config subject hint))
+                                    store/repo-did (:repo-did capabilities)
+                                    cron/*config* (:cron capabilities)
+                                    server/*api-key* (:api-key capabilities)]
+                            (server/handler request)))]
+            (binding [cron/*config* (:cron capabilities)]
+              (server/start! (fn [_ options] (httpkit/run-server handler options))
+                             {:port port}))
+            (deref (promise)))}}}

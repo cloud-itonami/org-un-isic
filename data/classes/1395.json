@@ -1,0 +1,16 @@
+{
+  "code": "1395",
+  "nameEn": "Manufacture of non-wovens and articles made from non-wovens, except apparel",
+  "group": "139",
+  "description": "This class includes the manufacture of non-woven fabrics and articles made from non-wovens, except apparel.",
+  "includes": [
+    "manufacture of non-woven fabrics and articles by bonding, fusing, needling or other methods",
+    "manufacture of disposable items of non-woven fabrics: wipes, surgical drapes, filters",
+    "manufacture of non-woven apparel-like products: shoe covers, disposable protective suits"
+  ],
+  "excludes": [
+    "manufacture of non-woven apparel, see 1410-1430",
+    "manufacture of sanitary towels and tampons from non-wovens, see 1709"
+  ],
+  "implementedAt": "2026-04-15T07:00:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "0220",
+  "nameEn": "Logging",
+  "group": "022",
+  "description": "This class includes production of roundwood for forest-based manufacturing industries, extraction and gathering of wild growing non-wood forest products. Besides the production of timber, forestry activities result in products that undergo little processing, such as fire wood, charcoal, wood chips and roundwood used in an unprocessed form (e.g. pit-props, pulpwood, etc.).",
+  "includes": [
+    "production of roundwood for forest-based manufacturing industries",
+    "production of roundwood used in an unprocessed form such as pit-props, fencing or poles",
+    "gathering and production of wood for energy",
+    "production of charcoal when produced in the forest (using traditional methods)",
+    "logging service activities: transport of logs within the forest"
+  ],
+  "excludes": [
+    "growing of Christmas trees, see 0129",
+    "growing of forest-tree nurseries, see 0210",
+    "production of wood chips and particles (not in conjunction with logging), see 1610",
+    "production of charcoal through distillation of wood, see 2011"
+  ],
+  "implementedAt": "2026-04-15T01:10:00Z"
+}

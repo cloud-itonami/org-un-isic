@@ -1,0 +1,18 @@
+{
+  "code": "5221",
+  "nameEn": "Service activities incidental to land transportation",
+  "group": "522",
+  "description": "This class includes activities supporting land transport.",
+  "includes": [
+    "operation of highway toll facilities",
+    "operation of railway infrastructure: maintenance of tracks, signals",
+    "operation of bus and coach stations and terminals",
+    "operation of parking facilities and garages",
+    "towing and road assistance services",
+    "operation of bridge and tunnel facilities (collection of tolls)"
+  ],
+  "excludes": [
+    "maintenance and repair of motor vehicles, see 4520"
+  ],
+  "implementedAt": "2026-04-16T23:20:00Z"
+}

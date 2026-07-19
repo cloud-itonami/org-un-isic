@@ -1,0 +1,15 @@
+{
+  "code": "4719",
+  "nameEn": "Other retail sale in non-specialised stores",
+  "group": "471",
+  "description": "This class includes the retail sale of a variety of goods in non-specialised stores where food does not predominate.",
+  "includes": [
+    "retail sale in department stores: wide range of merchandise including clothing, furniture, appliances, hardware",
+    "retail sale in general stores where food does not predominate",
+    "retail sale in variety stores"
+  ],
+  "excludes": [
+    "retail sale in non-specialised stores with food predominating, see 4711"
+  ],
+  "implementedAt": "2026-04-16T16:20:00Z"
+}

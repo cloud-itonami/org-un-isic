@@ -1,0 +1,19 @@
+{
+  "code": "6492",
+  "nameEn": "Other credit granting",
+  "group": "649",
+  "description": "This class includes other financial service activities primarily concerned with making loans by institutions not involved in monetary intermediation.",
+  "includes": [
+    "granting of consumer credit and mortgage credit",
+    "international trade finance activities",
+    "activities of credit card services",
+    "pawnbroking activities",
+    "micro-financing activities",
+    "other credit granting activities n.e.c."
+  ],
+  "excludes": [
+    "monetary intermediation, see 641",
+    "financial leasing, see 6491"
+  ],
+  "implementedAt": "2026-04-17T06:30:00Z"
+}

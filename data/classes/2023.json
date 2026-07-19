@@ -1,0 +1,25 @@
+{
+  "code": "2023",
+  "nameEn": "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",
+  "group": "202",
+  "description": "This class includes the manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations.",
+  "includes": [
+    "manufacture of organic surface-active agents",
+    "manufacture of soap",
+    "manufacture of detergents and washing preparations",
+    "manufacture of cleaning and polishing preparations",
+    "manufacture of perfumes and toilet waters",
+    "manufacture of beauty preparations: face creams, lotions, sun-tan lotions, make-up preparations",
+    "manufacture of hair preparations",
+    "manufacture of dental preparations",
+    "manufacture of shaving preparations",
+    "manufacture of deodorants",
+    "manufacture of bath salts",
+    "manufacture of other toilet preparations"
+  ],
+  "excludes": [
+    "extraction and refining of natural essential oils, see 2029",
+    "manufacture of pharmaceutical preparations, see 2100"
+  ],
+  "implementedAt": "2026-04-15T11:30:00Z"
+}

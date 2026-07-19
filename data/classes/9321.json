@@ -1,0 +1,17 @@
+{
+  "code": "9321",
+  "nameEn": "Activities of amusement parks and theme parks",
+  "group": "932",
+  "description": "This class includes the operation of amusement parks and theme parks including the operation of a variety of attractions.",
+  "includes": [
+    "amusement park activities",
+    "theme park activities",
+    "operation of fairgrounds and fun fairs",
+    "operation of water parks"
+  ],
+  "excludes": [
+    "gambling activities, see 9200",
+    "other amusement and recreation activities, see 9329"
+  ],
+  "implementedAt": "2026-04-17T20:40:00Z"
+}

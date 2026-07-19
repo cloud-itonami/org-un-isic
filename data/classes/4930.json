@@ -1,0 +1,16 @@
+{
+  "code": "4930",
+  "nameEn": "Transport via pipeline",
+  "group": "493",
+  "description": "This class includes the transport of gases, liquids, slurry and other commodities via pipeline.",
+  "includes": [
+    "transport of petroleum and petroleum products via pipelines",
+    "transport of natural gas via pipelines",
+    "transport of water via pipelines",
+    "transport of other commodities via pipelines"
+  ],
+  "excludes": [
+    "distribution of natural gas or water via mains (classified as utilities), see 3520, 3600"
+  ],
+  "implementedAt": "2026-04-16T22:00:00Z"
+}

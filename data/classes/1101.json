@@ -1,0 +1,19 @@
+{
+  "code": "1101",
+  "nameEn": "Distilling, rectifying and blending of spirits",
+  "group": "110",
+  "description": "This class includes the manufacture of distilled, rectified and blended spirits such as whisky, brandy, gin, vodka, rum and liqueurs.",
+  "includes": [
+    "manufacture of distilled, rectified and blended spirits: whisky, brandy, gin, rum, vodka",
+    "manufacture of liqueurs and cordials",
+    "blending of spirits",
+    "manufacture of neutral grain spirits"
+  ],
+  "excludes": [
+    "manufacture of ethyl alcohol by fermentation, see 2011",
+    "manufacture of wines, see 1102",
+    "manufacture of beer, see 1103",
+    "manufacture of cider and other fruit wines, see 1102"
+  ],
+  "implementedAt": "2026-04-15T05:00:00Z"
+}

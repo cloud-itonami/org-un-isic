@@ -1,0 +1,18 @@
+{
+  "code": "8130",
+  "nameEn": "Landscape care and maintenance service activities",
+  "group": "813",
+  "description": "This class includes the planting, care and maintenance of parks, gardens, landscapes and lawns.",
+  "includes": [
+    "planting, care and maintenance of parks and gardens",
+    "lawn and garden services",
+    "turf installation services",
+    "tree surgery activities",
+    "landscaping activities in highway medians"
+  ],
+  "excludes": [
+    "forestry activities, see 0200",
+    "residential lawn care, see 9700"
+  ],
+  "implementedAt": "2026-04-17T14:20:00Z"
+}

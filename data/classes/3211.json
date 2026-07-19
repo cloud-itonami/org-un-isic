@@ -1,0 +1,20 @@
+{
+  "code": "3211",
+  "nameEn": "Manufacture of jewellery and related articles",
+  "group": "321",
+  "description": "This class includes the manufacture of jewellery and related articles of precious metals and precious or semi-precious stones.",
+  "includes": [
+    "manufacture of jewellery of precious metal or rolled precious metal: rings, bracelets, necklaces, brooches, earrings",
+    "manufacture of goldsmith and silversmith wares of precious metal: tableware, cutlery, toilet articles",
+    "engraving and chasing of metals for jewellery",
+    "manufacture of articles of natural or cultured pearls, precious or semi-precious stones",
+    "manufacture of worked precious and semi-precious stones",
+    "manufacture of coins"
+  ],
+  "excludes": [
+    "manufacture of imitation jewellery, see 3212",
+    "manufacture of jewellery boxes, see 3290",
+    "cutting and polishing of precious stones, see 0893"
+  ],
+  "implementedAt": "2026-04-16T06:20:00Z"
+}

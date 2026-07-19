@@ -1,0 +1,18 @@
+{
+  "code": "9521",
+  "nameEn": "Repair of consumer electronics",
+  "group": "952",
+  "description": "This class includes the repair and maintenance of consumer electronics.",
+  "includes": [
+    "repair and maintenance of televisions",
+    "repair and maintenance of DVD and Blu-ray players",
+    "repair and maintenance of audio equipment",
+    "repair and maintenance of home theatre systems",
+    "repair and maintenance of video game consoles"
+  ],
+  "excludes": [
+    "repair of communication equipment, see 9512",
+    "repair of household appliances, see 9522"
+  ],
+  "implementedAt": "2026-04-17T22:20:00Z"
+}

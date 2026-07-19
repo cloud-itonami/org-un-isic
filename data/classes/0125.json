@@ -1,0 +1,16 @@
+{
+  "code": "0125",
+  "nameEn": "Growing of other tree and bush fruits and nuts",
+  "group": "012",
+  "description": "This class includes the growing of berries, nuts and other tree and bush fruits.",
+  "includes": [
+    "growing of berries: blueberries; currants; gooseberries; kiwi fruit; raspberries; strawberries; other berries",
+    "growing of seeds of fruits",
+    "growing of edible nuts: almonds; cashew nuts; chestnuts; hazelnuts; pistachios; walnuts; other nuts",
+    "growing of other tree and bush fruits: carobs; other tree and bush fruits"
+  ],
+  "excludes": [
+    "growing of coconuts, see 0126"
+  ],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

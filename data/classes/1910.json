@@ -1,0 +1,18 @@
+{
+  "code": "1910",
+  "nameEn": "Manufacture of coke oven products",
+  "group": "191",
+  "description": "This class includes the manufacture of coke and coke oven products by the destructive distillation of coal.",
+  "includes": [
+    "manufacture of coke and semi-coke of coal",
+    "manufacture of pitch and pitch coke",
+    "manufacture of coal tar",
+    "manufacture of crude light oil from coal",
+    "manufacture of other coke oven by-products: benzol, toluol, xylol, naphtha, coal tar oils"
+  ],
+  "excludes": [
+    "manufacture of charcoal, see 0210",
+    "manufacture of refined petroleum products, see 1920"
+  ],
+  "implementedAt": "2026-04-15T10:20:00Z"
+}

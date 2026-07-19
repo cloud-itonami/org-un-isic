@@ -1,0 +1,18 @@
+{
+  "code": "8410",
+  "nameEn": "General public administration activities",
+  "group": "841",
+  "description": "This class includes the activities of legislative bodies, financial administration, foreign affairs, defence and public order activities.",
+  "includes": [
+    "executive and legislative administration of central, regional and local government",
+    "financial and fiscal administration",
+    "management of public funds",
+    "administration of overall economic and social policy",
+    "general administration of public sector programs"
+  ],
+  "excludes": [
+    "provision of public order and safety, see 8422",
+    "compulsory social security activities, see 8430"
+  ],
+  "implementedAt": "2026-04-17T15:40:00Z"
+}

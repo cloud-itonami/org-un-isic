@@ -1,0 +1,15 @@
+{
+  "code": "2720",
+  "nameEn": "Manufacture of batteries and accumulators",
+  "group": "272",
+  "description": "This class includes the manufacture of batteries and accumulators.",
+  "includes": [
+    "manufacture of primary cells and primary batteries: cells containing manganese dioxide, mercuric oxide, silver oxide, lithium, iodine, etc.",
+    "manufacture of electric accumulators: lead-acid, nickel-cadmium, nickel-metal hydride, lithium-ion, lithium polymer batteries",
+    "manufacture of separators for batteries and accumulators"
+  ],
+  "excludes": [
+    "manufacture of carbon and graphite electrodes, see 2399"
+  ],
+  "implementedAt": "2026-04-16T00:40:00Z"
+}

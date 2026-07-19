@@ -1,0 +1,19 @@
+{
+  "code": "4922",
+  "nameEn": "Other passenger land transport",
+  "group": "492",
+  "description": "This class includes passenger transport by road not elsewhere classified.",
+  "includes": [
+    "taxi cab services",
+    "limousine services",
+    "car rental with driver",
+    "interurban bus and coach services",
+    "tourist coach services",
+    "private hire vehicle services"
+  ],
+  "excludes": [
+    "urban and suburban passenger transport, see 4921",
+    "freight transport by road, see 4923"
+  ],
+  "implementedAt": "2026-04-16T21:40:00Z"
+}

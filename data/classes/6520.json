@@ -1,0 +1,19 @@
+{
+  "code": "6520",
+  "nameEn": "Reinsurance",
+  "group": "652",
+  "description": "This class includes the activities of assuming all or part of the risk associated with existing insurance policies originally underwritten by other insurance carriers.",
+  "includes": [
+    "life reinsurance",
+    "accident and health reinsurance",
+    "fire reinsurance",
+    "marine reinsurance",
+    "motor vehicle reinsurance",
+    "transport reinsurance",
+    "other non-life reinsurance"
+  ],
+  "excludes": [
+    "direct insurance, see 6511 and 6512"
+  ],
+  "implementedAt": "2026-04-17T07:10:00Z"
+}

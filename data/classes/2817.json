@@ -1,0 +1,25 @@
+{
+  "code": "2817",
+  "nameEn": "Manufacture of office machinery and equipment (except computers and peripheral equipment)",
+  "group": "281",
+  "description": "This class includes the manufacture of office machinery and equipment, excluding computers and computer peripheral equipment.",
+  "includes": [
+    "manufacture of calculating machines",
+    "manufacture of adding machines",
+    "manufacture of cash registers",
+    "manufacture of typewriters",
+    "manufacture of stenography machines",
+    "manufacture of mailing machines, mail handling machinery: letter openers, folding machines, inserting machines, addressing machines",
+    "manufacture of photocopying apparatus",
+    "manufacture of fax machines",
+    "manufacture of calculators, electronic or not",
+    "manufacture of ATMs (automated teller machines)",
+    "manufacture of paper shredders",
+    "manufacture of stapling machines, punching machines"
+  ],
+  "excludes": [
+    "manufacture of computers and peripheral equipment, see 2620",
+    "manufacture of communication equipment, see 2630"
+  ],
+  "implementedAt": "2026-04-16T02:40:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "6499",
+  "nameEn": "Other financial service activities, except insurance and pension funding n.e.c.",
+  "group": "649",
+  "description": "This class includes other financial service activities not elsewhere classified.",
+  "includes": [
+    "factoring activities",
+    "writing of swaps, options and other hedging arrangements",
+    "activities of foreign exchange offices",
+    "activities of investment companies",
+    "safe custody activities",
+    "automated teller machine network operations",
+    "selling financial products to individuals"
+  ],
+  "excludes": [
+    "financial leasing, see 6491",
+    "other credit granting, see 6492",
+    "money market operations and foreign exchange operations of central banks, see 6411"
+  ],
+  "implementedAt": "2026-04-17T06:40:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "code": "6511",
+  "nameEn": "Life insurance",
+  "group": "651",
+  "description": "This class includes the underwriting of life insurance annuities.",
+  "includes": [
+    "life insurance",
+    "life annuities",
+    "long-term accident and health insurance",
+    "term life insurance"
+  ],
+  "excludes": [
+    "non-life insurance, see 6512",
+    "pension funding, see 6530"
+  ],
+  "implementedAt": "2026-04-17T06:50:00Z"
+}

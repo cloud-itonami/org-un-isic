@@ -1,0 +1,24 @@
+{
+  "code": "2930",
+  "nameEn": "Manufacture of parts and accessories for motor vehicles",
+  "group": "293",
+  "description": "This class includes the manufacture of parts, components and accessories for motor vehicles.",
+  "includes": [
+    "manufacture of brakes, gearboxes, axles, road wheels, suspension shock absorbers, radiators, silencers, exhaust pipes, catalytic converters, clutches, steering wheels, steering columns and steering boxes",
+    "manufacture of seat belts, airbags, safety systems for motor vehicles",
+    "manufacture of motor vehicle electrical parts: ignition wiring harnesses, generators, alternators, spark plugs",
+    "manufacture of motor vehicle engines (non-starting): diesel engines, petrol engines for motor vehicles",
+    "manufacture of starting motors for internal combustion engines",
+    "manufacture of motor vehicle air-conditioning equipment",
+    "manufacture of safety glass and windscreens for motor vehicles",
+    "manufacture of motor vehicle bodies: seats, door panels, dashboards",
+    "manufacture of tyres, see 2211"
+  ],
+  "excludes": [
+    "manufacture of tyres and inner tubes, see 2211",
+    "manufacture of electrical equipment for internal combustion engines, see 2790",
+    "manufacture of trailers and semi-trailers, see 2920",
+    "retreat of used tyres, see 2211"
+  ],
+  "implementedAt": "2026-04-16T04:40:00Z"
+}

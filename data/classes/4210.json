@@ -1,0 +1,21 @@
+{
+  "code": "4210",
+  "nameEn": "Construction of roads and motorways",
+  "group": "421",
+  "description": "This class includes the construction of motorways, streets, roads and other vehicular and pedestrian ways.",
+  "includes": [
+    "construction of motorways, roads, streets, lanes and other paved surfaces",
+    "construction of bridges, including those for elevated highways",
+    "construction of tunnels",
+    "construction of railways and subways",
+    "construction of airfield runways",
+    "surface work on streets, roads, highways, bridges and tunnels",
+    "painting and other marking of road surfaces",
+    "installation of crash barriers, road signs and similar items"
+  ],
+  "excludes": [
+    "installation of public lighting systems, see 4321",
+    "architectural and engineering activities, see 7110"
+  ],
+  "implementedAt": "2026-04-16T11:00:00Z"
+}

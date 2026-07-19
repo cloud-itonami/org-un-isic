@@ -1,0 +1,22 @@
+{
+  "code": "0729",
+  "nameEn": "Mining of other non-ferrous metal ores",
+  "group": "072",
+  "description": "This class includes mining of non-ferrous metal ores, except uranium and thorium ores.",
+  "includes": [
+    "mining and preparation of copper ores",
+    "mining and preparation of nickel ores",
+    "mining and preparation of aluminium (bauxite) ores",
+    "mining and preparation of precious metal ores: gold, silver, platinum",
+    "mining and preparation of lead, zinc and tin ores",
+    "mining and preparation of chromium, manganese, cobalt, molybdenum, tantalum, vanadium etc. ores",
+    "mining of ore valued for gem-stones: diamonds etc.",
+    "mining of other metal ores"
+  ],
+  "excludes": [
+    "mining of iron ores, see 0710",
+    "mining and preparation of uranium and thorium ores, see 0721",
+    "production of mattes of nickel, see 2420"
+  ],
+  "implementedAt": "2026-04-15T02:10:00Z"
+}

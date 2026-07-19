@@ -1,0 +1,16 @@
+{
+  "code": "4761",
+  "nameEn": "Retail sale of books, newspapers and stationary in specialised stores",
+  "group": "476",
+  "description": "This class includes the retail sale of books, newspapers and stationery in specialised stores.",
+  "includes": [
+    "retail sale of books of all kinds",
+    "retail sale of newspapers and magazines",
+    "retail sale of stationery and office supplies: paper, pens, pencils",
+    "retail sale of school and office supplies"
+  ],
+  "excludes": [
+    "retail sale of second-hand books, see 4779"
+  ],
+  "implementedAt": "2026-04-16T18:10:00Z"
+}

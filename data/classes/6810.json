@@ -1,0 +1,18 @@
+{
+  "code": "6810",
+  "nameEn": "Real estate activities with own or leased property",
+  "group": "681",
+  "description": "This class includes buying, selling and renting of own or leased real estate.",
+  "includes": [
+    "buying and selling of own real estate",
+    "renting and operating own or leased real estate (apartments, residential buildings, commercial buildings)",
+    "development of building projects for own operation",
+    "operation of apartment buildings",
+    "operation of commercial and industrial facilities for own account"
+  ],
+  "excludes": [
+    "development of building projects for sale, see 4100",
+    "real estate activities on a fee or contract basis, see 6820"
+  ],
+  "implementedAt": "2026-04-17T08:40:00Z"
+}

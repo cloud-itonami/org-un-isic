@@ -1,0 +1,21 @@
+{
+  "code": "6512",
+  "nameEn": "Non-life insurance",
+  "group": "651",
+  "description": "This class includes the underwriting of accident, fire, motor, marine, aviation, transport and other non-life insurance.",
+  "includes": [
+    "accident and health insurance",
+    "fire insurance",
+    "motor vehicle insurance",
+    "marine and aviation insurance",
+    "freight insurance",
+    "credit insurance",
+    "liability insurance",
+    "property and casualty insurance"
+  ],
+  "excludes": [
+    "life insurance, see 6511",
+    "reinsurance, see 6520"
+  ],
+  "implementedAt": "2026-04-17T07:00:00Z"
+}

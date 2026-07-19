@@ -1,0 +1,28 @@
+{
+  "code": "3240",
+  "nameEn": "Manufacture of games and toys",
+  "group": "324",
+  "description": "This class includes the manufacture of dolls, toys and games (including electronic games), scale models and children's vehicles.",
+  "includes": [
+    "manufacture of dolls and doll garments, doll carriages and strollers",
+    "manufacture of action figures",
+    "manufacture of toy animals",
+    "manufacture of toy musical instruments",
+    "manufacture of playing cards",
+    "manufacture of board games and similar games: chess, checkers, backgammon",
+    "manufacture of electronic games: video game consoles, handheld game devices",
+    "manufacture of coin-operated games",
+    "manufacture of scale models and miniature models",
+    "manufacture of children's bicycles and tricycles",
+    "manufacture of construction sets and building blocks",
+    "manufacture of toy sports equipment",
+    "manufacture of puzzles of all kinds"
+  ],
+  "excludes": [
+    "manufacture of video game consoles (hardware), see 2640",
+    "manufacture of bicycles (non-toy), see 3092",
+    "manufacture of sports goods (non-toy), see 3230",
+    "writing and publishing of software for video games, see 5820"
+  ],
+  "implementedAt": "2026-04-16T07:00:00Z"
+}

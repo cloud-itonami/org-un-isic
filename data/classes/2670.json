@@ -1,0 +1,30 @@
+{
+  "code": "2670",
+  "nameEn": "Manufacture of optical instruments and photographic equipment",
+  "group": "267",
+  "description": "This class includes the manufacture of optical instruments and lenses, such as binoculars, microscopes, telescopes, prisms and lenses, and photographic equipment.",
+  "includes": [
+    "manufacture of binoculars and monoculars",
+    "manufacture of optical telescopes",
+    "manufacture of astronomical instruments",
+    "manufacture of optical microscopes",
+    "manufacture of optical magnifying instruments",
+    "manufacture of night vision devices",
+    "manufacture of optical gun sighting equipment",
+    "manufacture of optical positioning equipment",
+    "manufacture of optical shop tools",
+    "manufacture of optical fibre cables for the transmission of images",
+    "manufacture of photographic cameras (film and digital)",
+    "manufacture of motion picture cameras",
+    "manufacture of projectors",
+    "manufacture of photographic flashlight apparatus",
+    "manufacture of photographic enlargers and reducers",
+    "manufacture of lenses and lens assemblies"
+  ],
+  "excludes": [
+    "manufacture of photographic chemicals, see 2029",
+    "manufacture of computers and computer peripherals, see 2620",
+    "manufacture of spectacles and lenses (non-optical), see 3250"
+  ],
+  "implementedAt": "2026-04-16T00:10:00Z"
+}

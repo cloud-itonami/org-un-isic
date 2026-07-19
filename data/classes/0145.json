@@ -1,0 +1,11 @@
+{
+  "code": "0145",
+  "nameEn": "Raising of swine/pigs",
+  "group": "014",
+  "description": "This class includes raising and breeding of swine and pigs.",
+  "includes": [
+    "raising and breeding of swine and pigs"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "1030",
+  "nameEn": "Processing and preserving of fruit and vegetables",
+  "group": "103",
+  "description": "This class includes the processing and preserving of fruit and vegetables, including frozen, canned, pickled, dried or dehydrated forms. It includes production of fruit and vegetable juices, fruit pastes and jellies, and other preserved fruit and vegetable products.",
+  "includes": [
+    "production of frozen fruit and vegetables",
+    "production of canned or bottled fruit and vegetables",
+    "production of fruit and vegetable juices",
+    "production of fruit pastes and jellies",
+    "drying and dehydration of fruit and vegetables",
+    "production of pickled vegetables"
+  ],
+  "excludes": [
+    "growing of fruit and vegetables, see 011, 012",
+    "manufacture of fruit and vegetable oils, see 1040",
+    "manufacture of prepared meals and dishes, see 1075"
+  ],
+  "implementedAt": "2026-04-15T03:00:00Z"
+}

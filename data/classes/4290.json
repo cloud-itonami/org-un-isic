@@ -1,0 +1,21 @@
+{
+  "code": "4290",
+  "nameEn": "Construction of other civil engineering projects",
+  "group": "429",
+  "description": "This class includes the construction of civil engineering projects not elsewhere classified.",
+  "includes": [
+    "construction of industrial facilities, except buildings: refineries, chemical plants, other manufacturing facilities",
+    "construction of sports facilities outdoors: stadiums, golf courses",
+    "construction of docks and harbours",
+    "construction of locks and dams",
+    "construction of outdoor sports facilities",
+    "construction of marinas",
+    "soil improvement work: land reclamation",
+    "construction of amusement parks"
+  ],
+  "excludes": [
+    "construction of buildings on industrial sites, see 4100",
+    "construction of roads and motorways, see 4210"
+  ],
+  "implementedAt": "2026-04-16T11:20:00Z"
+}

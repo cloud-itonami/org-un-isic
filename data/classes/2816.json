@@ -1,0 +1,25 @@
+{
+  "code": "2816",
+  "nameEn": "Manufacture of lifting and handling equipment",
+  "group": "281",
+  "description": "This class includes the manufacture of lifting and handling equipment.",
+  "includes": [
+    "manufacture of cranes, mobile lifting frames, straddle carriers, works trucks",
+    "manufacture of lifts and escalators",
+    "manufacture of conveyors and conveyor belts",
+    "manufacture of industrial robots for lifting and handling",
+    "manufacture of pneumatic and other elevators and conveyors",
+    "manufacture of fork-lift trucks and straddle carriers",
+    "manufacture of mine cages, skips",
+    "manufacture of winches, hoists and capstans",
+    "manufacture of jacks and pulley tackles",
+    "manufacture of pallet movers"
+  ],
+  "excludes": [
+    "manufacture of agricultural elevator and conveyor, see 2821",
+    "manufacture of loading equipment for aircraft, see 2829",
+    "manufacture of forklift trucks, see 2816",
+    "manufacture of continuous mechanical handling equipment for underground use in mines, see 2824"
+  ],
+  "implementedAt": "2026-04-16T02:30:00Z"
+}

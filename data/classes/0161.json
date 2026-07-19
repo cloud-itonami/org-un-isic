@@ -1,0 +1,18 @@
+{
+  "code": "0161",
+  "nameEn": "Support activities for crop production",
+  "group": "016",
+  "description": "This class includes activities incidental to agricultural production and activities similar to agriculture not undertaken for production purposes (in the sense of harvesting agricultural products), done on a fee or contract basis. Also includes post-harvest crop activities aimed at preparing agricultural products for the primary market.",
+  "includes": [
+    "agricultural activities on a fee or contract basis: preparation of fields; setting up, planting, cultivating crops; crop spraying (including from the air); pruning of fruit trees and vines; transplanting of rice, thinning of beets; harvesting",
+    "operation of irrigation systems for agricultural purposes",
+    "provision of farm-related machinery with operators and crew"
+  ],
+  "excludes": [
+    "post-harvest crop activities, see 0163",
+    "landscape care and maintenance services, see 8130",
+    "agronomic and agricultural economic advisers, see 7490",
+    "agricultural fairs and shows organisation, see 8230"
+  ],
+  "implementedAt": "2026-04-15T00:50:00Z"
+}

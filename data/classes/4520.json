@@ -1,0 +1,22 @@
+{
+  "code": "4520",
+  "nameEn": "Maintenance and repair of motor vehicles",
+  "group": "452",
+  "description": "This class includes the maintenance and repair of motor vehicles.",
+  "includes": [
+    "mechanical and electrical repairs to motor vehicles",
+    "maintenance and repair of motor vehicle engines",
+    "body repairs to motor vehicles: panel beating",
+    "washing, polishing",
+    "spraying and painting",
+    "repair of motor vehicle parts",
+    "tyre fitting and replacement, balancing and retreading of tyres",
+    "road-side assistance",
+    "motor vehicle inspection for road-worthiness"
+  ],
+  "excludes": [
+    "retreading and rebuilding of tyres, see 2211",
+    "repair and maintenance of agricultural machinery, see 3312"
+  ],
+  "implementedAt": "2026-04-16T13:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "0141",
+  "nameEn": "Raising of cattle and buffaloes",
+  "group": "014",
+  "description": "This class includes raising and breeding of cattle and buffaloes for the production of meat, milk, hides, skins, and for draught power or breeding stock. Also includes production of raw milk from cows and buffaloes.",
+  "includes": [
+    "raising and breeding of cattle and buffaloes",
+    "production of raw cows' milk",
+    "production of raw buffalo milk",
+    "production of bovine semen"
+  ],
+  "excludes": [
+    "processing of milk, see 1050",
+    "animal-boarding activities, see 0162",
+    "operation of feedlots engaged in custom fattening of cattle, see 0162",
+    "raising of dairy heifers, see 0142 only if intended for separate dairy breeding"
+  ],
+  "implementedAt": "2026-04-15T00:20:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "3312",
+  "nameEn": "Repair of machinery",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of industrial machinery and equipment.",
+  "includes": [
+    "repair and maintenance of engines and turbines (except aircraft, vehicle and cycle engines)",
+    "repair and maintenance of fluid power equipment (pumps, compressors, hydraulic/pneumatic systems)",
+    "repair and maintenance of lifting and handling equipment: cranes, hoists, conveyors",
+    "repair and maintenance of office machinery: photocopiers, fax machines (non-electronic)",
+    "repair and maintenance of machine tools",
+    "repair and maintenance of mining and quarrying machinery",
+    "repair and maintenance of food, beverage and tobacco processing machinery",
+    "repair and maintenance of textile, apparel and leather production machinery",
+    "repair and maintenance of agricultural tractors and other agricultural machinery",
+    "repair and maintenance of other general-purpose and special-purpose machinery"
+  ],
+  "excludes": [
+    "repair of computers and peripheral equipment, see 9511",
+    "repair of electronic equipment, see 3313",
+    "repair and maintenance of motor vehicles, see 4520"
+  ],
+  "implementedAt": "2026-04-16T08:00:00Z"
+}

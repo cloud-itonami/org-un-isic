@@ -1,0 +1,18 @@
+{
+  "code": "6612",
+  "nameEn": "Security and commodity contracts dealing activities",
+  "group": "661",
+  "description": "This class includes dealing in financial markets on behalf of others (e.g. stock broking) and related activities.",
+  "includes": [
+    "dealing in financial instruments on own account",
+    "stock broking and security dealing activities",
+    "commodity broking activities",
+    "foreign exchange dealing",
+    "activities of dealers in futures markets and options"
+  ],
+  "excludes": [
+    "administration of financial markets, see 6611",
+    "fund management activities, see 6630"
+  ],
+  "implementedAt": "2026-04-17T07:40:00Z"
+}

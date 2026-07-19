@@ -1,0 +1,16 @@
+{
+  "code": "4799",
+  "nameEn": "Other retail sale not in stores, stalls or markets",
+  "group": "479",
+  "description": "This class includes other retail sale not in stores, stalls or markets.",
+  "includes": [
+    "retail sale by door-to-door salesmen",
+    "retail sale through vending machines",
+    "direct selling activities: party plan selling, network marketing",
+    "retail sale by automatic vending machines for food, beverages"
+  ],
+  "excludes": [
+    "retail sale via Internet or mail order, see 4791"
+  ],
+  "implementedAt": "2026-04-16T21:00:00Z"
+}

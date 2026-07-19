@@ -1,0 +1,16 @@
+{
+  "code": "0164",
+  "nameEn": "Seed processing for propagation",
+  "group": "016",
+  "description": "This class includes all post-harvest activities aimed at upgrading seed quality through the removal of non-seed material, undersized, mechanically or insect-damaged and immature seeds, as well as removal of seed moisture to a safe level for seed storage.",
+  "includes": [
+    "drying, cleaning, grading and treating of seeds until they are marketed",
+    "activities including those concerned with genetically modified seeds"
+  ],
+  "excludes": [
+    "growing of seeds, see divisions 01.1 and 01.2",
+    "processing of seeds for oil extraction, see 1040",
+    "research aimed at developing or modifying new forms of seeds, see 7210"
+  ],
+  "implementedAt": "2026-04-15T00:50:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "2750",
+  "nameEn": "Manufacture of domestic appliances",
+  "group": "275",
+  "description": "This class includes the manufacture of household-type electric and non-electric appliances.",
+  "includes": [
+    "manufacture of electric domestic appliances: refrigerators, freezers, dishwashers, washing machines, clothes dryers, electric fans, vacuum cleaners, floor polishers",
+    "manufacture of domestic cooking equipment: electric ovens, microwave ovens, hotplates, toasters, coffee makers, electric kettles",
+    "manufacture of electric shavers, hair dryers, electric toothbrushes and other personal care appliances",
+    "manufacture of non-electric domestic appliances: gas cookers, gas fires, stoves, other gas appliances",
+    "manufacture of sewing machines",
+    "manufacture of parts for domestic appliances"
+  ],
+  "excludes": [
+    "manufacture of commercial refrigerating equipment, see 2819",
+    "manufacture of commercial cooking equipment, see 2819",
+    "manufacture of electric blankets, see 1392",
+    "manufacture of heating equipment (non-domestic), see 2813",
+    "manufacture of hand-held power tools, see 2818"
+  ],
+  "implementedAt": "2026-04-16T01:20:00Z"
+}

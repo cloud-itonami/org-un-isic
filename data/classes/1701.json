@@ -1,0 +1,21 @@
+{
+  "code": "1701",
+  "nameEn": "Manufacture of pulp, paper and paperboard",
+  "group": "170",
+  "description": "This class includes the manufacture of pulp by separating cellulose fibres from wood or other fibrous materials, and the manufacture of paper and paperboard.",
+  "includes": [
+    "manufacture of mechanical, chemical and semi-chemical wood pulp",
+    "manufacture of cellulose and other fibrous pulp from rags, straw, wastepaper",
+    "manufacture of newsprint and other printing paper",
+    "manufacture of writing and other graphic paper",
+    "manufacture of kraft wrapping and packaging paper and paperboard",
+    "manufacture of cardboard and paperboard",
+    "manufacture of household and sanitary paper: tissue, toilet paper, paper towels",
+    "manufacture of carbon paper and similar copying or transfer papers"
+  ],
+  "excludes": [
+    "manufacture of corrugated paper and paperboard, see 1702",
+    "manufacture of paper stationery, see 1709"
+  ],
+  "implementedAt": "2026-04-15T09:20:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "0899",
+  "nameEn": "Other mining and quarrying n.e.c.",
+  "group": "089",
+  "description": "This class includes mining and quarrying of various minerals and materials not elsewhere classified.",
+  "includes": [
+    "mining of abrasive materials, asbestos, silica sands, kernite, mica, steatite (talc), feldspar etc.",
+    "mining of natural graphite",
+    "mining of steatite (talc)",
+    "mining of natural asphalt, asphaltites and rock asphalts; natural solid bitumen",
+    "mining of gem stones (precious and semi-precious stones): diamonds, emeralds, rubies, sapphires, amber, etc.",
+    "mining of pumice stone and emery"
+  ],
+  "excludes": [
+    "mining of chemical and fertilizer minerals, see 0891",
+    "extraction of peat, see 0892",
+    "extraction of salt, see 0893"
+  ],
+  "implementedAt": "2026-04-15T02:20:00Z"
+}

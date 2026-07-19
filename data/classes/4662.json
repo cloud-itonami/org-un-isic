@@ -1,0 +1,17 @@
+{
+  "code": "4662",
+  "nameEn": "Wholesale of metals and metal ores",
+  "group": "466",
+  "description": "This class includes the wholesale of metal ores and metals, including precious metals.",
+  "includes": [
+    "wholesale of ferrous and non-ferrous metal ores",
+    "wholesale of iron and steel",
+    "wholesale of non-ferrous metals: copper, zinc, aluminium",
+    "wholesale of precious metals: gold, silver, platinum",
+    "wholesale of metal scrap"
+  ],
+  "excludes": [
+    "wholesale of metal waste, see 4669"
+  ],
+  "implementedAt": "2026-04-16T15:10:00Z"
+}

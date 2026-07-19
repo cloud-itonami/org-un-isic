@@ -1,0 +1,18 @@
+{
+  "code": "3099",
+  "nameEn": "Manufacture of other transport equipment n.e.c.",
+  "group": "309",
+  "description": "This class includes the manufacture of transport equipment not elsewhere classified.",
+  "includes": [
+    "manufacture of hand-propelled vehicles: wheelbarrows, hand carts, shopping trolleys",
+    "manufacture of animal-drawn vehicles: carriages, carts, sleighs",
+    "manufacture of non-motorised trailers",
+    "manufacture of stretchers and other patient transportation devices"
+  ],
+  "excludes": [
+    "manufacture of motorcycles, see 3091",
+    "manufacture of bicycles and invalid carriages, see 3092",
+    "manufacture of children's tricycles and other toys, see 3240"
+  ],
+  "implementedAt": "2026-04-16T06:00:00Z"
+}

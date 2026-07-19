@@ -1,0 +1,29 @@
+{
+  "code": "2630",
+  "nameEn": "Manufacture of communication equipment",
+  "group": "263",
+  "description": "This class includes the manufacture of telephone and data communications equipment.",
+  "includes": [
+    "manufacture of central office switching equipment",
+    "manufacture of cordless telephones",
+    "manufacture of mobile telephones and smartphones",
+    "manufacture of carrier equipment modems",
+    "manufacture of telephone and facsimile equipment",
+    "manufacture of private branch exchange (PBX) equipment",
+    "manufacture of radio and TV broadcasting and wireless communications equipment",
+    "manufacture of radio transmitters and receivers",
+    "manufacture of television cameras",
+    "manufacture of closed circuit television equipment",
+    "manufacture of antennas and antenna reflectors",
+    "manufacture of intercommunication systems",
+    "manufacture of radar apparatus",
+    "manufacture of modems, cable modems",
+    "manufacture of high speed data transmitters and receivers"
+  ],
+  "excludes": [
+    "manufacture of electronic components for communications equipment, see 2610",
+    "manufacture of consumer audio and video equipment, see 2640",
+    "manufacture of GPS devices, see 2651"
+  ],
+  "implementedAt": "2026-04-15T16:20:00Z"
+}

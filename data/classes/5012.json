@@ -1,0 +1,15 @@
+{
+  "code": "5012",
+  "nameEn": "Sea and coastal freight water transport",
+  "group": "502",
+  "description": "This class includes the transport of freight on sea-going vessels.",
+  "includes": [
+    "transport of freight by sea: tankers, cargo ships, container vessels",
+    "towing and pushing of barges or other non-motorised watercraft in sea lanes",
+    "offshore supply boat services"
+  ],
+  "excludes": [
+    "inland freight water transport, see 5022"
+  ],
+  "implementedAt": "2026-04-16T22:20:00Z"
+}

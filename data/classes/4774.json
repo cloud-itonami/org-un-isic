@@ -1,0 +1,16 @@
+{
+  "code": "4774",
+  "nameEn": "Retail sale of medical and orthopaedic goods in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of medical and orthopaedic goods in specialised stores.",
+  "includes": [
+    "retail sale of medical and orthopaedic goods: wheelchairs, crutches, prostheses",
+    "retail sale of hearing aids",
+    "retail sale of medical devices: blood pressure monitors, thermometers",
+    "retail sale of optical goods: eyeglasses, contact lenses, magnifying glasses"
+  ],
+  "excludes": [
+    "dispensing chemist, see 4773"
+  ],
+  "implementedAt": "2026-04-16T19:20:00Z"
+}

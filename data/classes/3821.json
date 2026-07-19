@@ -1,0 +1,18 @@
+{
+  "code": "3821",
+  "nameEn": "Treatment and disposal of non-hazardous waste",
+  "group": "382",
+  "description": "This class includes the treatment and disposal of non-hazardous waste.",
+  "includes": [
+    "operation and use of disposal sites for non-hazardous waste",
+    "treatment of non-hazardous waste for disposal: incineration, composting, other methods",
+    "operation of landfill sites for non-hazardous waste",
+    "disposal of non-hazardous waste by incineration or combustion",
+    "production of compost from organic waste"
+  ],
+  "excludes": [
+    "treatment and disposal of hazardous waste, see 3822",
+    "incineration with energy recovery, classified in appropriate energy generation class"
+  ],
+  "implementedAt": "2026-04-16T10:10:00Z"
+}

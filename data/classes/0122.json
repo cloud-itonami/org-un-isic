@@ -1,0 +1,11 @@
+{
+  "code": "0122",
+  "nameEn": "Growing of tropical and subtropical fruits",
+  "group": "012",
+  "description": "This class includes the growing of tropical and subtropical fruits.",
+  "includes": [
+    "growing of tropical and subtropical fruits: avocados; bananas and plantains; dates; figs; mangoes; papayas; pineapples; other tropical and subtropical fruits"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

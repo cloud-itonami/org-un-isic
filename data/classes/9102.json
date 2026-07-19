@@ -1,0 +1,18 @@
+{
+  "code": "9102",
+  "nameEn": "Museums activities and operation of historical sites and buildings",
+  "group": "910",
+  "description": "This class includes the activities of museums of all kinds and the preservation and operation of historical sites and buildings.",
+  "includes": [
+    "art museum activities",
+    "natural history and science museum activities",
+    "historical museum activities",
+    "operation of historical sites and buildings",
+    "preservation of historical monuments"
+  ],
+  "excludes": [
+    "library and archive activities, see 9101",
+    "botanical and zoological gardens, see 9103"
+  ],
+  "implementedAt": "2026-04-17T19:40:00Z"
+}

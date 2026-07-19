@@ -1,0 +1,20 @@
+{
+  "code": "9319",
+  "nameEn": "Other sports activities",
+  "group": "931",
+  "description": "This class includes the activities of other sports activities not elsewhere classified.",
+  "includes": [
+    "sport hunting and fishing activities",
+    "activities of mountain guides",
+    "activities of sports officiating organizations",
+    "activities related to horse racing",
+    "activities related to car racing",
+    "fitness and health clubs"
+  ],
+  "excludes": [
+    "operation of sports facilities, see 9311",
+    "activities of sports clubs, see 9312",
+    "sports and recreation education, see 8541"
+  ],
+  "implementedAt": "2026-04-17T20:30:00Z"
+}

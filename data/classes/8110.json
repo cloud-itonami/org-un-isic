@@ -1,0 +1,17 @@
+{
+  "code": "8110",
+  "nameEn": "Combined facilities support activities",
+  "group": "811",
+  "description": "This class includes the provision of a combination of support services within a client's facilities, such as general interior cleaning, maintenance, trash collection, guard and security, mail routing, reception, laundry and related services.",
+  "includes": [
+    "facility management services",
+    "combined building support services",
+    "general interior cleaning plus security",
+    "building operations and maintenance"
+  ],
+  "excludes": [
+    "cleaning activities only, see 8121",
+    "security activities only, see 8010"
+  ],
+  "implementedAt": "2026-04-17T13:50:00Z"
+}

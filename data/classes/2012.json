@@ -1,0 +1,21 @@
+{
+  "code": "2012",
+  "nameEn": "Manufacture of fertilizers and nitrogen compounds",
+  "group": "201",
+  "description": "This class includes the manufacture of fertilizers and nitrogen compounds.",
+  "includes": [
+    "manufacture of straight nitrogenous fertilizers",
+    "manufacture of straight phosphatic fertilizers",
+    "manufacture of straight potassic fertilizers",
+    "manufacture of compound fertilizers: NPK fertilizers",
+    "manufacture of urea",
+    "manufacture of crude natural phosphates and crude natural potassium salts",
+    "manufacture of nitric acid, sulphonitric acids, ammonia, ammonium chloride, ammonium carbonate",
+    "manufacture of potassium nitrate"
+  ],
+  "excludes": [
+    "mining of natural phosphates and potassium salts, see 0891",
+    "manufacture of agrochemicals (pesticides), see 2021"
+  ],
+  "implementedAt": "2026-04-15T10:50:00Z"
+}

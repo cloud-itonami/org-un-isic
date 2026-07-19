@@ -1,0 +1,20 @@
+{
+  "code": "3830",
+  "nameEn": "Dismantling of wrecks; materials recovery",
+  "group": "383",
+  "description": "This class includes the dismantling of wrecks of all kinds (cars, ships, computers, etc.) for materials recovery.",
+  "includes": [
+    "dismantling of automobiles, computers, televisions and other equipment for materials recovery",
+    "ship-breaking",
+    "breaking up of hulks",
+    "draining and removal of oil from discarded ships, automobiles, etc.",
+    "sorting and dismantling of non-hazardous waste, e.g. automobile wrecks for material recovery",
+    "processing of secondary raw materials: sorting and preparing for reuse"
+  ],
+  "excludes": [
+    "wholesale of recoverable secondary raw materials, see 4669",
+    "repair and maintenance of motor vehicles, see 4520",
+    "treatment and disposal of non-hazardous waste, see 3821"
+  ],
+  "implementedAt": "2026-04-16T10:30:00Z"
+}

@@ -1,0 +1,27 @@
+{
+  "code": "2610",
+  "nameEn": "Manufacture of electronic components and boards",
+  "group": "261",
+  "description": "This class includes the manufacture of electronic components and printed circuit boards.",
+  "includes": [
+    "manufacture of capacitors, electronic",
+    "manufacture of resistors",
+    "manufacture of microprocessors",
+    "manufacture of electron tubes",
+    "manufacture of printed circuit boards (without assembled components)",
+    "manufacture of semiconductors and related devices: transistors, diodes, solar cells",
+    "manufacture of integrated circuits (analog, digital, mixed)",
+    "manufacture of inductors, coils, transformers and other magnetic components",
+    "manufacture of connectors for electronic applications",
+    "manufacture of switches, relays for electronic applications",
+    "manufacture of crystals and crystal assemblies",
+    "manufacture of solenoids, switches and transducers for electronic applications",
+    "manufacture of display components: LCD, LED, plasma panels"
+  ],
+  "excludes": [
+    "manufacture of computers and computer peripherals, see 2620",
+    "manufacture of loaded printed circuit boards, see 2620, 2630, 2640, 2650, 2660, 2670, 2680",
+    "manufacture of transformers for power distribution, see 2710"
+  ],
+  "implementedAt": "2026-04-15T16:00:00Z"
+}

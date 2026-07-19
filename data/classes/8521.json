@@ -1,0 +1,16 @@
+{
+  "code": "8521",
+  "nameEn": "General secondary education",
+  "group": "852",
+  "description": "This class includes the provision of general secondary education.",
+  "includes": [
+    "lower secondary education",
+    "upper secondary general education",
+    "secondary education preparing for university entrance"
+  ],
+  "excludes": [
+    "technical and vocational secondary education, see 8522",
+    "higher education, see 8530"
+  ],
+  "implementedAt": "2026-04-17T16:40:00Z"
+}

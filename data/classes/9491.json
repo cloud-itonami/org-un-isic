@@ -1,0 +1,16 @@
+{
+  "code": "9491",
+  "nameEn": "Activities of religious organizations",
+  "group": "949",
+  "description": "This class includes the activities of religious organizations or individuals providing sermons, guidance, and other religious services.",
+  "includes": [
+    "activities of churches, mosques, temples, synagogues and other religious organizations",
+    "activities of monasteries and convents",
+    "religious retreat activities"
+  ],
+  "excludes": [
+    "activities of political organizations, see 9492",
+    "education by religious organizations at all levels, see division 85"
+  ],
+  "implementedAt": "2026-04-17T21:30:00Z"
+}

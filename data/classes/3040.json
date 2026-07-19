@@ -1,0 +1,19 @@
+{
+  "code": "3040",
+  "nameEn": "Manufacture of military fighting vehicles",
+  "group": "304",
+  "description": "This class includes the manufacture of military fighting vehicles.",
+  "includes": [
+    "manufacture of tanks",
+    "manufacture of armoured amphibious military vehicles",
+    "manufacture of military armoured vehicles",
+    "manufacture of self-propelled guns"
+  ],
+  "excludes": [
+    "manufacture of weapons and ammunition, see 2520",
+    "manufacture of military aircraft, see 3030",
+    "manufacture of military ships, see 3011",
+    "manufacture of non-combat military vehicles, see 2910"
+  ],
+  "implementedAt": "2026-04-16T05:30:00Z"
+}

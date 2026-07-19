@@ -1,0 +1,17 @@
+{
+  "code": "4921",
+  "nameEn": "Urban and suburban passenger land transport",
+  "group": "492",
+  "description": "This class includes the transport of passengers within urban and suburban areas.",
+  "includes": [
+    "urban and suburban passenger transport by bus, minibus, tram, streetcar, metro, subway",
+    "cable car services in urban areas",
+    "school bus services",
+    "operation of funicular railways"
+  ],
+  "excludes": [
+    "interurban passenger rail transport, see 4911",
+    "taxi cab services, see 4922"
+  ],
+  "implementedAt": "2026-04-16T21:30:00Z"
+}

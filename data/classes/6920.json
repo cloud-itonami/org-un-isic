@@ -1,0 +1,21 @@
+{
+  "code": "6920",
+  "nameEn": "Accounting, bookkeeping and auditing activities; tax consultancy",
+  "group": "692",
+  "description": "This class includes recording of commercial transactions from businesses or others; preparation of financial statements; examination of accounting records and financial statements; preparation of personal and business income tax returns; advisory activities and representation of clients before tax authorities.",
+  "includes": [
+    "bookkeeping activities",
+    "preparation of financial accounts",
+    "auditing financial accounts",
+    "statutory audit activities",
+    "tax return preparation",
+    "tax planning and consultancy services",
+    "insolvency and receivership activities"
+  ],
+  "excludes": [
+    "data processing and tabulation activities, see 6311",
+    "management consultancy, see 7020",
+    "actuarial activities, see 6621 or 6629"
+  ],
+  "implementedAt": "2026-04-17T09:10:00Z"
+}

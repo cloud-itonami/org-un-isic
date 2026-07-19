@@ -1,0 +1,855 @@
+{
+  "generatedAt": "2026-03-20T13:56:31.507Z",
+  "scope": "projects/etzhayyim-project-public-companies",
+  "methodology": {
+    "marketCapSource": "Seeded market-cap fields in legacy actor component main.go files",
+    "coverageDefinition": "Implemented slots in the repo for each ISIC section top-10 ranking",
+    "note": "This is a repo-implementation report, not a live market-data feed."
+  },
+  "counts": {
+    "companyEntries": 25,
+    "exchangeEntries": 5,
+    "allMarketCapEntities": 30
+  },
+  "sectionCoverage": [
+    {
+      "section": "A",
+      "sectionName": "Agriculture, forestry and fishing",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "B",
+      "sectionName": "Mining and quarrying",
+      "implemented": 3,
+      "available": 3,
+      "coverage": "3/10"
+    },
+    {
+      "section": "C",
+      "sectionName": "Manufacturing",
+      "implemented": 8,
+      "available": 8,
+      "coverage": "8/10"
+    },
+    {
+      "section": "D",
+      "sectionName": "Electricity, gas, steam and air conditioning supply",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "E",
+      "sectionName": "Water supply; sewerage, waste management and remediation activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "F",
+      "sectionName": "Construction",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "G",
+      "sectionName": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+      "implemented": 3,
+      "available": 3,
+      "coverage": "3/10"
+    },
+    {
+      "section": "H",
+      "sectionName": "Transportation and storage",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "I",
+      "sectionName": "Accommodation and food service activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "J",
+      "sectionName": "Information and communication",
+      "implemented": 6,
+      "available": 6,
+      "coverage": "6/10"
+    },
+    {
+      "section": "K",
+      "sectionName": "Financial and insurance activities",
+      "implemented": 5,
+      "available": 5,
+      "coverage": "5/10"
+    },
+    {
+      "section": "L",
+      "sectionName": "Real estate activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "M",
+      "sectionName": "Professional, scientific and technical activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "N",
+      "sectionName": "Administrative and support service activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "O",
+      "sectionName": "Public administration and defence; compulsory social security",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "P",
+      "sectionName": "Education",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "Q",
+      "sectionName": "Human health and social work activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "R",
+      "sectionName": "Arts, entertainment and recreation",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "S",
+      "sectionName": "Other service activities",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "T",
+      "sectionName": "Activities of households as employers",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    },
+    {
+      "section": "U",
+      "sectionName": "Activities of extraterritorial organizations and bodies",
+      "implemented": 0,
+      "available": 0,
+      "coverage": "0/10"
+    }
+  ],
+  "sections": [
+    {
+      "section": "A",
+      "sectionName": "Agriculture, forestry and fishing",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "B",
+      "sectionName": "Mining and quarrying",
+      "coverage": "3/10",
+      "entries": [
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil Corporation",
+          "exchangeMic": "XNYS",
+          "isicCode": "0610",
+          "marketCapUsd": 460000000000,
+          "sector": "Energy",
+          "industry": "Oil & Gas",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-xom-x2om5e7d/main.go"
+        },
+        {
+          "ticker": "SHEL",
+          "name": "Shell plc",
+          "exchangeMic": "XLON",
+          "isicCode": "0610",
+          "marketCapUsd": 210000000000,
+          "sector": "Energy",
+          "industry": "Oil & Gas Exploration and Production",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-shel-s4he7l2p/main.go"
+        },
+        {
+          "ticker": "BP",
+          "name": "BP plc",
+          "exchangeMic": "XLON",
+          "isicCode": "0610",
+          "marketCapUsd": 100000000000,
+          "sector": "Energy",
+          "industry": "Oil & Gas",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-bp-b3pp6l1t/main.go"
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "sectionName": "Manufacturing",
+      "coverage": "8/10",
+      "entries": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA Corporation",
+          "exchangeMic": "XNAS",
+          "isicCode": "2610",
+          "marketCapUsd": 3200000000000,
+          "sector": "Technology",
+          "industry": "Semiconductors & GPU Computing",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-nvda-n7vd9a5g/main.go"
+        },
+        {
+          "ticker": "AAPL",
+          "name": "Apple Inc.",
+          "exchangeMic": "XNYS",
+          "isicCode": "2620",
+          "marketCapUsd": 3000000000000,
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-aapl-a1pl3y7z/main.go"
+        },
+        {
+          "ticker": "JNJ",
+          "name": "Johnson & Johnson",
+          "exchangeMic": "XNYS",
+          "isicCode": "2100",
+          "marketCapUsd": 380000000000,
+          "sector": "Healthcare",
+          "industry": "Pharmaceuticals",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-jnj-j1nj3h8c/main.go"
+        },
+        {
+          "ticker": "7203",
+          "name": "Toyota Motor Corporation",
+          "exchangeMic": "XJPX",
+          "isicCode": "2910",
+          "marketCapUsd": 300000000000,
+          "sector": "Consumer Discretionary",
+          "industry": "Automobile Manufacturing",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-7203-t3yo5a6u/main.go"
+        },
+        {
+          "ticker": "AZN",
+          "name": "AstraZeneca PLC",
+          "exchangeMic": "XLON",
+          "isicCode": "2100",
+          "marketCapUsd": 220000000000,
+          "sector": "Healthcare",
+          "industry": "Pharmaceuticals",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-azn-a9zn1e3j/main.go"
+        },
+        {
+          "ticker": "ULVR",
+          "name": "Unilever plc",
+          "exchangeMic": "XLON",
+          "isicCode": "1040",
+          "marketCapUsd": 125000000000,
+          "sector": "Consumer Staples",
+          "industry": "Consumer Goods",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-ulvr-u2lv5r9s/main.go"
+        },
+        {
+          "ticker": "6758",
+          "name": "Sony Group Corporation",
+          "exchangeMic": "XJPX",
+          "isicCode": "2640",
+          "marketCapUsd": 120000000000,
+          "sector": "Consumer Electronics",
+          "industry": "Electronics & Entertainment",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-6758-s8ny2o6h/main.go"
+        },
+        {
+          "ticker": "6861",
+          "name": "Keyence Corporation",
+          "exchangeMic": "XJPX",
+          "isicCode": "2651",
+          "marketCapUsd": 100000000000,
+          "sector": "Technology",
+          "industry": "Electronic Equipment",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-6861-k7yc1e5l/main.go"
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "sectionName": "Electricity, gas, steam and air conditioning supply",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "E",
+      "sectionName": "Water supply; sewerage, waste management and remediation activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "F",
+      "sectionName": "Construction",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "G",
+      "sectionName": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+      "coverage": "3/10",
+      "entries": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon.com Inc.",
+          "exchangeMic": "XNAS",
+          "isicCode": "4791",
+          "marketCapUsd": 2000000000000,
+          "sector": "Consumer Discretionary",
+          "industry": "E-Commerce & Cloud Computing",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-amzn-a4mz7n2f/main.go"
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart Inc.",
+          "exchangeMic": "XNYS",
+          "isicCode": "4711",
+          "marketCapUsd": 580000000000,
+          "sector": "Consumer Staples",
+          "industry": "Retail",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-wmt-w3mt6a9e/main.go"
+        },
+        {
+          "ticker": "9988",
+          "name": "Alibaba Group Holding Limited",
+          "exchangeMic": "XHKG",
+          "isicCode": "4791",
+          "marketCapUsd": 250000000000,
+          "sector": "Consumer Discretionary",
+          "industry": "E-Commerce & Cloud Computing",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-9988-b0ba4l7m/main.go"
+        }
+      ]
+    },
+    {
+      "section": "H",
+      "sectionName": "Transportation and storage",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "I",
+      "sectionName": "Accommodation and food service activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "J",
+      "sectionName": "Information and communication",
+      "coverage": "6/10",
+      "entries": [
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation",
+          "exchangeMic": "XNAS",
+          "isicCode": "6201",
+          "marketCapUsd": 3100000000000,
+          "sector": "Technology",
+          "industry": "Software & Cloud Services",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-msft-m2sf4t8w/main.go"
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet Inc.",
+          "exchangeMic": "XNAS",
+          "isicCode": "6312",
+          "marketCapUsd": 2100000000000,
+          "sector": "Technology",
+          "industry": "Internet Services",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-googl-g5gl8o3h/main.go"
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms Inc.",
+          "exchangeMic": "XNAS",
+          "isicCode": "6312",
+          "marketCapUsd": 1500000000000,
+          "sector": "Technology",
+          "industry": "Social Media",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-meta-m6ta9e4j/main.go"
+        },
+        {
+          "ticker": "0700",
+          "name": "Tencent Holdings Limited",
+          "exchangeMic": "XHKG",
+          "isicCode": "6201",
+          "marketCapUsd": 450000000000,
+          "sector": "Communication Services",
+          "industry": "Internet Software & Services",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0700-q5tc7n3k/main.go"
+        },
+        {
+          "ticker": "0941",
+          "name": "China Mobile Limited",
+          "exchangeMic": "XHKG",
+          "isicCode": "6120",
+          "marketCapUsd": 160000000000,
+          "sector": "Communication Services",
+          "industry": "Telecommunications Services",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0941-c9m14e2p/main.go"
+        },
+        {
+          "ticker": "9432",
+          "name": "Nippon Telegraph and Telephone",
+          "exchangeMic": "XJPX",
+          "isicCode": "6110",
+          "marketCapUsd": 100000000000,
+          "sector": "Telecom",
+          "industry": "Telecommunications",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-9432-n9tt3o7p/main.go"
+        }
+      ]
+    },
+    {
+      "section": "K",
+      "sectionName": "Financial and insurance activities",
+      "coverage": "5/10",
+      "entries": [
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase & Co.",
+          "exchangeMic": "XNYS",
+          "isicCode": "6419",
+          "marketCapUsd": 680000000000,
+          "sector": "Financials",
+          "industry": "Banking & Financial Services",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-jpm-j6pm8c4f/main.go"
+        },
+        {
+          "ticker": "0005",
+          "name": "HSBC Holdings plc",
+          "exchangeMic": "XHKG",
+          "isicCode": "6419",
+          "marketCapUsd": 170000000000,
+          "sector": "Financials",
+          "industry": "Banking",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0005-h5bc8k3q/main.go"
+        },
+        {
+          "ticker": "HSBA",
+          "name": "HSBC Holdings plc",
+          "exchangeMic": "XLON",
+          "isicCode": "6419",
+          "marketCapUsd": 165000000000,
+          "sector": "Financials",
+          "industry": "Banking",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-hsba-h1sb4a8q/main.go"
+        },
+        {
+          "ticker": "8306",
+          "name": "Mitsubishi UFJ Financial Group",
+          "exchangeMic": "XJPX",
+          "isicCode": "6419",
+          "marketCapUsd": 120000000000,
+          "sector": "Financials",
+          "industry": "Banking",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-8306-u8fg2m6n/main.go"
+        },
+        {
+          "ticker": "1299",
+          "name": "AIA Group Limited",
+          "exchangeMic": "XHKG",
+          "isicCode": "6511",
+          "marketCapUsd": 85000000000,
+          "sector": "Financials",
+          "industry": "Life & Health Insurance",
+          "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-1299-a2ia6g4k/main.go"
+        }
+      ]
+    },
+    {
+      "section": "L",
+      "sectionName": "Real estate activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "M",
+      "sectionName": "Professional, scientific and technical activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "N",
+      "sectionName": "Administrative and support service activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "O",
+      "sectionName": "Public administration and defence; compulsory social security",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "P",
+      "sectionName": "Education",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "Q",
+      "sectionName": "Human health and social work activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "R",
+      "sectionName": "Arts, entertainment and recreation",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "S",
+      "sectionName": "Other service activities",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "T",
+      "sectionName": "Activities of households as employers",
+      "coverage": "0/10",
+      "entries": []
+    },
+    {
+      "section": "U",
+      "sectionName": "Activities of extraterritorial organizations and bodies",
+      "coverage": "0/10",
+      "entries": []
+    }
+  ],
+  "allMarketCapEntities": [
+    {
+      "entityKind": "company",
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "exchangeMic": "XNAS",
+      "isicCode": "2610",
+      "marketCapUsd": 3200000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-nvda-n7vd9a5g/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "exchangeMic": "XNAS",
+      "isicCode": "6201",
+      "marketCapUsd": 3100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-msft-m2sf4t8w/main.go"
+    },
+    {
+      "entityKind": "exchange",
+      "ticker": null,
+      "name": "NASDAQ",
+      "exchangeMic": "XNAS",
+      "isicCode": null,
+      "marketCapUsd": 3100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xnas-n2as4d7r/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "exchangeMic": "XNYS",
+      "isicCode": "2620",
+      "marketCapUsd": 3000000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-aapl-a1pl3y7z/main.go"
+    },
+    {
+      "entityKind": "exchange",
+      "ticker": null,
+      "name": "New York Stock Exchange",
+      "exchangeMic": "XNYS",
+      "isicCode": null,
+      "marketCapUsd": 3000000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xnys-x1ny5e8q/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "exchangeMic": "XNAS",
+      "isicCode": "6312",
+      "marketCapUsd": 2100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-googl-g5gl8o3h/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc.",
+      "exchangeMic": "XNAS",
+      "isicCode": "4791",
+      "marketCapUsd": 2000000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-amzn-a4mz7n2f/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "META",
+      "name": "Meta Platforms Inc.",
+      "exchangeMic": "XNAS",
+      "isicCode": "6312",
+      "marketCapUsd": 1500000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnas-meta-m6ta9e4j/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "exchangeMic": "XNYS",
+      "isicCode": "6419",
+      "marketCapUsd": 680000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-jpm-j6pm8c4f/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "exchangeMic": "XNYS",
+      "isicCode": "4711",
+      "marketCapUsd": 580000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-wmt-w3mt6a9e/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "XOM",
+      "name": "Exxon Mobil Corporation",
+      "exchangeMic": "XNYS",
+      "isicCode": "0610",
+      "marketCapUsd": 460000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-xom-x2om5e7d/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "0700",
+      "name": "Tencent Holdings Limited",
+      "exchangeMic": "XHKG",
+      "isicCode": "6201",
+      "marketCapUsd": 450000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0700-q5tc7n3k/main.go"
+    },
+    {
+      "entityKind": "exchange",
+      "ticker": null,
+      "name": "Hong Kong Stock Exchange",
+      "exchangeMic": "XHKG",
+      "isicCode": null,
+      "marketCapUsd": 450000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xhkg-h5kg3x9v/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "exchangeMic": "XNYS",
+      "isicCode": "2100",
+      "marketCapUsd": 380000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xnys-jnj-j1nj3h8c/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "7203",
+      "name": "Toyota Motor Corporation",
+      "exchangeMic": "XJPX",
+      "isicCode": "2910",
+      "marketCapUsd": 300000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-7203-t3yo5a6u/main.go"
+    },
+    {
+      "entityKind": "exchange",
+      "ticker": null,
+      "name": "Japan Exchange Group (TSE)",
+      "exchangeMic": "XJPX",
+      "isicCode": null,
+      "marketCapUsd": 300000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xjpx-j3px6t5s/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "9988",
+      "name": "Alibaba Group Holding Limited",
+      "exchangeMic": "XHKG",
+      "isicCode": "4791",
+      "marketCapUsd": 250000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-9988-b0ba4l7m/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "AZN",
+      "name": "AstraZeneca PLC",
+      "exchangeMic": "XLON",
+      "isicCode": "2100",
+      "marketCapUsd": 220000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-azn-a9zn1e3j/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "SHEL",
+      "name": "Shell plc",
+      "exchangeMic": "XLON",
+      "isicCode": "0610",
+      "marketCapUsd": 210000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-shel-s4he7l2p/main.go"
+    },
+    {
+      "entityKind": "exchange",
+      "ticker": null,
+      "name": "London Stock Exchange",
+      "exchangeMic": "XLON",
+      "isicCode": null,
+      "marketCapUsd": 200000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xlon-l4se8n2w/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "0005",
+      "name": "HSBC Holdings plc",
+      "exchangeMic": "XHKG",
+      "isicCode": "6419",
+      "marketCapUsd": 170000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0005-h5bc8k3q/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "HSBA",
+      "name": "HSBC Holdings plc",
+      "exchangeMic": "XLON",
+      "isicCode": "6419",
+      "marketCapUsd": 165000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-hsba-h1sb4a8q/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "0941",
+      "name": "China Mobile Limited",
+      "exchangeMic": "XHKG",
+      "isicCode": "6120",
+      "marketCapUsd": 160000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-0941-c9m14e2p/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "ULVR",
+      "name": "Unilever plc",
+      "exchangeMic": "XLON",
+      "isicCode": "1040",
+      "marketCapUsd": 125000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-ulvr-u2lv5r9s/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "6758",
+      "name": "Sony Group Corporation",
+      "exchangeMic": "XJPX",
+      "isicCode": "2640",
+      "marketCapUsd": 120000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-6758-s8ny2o6h/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "8306",
+      "name": "Mitsubishi UFJ Financial Group",
+      "exchangeMic": "XJPX",
+      "isicCode": "6419",
+      "marketCapUsd": 120000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-8306-u8fg2m6n/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "6861",
+      "name": "Keyence Corporation",
+      "exchangeMic": "XJPX",
+      "isicCode": "2651",
+      "marketCapUsd": 100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-6861-k7yc1e5l/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "9432",
+      "name": "Nippon Telegraph and Telephone",
+      "exchangeMic": "XJPX",
+      "isicCode": "6110",
+      "marketCapUsd": 100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xjpx-9432-n9tt3o7p/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "BP",
+      "name": "BP plc",
+      "exchangeMic": "XLON",
+      "isicCode": "0610",
+      "marketCapUsd": 100000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xlon-bp-b3pp6l1t/main.go"
+    },
+    {
+      "entityKind": "company",
+      "ticker": "1299",
+      "name": "AIA Group Limited",
+      "exchangeMic": "XHKG",
+      "isicCode": "6511",
+      "marketCapUsd": 85000000000,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-co-xhkg-1299-a2ia6g4k/main.go"
+    }
+  ],
+  "exchanges": [
+    {
+      "mic": "XNAS",
+      "name": "NASDAQ",
+      "marketCapUsd": 3100000000000,
+      "totalListed": 3300,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xnas-n2as4d7r/main.go"
+    },
+    {
+      "mic": "XNYS",
+      "name": "New York Stock Exchange",
+      "marketCapUsd": 3000000000000,
+      "totalListed": 2400,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xnys-x1ny5e8q/main.go"
+    },
+    {
+      "mic": "XHKG",
+      "name": "Hong Kong Stock Exchange",
+      "marketCapUsd": 450000000000,
+      "totalListed": 2600,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xhkg-h5kg3x9v/main.go"
+    },
+    {
+      "mic": "XJPX",
+      "name": "Japan Exchange Group (TSE)",
+      "marketCapUsd": 300000000000,
+      "totalListed": 3800,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xjpx-j3px6t5s/main.go"
+    },
+    {
+      "mic": "XLON",
+      "name": "London Stock Exchange",
+      "marketCapUsd": 200000000000,
+      "totalListed": 1900,
+      "sourcePath": "legacy-actor-components/etzhayyim-performer-sys-etzhayyim-actors-pba7d22f-org-exchange-xlon-l4se8n2w/main.go"
+    }
+  ]
+}

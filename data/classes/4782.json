@@ -1,0 +1,15 @@
+{
+  "code": "4782",
+  "nameEn": "Retail sale via stalls and markets of textiles, clothing and footwear",
+  "group": "478",
+  "description": "This class includes the retail sale of textiles, clothing and footwear via market stalls.",
+  "includes": [
+    "retail sale of clothing via outdoor market stalls and bazaars",
+    "retail sale of textiles via market stalls",
+    "retail sale of footwear via market stalls"
+  ],
+  "excludes": [
+    "retail sale of clothing in stores, see 4771"
+  ],
+  "implementedAt": "2026-04-16T20:30:00Z"
+}

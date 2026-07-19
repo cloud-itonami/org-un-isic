@@ -1,0 +1,15 @@
+{
+  "code": "4313",
+  "nameEn": "Test drilling and boring",
+  "group": "431",
+  "description": "This class includes test drilling and boring for construction, geophysical, geological or similar purposes.",
+  "includes": [
+    "test drilling, core drilling and boring for construction, geophysical, geological or similar purposes",
+    "drilling of water wells"
+  ],
+  "excludes": [
+    "drilling of production oil and gas wells, see 0610",
+    "mineral exploration and drilling of wells, see 0910"
+  ],
+  "implementedAt": "2026-04-16T11:50:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "code": "0143",
+  "nameEn": "Raising of camels and camelids",
+  "group": "014",
+  "description": "This class includes raising and breeding of camels (dromedary) and other camelids.",
+  "includes": [
+    "raising and breeding of camels (dromedary) and other camelids"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

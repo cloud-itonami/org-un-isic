@@ -1,0 +1,16 @@
+{
+  "code": "4781",
+  "nameEn": "Retail sale via stalls and markets of food, beverages and tobacco products",
+  "group": "478",
+  "description": "This class includes the retail sale of food, beverages and tobacco via market stalls and similar selling points.",
+  "includes": [
+    "retail sale of food via outdoor market stalls",
+    "retail sale of beverages via market stalls",
+    "retail sale of tobacco products via market stalls",
+    "operation of food markets and bazaars"
+  ],
+  "excludes": [
+    "retail sale of food in stores, see 4711, 4721"
+  ],
+  "implementedAt": "2026-04-16T20:20:00Z"
+}

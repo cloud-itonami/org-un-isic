@@ -1,0 +1,23 @@
+{
+  "code": "3319",
+  "nameEn": "Repair of other equipment",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of equipment not elsewhere classified.",
+  "includes": [
+    "repair and maintenance of fishing nets, including mending",
+    "repair of musical instruments (except pipe organs)",
+    "repair of sporting goods",
+    "repair of games and toys",
+    "repair of locks and keys",
+    "repair of office and household furniture and fixtures",
+    "repair of other equipment: medical equipment, measuring equipment used in households"
+  ],
+  "excludes": [
+    "repair of electrical household appliances, see 9522",
+    "repair of computers and peripheral equipment, see 9511",
+    "repair of consumer electronics, see 9521",
+    "repair of footwear and leather goods, see 9523",
+    "repair of clothing, see 9529"
+  ],
+  "implementedAt": "2026-04-16T08:40:00Z"
+}

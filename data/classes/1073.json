@@ -1,0 +1,19 @@
+{
+  "code": "1073",
+  "nameEn": "Manufacture of cocoa, chocolate and sugar confectionery",
+  "group": "107",
+  "description": "This class includes the manufacture of cocoa, chocolate and sugar confectionery products.",
+  "includes": [
+    "manufacture of cocoa, cocoa butter, cocoa fat and oil",
+    "manufacture of chocolate and chocolate confectionery",
+    "manufacture of sugar confectionery: caramels, cachous, nougats, fondant, white chocolate",
+    "manufacture of chewing gum",
+    "manufacture of preserves of fruit, nuts or other parts of plants by sugar"
+  ],
+  "excludes": [
+    "manufacture of sugar, see 1072",
+    "manufacture of halva and marzipan",
+    "manufacture of ice cream and other edible ice, see 1050"
+  ],
+  "implementedAt": "2026-04-15T04:10:00Z"
+}

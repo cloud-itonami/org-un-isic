@@ -1,0 +1,18 @@
+{
+  "code": "4771",
+  "nameEn": "Retail sale of clothing in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of clothing in specialised stores.",
+  "includes": [
+    "retail sale of articles of clothing: coats, jackets, trousers, dresses, skirts",
+    "retail sale of clothing accessories: scarves, ties, gloves, belts",
+    "retail sale of fur articles",
+    "retail sale of children's clothing",
+    "retail sale of baby clothes"
+  ],
+  "excludes": [
+    "retail sale of footwear and leather goods, see 4772",
+    "retail sale of sports clothing (in sports stores), see 4763"
+  ],
+  "implementedAt": "2026-04-16T18:50:00Z"
+}

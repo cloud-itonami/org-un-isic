@@ -1,0 +1,17 @@
+{
+  "code": "0144",
+  "nameEn": "Raising of sheep and goats",
+  "group": "014",
+  "description": "This class includes raising and breeding of sheep and goats, including the production of raw milk and wool.",
+  "includes": [
+    "raising and breeding of sheep and goats",
+    "production of raw sheep's or goats' milk",
+    "production of raw greasy wool"
+  ],
+  "excludes": [
+    "shearing of sheep on a contract basis, see 0162",
+    "production of pulled wool, see 1010",
+    "scouring of wool, see 1311"
+  ],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

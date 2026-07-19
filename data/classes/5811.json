@@ -1,0 +1,19 @@
+{
+  "code": "5811",
+  "nameEn": "Book publishing",
+  "group": "581",
+  "description": "This class includes the publishing of books in print and electronic form.",
+  "includes": [
+    "publishing of books: fiction, non-fiction, academic, educational, children's",
+    "publishing of atlases, maps and charts",
+    "publishing of encyclopaedias and dictionaries",
+    "publishing in digital form (e-books, PDFs)",
+    "publishing of audio books"
+  ],
+  "excludes": [
+    "publishing of directories and mailing lists, see 5812",
+    "publishing of newspapers and periodicals, see 5813",
+    "book printing, see 1811"
+  ],
+  "implementedAt": "2026-04-17T01:40:00Z"
+}

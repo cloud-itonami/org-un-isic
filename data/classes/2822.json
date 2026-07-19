@@ -1,0 +1,21 @@
+{
+  "code": "2822",
+  "nameEn": "Manufacture of metal-forming machinery and machine tools",
+  "group": "282",
+  "description": "This class includes the manufacture of machine tools for working metal and other materials, and metal-forming machinery.",
+  "includes": [
+    "manufacture of machine tools for working metal: lathes, milling machines, boring machines, drilling machines, grinding machines, honing machines, lapping machines, sharpening machines",
+    "manufacture of metal-forming machinery: forging machines, stamping machines, pressing machines, bending machines, folding machines, straightening machines",
+    "manufacture of machining centres for working metal",
+    "manufacture of machine tools for cutting, punching, shearing metal",
+    "manufacture of presses for working metal",
+    "manufacture of machines for working stone, ceramics, concrete, glass: cutting, grinding, polishing machines",
+    "manufacture of machinery for working wood, cork, bone, hard rubber, hard plastics and similar hard materials: saws, milling machines"
+  ],
+  "excludes": [
+    "manufacture of interchangeable tools for machine tools, see 2593",
+    "manufacture of electronic machine tools, see 2620",
+    "manufacture of machinery for mining, see 2824"
+  ],
+  "implementedAt": "2026-04-16T03:20:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "3311",
+  "nameEn": "Repair of fabricated metal products",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of fabricated metal products.",
+  "includes": [
+    "repair and maintenance of metal tanks, reservoirs and containers",
+    "repair and maintenance of steam generators (boilers)",
+    "repair and maintenance of weapons and ammunition",
+    "repair and maintenance of structural metal products, bridges, overhead cranes",
+    "mobile welding repair",
+    "repair of heating equipment (non-electrical)"
+  ],
+  "excludes": [
+    "repair and maintenance of mechanical locks, keys, hinges and the like, see 3319",
+    "repair of electrical machinery and apparatus, see 3314"
+  ],
+  "implementedAt": "2026-04-16T07:50:00Z"
+}

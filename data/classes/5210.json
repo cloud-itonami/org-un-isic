@@ -1,0 +1,20 @@
+{
+  "code": "5210",
+  "nameEn": "Warehousing and storage",
+  "group": "521",
+  "description": "This class includes the operation of storage and warehouse facilities.",
+  "includes": [
+    "operation of storage facilities for all types of goods: warehousing of agricultural products",
+    "cold storage and freezing warehouses",
+    "bulk liquid or gas storage",
+    "storage of automobiles",
+    "operation of grain elevators",
+    "fur storage",
+    "self storage facilities"
+  ],
+  "excludes": [
+    "parking facilities for motor vehicles, see 5221",
+    "operation of customs warehouses, see 5229"
+  ],
+  "implementedAt": "2026-04-16T23:10:00Z"
+}

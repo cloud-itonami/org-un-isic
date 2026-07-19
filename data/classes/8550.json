@@ -1,0 +1,17 @@
+{
+  "code": "8550",
+  "nameEn": "Educational support activities",
+  "group": "855",
+  "description": "This class includes the provision of non-instructional activities that support educational processes or systems.",
+  "includes": [
+    "educational consulting services",
+    "educational testing services",
+    "student exchange programs",
+    "curriculum development services",
+    "guidance counseling services"
+  ],
+  "excludes": [
+    "research on educational systems, see 7220"
+  ],
+  "implementedAt": "2026-04-17T17:40:00Z"
+}

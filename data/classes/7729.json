@@ -1,0 +1,19 @@
+{
+  "code": "7729",
+  "nameEn": "Renting and leasing of other personal and household goods",
+  "group": "772",
+  "description": "This class includes the renting of personal and household goods n.e.c.",
+  "includes": [
+    "renting of textiles, clothing and footwear",
+    "renting of furniture, pottery and glass",
+    "renting of household appliances",
+    "renting of flowers and plants",
+    "renting of books, newspapers and magazines",
+    "renting of electrical and electronic equipment for household use"
+  ],
+  "excludes": [
+    "renting of recreational goods, see 7721",
+    "renting of video tapes and discs, see 7722"
+  ],
+  "implementedAt": "2026-04-17T11:50:00Z"
+}

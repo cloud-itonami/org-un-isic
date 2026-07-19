@@ -1,0 +1,19 @@
+{
+  "code": "0810",
+  "nameEn": "Quarrying of stone, sand and clay",
+  "group": "081",
+  "description": "This class includes the extraction and processing of stone, sand, gravel, clay, and other similar materials used in construction and other industries. It includes quarrying operations and associated beneficiation activities.",
+  "includes": [
+    "quarrying of stone",
+    "extraction of sand and gravel",
+    "quarrying of clay and other minerals",
+    "crushing and screening of stone",
+    "dressing of quarry products"
+  ],
+  "excludes": [
+    "extraction of salt, see 0892",
+    "extraction of ore and concentrates, see 0710, 0721",
+    "processing of mined minerals not associated with mining, see 2399"
+  ],
+  "implementedAt": "2026-04-15T02:30:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "2811",
+  "nameEn": "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+  "group": "281",
+  "description": "This class includes the manufacture of engines and turbines, except aircraft propulsion engines, motor vehicle engines and motorcycle engines.",
+  "includes": [
+    "manufacture of internal combustion piston engines, except motor vehicle and aircraft engines",
+    "manufacture of pistons, piston rings, carburettors and such for all engines",
+    "manufacture of inlet and exhaust valves for internal combustion engines",
+    "manufacture of steam engines and turbines",
+    "manufacture of steam turbines",
+    "manufacture of hydraulic turbines and water wheels",
+    "manufacture of gas turbines, except turbojets and turboprops for aircraft propulsion",
+    "manufacture of wind engines (wind motors)",
+    "manufacture of parts for engines: crankshafts, camshafts, valves, pistons, piston rings, carburettors, inlet and exhaust manifolds"
+  ],
+  "excludes": [
+    "manufacture of electric motors, see 2710",
+    "manufacture of turbojets and turboprops for aircraft propulsion, see 3030",
+    "manufacture of motor vehicle engines, see 2910",
+    "manufacture of engines for motorcycles, see 3091"
+  ],
+  "implementedAt": "2026-04-16T01:40:00Z"
+}

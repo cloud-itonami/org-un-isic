@@ -1,0 +1,24 @@
+{
+  "code": "1629",
+  "nameEn": "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",
+  "group": "162",
+  "description": "This class includes the manufacture of other wood products and articles of cork, straw and plaiting materials not elsewhere classified.",
+  "includes": [
+    "manufacture of wooden tool handles, bodies and frames",
+    "manufacture of wooden broom and brush handles",
+    "manufacture of wooden shoe lasts and trees",
+    "manufacture of wooden clothes hangers",
+    "manufacture of wooden household utensils and kitchen articles",
+    "manufacture of wooden statuettes, ornaments, inlaid wood",
+    "manufacture of natural cork products: corks, stoppers, insulation boards",
+    "manufacture of agglomerated cork products",
+    "manufacture of plaiting materials: mats, matting, screens of bamboo, rattan and similar",
+    "manufacture of basketwork and wickerwork"
+  ],
+  "excludes": [
+    "manufacture of wooden furniture, see 3100",
+    "manufacture of matches, see 2029",
+    "manufacture of wooden toys, see 3240"
+  ],
+  "implementedAt": "2026-04-15T09:10:00Z"
+}

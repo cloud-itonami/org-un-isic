@@ -1,0 +1,18 @@
+{
+  "code": "7721",
+  "nameEn": "Renting and leasing of recreational and sports goods",
+  "group": "772",
+  "description": "This class includes the renting of recreational and sports goods.",
+  "includes": [
+    "renting of bicycles",
+    "renting of sports equipment",
+    "renting of skis and snowboards",
+    "renting of pleasure boats",
+    "renting of surfboards and canoes"
+  ],
+  "excludes": [
+    "renting of videos and discs, see 7722",
+    "renting of books, see 7722"
+  ],
+  "implementedAt": "2026-04-17T11:30:00Z"
+}

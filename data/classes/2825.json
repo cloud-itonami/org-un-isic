@@ -1,0 +1,23 @@
+{
+  "code": "2825",
+  "nameEn": "Manufacture of machinery for food, beverage and tobacco processing",
+  "group": "282",
+  "description": "This class includes the manufacture of machinery used in the processing of food, beverages and tobacco.",
+  "includes": [
+    "manufacture of machinery for the preparation of meat, fish, vegetables and similar food products",
+    "manufacture of bakery ovens and other machinery for the preparation of baked goods",
+    "manufacture of machinery for the manufacture of confectionery, cocoa products, chocolate",
+    "manufacture of machinery for the industrial preparation of beverages",
+    "manufacture of machinery for the preparation of tobacco and tobacco products",
+    "manufacture of dairy machinery: machinery for processing milk, butter, cheese",
+    "manufacture of machinery for the industrial preparation of food fats and oils",
+    "manufacture of grain milling machinery",
+    "manufacture of presses, crushers and similar machinery for making wine, cider, fruit juices",
+    "manufacture of agricultural dryers for fruits, vegetables and nuts"
+  ],
+  "excludes": [
+    "manufacture of domestic kitchen appliances, see 2750",
+    "manufacture of packaging machinery, see 2819"
+  ],
+  "implementedAt": "2026-04-16T03:50:00Z"
+}

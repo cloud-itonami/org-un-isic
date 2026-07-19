@@ -1,0 +1,19 @@
+{
+  "code": "2823",
+  "nameEn": "Manufacture of machinery for metallurgy",
+  "group": "282",
+  "description": "This class includes the manufacture of machines and equipment used in metallurgical processes.",
+  "includes": [
+    "manufacture of converters, ingot moulds, ladles, casting machines for metallurgical use",
+    "manufacture of metal-rolling mills and rolls for such mills",
+    "manufacture of machines for drawing metal wire",
+    "manufacture of machines for extruding metal",
+    "manufacture of furnaces for ore treatment and iron, steel or other metal processing"
+  ],
+  "excludes": [
+    "manufacture of electric furnaces, see 2710",
+    "manufacture of industrial furnaces not for metallurgical use, see 2815",
+    "manufacture of machine tools for working metal, see 2822"
+  ],
+  "implementedAt": "2026-04-16T03:30:00Z"
+}

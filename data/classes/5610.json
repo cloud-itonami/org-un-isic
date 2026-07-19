@@ -1,0 +1,20 @@
+{
+  "code": "5610",
+  "nameEn": "Restaurants and mobile food service activities",
+  "group": "561",
+  "description": "This class includes the provision of food services to customers, whether they are served while seated or serve themselves from a display of items.",
+  "includes": [
+    "restaurants and cafes: full-service and limited-service food service",
+    "fast-food restaurants: hamburger, pizza, etc.",
+    "cafeterias and self-service restaurants",
+    "food stalls: stands, carts, food trucks",
+    "mobile food services: catering vans, food trucks",
+    "preparation and serving of meals from railway dining cars",
+    "ice cream parlours"
+  ],
+  "excludes": [
+    "event catering, see 5621",
+    "preparation of food for takeaway (restaurants that primarily sell takeaway), see 5610"
+  ],
+  "implementedAt": "2026-04-17T01:00:00Z"
+}

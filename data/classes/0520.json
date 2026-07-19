@@ -1,0 +1,16 @@
+{
+  "code": "0520",
+  "nameEn": "Mining of lignite",
+  "group": "052",
+  "description": "This class includes mining of lignite (brown coal): underground or open-cast mining, cleaning, dewatering, pulverizing, compressing (e.g. briquetting) and other non-agglomeration processes to improve quality or facilitate transport or storage of lignite.",
+  "includes": [
+    "mining of lignite (brown coal): underground and open-cast mining",
+    "agglomeration of lignite"
+  ],
+  "excludes": [
+    "support activities for coal mining, see 0990",
+    "manufacture of peat products, see 0892",
+    "liquefaction of lignite, see 1910"
+  ],
+  "implementedAt": "2026-04-15T02:00:00Z"
+}

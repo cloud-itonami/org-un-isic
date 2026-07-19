@@ -1,0 +1,21 @@
+{
+  "code": "4610",
+  "nameEn": "Wholesale on a fee or contract basis",
+  "group": "461",
+  "description": "This class includes the activities of commission agents, commodity brokers and all other wholesalers who trade on behalf of others.",
+  "includes": [
+    "activities of commission agents, commodity brokers and all other wholesalers who trade on behalf of others",
+    "activities of agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+    "activities of agents involved in the sale of fuels, ores, metals and industrial chemicals",
+    "activities of agents involved in the sale of food, beverages and tobacco",
+    "activities of agents involved in the sale of textile clothing, footwear and leather goods",
+    "activities of agents involved in the sale of timber and building materials",
+    "activities of agents involved in the sale of machinery, industrial equipment, ships and aircraft"
+  ],
+  "excludes": [
+    "activities of insurance agents, see 6622",
+    "activities of real estate agents, see 6820",
+    "activities of employment agencies, see 7810"
+  ],
+  "implementedAt": "2026-04-16T13:30:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "2030",
+  "nameEn": "Manufacture of man-made fibres",
+  "group": "203",
+  "description": "This class includes the manufacture of man-made fibres.",
+  "includes": [
+    "manufacture of synthetic fibres and yarn: acrylic, polyamide, polyester, polypropylene fibres and yarn",
+    "manufacture of synthetic staple fibres",
+    "manufacture of synthetic filament tow",
+    "manufacture of cellulosic man-made fibres and yarn: viscose, modal, lyocell, cupro",
+    "manufacture of cellulosic staple fibres",
+    "manufacture of cellulosic filament tow",
+    "manufacture of high-tenacity yarn from synthetic materials"
+  ],
+  "excludes": [
+    "spinning of synthetic or artificial fibres, see 1311",
+    "manufacture of glass fibres, see 2310",
+    "manufacture of synthetic rubber in primary forms, see 2013"
+  ],
+  "implementedAt": "2026-04-15T11:50:00Z"
+}

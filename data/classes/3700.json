@@ -1,0 +1,17 @@
+{
+  "code": "3700",
+  "nameEn": "Sewerage",
+  "group": "370",
+  "description": "This class includes the operation of sewer systems or sewage treatment facilities that collect, treat, and dispose of sewage.",
+  "includes": [
+    "operation of sewer systems",
+    "collecting and treating sewage by means of sewage farms, sewage lagoons, sewage treatment plants",
+    "maintenance of sewer mains",
+    "emptying and cleaning of cesspools and septic tanks, sinks and pits"
+  ],
+  "excludes": [
+    "remediation of contaminated sites, see 3900",
+    "construction of sewer systems, see 4220"
+  ],
+  "implementedAt": "2026-04-16T09:40:00Z"
+}

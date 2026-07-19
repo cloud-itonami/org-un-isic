@@ -1,0 +1,20 @@
+{
+  "code": "6619",
+  "nameEn": "Other activities auxiliary to financial service activities, except insurance and pension funding",
+  "group": "661",
+  "description": "This class includes other financial auxiliary activities not elsewhere classified.",
+  "includes": [
+    "financial transaction processing and settlement activities",
+    "activities of investment advisers",
+    "activities of financial brokerage",
+    "mortgage advisory services",
+    "financial counselling activities",
+    "safekeeping and custody of financial instruments"
+  ],
+  "excludes": [
+    "administration of financial markets, see 6611",
+    "security and commodity contracts dealing activities, see 6612",
+    "activities auxiliary to insurance and pension funding, see 662"
+  ],
+  "implementedAt": "2026-04-17T07:50:00Z"
+}

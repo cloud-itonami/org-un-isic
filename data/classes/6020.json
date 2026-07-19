@@ -1,0 +1,18 @@
+{
+  "code": "6020",
+  "nameEn": "Television programming and broadcasting activities",
+  "group": "602",
+  "description": "This class includes the broadcasting of visual content to the public.",
+  "includes": [
+    "operation of television studios and facilities for the transmission of television programmes",
+    "activities of television broadcasting stations: terrestrial, cable, satellite, internet",
+    "activities of pay television operators",
+    "operation of television channels (public and private)"
+  ],
+  "excludes": [
+    "radio broadcasting, see 6010",
+    "production of television programmes, see 5911",
+    "telecommunications activities, see 6110-6190"
+  ],
+  "implementedAt": "2026-04-17T03:30:00Z"
+}

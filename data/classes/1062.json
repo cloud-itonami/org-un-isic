@@ -1,0 +1,19 @@
+{
+  "code": "1062",
+  "nameEn": "Manufacture of starches and starch products",
+  "group": "106",
+  "description": "This class includes the wet milling of corn and other cereals to produce starch and starch derivatives, glucose and glucose syrups, gluten and gluten feed.",
+  "includes": [
+    "manufacture of starches: corn starch, potato starch, tapioca starch, wheat starch, etc.",
+    "manufacture of glucose, glucose syrup, maltose, inulin",
+    "manufacture of gluten",
+    "manufacture of tapioca and tapioca substitutes prepared from starch",
+    "wet corn milling"
+  ],
+  "excludes": [
+    "manufacture of grain mill products, see 1061",
+    "manufacture of lactose, see 1050",
+    "manufacture of sugar, see 1072"
+  ],
+  "implementedAt": "2026-04-15T03:40:00Z"
+}

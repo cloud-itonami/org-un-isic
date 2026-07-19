@@ -1,0 +1,18 @@
+{
+  "code": "5819",
+  "nameEn": "Other publishing activities",
+  "group": "581",
+  "description": "This class includes the publishing of other items not elsewhere classified.",
+  "includes": [
+    "publishing of catalogues, prospectuses",
+    "publishing of greeting cards",
+    "publishing of forms",
+    "publishing of timetables, posters",
+    "publishing of photos, engravings and postcards"
+  ],
+  "excludes": [
+    "publishing of books, see 5811",
+    "publishing of newspapers and periodicals, see 5813"
+  ],
+  "implementedAt": "2026-04-17T02:10:00Z"
+}

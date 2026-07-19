@@ -1,0 +1,11 @@
+{
+  "code": "0124",
+  "nameEn": "Growing of pome fruits and stone fruits",
+  "group": "012",
+  "description": "This class includes the growing of pome fruits and stone fruits.",
+  "includes": [
+    "growing of pome fruits and stone fruits: apples; apricots; cherries and sour cherries; peaches and nectarines; pears and quinces; plums and sloes; other pome fruits and stone fruits"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

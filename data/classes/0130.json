@@ -1,0 +1,17 @@
+{
+  "code": "0130",
+  "nameEn": "Plant propagation",
+  "group": "013",
+  "description": "This class includes the production of all vegetative planting materials including cuttings, suckers and seedlings for direct plant propagation or to create plant grafting stock into which selected scion is grafted for eventual planting to produce crops.",
+  "includes": [
+    "growing of plants for planting",
+    "growing of plants for ornamental purposes, including turf for transplanting",
+    "growing of live plants for bulbs, tubers and roots; cuttings and slips; mushroom spawn",
+    "operation of tree nurseries, except forest tree nurseries"
+  ],
+  "excludes": [
+    "growing of plants for the purpose of fibre extraction, see 0116",
+    "operation of forest tree nurseries, see 0210"
+  ],
+  "implementedAt": "2026-04-15T00:20:00Z"
+}

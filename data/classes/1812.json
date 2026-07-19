@@ -1,0 +1,19 @@
+{
+  "code": "1812",
+  "nameEn": "Service activities related to printing",
+  "group": "181",
+  "description": "This class includes service activities related to printing such as bookbinding, plate-making and data imaging.",
+  "includes": [
+    "bookbinding, folding, cutting, assembling printed matter",
+    "plate-making services: typesetting, photocomposition, image-setting, scanning",
+    "preparation of digital files for printing",
+    "manufacture of printing plates and cylinders",
+    "embossing, varnishing, lamination of printed matter",
+    "engraving services"
+  ],
+  "excludes": [
+    "printing, see 1811",
+    "reproduction of recorded media, see 1820"
+  ],
+  "implementedAt": "2026-04-15T10:00:00Z"
+}

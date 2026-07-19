@@ -1,0 +1,19 @@
+{
+  "code": "4641",
+  "nameEn": "Wholesale of textiles, clothing and footwear",
+  "group": "464",
+  "description": "This class includes the wholesale of textiles, clothing and footwear.",
+  "includes": [
+    "wholesale of yarn, fabrics and household textiles",
+    "wholesale of haberdashery: needles, sewing thread, etc.",
+    "wholesale of clothing, including sportswear",
+    "wholesale of clothing accessories: gloves, ties, braces",
+    "wholesale of fur articles",
+    "wholesale of umbrellas",
+    "wholesale of footwear"
+  ],
+  "excludes": [
+    "wholesale of leather goods and travel accessories, see 4649"
+  ],
+  "implementedAt": "2026-04-16T14:00:00Z"
+}

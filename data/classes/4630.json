@@ -1,0 +1,22 @@
+{
+  "code": "4630",
+  "nameEn": "Wholesale of food, beverages and tobacco",
+  "group": "463",
+  "description": "This class includes the wholesale of food, beverages and tobacco products.",
+  "includes": [
+    "wholesale of dairy products, eggs and edible oils and fats",
+    "wholesale of meat and meat products",
+    "wholesale of fish, crustaceans and molluscs and other aquatic products",
+    "wholesale of fruit and vegetables",
+    "wholesale of sugar, chocolate and sugar confectionery",
+    "wholesale of coffee, tea, cocoa and spices",
+    "wholesale of other food: bread, bakery, pastry and confectionery products",
+    "wholesale of beverages: spirits, wine, beer, soft drinks, fruit juices",
+    "wholesale of tobacco products",
+    "wholesale of canned and dry goods"
+  ],
+  "excludes": [
+    "wholesale of agricultural raw materials, see 4620"
+  ],
+  "implementedAt": "2026-04-16T13:50:00Z"
+}

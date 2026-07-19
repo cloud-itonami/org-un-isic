@@ -1,0 +1,18 @@
+{
+  "code": "0116",
+  "nameEn": "Growing of fibre crops",
+  "group": "011",
+  "description": "This class includes the growing of fibre crops such as cotton, jute, flax and hemp.",
+  "includes": [
+    "growing of cotton",
+    "growing of jute, kenaf, and other textile bast fibres",
+    "growing of flax and true hemp",
+    "growing of sisal and other textile fibre of the genus agave",
+    "growing of manila hemp, ramie and other vegetable textile fibres",
+    "growing of other fibre crops"
+  ],
+  "excludes": [
+    "retting of plants bearing textile fibres, see 1311"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

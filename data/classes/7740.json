@@ -1,0 +1,18 @@
+{
+  "code": "7740",
+  "nameEn": "Leasing of intellectual property and similar products, except copyrighted works",
+  "group": "774",
+  "description": "This class includes the activities of establishing the right to use intellectual property assets such as patents, trademarks, brand names, and franchise agreements.",
+  "includes": [
+    "granting of licenses for the right to use patented technology",
+    "trademark licensing",
+    "granting of brand name licensing",
+    "franchise agreements",
+    "payment of royalties and licensing fees"
+  ],
+  "excludes": [
+    "acquiring and selling of rights, see 7490",
+    "copyright buying and selling, see 5911 to 5920"
+  ],
+  "implementedAt": "2026-04-17T12:10:00Z"
+}

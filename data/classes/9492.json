@@ -1,0 +1,16 @@
+{
+  "code": "9492",
+  "nameEn": "Activities of political organizations",
+  "group": "949",
+  "description": "This class includes the activities of political organizations and auxiliary organizations such as young people's leagues.",
+  "includes": [
+    "activities of political parties",
+    "activities of political lobby groups",
+    "activities of political organizations' youth wings"
+  ],
+  "excludes": [
+    "activities of religious organizations, see 9491",
+    "activities of other membership organizations, see 9499"
+  ],
+  "implementedAt": "2026-04-17T21:40:00Z"
+}

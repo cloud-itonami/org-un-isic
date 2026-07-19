@@ -1,0 +1,17 @@
+{
+  "code": "8720",
+  "nameEn": "Residential care activities for mental retardation, mental health and substance abuse",
+  "group": "872",
+  "description": "This class includes the provision of residential care for persons with intellectual disabilities, mental health issues or substance abuse problems.",
+  "includes": [
+    "residential care for people with intellectual disabilities",
+    "residential mental health care",
+    "residential substance abuse treatment",
+    "group homes for the intellectually disabled"
+  ],
+  "excludes": [
+    "residential nursing care, see 8710",
+    "outpatient mental health treatment, see 8690"
+  ],
+  "implementedAt": "2026-04-17T18:30:00Z"
+}

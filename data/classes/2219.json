@@ -1,0 +1,27 @@
+{
+  "code": "2219",
+  "nameEn": "Manufacture of other rubber products",
+  "group": "221",
+  "description": "This class includes the manufacture of other products of natural or synthetic rubber, unvulcanised, vulcanised or hardened.",
+  "includes": [
+    "manufacture of rubber gloves",
+    "manufacture of rubber tubes, pipes and hoses",
+    "manufacture of rubber conveyor or transmission belts",
+    "manufacture of rubber coated textiles",
+    "manufacture of rubber floor coverings and mats",
+    "manufacture of rubber gaskets, packing and sealing devices",
+    "manufacture of rubber latex thread and cord",
+    "manufacture of foam rubber and articles thereof",
+    "manufacture of hard rubber (ebonite) in any form",
+    "manufacture of rubber articles for medical, pharmaceutical, hygienic or toiletry use",
+    "manufacture of rubber clothing",
+    "manufacture of other rubber products: inflatable rubber mattresses, life-jackets, erasers, teats, hot-water bottles"
+  ],
+  "excludes": [
+    "manufacture of synthetic rubber in primary forms, see 2013",
+    "manufacture of rubber tyres, see 2211",
+    "manufacture of sport goods of rubber, see 3230",
+    "manufacture of games and toys of rubber, see 3240"
+  ],
+  "implementedAt": "2026-04-15T12:20:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "1104",
+  "nameEn": "Manufacture of soft drinks; production of mineral waters and other bottled waters",
+  "group": "110",
+  "description": "This class includes the manufacture of non-alcoholic beverages, including bottled water, soft drinks, fruit juices and other non-alcoholic drinks.",
+  "includes": [
+    "production of natural mineral water and other bottled waters",
+    "manufacture of soft drinks: lemonades, colas, fruit-flavoured drinks",
+    "manufacture of energy drinks and sports drinks",
+    "manufacture of ready-to-drink teas and coffees",
+    "manufacture of syrups and concentrates for soft drinks"
+  ],
+  "excludes": [
+    "manufacture of fruit and vegetable juices, see 1030",
+    "manufacture of milk-based drinks, see 1050",
+    "manufacture of wine, cider and other fermented beverages, see 1102",
+    "manufacture of beer, see 1103",
+    "manufacture of distilled spirits, see 1101"
+  ],
+  "implementedAt": "2026-04-15T05:30:00Z"
+}

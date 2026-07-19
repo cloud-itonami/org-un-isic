@@ -1,0 +1,18 @@
+{
+  "code": "6530",
+  "nameEn": "Pension funding",
+  "group": "653",
+  "description": "This class includes the establishment, management and administration of pension funds, except compulsory social security.",
+  "includes": [
+    "employer and employee-funded pension plans",
+    "defined benefit pension funds",
+    "defined contribution pension funds",
+    "individual retirement savings plans"
+  ],
+  "excludes": [
+    "compulsory social security schemes, see 8430",
+    "fund management activities, see 6630",
+    "activities of life insurance companies offering annuities, see 6511"
+  ],
+  "implementedAt": "2026-04-17T07:20:00Z"
+}

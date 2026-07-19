@@ -1,0 +1,17 @@
+{
+  "code": "6622",
+  "nameEn": "Activities of insurance agents and brokers",
+  "group": "662",
+  "description": "This class includes activities of insurance agents and brokers (insurance intermediaries) in selling, negotiating or soliciting of annuities and insurance and reinsurance policies.",
+  "includes": [
+    "activities of insurance agents",
+    "activities of insurance brokers",
+    "activities of reinsurance brokers",
+    "independent insurance advisors"
+  ],
+  "excludes": [
+    "risk and damage evaluation, see 6621",
+    "other activities auxiliary to insurance, see 6629"
+  ],
+  "implementedAt": "2026-04-17T08:10:00Z"
+}

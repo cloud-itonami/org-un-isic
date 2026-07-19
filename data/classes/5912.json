@@ -1,0 +1,18 @@
+{
+  "code": "5912",
+  "nameEn": "Motion picture, video and television programme post-production activities",
+  "group": "591",
+  "description": "This class includes post-production activities such as editing, special effects and other post-production activities.",
+  "includes": [
+    "film editing, cutting and recutting",
+    "adding of subtitles and dubbing",
+    "special effects production",
+    "film sound editing, mixing and sound effects",
+    "animation and computer-generated imagery (CGI)",
+    "film restoration and archive activities"
+  ],
+  "excludes": [
+    "production of motion pictures, see 5911"
+  ],
+  "implementedAt": "2026-04-17T02:40:00Z"
+}

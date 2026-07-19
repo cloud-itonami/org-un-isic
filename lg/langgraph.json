@@ -1,0 +1,17 @@
+{
+  "$comment": "LangGraph Server config — open-isic.etzhayyim.com (ISIC Rev.4 classification runtime). Graphs: classify_entity + hierarchical_classify.",
+  "dependencies": ["./lg_open_isic", "../../../40-engine/kotoba/crates/kotoba-kotodama/py"],
+  "graphs": {
+    "health":               "./lg_open_isic/graphs/health.py:GRAPH",
+    "classify_entity":      "./lg_open_isic/graphs/classify_entity.py:GRAPH",
+    "hierarchical_classify": "./lg_open_isic/graphs/hierarchical_classify.py:GRAPH"
+  },
+  "env": ".env",
+  "python_version": "3.11",
+  "checkpointer": {
+    "type": "postgres",
+    "$comment": "RW PG :4566 direct via _RwAsyncPostgresSaver subclass.",
+    "conn_str_env": "RW_URL"
+  },
+  "crons": []
+}

@@ -1,0 +1,22 @@
+{
+  "code": "9499",
+  "nameEn": "Activities of other membership organizations n.e.c.",
+  "group": "949",
+  "description": "This class includes the activities of other membership organizations not elsewhere classified.",
+  "includes": [
+    "activities of associations for the pursuit of a cultural or recreational activity",
+    "activities of patriotic organizations",
+    "activities of consumer organizations",
+    "activities of youth organizations",
+    "activities of parent-teacher associations",
+    "activities of human rights organizations"
+  ],
+  "excludes": [
+    "activities of business organizations, see 9411",
+    "activities of professional organizations, see 9412",
+    "activities of trade unions, see 9420",
+    "activities of religious organizations, see 9491",
+    "activities of political organizations, see 9492"
+  ],
+  "implementedAt": "2026-04-17T21:50:00Z"
+}

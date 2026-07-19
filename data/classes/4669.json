@@ -1,0 +1,18 @@
+{
+  "code": "4669",
+  "nameEn": "Wholesale of other products n.e.c.",
+  "group": "466",
+  "description": "This class includes the wholesale of other products not elsewhere classified.",
+  "includes": [
+    "wholesale of waste and scrap",
+    "wholesale of waste paper, cardboard, metals, plastics for recycling",
+    "wholesale of jewelry, watches and clocks",
+    "wholesale of sporting goods",
+    "wholesale of toys and games",
+    "wholesale of other products: bicycles, stamps, pets"
+  ],
+  "excludes": [
+    "collection and disposal of waste, see 3811-3830"
+  ],
+  "implementedAt": "2026-04-16T15:50:00Z"
+}

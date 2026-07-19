@@ -1,0 +1,17 @@
+{
+  "code": "8020",
+  "nameEn": "Security systems service activities",
+  "group": "802",
+  "description": "This class includes the selling, installing, repairing and maintaining of security systems such as burglar and fire alarms.",
+  "includes": [
+    "installation and maintenance of security systems",
+    "monitoring of electronic security systems such as burglar and fire alarms",
+    "closed circuit television (CCTV) installation and monitoring",
+    "cybersecurity services"
+  ],
+  "excludes": [
+    "private security activities, see 8010",
+    "investigation activities, see 8030"
+  ],
+  "implementedAt": "2026-04-17T13:30:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "code": "5110",
+  "nameEn": "Passenger air transport",
+  "group": "511",
+  "description": "This class includes the transport of passengers by air.",
+  "includes": [
+    "carriage of passengers by air: scheduled and non-scheduled flights",
+    "charter flights carrying passengers",
+    "operation of domestic and international airlines"
+  ],
+  "excludes": [
+    "freight air transport, see 5120",
+    "rental of aircraft with operating crew, see 5110 (same class)",
+    "activities of airports, see 5223"
+  ],
+  "implementedAt": "2026-04-16T22:50:00Z"
+}

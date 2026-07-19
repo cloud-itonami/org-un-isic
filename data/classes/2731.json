@@ -1,0 +1,16 @@
+{
+  "code": "2731",
+  "nameEn": "Manufacture of fibre optic cables",
+  "group": "273",
+  "description": "This class includes the manufacture of fibre optic cables for data transmission or live transmission of images.",
+  "includes": [
+    "manufacture of optical fibre cables made up of individual fibres",
+    "manufacture of fibre optic cable for telecommunications",
+    "manufacture of fibre optic cable for data transmission"
+  ],
+  "excludes": [
+    "manufacture of optical fibre cables for the transmission of images (not data or telecommunications), see 2670",
+    "manufacture of glass fibres, see 2310"
+  ],
+  "implementedAt": "2026-04-16T00:50:00Z"
+}

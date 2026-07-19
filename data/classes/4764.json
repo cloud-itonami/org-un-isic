@@ -1,0 +1,16 @@
+{
+  "code": "4764",
+  "nameEn": "Retail sale of games and toys in specialised stores",
+  "group": "476",
+  "description": "This class includes the retail sale of games and toys in specialised stores.",
+  "includes": [
+    "retail sale of toys of all kinds: dolls, toy cars, construction sets",
+    "retail sale of board games and card games",
+    "retail sale of video games: consoles, controllers, game software",
+    "retail sale of hobbies: model kits, puzzles, craft supplies"
+  ],
+  "excludes": [
+    "retail sale of sporting equipment, see 4763"
+  ],
+  "implementedAt": "2026-04-16T18:40:00Z"
+}

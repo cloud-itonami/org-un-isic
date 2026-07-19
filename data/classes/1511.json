@@ -1,0 +1,19 @@
+{
+  "code": "1511",
+  "nameEn": "Tanning and dressing of leather; dressing and dyeing of fur",
+  "group": "151",
+  "description": "This class includes the tanning, dyeing and dressing of hides and skins, and the dressing and dyeing of fur skins.",
+  "includes": [
+    "tanning, dyeing and dressing of hides and skins",
+    "manufacture of leather: patent leather, chamois leather",
+    "dressing and dyeing of fur skins",
+    "manufacture of composition leather"
+  ],
+  "excludes": [
+    "production of hides and skins, see 0110, 0140, 0150",
+    "manufacture of leather apparel, see 1410",
+    "manufacture of fur apparel, see 1420",
+    "manufacture of footwear, see 1520"
+  ],
+  "implementedAt": "2026-04-15T08:00:00Z"
+}

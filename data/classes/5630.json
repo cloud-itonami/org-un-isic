@@ -1,0 +1,17 @@
+{
+  "code": "5630",
+  "nameEn": "Beverage serving activities",
+  "group": "563",
+  "description": "This class includes the preparation and serving of beverages for immediate consumption on the premises.",
+  "includes": [
+    "operation of bars, pubs and taverns",
+    "operation of nightclubs and discotheques",
+    "operation of cocktail lounges",
+    "serving of beverages in theatres, sports arenas and other establishments",
+    "operation of refreshment stands"
+  ],
+  "excludes": [
+    "serving of food and beverages together in restaurants, see 5610"
+  ],
+  "implementedAt": "2026-04-17T01:30:00Z"
+}

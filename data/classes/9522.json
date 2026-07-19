@@ -1,0 +1,18 @@
+{
+  "code": "9522",
+  "nameEn": "Repair of household appliances and home and garden equipment",
+  "group": "952",
+  "description": "This class includes the repair and maintenance of household appliances and home and garden equipment.",
+  "includes": [
+    "repair of washing machines, dryers and dishwashers",
+    "repair of refrigerators and freezers",
+    "repair of air conditioners and heating equipment",
+    "repair of lawn mowers and other garden equipment",
+    "repair of vacuum cleaners and small appliances"
+  ],
+  "excludes": [
+    "repair of consumer electronics, see 9521",
+    "industrial machinery repair, see 3312"
+  ],
+  "implementedAt": "2026-04-17T22:30:00Z"
+}

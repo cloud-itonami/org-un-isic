@@ -1,0 +1,16 @@
+{
+  "code": "1103",
+  "nameEn": "Manufacture of malt liquors and malt",
+  "group": "110",
+  "description": "This class includes the manufacture of beer, ale, porter, stout and other malt liquors, and the manufacture of malt.",
+  "includes": [
+    "manufacture of beer, ale, porter and stout",
+    "manufacture of low-alcohol and non-alcoholic beer",
+    "manufacture of malt"
+  ],
+  "excludes": [
+    "manufacture of distilled spirits, see 1101",
+    "manufacture of wines and cider, see 1102"
+  ],
+  "implementedAt": "2026-04-15T05:20:00Z"
+}

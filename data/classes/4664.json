@@ -1,0 +1,17 @@
+{
+  "code": "4664",
+  "nameEn": "Wholesale of professional and scientific equipment",
+  "group": "466",
+  "description": "This class includes the wholesale of professional, scientific and precision instruments and equipment.",
+  "includes": [
+    "wholesale of professional and scientific instruments: measuring, testing, navigation, control instruments",
+    "wholesale of medical and surgical instruments and supplies",
+    "wholesale of optical instruments and photographic equipment",
+    "wholesale of dental instruments and supplies"
+  ],
+  "excludes": [
+    "wholesale of computers and peripherals, see 4651",
+    "wholesale of electronic components, see 4652"
+  ],
+  "implementedAt": "2026-04-16T15:30:00Z"
+}

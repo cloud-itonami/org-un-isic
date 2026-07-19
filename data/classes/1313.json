@@ -1,0 +1,18 @@
+{
+  "code": "1313",
+  "nameEn": "Finishing of textiles",
+  "group": "131",
+  "description": "This class includes bleaching, dyeing, dressing, finishing and similar work on yarns, woven fabrics and other textile articles.",
+  "includes": [
+    "bleaching and dyeing of textile fibres, yarns, woven fabrics and other textile articles",
+    "dressing, finishing, treating of textile fabrics",
+    "printing on textiles and clothing",
+    "waterproofing, stonewashing and other finishing treatments"
+  ],
+  "excludes": [
+    "spinning of textile fibres, see 1311",
+    "weaving of textiles, see 1312",
+    "laundering and dry-cleaning, see 9601"
+  ],
+  "implementedAt": "2026-04-15T06:10:00Z"
+}

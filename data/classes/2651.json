@@ -1,0 +1,30 @@
+{
+  "code": "2651",
+  "nameEn": "Manufacture of measuring, testing, navigating and control equipment",
+  "group": "265",
+  "description": "This class includes the manufacture of instruments and apparatus for measuring, testing, navigating and controlling.",
+  "includes": [
+    "manufacture of aircraft engine instruments",
+    "manufacture of automotive emissions testing equipment",
+    "manufacture of meteorological instruments",
+    "manufacture of physical, chemical properties testing and measuring apparatus",
+    "manufacture of equipment for measuring temperature, humidity, pressure, radiation etc.",
+    "manufacture of instruments for measuring or checking electrical quantities",
+    "manufacture of instruments for measuring or detecting ionising radiations",
+    "manufacture of scales, balances and weighing machines",
+    "manufacture of navigating instruments: compasses, sextants, navigating computers",
+    "manufacture of GPS devices",
+    "manufacture of surveying instruments: theodolites, photogrammetric instruments, levels",
+    "manufacture of metering equipment: water meters, gas meters, electricity meters",
+    "manufacture of process control instruments",
+    "manufacture of laboratory analytical instruments",
+    "manufacture of medical diagnostic imaging equipment: MRI, CT, ultrasound",
+    "manufacture of electro-diagnostic apparatus: ECG, EEG"
+  ],
+  "excludes": [
+    "manufacture of watches and clocks, see 2652",
+    "manufacture of spectacles and lenses, see 3250",
+    "manufacture of irradiation equipment, see 2660"
+  ],
+  "implementedAt": "2026-04-15T16:40:00Z"
+}

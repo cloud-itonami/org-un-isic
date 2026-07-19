@@ -1,0 +1,17 @@
+{
+  "code": "3091",
+  "nameEn": "Manufacture of motorcycles",
+  "group": "309",
+  "description": "This class includes the manufacture of motorcycles, mopeds and motorised cycles of all kinds.",
+  "includes": [
+    "manufacture of motorcycles, mopeds and motorised bicycles",
+    "manufacture of engines for motorcycles",
+    "manufacture of sidecars",
+    "manufacture of parts and accessories for motorcycles: dynamos, wheels, brakes"
+  ],
+  "excludes": [
+    "manufacture of bicycles, see 3092",
+    "manufacture of invalid carriages, see 3092"
+  ],
+  "implementedAt": "2026-04-16T05:40:00Z"
+}

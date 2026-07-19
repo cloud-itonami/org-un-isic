@@ -1,0 +1,19 @@
+{
+  "code": "1512",
+  "nameEn": "Manufacture of luggage, handbags and the like, saddlery and harness",
+  "group": "151",
+  "description": "This class includes the manufacture of luggage, handbags and similar articles of leather, composition leather, plastic sheeting, textile materials, vulcanized fibre or paperboard, and the manufacture of saddlery and harness.",
+  "includes": [
+    "manufacture of travel goods: trunks, suitcases, vanity cases, executive cases, briefcases, school satchels",
+    "manufacture of handbags, shopping bags, wallets, purses, map cases, key pouches",
+    "manufacture of saddlery and harness for any animal",
+    "manufacture of dog leads, collars and muzzles",
+    "manufacture of other leather goods: belts, watchstraps, leather parts of safety equipment"
+  ],
+  "excludes": [
+    "manufacture of leather apparel, see 1410",
+    "manufacture of leather footwear, see 1520",
+    "manufacture of saddles for bicycles, see 3092"
+  ],
+  "implementedAt": "2026-04-15T08:10:00Z"
+}

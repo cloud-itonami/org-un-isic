@@ -1,0 +1,20 @@
+{
+  "code": "1072",
+  "nameEn": "Manufacture of sugar",
+  "group": "107",
+  "description": "This class includes the manufacture of raw sugar, refined sugar, powdered sugar, syrup and molasses from sugar cane, sugar beets, maple sap and other sources.",
+  "includes": [
+    "manufacture of raw sugar from sugar cane or sugar beet",
+    "manufacture of refined cane or beet sugar in solid form",
+    "manufacture of powdered and icing sugar",
+    "manufacture of sugar syrups and molasses",
+    "manufacture of maple syrup and sugar",
+    "manufacture of glucose and glucose syrup from sugar"
+  ],
+  "excludes": [
+    "manufacture of glucose, glucose syrup from starch, see 1062",
+    "manufacture of artificial sweeteners, see 2029",
+    "manufacture of sugar confectionery, see 1073"
+  ],
+  "implementedAt": "2026-04-15T04:00:00Z"
+}

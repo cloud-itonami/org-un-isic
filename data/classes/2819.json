@@ -1,0 +1,26 @@
+{
+  "code": "2819",
+  "nameEn": "Manufacture of other general-purpose machinery",
+  "group": "281",
+  "description": "This class includes the manufacture of general-purpose machinery not elsewhere classified.",
+  "includes": [
+    "manufacture of weighing machinery: non-domestic scales, platform scales, scales for continuous weighing, weighbridges, weights",
+    "manufacture of filtering and purifying machinery for liquids and gases: industrial filtering and purifying equipment for water, beverages, oil, gas",
+    "manufacture of industrial refrigerating and air conditioning equipment: refrigerating and freezing equipment for industrial uses, air conditioning machines",
+    "manufacture of non-domestic fans",
+    "manufacture of centrifuges",
+    "manufacture of distilling or rectifying plant",
+    "manufacture of heat exchangers",
+    "manufacture of machinery for liquefying air or gas",
+    "manufacture of gaskets and similar joints made of metal foil",
+    "manufacture of automatic vending machines: food and beverage dispensers, ATM machines not elsewhere classified",
+    "manufacture of packaging machinery: machinery for filling, sealing, wrapping, labelling"
+  ],
+  "excludes": [
+    "manufacture of domestic refrigerators and freezers, see 2750",
+    "manufacture of domestic fans, see 2750",
+    "manufacture of domestic air conditioners, see 2750",
+    "manufacture of centrifuges for isotope separation, see 2660"
+  ],
+  "implementedAt": "2026-04-16T03:00:00Z"
+}

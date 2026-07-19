@@ -1,0 +1,18 @@
+{
+  "code": "3292",
+  "nameEn": "Manufacture of hard surface floor coverings",
+  "group": "329",
+  "description": "This class includes the manufacture of non-textile floor coverings.",
+  "includes": [
+    "manufacture of linoleum, floor coverings with a linoleum base",
+    "manufacture of floor coverings of cork",
+    "manufacture of hard surface floor coverings of rubber, plastics",
+    "manufacture of asphalt floor tiles"
+  ],
+  "excludes": [
+    "manufacture of ceramic flags and paving, see 2393",
+    "manufacture of carpet and rugs, see 1393",
+    "manufacture of wooden floor coverings, see 1621"
+  ],
+  "implementedAt": "2026-04-16T07:30:00Z"
+}

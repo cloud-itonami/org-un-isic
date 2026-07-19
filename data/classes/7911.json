@@ -1,0 +1,17 @@
+{
+  "code": "7911",
+  "nameEn": "Travel agency activities",
+  "group": "791",
+  "description": "This class includes the activities of agencies primarily engaged in selling travel, tour, transportation and accommodation services to the general public.",
+  "includes": [
+    "retail travel agency activities",
+    "booking and sale of airline tickets, cruises, hotel rooms, travel packages",
+    "provision of travel information and advice to customers",
+    "online travel agency activities"
+  ],
+  "excludes": [
+    "tour operator activities, see 7912",
+    "tourist information centers, see 7999"
+  ],
+  "implementedAt": "2026-04-17T12:50:00Z"
+}

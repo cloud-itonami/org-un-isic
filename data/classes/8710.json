@@ -1,0 +1,17 @@
+{
+  "code": "8710",
+  "nameEn": "Residential nursing care facilities",
+  "group": "871",
+  "description": "This class includes the provision of residential care combined with either nursing, supervisory, or other types of care as required by the inhabitants.",
+  "includes": [
+    "nursing home activities",
+    "residential care with nursing supervision",
+    "convalescent home activities",
+    "rest home with health care activities"
+  ],
+  "excludes": [
+    "hospital activities, see 8610",
+    "residential care for the elderly without nursing, see 8730"
+  ],
+  "implementedAt": "2026-04-17T18:20:00Z"
+}

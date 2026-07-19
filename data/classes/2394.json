@@ -1,0 +1,18 @@
+{
+  "code": "2394",
+  "nameEn": "Manufacture of cement, lime and plaster",
+  "group": "239",
+  "description": "This class includes the manufacture of cement, lime and plaster.",
+  "includes": [
+    "manufacture of clinkers and hydraulic cements, including Portland, aluminous, slag and supersulphate cements",
+    "manufacture of quicklime, slaked lime and hydraulic lime",
+    "manufacture of plasters of calcined gypsum or calcined sulphate",
+    "manufacture of refractory cements, mortars, concretes and similar compositions"
+  ],
+  "excludes": [
+    "manufacture of articles of cement, see 2395",
+    "manufacture of articles of plaster, see 2395",
+    "manufacture of refractory ceramic products, see 2391"
+  ],
+  "implementedAt": "2026-04-15T13:20:00Z"
+}

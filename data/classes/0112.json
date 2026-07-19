@@ -1,0 +1,14 @@
+{
+  "code": "0112",
+  "nameEn": "Growing of rice",
+  "group": "011",
+  "description": "This class includes the growing of rice, including organic farming of rice and growing of genetically modified rice.",
+  "includes": [
+    "growing of rice (including organic farming and genetically modified rice)",
+    "production of rice seeds"
+  ],
+  "excludes": [
+    "growing of wild rice, see 0116"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

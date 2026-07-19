@@ -1,0 +1,16 @@
+{
+  "code": "5021",
+  "nameEn": "Inland passenger water transport",
+  "group": "503",
+  "description": "This class includes the transport of passengers on inland waterways.",
+  "includes": [
+    "transport of passengers on rivers, canals, lakes and other inland waterways",
+    "operation of ferries on inland waterways",
+    "excursion boats on rivers and lakes",
+    "water taxis on inland waterways"
+  ],
+  "excludes": [
+    "sea and coastal passenger water transport, see 5011"
+  ],
+  "implementedAt": "2026-04-16T22:30:00Z"
+}

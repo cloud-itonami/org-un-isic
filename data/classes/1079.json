@@ -1,0 +1,28 @@
+{
+  "code": "1079",
+  "nameEn": "Manufacture of other food products n.e.c.",
+  "group": "107",
+  "description": "This class includes the manufacture of a variety of food products not elsewhere classified.",
+  "includes": [
+    "manufacture of soups and broths",
+    "manufacture of artificial honey and caramel",
+    "manufacture of perishable prepared foods such as sandwiches and fresh pizza",
+    "manufacture of food supplements and dietetic food",
+    "manufacture of eggs products: dried, powdered, frozen eggs",
+    "manufacture of yeast",
+    "manufacture of extracts and juices of meat, fish, crustaceans or molluscs",
+    "manufacture of vinegar",
+    "manufacture of salt: sea salt, rock salt",
+    "manufacture of sauces, condiments and seasonings",
+    "manufacture of homogenized food preparations and dietetic food"
+  ],
+  "excludes": [
+    "manufacture of prepared animal feeds, see 1080",
+    "manufacture of bakery products, see 1071",
+    "manufacture of sugar, see 1072",
+    "manufacture of chocolate and confectionery, see 1073",
+    "manufacture of pasta, see 1074",
+    "manufacture of prepared meals, see 1075"
+  ],
+  "implementedAt": "2026-04-15T04:40:00Z"
+}

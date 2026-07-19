@@ -1,0 +1,19 @@
+{
+  "code": "2431",
+  "nameEn": "Casting of iron and steel",
+  "group": "243",
+  "description": "This class includes the casting of iron and steel products.",
+  "includes": [
+    "casting of semi-finished iron products",
+    "casting of grey iron products",
+    "casting of spheroidal graphite iron products",
+    "casting of malleable cast-iron products",
+    "casting of steel products",
+    "manufacture of tubes, pipes and hollow profiles and tube and pipe fittings of cast iron"
+  ],
+  "excludes": [
+    "manufacture of basic iron and steel, see 2410",
+    "casting of non-ferrous metals, see 2432"
+  ],
+  "implementedAt": "2026-04-15T14:20:00Z"
+}

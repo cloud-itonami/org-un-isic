@@ -1,0 +1,15 @@
+{
+  "code": "0128",
+  "nameEn": "Growing of spices, aromatic, drug and pharmaceutical crops",
+  "group": "012",
+  "description": "This class includes the growing of spices, aromatic, narcotic and pharmaceutical crops.",
+  "includes": [
+    "growing of spices and aromatic crops: pepper (piper spp.); chillies and peppers (capsicum spp.); nutmeg, mace and cardamoms; anise, badian and fennel; cinnamon (canela); cloves; ginger; vanilla; hops; other spices and aromatic crops",
+    "growing of drug and narcotic crops",
+    "growing of plants used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes"
+  ],
+  "excludes": [
+    "growing of tobacco, see 0115"
+  ],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

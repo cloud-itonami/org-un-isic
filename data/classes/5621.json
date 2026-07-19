@@ -1,0 +1,16 @@
+{
+  "code": "5621",
+  "nameEn": "Event catering",
+  "group": "562",
+  "description": "This class includes the provision of food services based on contractual arrangements with the customer for specific events.",
+  "includes": [
+    "catering for events: wedding receptions, corporate dinners, sports events",
+    "provision of meals prepared on premises at sporting facilities, stadiums",
+    "catering for aircraft passengers"
+  ],
+  "excludes": [
+    "restaurant and cafeteria activities, see 5610",
+    "canteen management, see 5629"
+  ],
+  "implementedAt": "2026-04-17T01:10:00Z"
+}

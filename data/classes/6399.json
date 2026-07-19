@@ -1,0 +1,20 @@
+{
+  "code": "6399",
+  "nameEn": "Other information service activities n.e.c.",
+  "group": "639",
+  "description": "This class includes all remaining information service activities not elsewhere classified.",
+  "includes": [
+    "telephone-based information services",
+    "clipping services",
+    "reading services",
+    "press clipping bureaus",
+    "information brokerage services",
+    "other information provision services n.e.c."
+  ],
+  "excludes": [
+    "news agency activities, see 6391",
+    "libraries and archives, see 9101",
+    "market research, see 7320"
+  ],
+  "implementedAt": "2026-04-17T05:30:00Z"
+}

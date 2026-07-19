@@ -1,0 +1,16 @@
+{
+  "code": "4661",
+  "nameEn": "Wholesale of solid, liquid and gaseous fuels and related products",
+  "group": "466",
+  "description": "This class includes the wholesale of fuels and related products.",
+  "includes": [
+    "wholesale of solid fuels: coal, coke, charcoal, wood fuel",
+    "wholesale of liquid fuels: petroleum products, fuel oil, diesel, lubricants",
+    "wholesale of gaseous fuels: LPG, natural gas",
+    "wholesale of nuclear fuels"
+  ],
+  "excludes": [
+    "retail sale of automotive fuel, see 4730"
+  ],
+  "implementedAt": "2026-04-16T15:00:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "3900",
+  "nameEn": "Remediation activities and other waste management services",
+  "group": "390",
+  "description": "This class includes the provision of remediation services to contaminated sites, as well as other waste management services not elsewhere classified.",
+  "includes": [
+    "cleaning up of contaminated buildings, mine sites, soil and ground water",
+    "cleaning up and restoring contaminated soil: contaminated land remediation",
+    "cleaning of polluted rivers, lakes, seas and ground water",
+    "asbestos, lead paint and other toxic material abatement",
+    "decontamination of soils and ground water at the place of pollution",
+    "decontamination of industrial plants and sites to allow for re-use",
+    "cleaning up oil spills and other pollution incidents"
+  ],
+  "excludes": [
+    "treatment and disposal of non-hazardous waste, see 3821",
+    "treatment and disposal of hazardous waste, see 3822"
+  ],
+  "implementedAt": "2026-04-16T10:40:00Z"
+}

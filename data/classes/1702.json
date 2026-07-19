@@ -1,0 +1,19 @@
+{
+  "code": "1702",
+  "nameEn": "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+  "group": "170",
+  "description": "This class includes the manufacture of corrugated paper and paperboard and containers made from paper and paperboard.",
+  "includes": [
+    "manufacture of corrugated paper and paperboard",
+    "manufacture of containers of corrugated paper and paperboard: boxes, cartons, cases",
+    "manufacture of folding paperboard containers",
+    "manufacture of set-up paperboard boxes",
+    "manufacture of fibre drums, cans and similar containers of paper and paperboard",
+    "manufacture of multiwall paper bags and sacks"
+  ],
+  "excludes": [
+    "manufacture of pulp, paper and paperboard, see 1701",
+    "manufacture of paper stationery, see 1709"
+  ],
+  "implementedAt": "2026-04-15T09:30:00Z"
+}

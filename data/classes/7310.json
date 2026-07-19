@@ -1,0 +1,20 @@
+{
+  "code": "7310",
+  "nameEn": "Advertising",
+  "group": "731",
+  "description": "This class includes the creation of advertising campaigns and placement of such advertising in periodicals, newspapers, radio and television, the internet and other media.",
+  "includes": [
+    "creation and placement of advertising",
+    "advertising agency services",
+    "outdoor advertising activities (billboards, posters, displays)",
+    "production of advertising material",
+    "aerial advertising activities",
+    "distribution and delivery of advertising material",
+    "promotional activities (trade fairs, exhibitions)"
+  ],
+  "excludes": [
+    "market research, see 7320",
+    "public relations activities, see 7020"
+  ],
+  "implementedAt": "2026-04-17T10:20:00Z"
+}

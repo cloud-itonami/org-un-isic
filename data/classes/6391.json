@@ -1,0 +1,20 @@
+{
+  "code": "6391",
+  "nameEn": "News agency activities",
+  "group": "639",
+  "description": "This class includes the activities of news agencies that provide news and feature articles to newspapers, periodicals, radio and television broadcasters.",
+  "includes": [
+    "news agency activities",
+    "press agency activities",
+    "feature syndication services",
+    "provision of news photographs to the media",
+    "news bureaus and wire services"
+  ],
+  "excludes": [
+    "publishing of newspapers, see 5813",
+    "publishing of magazines and periodicals, see 5813",
+    "television broadcasting, see 6020",
+    "radio broadcasting, see 6010"
+  ],
+  "implementedAt": "2026-04-17T05:20:00Z"
+}

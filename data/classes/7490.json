@@ -1,0 +1,25 @@
+{
+  "code": "7490",
+  "nameEn": "Other professional, scientific and technical activities n.e.c.",
+  "group": "749",
+  "description": "This class includes a variety of service activities of a professional, scientific or technical nature which are not elsewhere classified.",
+  "includes": [
+    "translation and interpretation activities",
+    "patent and copyright activities",
+    "business brokerage activities",
+    "weather forecasting activities",
+    "security consulting activities",
+    "agronomic and agronomy consulting",
+    "environmental consulting activities",
+    "quantity surveying n.e.c."
+  ],
+  "excludes": [
+    "legal activities, see 6910",
+    "management consultancy, see 7020",
+    "engineering consulting, see 7110",
+    "market research, see 7320",
+    "graphic design, see 7410",
+    "photography, see 7420"
+  ],
+  "implementedAt": "2026-04-17T11:00:00Z"
+}

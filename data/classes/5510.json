@@ -1,0 +1,18 @@
+{
+  "code": "5510",
+  "nameEn": "Short-term accommodation activities",
+  "group": "551",
+  "description": "This class includes the provision of short-stay accommodation for visitors.",
+  "includes": [
+    "provision of accommodation in hotels, resort hotels, suite hotels, motels",
+    "provision of accommodation in bed and breakfast establishments",
+    "provision of accommodation in youth hostels and mountain refuges",
+    "provision of accommodation in holiday homes and cottages",
+    "provision of accommodation on boats"
+  ],
+  "excludes": [
+    "provision of homes and furnished or unfurnished flats for longer-term use, see 6810",
+    "provision of accommodation in student residences and dormitories, see 5590"
+  ],
+  "implementedAt": "2026-04-17T00:30:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "9412",
+  "nameEn": "Activities of professional membership organizations",
+  "group": "941",
+  "description": "This class includes the activities of organizations whose members' interests centre on a specific professional discipline.",
+  "includes": [
+    "activities of bar associations",
+    "activities of medical associations",
+    "activities of accounting professional associations",
+    "activities of engineering professional societies",
+    "activities of educational professional organizations"
+  ],
+  "excludes": [
+    "activities of business and employers organizations, see 9411",
+    "activities of trade unions, see 9420"
+  ],
+  "implementedAt": "2026-04-17T21:10:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "0210",
+  "nameEn": "Silviculture and other forestry activities",
+  "group": "021",
+  "description": "This class includes the growing of standing timber: afforestation, reforestation, planting, replanting, transplanting, thinning and conserving of forests and timber tracts. It also includes the growing of coppice, pulpwood and fuel wood, and the operation of forest tree nurseries.",
+  "includes": [
+    "growing of standing timber: planting, replanting, transplanting, thinning and conserving of forests and timber tracts",
+    "growing of coppice, pulpwood and fuel wood",
+    "operation of forest tree nurseries",
+    "these activities can be carried out in natural or planted forests"
+  ],
+  "excludes": [
+    "growing of Christmas trees grown on plantations, see 0129",
+    "operation of nurseries, except forest tree nurseries, see 0130",
+    "gathering of wild growing non-wood forest products, see 0230",
+    "production of wood chips, see 1610"
+  ],
+  "implementedAt": "2026-04-15T01:00:00Z"
+}

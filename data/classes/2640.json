@@ -1,0 +1,31 @@
+{
+  "code": "2640",
+  "nameEn": "Manufacture of consumer electronics",
+  "group": "264",
+  "description": "This class includes the manufacture of electronic audio and video equipment for consumers.",
+  "includes": [
+    "manufacture of radio receivers",
+    "manufacture of television receivers, including colour television sets",
+    "manufacture of video cameras",
+    "manufacture of DVD players and recorders",
+    "manufacture of CD players",
+    "manufacture of high fidelity equipment",
+    "manufacture of loudspeakers",
+    "manufacture of microphones",
+    "manufacture of amplifiers",
+    "manufacture of turntables, record players",
+    "manufacture of tape recorders and other magnetic recording devices",
+    "manufacture of karaoke machines",
+    "manufacture of home theatre systems",
+    "manufacture of video game consoles",
+    "manufacture of remote controls",
+    "manufacture of set-top boxes"
+  ],
+  "excludes": [
+    "manufacture of electronic components and boards, see 2610",
+    "manufacture of communication equipment, see 2630",
+    "manufacture of professional audio and video equipment, see 2640",
+    "reproduction of recorded media, see 1820"
+  ],
+  "implementedAt": "2026-04-15T16:30:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "5911",
+  "nameEn": "Motion picture, video and television programme production activities",
+  "group": "591",
+  "description": "This class includes the production of motion pictures, videos, television programmes and TV commercials.",
+  "includes": [
+    "production of motion pictures: feature films, documentaries, shorts",
+    "production of television programmes: series, soap operas, news programmes",
+    "production of video films",
+    "production of television commercials",
+    "activities of production companies (studios)"
+  ],
+  "excludes": [
+    "post-production activities, see 5912",
+    "distribution of motion pictures, see 5913"
+  ],
+  "implementedAt": "2026-04-17T02:30:00Z"
+}

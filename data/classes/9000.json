@@ -1,0 +1,19 @@
+{
+  "code": "9000",
+  "nameEn": "Creative, arts and entertainment activities",
+  "group": "900",
+  "description": "This class includes the operation of arts facilities and the production of live theatrical presentations, concerts and opera or dance productions and other stage productions.",
+  "includes": [
+    "performing arts activities (theatre, ballet, dance, opera, circus)",
+    "activities of authors, writers, sculptors, artists",
+    "activities of producers, directors, actors, musicians",
+    "activities of live entertainment venues",
+    "restoration of works of art and museum objects"
+  ],
+  "excludes": [
+    "motion picture production, see 5911",
+    "sound recording and music publishing, see 5920",
+    "activities of arts education, see 8542"
+  ],
+  "implementedAt": "2026-04-17T19:20:00Z"
+}

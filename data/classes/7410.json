@@ -1,0 +1,20 @@
+{
+  "code": "7410",
+  "nameEn": "Specialized design activities",
+  "group": "741",
+  "description": "This class includes specialized design activities such as fashion, graphic and interior design.",
+  "includes": [
+    "fashion design",
+    "graphic design activities",
+    "interior decoration activities",
+    "industrial design",
+    "jewelry design",
+    "furniture design"
+  ],
+  "excludes": [
+    "architectural design, see 7110",
+    "web page design, see 6201",
+    "engineering design, see 7110"
+  ],
+  "implementedAt": "2026-04-17T10:40:00Z"
+}

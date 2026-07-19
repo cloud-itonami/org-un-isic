@@ -1,0 +1,19 @@
+{
+  "code": "7320",
+  "nameEn": "Market research and public opinion polling",
+  "group": "732",
+  "description": "This class includes the investigation into market potential, acceptance of products, customer habits and purchasing patterns for the purpose of sales promotion and development of new products.",
+  "includes": [
+    "investigation of the potential for products and services in a market",
+    "consumer research",
+    "social surveys",
+    "public opinion polling",
+    "statistical analysis of survey results",
+    "competitive intelligence gathering"
+  ],
+  "excludes": [
+    "scientific research and development, see 7210 and 7220",
+    "advertising activities, see 7310"
+  ],
+  "implementedAt": "2026-04-17T10:30:00Z"
+}

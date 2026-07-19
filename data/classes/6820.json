@@ -1,0 +1,18 @@
+{
+  "code": "6820",
+  "nameEn": "Real estate activities on a fee or contract basis",
+  "group": "682",
+  "description": "This class includes the provision of real estate activities on behalf of others.",
+  "includes": [
+    "real estate agents and brokers activities",
+    "intermediation in buying, selling and renting of real estate on a fee or contract basis",
+    "management of real estate on a fee or contract basis",
+    "appraisal services for real estate",
+    "escrow services for real estate transactions"
+  ],
+  "excludes": [
+    "legal activities, see 6910",
+    "facility management, see 8110"
+  ],
+  "implementedAt": "2026-04-17T08:50:00Z"
+}

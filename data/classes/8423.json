@@ -1,0 +1,18 @@
+{
+  "code": "8423",
+  "nameEn": "Public order and safety activities",
+  "group": "842",
+  "description": "This class includes activities of the provision of public order and safety services.",
+  "includes": [
+    "police force activities",
+    "fire protection activities",
+    "judicial activities",
+    "correctional institution activities",
+    "immigration and naturalization services"
+  ],
+  "excludes": [
+    "military defence activities, see 8422",
+    "private security activities, see 8010"
+  ],
+  "implementedAt": "2026-04-17T16:10:00Z"
+}

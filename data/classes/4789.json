@@ -1,0 +1,16 @@
+{
+  "code": "4789",
+  "nameEn": "Retail sale via stalls and markets of other goods",
+  "group": "478",
+  "description": "This class includes the retail sale of other goods via market stalls and similar selling points.",
+  "includes": [
+    "retail sale of carpets via market stalls",
+    "retail sale of books and recordings via market stalls",
+    "retail sale of electrical household appliances via market stalls",
+    "retail sale of other goods via market stalls not elsewhere classified"
+  ],
+  "excludes": [
+    "retail sale of food, clothing via stalls, see 4781, 4782"
+  ],
+  "implementedAt": "2026-04-16T20:40:00Z"
+}

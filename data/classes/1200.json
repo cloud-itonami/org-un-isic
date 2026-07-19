@@ -1,0 +1,17 @@
+{
+  "code": "1200",
+  "nameEn": "Manufacture of tobacco products",
+  "group": "120",
+  "description": "This class includes the manufacture of tobacco products such as cigarettes, cigars, pipe tobacco, chewing tobacco and snuff.",
+  "includes": [
+    "manufacture of cigarettes",
+    "manufacture of cigars and cigarillos",
+    "manufacture of pipe tobacco, chewing tobacco and snuff",
+    "manufacture of homogenized or reconstituted tobacco",
+    "stemming and redrying of tobacco"
+  ],
+  "excludes": [
+    "growing of tobacco, see 0115"
+  ],
+  "implementedAt": "2026-04-15T05:40:00Z"
+}

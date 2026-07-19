@@ -1,0 +1,20 @@
+{
+  "code": "1430",
+  "nameEn": "Manufacture of knitted and crocheted apparel",
+  "group": "143",
+  "description": "This class includes the manufacture of knitted and crocheted wearing apparel.",
+  "includes": [
+    "manufacture of knitted or crocheted pullovers, cardigans, waistcoats and similar articles",
+    "manufacture of knitted or crocheted stockings, socks and other hosiery",
+    "manufacture of knitted or crocheted tights and panty hose",
+    "manufacture of knitted or crocheted T-shirts and undervests",
+    "manufacture of knitted or crocheted swimwear and beachwear",
+    "manufacture of knitted or crocheted gloves"
+  ],
+  "excludes": [
+    "manufacture of knitted and crocheted fabrics, see 1391",
+    "manufacture of wearing apparel of woven fabrics, see 1410",
+    "manufacture of fur apparel, see 1420"
+  ],
+  "implementedAt": "2026-04-15T07:50:00Z"
+}

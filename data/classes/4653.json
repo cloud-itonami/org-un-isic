@@ -1,0 +1,15 @@
+{
+  "code": "4653",
+  "nameEn": "Wholesale of agricultural machinery, equipment and supplies",
+  "group": "465",
+  "description": "This class includes the wholesale of agricultural machinery, equipment and supplies.",
+  "includes": [
+    "wholesale of agricultural machinery and equipment: tractors, ploughs, seeding machines, harvesting machines",
+    "wholesale of lawn mowers",
+    "wholesale of agricultural chemical products: pesticides, fertilizers"
+  ],
+  "excludes": [
+    "wholesale of motor vehicle parts and accessories, see 4530"
+  ],
+  "implementedAt": "2026-04-16T14:40:00Z"
+}

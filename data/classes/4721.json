@@ -1,0 +1,19 @@
+{
+  "code": "4721",
+  "nameEn": "Retail sale of food in specialised stores",
+  "group": "472",
+  "description": "This class includes the retail sale of food products in specialised stores.",
+  "includes": [
+    "retail sale of fruit and vegetables",
+    "retail sale of meat and meat products",
+    "retail sale of fish, crustaceans and molluscs",
+    "retail sale of bread, cakes, flour confectionery and sugar confectionery",
+    "retail sale of dairy products and eggs",
+    "retail sale of natural and organic food: health food stores"
+  ],
+  "excludes": [
+    "retail sale of beverages in specialised stores, see 4722",
+    "retail sale of tobacco products in specialised stores, see 4723"
+  ],
+  "implementedAt": "2026-04-16T16:30:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "0721",
+  "nameEn": "Mining of uranium and thorium ores",
+  "group": "072",
+  "description": "This class includes mining of ores chiefly valued for uranium and thorium content: pitchblende and other uranium ores, and thorium ores.",
+  "includes": [
+    "mining of pitchblende and other uranium ores",
+    "mining of thorium ores",
+    "concentration of such ores",
+    "manufacture of yellowcake"
+  ],
+  "excludes": [
+    "enrichment of uranium and thorium ores, see 2046",
+    "production of uranium metal from pitchblende or other ores, see 2420",
+    "smelting and refining of uranium, see 2420"
+  ],
+  "implementedAt": "2026-04-15T02:10:00Z"
+}

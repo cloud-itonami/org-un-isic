@@ -1,0 +1,24 @@
+{
+  "code": "2826",
+  "nameEn": "Manufacture of machinery for textile, apparel and leather production",
+  "group": "282",
+  "description": "This class includes the manufacture of machinery used in the production of textiles, apparel and leather goods.",
+  "includes": [
+    "manufacture of textile machines: machines for preparing, producing, extruding, drawing, texturing or cutting man-made textile fibres, materials or yarns",
+    "manufacture of machines for preparing textile fibres: cotton gins, bale breakers, garnets, cards, combing machines, drawing and roving machines",
+    "manufacture of weaving machines (looms), knitting machines",
+    "manufacture of machines for making knotted net, tulle and lace",
+    "manufacture of felt-making or felt-finishing machines",
+    "manufacture of dyeing, bleaching, dressing and finishing machines for textiles",
+    "manufacture of laundry-type washing, bleaching and dyeing machines for industrial use",
+    "manufacture of dry-cleaning machines",
+    "manufacture of sewing machines for industrial use",
+    "manufacture of machines for producing or finishing leather and leather goods"
+  ],
+  "excludes": [
+    "manufacture of domestic sewing machines, see 2750",
+    "manufacture of domestic washing machines, see 2750",
+    "manufacture of hand tools for textile use, see 2593"
+  ],
+  "implementedAt": "2026-04-16T04:00:00Z"
+}

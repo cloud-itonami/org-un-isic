@@ -1,0 +1,22 @@
+{
+  "code": "1020",
+  "nameEn": "Processing and preserving of fish, crustaceans and molluscs",
+  "group": "102",
+  "description": "This class includes preparation and preservation of fish, crustaceans and molluscs: freezing, deep freezing, drying, cooking, smoking, salting, immersing in brine, canning etc.",
+  "includes": [
+    "preparation and preservation of fish: freezing, deep-freezing, drying, cooking, smoking, salting, immersing in brine, canning etc.",
+    "processing of seaweed",
+    "production of fish fillets",
+    "production of fish meal for human consumption or animal feed",
+    "production of fish oil and fish meal",
+    "production of prepared meals and dishes based on fish, crustaceans and molluscs",
+    "curing of fish",
+    "activities of vessels engaged in processing and preserving of fish"
+  ],
+  "excludes": [
+    "processing and preserving of fish on vessels engaged exclusively in fishing, see 0311",
+    "manufacture of edible oils from marine material, see 1040",
+    "manufacture of frozen fish dishes, see 1075"
+  ],
+  "implementedAt": "2026-04-15T02:30:00Z"
+}

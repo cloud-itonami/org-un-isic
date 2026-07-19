@@ -1,0 +1,16 @@
+{
+  "code": "9700",
+  "nameEn": "Activities of households as employers of domestic personnel",
+  "group": "970",
+  "description": "This class includes the activities of households as employers of domestic personnel such as maids, cooks, waiters, valets, butlers, laundresses, gardeners, gate keepers, stable keepers, chauffeurs, caretakers, governesses, babysitters, tutors, secretaries, etc.",
+  "includes": [
+    "activities of households employing domestic staff",
+    "employment of housekeepers and maids",
+    "employment of nannies and babysitters",
+    "employment of cooks and domestic workers"
+  ],
+  "excludes": [
+    "activities of employment agencies placing domestic workers, see 7810"
+  ],
+  "implementedAt": "2026-04-17T23:50:00Z"
+}

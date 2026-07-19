@@ -1,0 +1,17 @@
+{
+  "code": "6010",
+  "nameEn": "Radio broadcasting",
+  "group": "601",
+  "description": "This class includes the broadcasting of audio content to the public.",
+  "includes": [
+    "operation of radio broadcasting studios and facilities for the transmission of radio programmes",
+    "activities of radio broadcasting stations: AM, FM, shortwave",
+    "internet radio broadcasting",
+    "satellite radio services"
+  ],
+  "excludes": [
+    "television broadcasting, see 6020",
+    "production of radio programmes without broadcasting, see 5911"
+  ],
+  "implementedAt": "2026-04-17T03:20:00Z"
+}

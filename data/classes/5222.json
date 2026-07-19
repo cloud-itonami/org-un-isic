@@ -1,0 +1,18 @@
+{
+  "code": "5222",
+  "nameEn": "Service activities incidental to water transportation",
+  "group": "522",
+  "description": "This class includes activities supporting water transport.",
+  "includes": [
+    "operation of ports and waterways: maintenance, administration",
+    "operation of locks and docks",
+    "navigation services: lighthouse, lightship and buoy services",
+    "pilotage and berthing activities",
+    "vessel salvage activities",
+    "ship chandlering and provisioning activities"
+  ],
+  "excludes": [
+    "cargo handling, see 5224"
+  ],
+  "implementedAt": "2026-04-16T23:30:00Z"
+}

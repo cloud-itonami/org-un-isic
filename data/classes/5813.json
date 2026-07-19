@@ -1,0 +1,16 @@
+{
+  "code": "5813",
+  "nameEn": "Publishing of newspapers, journals and periodicals",
+  "group": "581",
+  "description": "This class includes the publishing of newspapers, journals and other periodicals.",
+  "includes": [
+    "publishing of newspapers in print and electronic form",
+    "publishing of journals and academic publications",
+    "publishing of magazines and periodicals",
+    "publishing of trade and professional journals"
+  ],
+  "excludes": [
+    "news agency activities, see 6391"
+  ],
+  "implementedAt": "2026-04-17T02:00:00Z"
+}

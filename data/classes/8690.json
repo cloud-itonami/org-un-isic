@@ -1,0 +1,21 @@
+{
+  "code": "8690",
+  "nameEn": "Other human health activities",
+  "group": "869",
+  "description": "This class includes the provision of health care services not elsewhere classified.",
+  "includes": [
+    "nursing care activities",
+    "physiotherapy activities",
+    "activities of midwives",
+    "optician activities",
+    "activities of chiropractors and osteopaths",
+    "acupuncture and similar activities",
+    "ambulance service activities"
+  ],
+  "excludes": [
+    "hospital activities, see 8610",
+    "medical and dental practice activities, see 8620",
+    "residential nursing care, see 8710"
+  ],
+  "implementedAt": "2026-04-17T18:10:00Z"
+}

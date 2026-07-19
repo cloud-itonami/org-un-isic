@@ -1,0 +1,15 @@
+{
+  "code": "6420",
+  "nameEn": "Activities of holding companies",
+  "group": "642",
+  "description": "This class includes the activities of holding companies, i.e. units that hold the assets (owning controlling-levels of equity) of a group of subsidiary corporations.",
+  "includes": [
+    "activities of holding companies",
+    "managing and overseeing the business units of a company group"
+  ],
+  "excludes": [
+    "activities of trusts, funds and similar financial entities, see 6430",
+    "activities of head offices that primarily carry out managerial activities, see 7010"
+  ],
+  "implementedAt": "2026-04-17T06:00:00Z"
+}

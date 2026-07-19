@@ -1,0 +1,24 @@
+{
+  "code": "7020",
+  "nameEn": "Management consultancy activities",
+  "group": "702",
+  "description": "This class includes the provision of advice, guidance or operational assistance to businesses and other organizations on management issues.",
+  "includes": [
+    "strategic management consulting",
+    "financial management consulting (not accounting)",
+    "human resources management consulting",
+    "marketing management consulting",
+    "production management consulting",
+    "supply chain management consulting",
+    "public relations services"
+  ],
+  "excludes": [
+    "activities of head offices, see 7010",
+    "financial management, see 6619 or 6630",
+    "architectural, engineering consulting, see 7110",
+    "legal activities, see 6910",
+    "accounting, see 6920",
+    "IT consulting, see 6202"
+  ],
+  "implementedAt": "2026-04-17T09:30:00Z"
+}

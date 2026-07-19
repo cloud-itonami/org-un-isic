@@ -1,0 +1,18 @@
+{
+  "code": "7810",
+  "nameEn": "Activities of employment placement agencies",
+  "group": "781",
+  "description": "This class includes listing employment vacancies and referring or placing applicants for employment.",
+  "includes": [
+    "executive search activities",
+    "activities of employment agencies and placement agencies",
+    "resume writing services",
+    "activities of casting agencies for theatrical and motion picture productions",
+    "job placement services"
+  ],
+  "excludes": [
+    "temporary employment agency activities, see 7820",
+    "other human resources provision, see 7830"
+  ],
+  "implementedAt": "2026-04-17T12:20:00Z"
+}

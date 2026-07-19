@@ -1,0 +1,16 @@
+{
+  "code": "7912",
+  "nameEn": "Tour operator activities",
+  "group": "791",
+  "description": "This class includes the activities of tour operators primarily engaged in assembling and arranging tours sold through travel agencies or directly to individual travellers.",
+  "includes": [
+    "tour operator activities (wholesale travel agencies)",
+    "organization and assembly of package tours",
+    "guided tour activities"
+  ],
+  "excludes": [
+    "travel agency activities (retail), see 7911",
+    "other reservation service activities, see 7990"
+  ],
+  "implementedAt": "2026-04-17T13:00:00Z"
+}

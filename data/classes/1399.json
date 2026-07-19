@@ -1,0 +1,21 @@
+{
+  "code": "1399",
+  "nameEn": "Manufacture of other textiles n.e.c.",
+  "group": "139",
+  "description": "This class includes the manufacture of a variety of textile products not elsewhere classified.",
+  "includes": [
+    "manufacture of lace in the piece, in strips or in motifs",
+    "manufacture of narrow woven fabrics including fabrics of warp without weft assembled by means of an adhesive",
+    "manufacture of embroidery in the piece, in strips or in motifs",
+    "manufacture of quilts, eiderdowns, sleeping bags and similar articles",
+    "manufacture of hat shapes",
+    "manufacture of labels, badges and similar articles of textile material",
+    "manufacture of shoe laces",
+    "manufacture of bobbins, spools, cops and similar supports"
+  ],
+  "excludes": [
+    "manufacture of made-up textile articles (other than apparel), see 1392",
+    "manufacture of apparel accessories of textile, see 1410-1430"
+  ],
+  "implementedAt": "2026-04-15T07:20:00Z"
+}

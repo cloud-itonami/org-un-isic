@@ -1,0 +1,17 @@
+{
+  "code": "9524",
+  "nameEn": "Repair of furniture and home furnishings",
+  "group": "952",
+  "description": "This class includes the repair and restoration of furniture and home furnishings.",
+  "includes": [
+    "repair of furniture",
+    "repair of home furnishings",
+    "upholstery repair activities",
+    "furniture restoration activities"
+  ],
+  "excludes": [
+    "manufacture of furniture, see 3100",
+    "repair of household appliances, see 9522"
+  ],
+  "implementedAt": "2026-04-17T22:50:00Z"
+}

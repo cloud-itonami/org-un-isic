@@ -1,0 +1,14 @@
+{
+  "code": "0240",
+  "nameEn": "Support services to forestry",
+  "group": "024",
+  "description": "This class includes the carrying out of part of the forestry operation on a fee or contract basis, including forestry service activities (inventories, consulting, evaluation, pest control, fire protection), logging service activities (transport within the forest).",
+  "includes": [
+    "forestry service activities: forestry inventories; forestry management consulting; timber evaluation; forest fire fighting and protection; forest pest control",
+    "logging service activities: transport of logs within the forest"
+  ],
+  "excludes": [
+    "forest-tree nursery operation, see 0210"
+  ],
+  "implementedAt": "2026-04-15T01:20:00Z"
+}

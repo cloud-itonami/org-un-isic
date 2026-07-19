@@ -1,0 +1,18 @@
+{
+  "code": "9329",
+  "nameEn": "Other amusement and recreation activities n.e.c.",
+  "group": "932",
+  "description": "This class includes other amusement and recreation activities not elsewhere classified.",
+  "includes": [
+    "operation of coin-operated amusement machines",
+    "operation of virtual reality arcades",
+    "operation of escape rooms",
+    "activities of recreation parks excluding amusement parks",
+    "activities of beach and swimming facilities"
+  ],
+  "excludes": [
+    "activities of amusement parks and theme parks, see 9321",
+    "gambling activities, see 9200"
+  ],
+  "implementedAt": "2026-04-17T20:50:00Z"
+}

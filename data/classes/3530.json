@@ -1,0 +1,17 @@
+{
+  "code": "3530",
+  "nameEn": "Steam and air conditioning supply",
+  "group": "353",
+  "description": "This class includes the provision of steam, hot water and air conditioning from a central source.",
+  "includes": [
+    "production and distribution of steam and hot water for heating, power and industrial purposes",
+    "production and distribution of cooled air",
+    "production and distribution of chilled water for cooling purposes",
+    "production of ice, for food and non-food (e.g. cooling) purposes"
+  ],
+  "excludes": [
+    "manufacture of industrial gases, see 2011",
+    "operation of heating systems in buildings for own use"
+  ],
+  "implementedAt": "2026-04-16T09:20:00Z"
+}

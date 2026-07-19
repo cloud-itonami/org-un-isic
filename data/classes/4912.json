@@ -1,0 +1,16 @@
+{
+  "code": "4912",
+  "nameEn": "Freight rail transport",
+  "group": "491",
+  "description": "This class includes all rail freight transport operations.",
+  "includes": [
+    "railway transportation of freight",
+    "operation of freight railway terminals",
+    "operation of mixed passenger-freight railways (where freight predominates)"
+  ],
+  "excludes": [
+    "freight transport via pipeline, see 4930",
+    "cargo handling, see 5224"
+  ],
+  "implementedAt": "2026-04-16T21:20:00Z"
+}

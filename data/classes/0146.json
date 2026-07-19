@@ -1,0 +1,15 @@
+{
+  "code": "0146",
+  "nameEn": "Raising of poultry",
+  "group": "014",
+  "description": "This class includes raising and breeding of poultry (chickens, turkeys, ducks, geese and guinea fowl), and production of eggs and operation of poultry hatcheries.",
+  "includes": [
+    "raising and breeding of poultry: domestic fowls, ducks, geese, turkeys, guinea fowls",
+    "production of eggs",
+    "operation of poultry hatcheries"
+  ],
+  "excludes": [
+    "feather and down production, see 1010"
+  ],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

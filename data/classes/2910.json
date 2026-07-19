@@ -1,0 +1,25 @@
+{
+  "code": "2910",
+  "nameEn": "Manufacture of motor vehicles",
+  "group": "291",
+  "description": "This class includes the manufacture of motor vehicles for transporting persons or freight.",
+  "includes": [
+    "manufacture of passenger cars",
+    "manufacture of lorries, trucks and road tractors for semi-trailers",
+    "manufacture of minibuses and buses",
+    "manufacture of motor vehicles for transporting goods",
+    "manufacture of special purpose motor vehicles: ambulances, fire engines, snowploughs, street sweepers, mobile laboratories, mobile medical units",
+    "manufacture of motor homes",
+    "manufacture of military combat vehicles",
+    "manufacture of engines for motor vehicles"
+  ],
+  "excludes": [
+    "manufacture of bodies for motor vehicles, see 2920",
+    "manufacture of parts and accessories for motor vehicles, see 2930",
+    "manufacture of electric motors, see 2710",
+    "manufacture of agricultural tractors, see 2821",
+    "manufacture of off-highway dumpers, see 2824",
+    "maintenance and repair of motor vehicles, see 4520"
+  ],
+  "implementedAt": "2026-04-16T04:20:00Z"
+}

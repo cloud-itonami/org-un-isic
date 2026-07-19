@@ -1,0 +1,26 @@
+{
+  "code": "2100",
+  "nameEn": "Manufacture of pharmaceuticals, medicinal chemical and botanical products",
+  "group": "210",
+  "description": "This class includes the manufacture of pharmaceuticals, medicinal chemical and botanical products for human or veterinary use.",
+  "includes": [
+    "manufacture of medicinal active substances to be used for their pharmacological properties in the manufacture of medicaments: antibiotics, basic vitamins, salicylic and O-acetylsalicylic acids etc.",
+    "processing of blood",
+    "manufacture of medicaments: manufacture of a wide range of goods such as antisera and other blood fractions, vaccines, diverse medicaments including homeopathic preparations",
+    "manufacture of medical diagnostic preparations, including pregnancy tests",
+    "manufacture of radioactive in-vivo diagnostic substances",
+    "manufacture of biotech-based pharmaceuticals",
+    "manufacture of chemical contraceptive products for external use and hormonal contraceptives",
+    "manufacture of medical impregnated wadding, gauze, bandages, dressings etc.",
+    "manufacture of pharmaceutical preparations for veterinary use",
+    "manufacture of botanical products",
+    "manufacture of plasters, pads and similar articles"
+  ],
+  "excludes": [
+    "manufacture of soaps, soap-based products and detergents, see 2023",
+    "manufacture of medical furniture and instruments, see 3250",
+    "wholesale of pharmaceuticals and medical goods, see 4649",
+    "retail sale of pharmaceuticals, see 4772"
+  ],
+  "implementedAt": "2026-04-15T12:00:00Z"
+}

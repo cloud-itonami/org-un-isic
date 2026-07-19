@@ -1,0 +1,25 @@
+{
+  "code": "2660",
+  "nameEn": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+  "group": "266",
+  "description": "This class includes the manufacture of irradiation, electromedical and electrotherapeutic apparatus and equipment.",
+  "includes": [
+    "manufacture of X-ray apparatus and tubes",
+    "manufacture of medical, surgical, dental or veterinary X-ray equipment",
+    "manufacture of CT (computed tomography) scanners",
+    "manufacture of MRI (magnetic resonance imaging) apparatus",
+    "manufacture of medical ultrasound equipment",
+    "manufacture of radiation therapy equipment: particle accelerators, linear accelerators",
+    "manufacture of electromedical apparatus: pacemakers, hearing aids, defibrillators",
+    "manufacture of electrotherapeutic apparatus: diathermy, short-wave therapy, ultrasound therapy",
+    "manufacture of endoscopic equipment",
+    "manufacture of equipment for nuclear medicine imaging: PET scanners, gamma cameras",
+    "manufacture of other irradiation apparatus: for industrial or scientific use"
+  ],
+  "excludes": [
+    "manufacture of measuring and testing instruments, see 2651",
+    "manufacture of spectacles and lenses, see 3250",
+    "manufacture of dental instruments and supplies, see 3250"
+  ],
+  "implementedAt": "2026-04-16T00:00:00Z"
+}

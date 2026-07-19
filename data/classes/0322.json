@@ -1,0 +1,21 @@
+{
+  "code": "0322",
+  "nameEn": "Freshwater aquaculture",
+  "group": "032",
+  "description": "This class includes freshwater culture aquaculture, including the cultivation of finfish, crustaceans, molluscs, other aquatic animals and plants in freshwater environments, as well as the production of freshwater ornamental fish.",
+  "includes": [
+    "fish farming in freshwater, including finfish",
+    "operation of freshwater finfish hatcheries",
+    "operation of fish farms in inland reservoirs",
+    "raising of frogs in freshwater",
+    "cultivation of freshwater molluscs, shrimp and other crustaceans, other freshwater aquatic animals",
+    "cultivation of freshwater ornamental fish",
+    "cultivation of aquatic plants in freshwater"
+  ],
+  "excludes": [
+    "frog fishing, see 0312",
+    "operation of sport fishing preserves, see 9319",
+    "operation of aquariums (excluding those related to commercial aquaculture), see 9103"
+  ],
+  "implementedAt": "2026-04-15T01:40:00Z"
+}

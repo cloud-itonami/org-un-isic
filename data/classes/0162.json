@@ -1,0 +1,22 @@
+{
+  "code": "0162",
+  "nameEn": "Support activities for animal production",
+  "group": "016",
+  "description": "This class includes support activities to animal production carried out on a fee or contract basis.",
+  "includes": [
+    "activities to promote propagation, growth and output of animals",
+    "operation of animal breeding activities",
+    "herd testing, droving services, agistment services, gelding of poultry, cleaning of agricultural premises (hen houses, piggeries etc.)",
+    "activities related to artificial insemination",
+    "shearing of sheep",
+    "animal husbandry services",
+    "operation of feedlots engaged in custom fattening of cattle",
+    "sorting and packing of eggs on a fee or contract basis"
+  ],
+  "excludes": [
+    "provision of grazing land only, see 6810",
+    "veterinary activities, see 7500",
+    "boarding of pets, see 9609"
+  ],
+  "implementedAt": "2026-04-15T00:50:00Z"
+}

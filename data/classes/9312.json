@@ -1,0 +1,19 @@
+{
+  "code": "9312",
+  "nameEn": "Activities of sports clubs",
+  "group": "931",
+  "description": "This class includes the activities of sports clubs, which, whether or not operated for profit, are primarily engaged in promoting competitive or recreational sports activities.",
+  "includes": [
+    "football club activities",
+    "basketball club activities",
+    "baseball club activities",
+    "tennis club activities",
+    "golf club activities",
+    "professional and amateur sports team activities"
+  ],
+  "excludes": [
+    "operation of sports facilities, see 9311",
+    "activities of race tracks, see 9319"
+  ],
+  "implementedAt": "2026-04-17T20:20:00Z"
+}

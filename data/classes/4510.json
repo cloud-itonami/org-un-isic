@@ -1,0 +1,20 @@
+{
+  "code": "4510",
+  "nameEn": "Sale of motor vehicles",
+  "group": "451",
+  "description": "This class includes the wholesale and retail sale of new and used vehicles: passenger motor vehicles, including specialized passenger motor vehicles such as ambulances and minibuses.",
+  "includes": [
+    "wholesale and retail sale of new and used passenger motor vehicles",
+    "wholesale and retail sale of off-road motor vehicles: jeeps, four-wheel drive vehicles",
+    "wholesale and retail sale of vans and trucks",
+    "wholesale and retail sale of buses and coaches",
+    "wholesale and retail sale of specialized motor vehicles: ambulances, hearses",
+    "wholesale and retail sale of camping vehicles: motor homes",
+    "sale of motor vehicles on behalf of third parties (agents)"
+  ],
+  "excludes": [
+    "wholesale and retail sale of parts and accessories for motor vehicles, see 4530",
+    "rental and leasing of motor vehicles, see 7710"
+  ],
+  "implementedAt": "2026-04-16T12:50:00Z"
+}

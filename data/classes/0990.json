@@ -1,0 +1,17 @@
+{
+  "code": "0990",
+  "nameEn": "Support activities for other mining and quarrying",
+  "group": "099",
+  "description": "This class includes support activities for other mining and quarrying activities, on a fee or contract basis.",
+  "includes": [
+    "support activities for coal and lignite mining on a fee or contract basis",
+    "support activities for metal ore mining on a fee or contract basis",
+    "support activities for peat extraction on a fee or contract basis",
+    "overburden removal and other development work performed on a fee or contract basis"
+  ],
+  "excludes": [
+    "support activities for petroleum and natural gas extraction, see 0910",
+    "geophysical surveying activities, see 7110"
+  ],
+  "implementedAt": "2026-04-15T02:30:00Z"
+}

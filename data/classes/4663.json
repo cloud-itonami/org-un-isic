@@ -1,0 +1,20 @@
+{
+  "code": "4663",
+  "nameEn": "Wholesale of construction materials, hardware, plumbing and heating equipment and supplies",
+  "group": "466",
+  "description": "This class includes the wholesale of construction materials and equipment for construction and repair.",
+  "includes": [
+    "wholesale of wood, construction materials: lumber, plywood",
+    "wholesale of paint, varnishes and lacquers",
+    "wholesale of sanitary installation equipment: baths, washbasins, toilets",
+    "wholesale of hardware: locks, hinges, fasteners, tools",
+    "wholesale of heating equipment and supplies: boilers, radiators, pipes",
+    "wholesale of plumbing materials: pipes, fittings, valves",
+    "wholesale of flat glass",
+    "wholesale of roofing materials and insulation"
+  ],
+  "excludes": [
+    "wholesale of power-driven hand tools, see 4659"
+  ],
+  "implementedAt": "2026-04-16T15:20:00Z"
+}

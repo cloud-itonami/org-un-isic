@@ -1,0 +1,15 @@
+{
+  "code": "0150",
+  "nameEn": "Mixed farming",
+  "group": "015",
+  "description": "This class includes operation of units engaged in both crop and animal production in combination, without either having a specialization ratio of 66 percent or more for either crop or animal production. A specialization ratio of 66 percent or more disqualifies the unit from being classified here and it would instead be classified to 011, 012, 013 or 014.",
+  "includes": [
+    "mixed crop and livestock farming units not specialised in either (below 66% threshold)"
+  ],
+  "excludes": [
+    "mixed crop farming, see 011 or 012",
+    "mixed animal farming, see 014",
+    "support activities associated with agriculture, see 016"
+  ],
+  "implementedAt": "2026-04-15T00:40:00Z"
+}

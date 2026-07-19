@@ -1,0 +1,11 @@
+{
+  "code": "0127",
+  "nameEn": "Growing of beverage crops",
+  "group": "012",
+  "description": "This class includes the growing of beverage crops.",
+  "includes": [
+    "growing of beverage crops: coffee; tea; mate; cocoa; other beverage crops"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

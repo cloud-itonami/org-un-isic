@@ -1,0 +1,20 @@
+{
+  "code": "6311",
+  "nameEn": "Data processing, hosting and related activities",
+  "group": "631",
+  "description": "This class includes the provision of infrastructure for hosting, data processing services and related activities.",
+  "includes": [
+    "data processing and tabulation activities",
+    "web hosting activities",
+    "streaming services",
+    "application service provisioning",
+    "application hosting",
+    "managed hosting activities",
+    "data storage services"
+  ],
+  "excludes": [
+    "software publishing, see 5820",
+    "internet service providers, see 6190"
+  ],
+  "implementedAt": "2026-04-17T05:00:00Z"
+}

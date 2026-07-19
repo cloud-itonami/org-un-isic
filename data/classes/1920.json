@@ -1,0 +1,21 @@
+{
+  "code": "1920",
+  "nameEn": "Manufacture of refined petroleum products",
+  "group": "192",
+  "description": "This class includes the manufacture of liquid or gaseous fuels and other products from crude petroleum, bituminous minerals or their fractionation products.",
+  "includes": [
+    "manufacture of motor gasoline, kerosene, diesel fuel oils, heating fuel oils",
+    "manufacture of liquefied petroleum gases: propane, butane",
+    "manufacture of lubricating oils and greases",
+    "manufacture of petroleum jelly and paraffin wax",
+    "manufacture of petroleum coke and bitumen",
+    "manufacture of other petroleum-based products: white spirit, mineral spirit, naphthas",
+    "blending of biofuels with petroleum products"
+  ],
+  "excludes": [
+    "manufacture of coke oven products, see 1910",
+    "manufacture of industrial gases, see 2011",
+    "manufacture of petrochemicals, see 2011"
+  ],
+  "implementedAt": "2026-04-15T10:30:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "1520",
+  "nameEn": "Manufacture of footwear",
+  "group": "152",
+  "description": "This class includes the manufacture of footwear of any material by any process, including moulding.",
+  "includes": [
+    "manufacture of leather footwear: shoes, boots, sandals",
+    "manufacture of rubber or plastic footwear",
+    "manufacture of textile footwear",
+    "manufacture of wooden footwear and footwear with outer soles of wood",
+    "manufacture of orthopaedic footwear",
+    "manufacture of parts of footwear: uppers, soles, heels, inner soles"
+  ],
+  "excludes": [
+    "manufacture of protective metal toe-caps, see 2599",
+    "retail sale of footwear, see 4772"
+  ],
+  "implementedAt": "2026-04-15T08:20:00Z"
+}

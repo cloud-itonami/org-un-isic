@@ -1,0 +1,19 @@
+{
+  "code": "3510",
+  "nameEn": "Electric power generation, transmission and distribution",
+  "group": "351",
+  "description": "This class includes the generation of bulk electric power, and its transmission and distribution to end users.",
+  "includes": [
+    "operation of electric power generation facilities: thermal, nuclear, hydroelectric, wind, solar, geothermal, tidal",
+    "operation of electricity transmission systems (high-voltage lines)",
+    "operation of electricity distribution systems (medium and low-voltage lines)",
+    "sale of electricity to households, industrial and commercial users",
+    "operation of electric power substations and switching stations"
+  ],
+  "excludes": [
+    "manufacture of gas, see 3520",
+    "production of electricity by industrial enterprises for own consumption, classified in the originating class",
+    "wholesale of electricity, see 4610"
+  ],
+  "implementedAt": "2026-04-16T09:00:00Z"
+}

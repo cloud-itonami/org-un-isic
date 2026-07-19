@@ -1,0 +1,20 @@
+{
+  "code": "3313",
+  "nameEn": "Repair of electronic and optical equipment",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of electronic and optical equipment used in industry.",
+  "includes": [
+    "repair and maintenance of industrial process control equipment",
+    "repair and maintenance of measuring, testing, navigating and control equipment (industrial)",
+    "repair and maintenance of irradiation, electromedical and electrotherapeutic equipment",
+    "repair and maintenance of optical instruments and equipment: microscopes, telescopes, prisms, lenses",
+    "repair and maintenance of photographic equipment",
+    "repair of radar and navigation equipment"
+  ],
+  "excludes": [
+    "repair of computers and peripheral equipment, see 9511",
+    "repair of consumer electronics (TV, radio), see 9521",
+    "repair of cameras and optical instruments for personal use, see 9529"
+  ],
+  "implementedAt": "2026-04-16T08:10:00Z"
+}

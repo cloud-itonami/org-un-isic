@@ -1,0 +1,18 @@
+{
+  "code": "4322",
+  "nameEn": "Plumbing, heat and air-conditioning installation",
+  "group": "432",
+  "description": "This class includes the installation of plumbing, heating and air-conditioning systems in buildings.",
+  "includes": [
+    "installation of plumbing, heating systems, ventilation equipment and air-conditioning in buildings",
+    "installation of sprinkler systems",
+    "installation of gas fitting",
+    "installation of steam fitting",
+    "installation of central heating and cooling systems",
+    "installation of solar collectors"
+  ],
+  "excludes": [
+    "installation of heating, ventilation, air-conditioning equipment for industrial processes, see 3320"
+  ],
+  "implementedAt": "2026-04-16T12:10:00Z"
+}

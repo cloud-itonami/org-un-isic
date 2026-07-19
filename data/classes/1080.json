@@ -1,0 +1,19 @@
+{
+  "code": "1080",
+  "nameEn": "Manufacture of prepared animal feeds",
+  "group": "108",
+  "description": "This class includes the manufacture of prepared feeds for animals, including pets.",
+  "includes": [
+    "manufacture of prepared feeds for farm animals",
+    "manufacture of prepared pet foods",
+    "manufacture of unmixed grains for farm animals",
+    "manufacture of food supplements for animals",
+    "manufacture of silage"
+  ],
+  "excludes": [
+    "manufacture of fishmeal for animal feed, see 1020",
+    "manufacture of oil-cake and other solid residues of vegetable fats and oils, see 1040",
+    "activities of grain merchants, see 4621"
+  ],
+  "implementedAt": "2026-04-15T04:50:00Z"
+}

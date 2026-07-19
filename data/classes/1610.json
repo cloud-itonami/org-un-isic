@@ -1,0 +1,21 @@
+{
+  "code": "1610",
+  "nameEn": "Sawmilling and planing of wood",
+  "group": "161",
+  "description": "This class includes the sawing, planing and machining of wood into primary forms such as planks, beams and boards.",
+  "includes": [
+    "sawing or chipping of wood: planks, beams, boards, sleepers, props",
+    "planing, shaping, moulding of wood",
+    "manufacture of wood wool, wood flour, chips, particles",
+    "drying of wood",
+    "impregnation and chemical treatment of wood",
+    "manufacture of railway or tramway sleepers of wood",
+    "manufacture of telegraph poles of wood"
+  ],
+  "excludes": [
+    "logging, see 0220",
+    "manufacture of veneer sheets, see 1621",
+    "manufacture of fibre building boards, see 1621"
+  ],
+  "implementedAt": "2026-04-15T08:30:00Z"
+}

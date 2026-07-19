@@ -1,0 +1,21 @@
+{
+  "code": "4659",
+  "nameEn": "Wholesale of other machinery and equipment",
+  "group": "465",
+  "description": "This class includes the wholesale of other machinery and equipment not elsewhere classified.",
+  "includes": [
+    "wholesale of office machinery and equipment: typewriters, calculators, fax machines",
+    "wholesale of construction and civil engineering machinery and equipment",
+    "wholesale of mining and quarrying machinery, equipment and supplies",
+    "wholesale of industrial machinery, equipment and supplies",
+    "wholesale of machine tools",
+    "wholesale of ships, aircraft and other transport equipment (excluding motor vehicles)",
+    "wholesale of transport equipment (except motor vehicles, motorcycles and bicycles)"
+  ],
+  "excludes": [
+    "wholesale of computers, see 4651",
+    "wholesale of electronic equipment, see 4652",
+    "wholesale of agricultural machinery, see 4653"
+  ],
+  "implementedAt": "2026-04-16T14:50:00Z"
+}

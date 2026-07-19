@@ -1,0 +1,17 @@
+{
+  "code": "8219",
+  "nameEn": "Photocopying, document preparation and other specialized office support activities",
+  "group": "821",
+  "description": "This class includes photocopying, duplicating, mailing, addressing, mailing list compilation and other specialized office support activities.",
+  "includes": [
+    "photocopying and duplicating services",
+    "mailing and mailing list services",
+    "stenography and transcription services",
+    "document scanning and digitizing services"
+  ],
+  "excludes": [
+    "combined office administrative services, see 8211",
+    "printing and related activities, see 1811-1812"
+  ],
+  "implementedAt": "2026-04-17T14:40:00Z"
+}

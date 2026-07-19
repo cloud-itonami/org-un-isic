@@ -1,0 +1,19 @@
+{
+  "code": "8890",
+  "nameEn": "Other social work activities without accommodation",
+  "group": "889",
+  "description": "This class includes other social work activities not elsewhere classified, where accommodation is not provided.",
+  "includes": [
+    "child day care activities",
+    "guidance and counseling services",
+    "family social work activities",
+    "activities of community centers",
+    "refugee welfare services",
+    "disaster relief services"
+  ],
+  "excludes": [
+    "social work for the elderly without accommodation, see 8810",
+    "residential social work activities, see 8710-8790"
+  ],
+  "implementedAt": "2026-04-17T19:10:00Z"
+}

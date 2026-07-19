@@ -1,0 +1,15 @@
+{
+  "code": "4773",
+  "nameEn": "Dispensing chemist in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of pharmaceutical products in specialised stores.",
+  "includes": [
+    "dispensing of prescription medicines",
+    "retail sale of over-the-counter pharmaceutical preparations",
+    "retail sale of medical and orthopaedic goods in pharmacies"
+  ],
+  "excludes": [
+    "retail sale of medical equipment in medical specialty stores, see 4774"
+  ],
+  "implementedAt": "2026-04-16T19:10:00Z"
+}

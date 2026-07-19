@@ -1,0 +1,17 @@
+{
+  "code": "3212",
+  "nameEn": "Manufacture of imitation jewellery and related articles",
+  "group": "321",
+  "description": "This class includes the manufacture of jewellery and related articles of base metals plated with precious metals or other materials.",
+  "includes": [
+    "manufacture of imitation jewellery: rings, bracelets, necklaces, brooches, earrings made of base metal, plastics, glass, etc.",
+    "manufacture of jewellery of base metal clad with precious metal",
+    "manufacture of jewellery of cut or moulded glass, plastics, shells, amber, bone, coral",
+    "manufacture of metal watch bands (except precious metal)"
+  ],
+  "excludes": [
+    "manufacture of jewellery of precious metal or precious/semi-precious stones, see 3211",
+    "manufacture of buttons, buckles, and other notions, see 3290"
+  ],
+  "implementedAt": "2026-04-16T06:30:00Z"
+}

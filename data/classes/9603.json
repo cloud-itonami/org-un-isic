@@ -1,0 +1,18 @@
+{
+  "code": "9603",
+  "nameEn": "Funeral and related activities",
+  "group": "960",
+  "description": "This class includes the activities of funeral homes and funeral parlors.",
+  "includes": [
+    "funeral home activities",
+    "crematorium activities",
+    "cemetery activities",
+    "embalming and other funeral parlor activities",
+    "preparation of bodies for burial or cremation",
+    "provision of burial or cremation services"
+  ],
+  "excludes": [
+    "maintenance of cemeteries, see 8130"
+  ],
+  "implementedAt": "2026-04-17T23:30:00Z"
+}

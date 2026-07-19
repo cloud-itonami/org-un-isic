@@ -1,0 +1,16 @@
+{
+  "code": "5320",
+  "nameEn": "Courier activities",
+  "group": "532",
+  "description": "This class includes pick-up and delivery of letters and parcels without a universal service obligation.",
+  "includes": [
+    "pick-up, transport and delivery of letters and parcels by private courier and delivery services",
+    "express mail and courier delivery services",
+    "delivery by messengers",
+    "same-day delivery services"
+  ],
+  "excludes": [
+    "postal activities under universal service obligation, see 5310"
+  ],
+  "implementedAt": "2026-04-17T00:20:00Z"
+}

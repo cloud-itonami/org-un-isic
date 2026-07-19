@@ -1,0 +1,18 @@
+{
+  "code": "4776",
+  "nameEn": "Retail sale of flowers, plants, seeds, fertilizers, pet animals and pet food in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of flowers, plants, seeds, pets and pet supplies in specialised stores.",
+  "includes": [
+    "retail sale of cut flowers and plants",
+    "retail sale of seeds, fertilizers, garden soil",
+    "retail sale of pet animals: dogs, cats, fish, birds",
+    "retail sale of pet food and pet supplies",
+    "retail sale of aquarium fish and supplies",
+    "retail sale of live Christmas trees"
+  ],
+  "excludes": [
+    "agricultural production of plants and seeds, see 011x"
+  ],
+  "implementedAt": "2026-04-16T19:40:00Z"
+}

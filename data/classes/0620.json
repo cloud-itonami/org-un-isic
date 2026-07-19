@@ -1,0 +1,19 @@
+{
+  "code": "0620",
+  "nameEn": "Extraction of natural gas",
+  "group": "062",
+  "description": "This class includes the extraction and production of natural gas from natural deposits. It includes the operation of natural gas wells, associated activities, and treatment of natural gas for delivery to market.",
+  "includes": [
+    "extraction and production of natural gas",
+    "operation of natural gas wells",
+    "natural gas production",
+    "treatment of natural gas",
+    "natural gas field operations"
+  ],
+  "excludes": [
+    "extraction of crude petroleum (with natural gas), see 0610",
+    "refining of natural gas, see 1920",
+    "distribution of natural gas, see 3520"
+  ],
+  "implementedAt": "2026-04-15T02:10:00Z"
+}

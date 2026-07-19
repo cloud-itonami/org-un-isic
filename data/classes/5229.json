@@ -1,0 +1,19 @@
+{
+  "code": "5229",
+  "nameEn": "Other transportation support activities",
+  "group": "522",
+  "description": "This class includes transport support activities not elsewhere classified.",
+  "includes": [
+    "forwarding of freight: arranging transport on behalf of shippers",
+    "customs brokerage activities",
+    "activities of freight brokers: booking cargo space",
+    "preparation of bills of lading",
+    "operations of customs warehouses",
+    "marine surveys"
+  ],
+  "excludes": [
+    "activities of travel agencies, see 7911",
+    "activities of tour operators, see 7912"
+  ],
+  "implementedAt": "2026-04-17T00:00:00Z"
+}

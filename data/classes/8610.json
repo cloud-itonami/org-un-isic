@@ -1,0 +1,18 @@
+{
+  "code": "8610",
+  "nameEn": "Hospital activities",
+  "group": "861",
+  "description": "This class includes the provision of inpatient medical and surgical services.",
+  "includes": [
+    "inpatient health care",
+    "general hospital activities",
+    "specialty hospital activities",
+    "combined inpatient and outpatient care",
+    "maternity hospitals"
+  ],
+  "excludes": [
+    "medical and dental practice activities (ambulatory), see 8620",
+    "other human health activities (outpatient), see 8690"
+  ],
+  "implementedAt": "2026-04-17T17:50:00Z"
+}

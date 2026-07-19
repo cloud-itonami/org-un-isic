@@ -1,0 +1,18 @@
+{
+  "code": "9602",
+  "nameEn": "Hairdressing and other beauty treatment",
+  "group": "960",
+  "description": "This class includes the activities of hairdressers and beauty parlors.",
+  "includes": [
+    "hairdressing salons and barber shops",
+    "beauty salons and spas",
+    "nail salons",
+    "skin care services",
+    "manicure and pedicure activities",
+    "tattoo and piercing activities"
+  ],
+  "excludes": [
+    "theatrical makeup activities, see 9000"
+  ],
+  "implementedAt": "2026-04-17T23:20:00Z"
+}

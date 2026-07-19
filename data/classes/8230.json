@@ -1,0 +1,16 @@
+{
+  "code": "8230",
+  "nameEn": "Organization of conventions and trade shows",
+  "group": "823",
+  "description": "This class includes the organization, promotion and/or management of events such as business and trade shows, conventions, conferences and meetings.",
+  "includes": [
+    "organizing and managing trade shows and exhibitions",
+    "organizing and managing professional conferences and conventions",
+    "organizing and managing meetings and seminars",
+    "congress and conference organizer activities"
+  ],
+  "excludes": [
+    "organizing and promoting cultural and sporting events, see 9000 and 9319"
+  ],
+  "implementedAt": "2026-04-17T15:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "2211",
+  "nameEn": "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres",
+  "group": "221",
+  "description": "This class includes the manufacture of rubber tyres and tubes for all types of vehicles and aircraft, and the retreading and rebuilding of rubber tyres.",
+  "includes": [
+    "manufacture of rubber tyres for cars, lorries, buses, bicycles, motorcycles, aircraft, tractors and other vehicles",
+    "manufacture of inner tubes for tyres",
+    "manufacture of tyre treads",
+    "retreading and rebuilding of rubber tyres",
+    "manufacture of solid or cushion tyres"
+  ],
+  "excludes": [
+    "manufacture of rubber tubes, pipes and hoses, see 2219",
+    "manufacture of tyre cord fabric, see 1395"
+  ],
+  "implementedAt": "2026-04-15T12:10:00Z"
+}

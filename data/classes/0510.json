@@ -1,0 +1,18 @@
+{
+  "code": "0510",
+  "nameEn": "Mining of hard coal",
+  "group": "051",
+  "description": "This class includes mining of hard coal: underground or open-cast mining, cleaning, sizing, grading, pulverizing, compressing (e.g. briquetting) and other non-agglomeration processes to improve quality or facilitate transport or storage of coal.",
+  "includes": [
+    "mining of hard coal: underground and open-cast mining",
+    "cleaning, sizing, grading, pulverizing, compressing of hard coal",
+    "recovery of hard coal from culm banks",
+    "agglomeration of hard coal"
+  ],
+  "excludes": [
+    "support activities for coal mining, see 0990",
+    "manufacture of coke oven products, see 1910",
+    "liquefaction of coal, see 1910"
+  ],
+  "implementedAt": "2026-04-15T01:50:00Z"
+}

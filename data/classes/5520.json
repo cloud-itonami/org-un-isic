@@ -1,0 +1,16 @@
+{
+  "code": "5520",
+  "nameEn": "Camping grounds, recreational vehicle parks and trailer parks",
+  "group": "552",
+  "description": "This class includes the provision of accommodation in campgrounds, trailer parks and recreational camps.",
+  "includes": [
+    "provision of accommodation in campgrounds: pitches for tents, caravans, mobile homes",
+    "operation of recreational vehicle parks",
+    "operation of tourist trailer parks",
+    "provision of short-stay accommodation in cabins or cottages at camping grounds"
+  ],
+  "excludes": [
+    "short-term accommodation in holiday homes, see 5510"
+  ],
+  "implementedAt": "2026-04-17T00:40:00Z"
+}

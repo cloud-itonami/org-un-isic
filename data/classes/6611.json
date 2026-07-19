@@ -1,0 +1,18 @@
+{
+  "code": "6611",
+  "nameEn": "Administration of financial markets",
+  "group": "661",
+  "description": "This class includes the operation and supervision of financial markets.",
+  "includes": [
+    "operation of stock exchanges",
+    "operation of commodity exchanges",
+    "operation of securities markets",
+    "futures and options markets operation",
+    "clearing services and settlement services for financial instruments"
+  ],
+  "excludes": [
+    "security and commodity contracts dealing activities, see 6612",
+    "other activities auxiliary to financial services, see 6619"
+  ],
+  "implementedAt": "2026-04-17T07:30:00Z"
+}

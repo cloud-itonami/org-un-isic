@@ -1,0 +1,19 @@
+{
+  "code": "4759",
+  "nameEn": "Retail sale of furniture, lighting equipment and other household articles in specialised stores",
+  "group": "475",
+  "description": "This class includes the retail sale of furniture, lighting equipment and household articles in specialised stores.",
+  "includes": [
+    "retail sale of furniture: chairs, tables, wardrobes, beds",
+    "retail sale of lighting equipment: lamps, chandeliers, wall lights",
+    "retail sale of household articles: china, glassware, kitchenware, cutlery",
+    "retail sale of kitchen equipment: pots, pans, baking trays",
+    "retail sale of wooden articles, wickerwork and cork products",
+    "retail sale of non-electric household appliances: irons, toasters, kettles (non-electronic)"
+  ],
+  "excludes": [
+    "retail sale of electrical household appliances, see 4741",
+    "retail sale of antiques, see 4779"
+  ],
+  "implementedAt": "2026-04-16T18:00:00Z"
+}

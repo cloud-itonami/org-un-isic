@@ -1,0 +1,17 @@
+{
+  "code": "4779",
+  "nameEn": "Retail sale of second-hand goods",
+  "group": "477",
+  "description": "This class includes the retail sale of second-hand goods.",
+  "includes": [
+    "retail sale of second-hand books",
+    "retail sale of other second-hand goods: antiques, used clothing, furniture",
+    "retail sale of antiques",
+    "auctioning of second-hand goods through retail"
+  ],
+  "excludes": [
+    "retail sale of second-hand motor vehicles, see 4510",
+    "retail sale via Internet of second-hand goods, see 4791"
+  ],
+  "implementedAt": "2026-04-16T20:10:00Z"
+}

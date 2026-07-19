@@ -1,0 +1,17 @@
+{
+  "code": "8121",
+  "nameEn": "General cleaning of buildings",
+  "group": "812",
+  "description": "This class includes the cleaning of all types of buildings, such as offices, factories, shops, institutions and other business and professional premises and multiunit residential buildings.",
+  "includes": [
+    "interior cleaning of buildings",
+    "window cleaning in buildings and other structures",
+    "chimney cleaning and related services",
+    "cleaning of industrial machinery"
+  ],
+  "excludes": [
+    "specialized cleaning activities, see 8129",
+    "household cleaning activities, see 9700"
+  ],
+  "implementedAt": "2026-04-17T14:00:00Z"
+}

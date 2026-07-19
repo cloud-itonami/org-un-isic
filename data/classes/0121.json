@@ -1,0 +1,14 @@
+{
+  "code": "0121",
+  "nameEn": "Growing of grapes",
+  "group": "012",
+  "description": "This class includes the growing of grapes in vineyards, for wine and for table consumption.",
+  "includes": [
+    "growing of wine grapes",
+    "growing of table grapes"
+  ],
+  "excludes": [
+    "production of wine, see 1102"
+  ],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

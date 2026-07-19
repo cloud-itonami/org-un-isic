@@ -1,0 +1,20 @@
+{
+  "code": "1622",
+  "nameEn": "Manufacture of builders' carpentry and joinery",
+  "group": "162",
+  "description": "This class includes the manufacture of builders' carpentry and joinery products of wood.",
+  "includes": [
+    "manufacture of wooden doors, windows, shutters, frames",
+    "manufacture of wooden stairways, railings, banisters",
+    "manufacture of prefabricated wooden buildings and components: panels, sections",
+    "manufacture of cellular wood panels",
+    "manufacture of assembled parquet floor panels",
+    "manufacture of portable wooden buildings: huts, sheds"
+  ],
+  "excludes": [
+    "manufacture of veneer sheets and wood-based panels, see 1621",
+    "manufacture of wooden furniture, see 3100",
+    "construction of prefabricated wooden buildings, see 4100"
+  ],
+  "implementedAt": "2026-04-15T08:50:00Z"
+}

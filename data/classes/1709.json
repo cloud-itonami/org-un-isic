@@ -1,0 +1,23 @@
+{
+  "code": "1709",
+  "nameEn": "Manufacture of other articles of paper and paperboard",
+  "group": "170",
+  "description": "This class includes the manufacture of other articles of paper and paperboard not elsewhere classified.",
+  "includes": [
+    "manufacture of paper stationery: notebooks, exercise books, diaries, envelopes",
+    "manufacture of wallpaper and similar wall coverings",
+    "manufacture of carbon paper, self-copy paper and other copying or transfer papers",
+    "manufacture of paper labels",
+    "manufacture of sanitary paper products: toilet paper, handkerchiefs, tissues, paper towels, napkins",
+    "manufacture of paper or paperboard tableware: cups, plates, trays",
+    "manufacture of cigarette paper",
+    "manufacture of filter paper and paperboard",
+    "manufacture of paper and paperboard office and school supplies"
+  ],
+  "excludes": [
+    "manufacture of pulp, paper and paperboard, see 1701",
+    "manufacture of corrugated paper containers, see 1702",
+    "manufacture of printed paper, see 1811-1812"
+  ],
+  "implementedAt": "2026-04-15T09:40:00Z"
+}

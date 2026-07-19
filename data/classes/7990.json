@@ -1,0 +1,19 @@
+{
+  "code": "7990",
+  "nameEn": "Other reservation service and related activities",
+  "group": "799",
+  "description": "This class includes other reservation services not elsewhere classified.",
+  "includes": [
+    "ticket sales for theatres, sports events and other entertainment",
+    "reservation services for transportation, hotels, restaurants and car rentals",
+    "provision of tourist assistance to visitors",
+    "visitor information centre activities",
+    "time-share exchange services",
+    "activities of tour guides"
+  ],
+  "excludes": [
+    "travel agency activities, see 7911",
+    "tour operator activities, see 7912"
+  ],
+  "implementedAt": "2026-04-17T13:10:00Z"
+}

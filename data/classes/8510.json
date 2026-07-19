@@ -1,0 +1,15 @@
+{
+  "code": "8510",
+  "nameEn": "Pre-primary and primary education",
+  "group": "851",
+  "description": "This class includes pre-primary and primary education activities.",
+  "includes": [
+    "pre-school and kindergarten education",
+    "primary education (elementary school level)",
+    "literacy education programs for adults"
+  ],
+  "excludes": [
+    "secondary education, see 8521 to 8523"
+  ],
+  "implementedAt": "2026-04-17T16:30:00Z"
+}

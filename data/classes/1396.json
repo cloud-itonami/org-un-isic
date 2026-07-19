@@ -1,0 +1,21 @@
+{
+  "code": "1396",
+  "nameEn": "Manufacture of technical and industrial textiles",
+  "group": "139",
+  "description": "This class includes the manufacture of textile fabrics and articles intended for technical and industrial use.",
+  "includes": [
+    "manufacture of textile fabrics impregnated, coated, covered or laminated with rubber or plastics",
+    "manufacture of tyre cord fabric of high tenacity yarn of nylon, polyester or viscose rayon",
+    "manufacture of textile fabrics for reinforcement of mechanical rubber goods",
+    "manufacture of industrial textiles including wicks and incandescent gas mantles",
+    "manufacture of fire hose",
+    "manufacture of conveyor or transmission belts or belting of textile material",
+    "manufacture of filter fabrics and felt for industrial use",
+    "manufacture of textile-based geotextile fabrics"
+  ],
+  "excludes": [
+    "manufacture of rubber-coated tyres, see 2211",
+    "manufacture of transmission belts of rubber, see 2219"
+  ],
+  "implementedAt": "2026-04-15T07:10:00Z"
+}

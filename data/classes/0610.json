@@ -1,0 +1,19 @@
+{
+  "code": "0610",
+  "nameEn": "Extraction of crude petroleum",
+  "group": "061",
+  "description": "This class includes the extraction and production of crude petroleum and bituminous oil from natural deposits. It includes the operation of oil wells and related activities.",
+  "includes": [
+    "extraction and production of crude petroleum",
+    "extraction and production of bituminous oil",
+    "operation of oil wells",
+    "crude oil production",
+    "petroleum-bearing deposits"
+  ],
+  "excludes": [
+    "natural gas extraction, see 0620",
+    "refining of petroleum, see 1920",
+    "extraction of natural gas (without petroleum), see 0620"
+  ],
+  "implementedAt": "2026-04-15T02:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "2022",
+  "nameEn": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+  "group": "202",
+  "description": "This class includes the manufacture of paints, varnishes and similar coatings, printing ink and mastics.",
+  "includes": [
+    "manufacture of paints and varnishes, enamels or lacquers",
+    "manufacture of prepared driers",
+    "manufacture of putties, paint fillers and other non-refractory surfacing preparations",
+    "manufacture of printing ink",
+    "manufacture of mastics",
+    "manufacture of encaustic and similar preparations"
+  ],
+  "excludes": [
+    "manufacture of dyestuffs and pigments, see 2012",
+    "manufacture of inks for writing, drawing and other purposes, see 2029"
+  ],
+  "implementedAt": "2026-04-15T11:20:00Z"
+}

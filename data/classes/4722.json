@@ -1,0 +1,15 @@
+{
+  "code": "4722",
+  "nameEn": "Retail sale of beverages in specialised stores",
+  "group": "472",
+  "description": "This class includes the retail sale of beverages in specialised stores.",
+  "includes": [
+    "retail sale of alcoholic beverages: wine shops, liquor stores",
+    "retail sale of non-alcoholic beverages: fruit juices, soft drinks",
+    "retail sale of beer"
+  ],
+  "excludes": [
+    "retail sale of food, see 4721"
+  ],
+  "implementedAt": "2026-04-16T16:40:00Z"
+}

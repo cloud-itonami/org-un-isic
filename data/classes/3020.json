@@ -1,0 +1,20 @@
+{
+  "code": "3020",
+  "nameEn": "Manufacture of railway locomotives and rolling stock",
+  "group": "302",
+  "description": "This class includes the manufacture of railway and tramway locomotives and rolling stock.",
+  "includes": [
+    "manufacture of diesel, electric and steam railway locomotives",
+    "manufacture of self-propelled railway and tramway coaches, vans and trucks: electric multiple units, diesel multiple units, railbuses",
+    "manufacture of railway and tramway rolling stock, not self-propelled: passenger coaches, freight wagons, maintenance wagons",
+    "manufacture of railway and tramway track fixtures and fittings: rails, switches, crossings, sleepers",
+    "manufacture of specialised parts for railway and tramway locomotives and rolling stock: bogies, axles, wheels, brakes",
+    "manufacture of mine wagons"
+  ],
+  "excludes": [
+    "manufacture of unassembled rails, see 2410",
+    "manufacture of electric motors, see 2710",
+    "manufacture of railway signalling equipment, see 2790"
+  ],
+  "implementedAt": "2026-04-16T05:10:00Z"
+}

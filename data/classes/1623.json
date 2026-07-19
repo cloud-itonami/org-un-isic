@@ -1,0 +1,18 @@
+{
+  "code": "1623",
+  "nameEn": "Manufacture of wooden containers",
+  "group": "162",
+  "description": "This class includes the manufacture of wooden containers such as boxes, crates, drums, barrels and pallets.",
+  "includes": [
+    "manufacture of wooden boxes, crates and cases",
+    "manufacture of wooden pallets, box pallets and other load boards",
+    "manufacture of wooden cable drums",
+    "manufacture of barrels, vats, tubs and other coopers' products of wood",
+    "manufacture of wooden cable reels"
+  ],
+  "excludes": [
+    "manufacture of luggage, see 1512",
+    "manufacture of wooden furniture, see 3100"
+  ],
+  "implementedAt": "2026-04-15T09:00:00Z"
+}

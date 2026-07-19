@@ -1,0 +1,22 @@
+{
+  "code": "2393",
+  "nameEn": "Manufacture of other porcelain and ceramic products",
+  "group": "239",
+  "description": "This class includes the manufacture of household, ornamental and other porcelain and ceramic products.",
+  "includes": [
+    "manufacture of ceramic household and ornamental articles: tableware, kitchenware, vases, ornaments",
+    "manufacture of ceramic sanitary fixtures: baths, bidets, sinks, wash basins, toilet pans",
+    "manufacture of ceramic insulators and insulating fittings",
+    "manufacture of ceramic and ferrite magnets",
+    "manufacture of ceramic floor and wall tiles",
+    "manufacture of ceramic laboratory, chemical and industrial products: troughs, tanks, tubes, crucibles",
+    "manufacture of artificial teeth, dental fittings and other ceramic dental products"
+  ],
+  "excludes": [
+    "manufacture of refractory ceramic goods, see 2391",
+    "manufacture of clay building materials, see 2392",
+    "manufacture of artificial stone, see 2395",
+    "manufacture of optical glass and optical elements, see 2670"
+  ],
+  "implementedAt": "2026-04-15T13:10:00Z"
+}

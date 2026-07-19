@@ -1,0 +1,18 @@
+{
+  "code": "6630",
+  "nameEn": "Fund management activities",
+  "group": "663",
+  "description": "This class includes portfolio management and related investment advisory activities.",
+  "includes": [
+    "portfolio management activities (except for pension funds and collective investment vehicles)",
+    "management of mutual funds",
+    "management of pension funds",
+    "management of other investment vehicles",
+    "investment advisory services"
+  ],
+  "excludes": [
+    "activities of trusts, funds and similar financial entities, see 6430",
+    "financial advisory services, see 6619"
+  ],
+  "implementedAt": "2026-04-17T08:30:00Z"
+}

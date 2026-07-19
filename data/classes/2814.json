@@ -1,0 +1,22 @@
+{
+  "code": "2814",
+  "nameEn": "Manufacture of bearings, gears, gearing and driving elements",
+  "group": "281",
+  "description": "This class includes the manufacture of ball and roller bearings, gears and gearing, and power transmission equipment.",
+  "includes": [
+    "manufacture of ball and roller bearings",
+    "manufacture of plain shaft bearings",
+    "manufacture of gears, gearing and gear boxes",
+    "manufacture of ball screws",
+    "manufacture of clutches and shaft couplings",
+    "manufacture of shaft drives",
+    "manufacture of flexible shafts",
+    "manufacture of chains (except jewellery chains and bicycle chains)",
+    "manufacture of variable speed drives"
+  ],
+  "excludes": [
+    "manufacture of bicycle chains, see 3091",
+    "manufacture of parts and accessories for motor vehicles (including drive shafts), see 2930"
+  ],
+  "implementedAt": "2026-04-16T02:10:00Z"
+}

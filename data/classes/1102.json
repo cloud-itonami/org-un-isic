@@ -1,0 +1,19 @@
+{
+  "code": "1102",
+  "nameEn": "Manufacture of wines",
+  "group": "110",
+  "description": "This class includes the manufacture of wine and other fermented beverages made from grapes and other fruits.",
+  "includes": [
+    "manufacture of wine from fresh grapes",
+    "manufacture of fortified wines: port, sherry, madeira",
+    "manufacture of sparkling wine",
+    "manufacture of cider, perry and other fruit wines",
+    "manufacture of other fermented beverages: sake, mead"
+  ],
+  "excludes": [
+    "manufacture of distilled spirits, see 1101",
+    "manufacture of beer and malt liquors, see 1103",
+    "growing of grapes, see 0121"
+  ],
+  "implementedAt": "2026-04-15T05:10:00Z"
+}

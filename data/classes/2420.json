@@ -1,0 +1,27 @@
+{
+  "code": "2420",
+  "nameEn": "Manufacture of basic precious and other non-ferrous metals",
+  "group": "242",
+  "description": "This class includes the manufacture of basic precious and other non-ferrous metals from ore, pig or scrap.",
+  "includes": [
+    "production of aluminium from alumina",
+    "production of aluminium from electrolytic refining of aluminium waste and scrap",
+    "production of aluminium alloys",
+    "semi-manufacturing of aluminium: plates, sheets, strip, foil, tubes, pipes, wire, bars, rods, profiles",
+    "production of copper from copper ore or copper matte",
+    "production of copper by electrolytic refining of copper waste and scrap",
+    "production of copper alloys",
+    "semi-manufacturing of copper: plates, sheets, strip, foil, tubes, pipes, wire, bars, rods, profiles",
+    "production of lead, zinc, tin and other non-ferrous metals from ores, concentrates or scrap",
+    "production of precious metals: silver, gold, platinum group metals from ores or scrap",
+    "semi-manufacturing of precious metals",
+    "production of nuclear fuel",
+    "production of uranium metal from pitchblende or other ores"
+  ],
+  "excludes": [
+    "casting of non-ferrous metals, see 2432",
+    "manufacture of non-ferrous metal wire from drawn wire, see 2599",
+    "manufacture of jewellery and related articles, see 3211"
+  ],
+  "implementedAt": "2026-04-15T14:10:00Z"
+}

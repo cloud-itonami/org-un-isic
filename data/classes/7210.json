@@ -1,0 +1,19 @@
+{
+  "code": "7210",
+  "nameEn": "Research and experimental development on natural sciences and engineering",
+  "group": "721",
+  "description": "This class includes the activities of industrial research laboratories engaged in systematic original investigation in natural sciences and engineering.",
+  "includes": [
+    "research and experimental development on natural sciences",
+    "research on mathematics, physics and chemistry",
+    "research on life sciences",
+    "research on earth and related sciences",
+    "research on engineering and technology",
+    "research on medical sciences",
+    "research on agriculture, forestry and fishery"
+  ],
+  "excludes": [
+    "research and development on social sciences and humanities, see 7220"
+  ],
+  "implementedAt": "2026-04-17T10:00:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "2013",
+  "nameEn": "Manufacture of plastics and synthetic rubber in primary forms",
+  "group": "201",
+  "description": "This class includes the manufacture of plastics in primary forms and synthetic rubber.",
+  "includes": [
+    "manufacture of polymers of ethylene: polyethylene (PE)",
+    "manufacture of polymers of propylene: polypropylene (PP)",
+    "manufacture of polymers of styrene: polystyrene (PS), ABS",
+    "manufacture of polymers of vinyl chloride: PVC",
+    "manufacture of polyamides (nylon)",
+    "manufacture of polyesters: PET, PBT",
+    "manufacture of epoxide resins",
+    "manufacture of phenoplasts and aminoplasts",
+    "manufacture of polyurethanes",
+    "manufacture of synthetic rubber: styrene-butadiene rubber (SBR), polybutadiene, neoprene",
+    "manufacture of cellulose and its chemical derivatives"
+  ],
+  "excludes": [
+    "manufacture of man-made fibres, see 2030",
+    "manufacture of articles of plastics, see 2220"
+  ],
+  "implementedAt": "2026-04-15T11:00:00Z"
+}

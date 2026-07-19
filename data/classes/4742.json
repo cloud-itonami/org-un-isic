@@ -1,0 +1,17 @@
+{
+  "code": "4742",
+  "nameEn": "Retail sale of audio and video equipment in specialised stores",
+  "group": "474",
+  "description": "This class includes the retail sale of audio and video equipment in specialised stores.",
+  "includes": [
+    "retail sale of radio and television equipment",
+    "retail sale of hi-fi equipment",
+    "retail sale of DVD players, Blu-ray players",
+    "retail sale of stereo equipment: amplifiers, speakers",
+    "retail sale of CD, DVD, Blu-ray discs and audio cassettes"
+  ],
+  "excludes": [
+    "retail sale of computers and peripherals, see 4741"
+  ],
+  "implementedAt": "2026-04-16T17:20:00Z"
+}

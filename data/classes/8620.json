@@ -1,0 +1,18 @@
+{
+  "code": "8620",
+  "nameEn": "Medical and dental practice activities",
+  "group": "862",
+  "description": "This class includes the provision of outpatient health care services by medical doctors and dentists.",
+  "includes": [
+    "outpatient medical consultations and treatment",
+    "general medical practice activities",
+    "specialist medical practice activities",
+    "dental practice activities",
+    "orthodontic practice activities"
+  ],
+  "excludes": [
+    "hospital activities (inpatient), see 8610",
+    "other human health activities, see 8690"
+  ],
+  "implementedAt": "2026-04-17T18:00:00Z"
+}

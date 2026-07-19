@@ -1,0 +1,27 @@
+{
+  "code": "2310",
+  "nameEn": "Manufacture of glass and glass products",
+  "group": "231",
+  "description": "This class includes the manufacture of glass in all its basic forms and glass products.",
+  "includes": [
+    "manufacture of flat glass: float glass, plate glass, sheet glass",
+    "manufacture of toughened or laminated flat glass",
+    "manufacture of glass mirrors",
+    "manufacture of glass containers: bottles, jars, flasks, etc.",
+    "manufacture of glass fibres including glass wool and non-woven glass products",
+    "manufacture of domestic glassware: drinking glasses, bowls, vases, etc.",
+    "manufacture of glass for laboratory, hygienic or pharmaceutical use",
+    "manufacture of glass insulators and glass insulating fittings",
+    "manufacture of glass envelopes for lamps and cathode ray tubes",
+    "manufacture of glass wool and glass fibre",
+    "manufacture of other technical glassware",
+    "manufacture of clock or watch glasses, optical glass and optical elements",
+    "manufacture of glass paving blocks, bricks, tiles and other articles"
+  ],
+  "excludes": [
+    "manufacture of glass jewellery, see 3212",
+    "manufacture of optical instruments and apparatus, see 2670",
+    "manufacture of artificial eyes of glass, see 3250"
+  ],
+  "implementedAt": "2026-04-15T12:40:00Z"
+}

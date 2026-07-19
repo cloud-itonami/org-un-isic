@@ -1,0 +1,17 @@
+{
+  "code": "4791",
+  "nameEn": "Retail sale via mail order houses or via Internet",
+  "group": "479",
+  "description": "This class includes the retail sale of any kind of product by mail order or over the Internet.",
+  "includes": [
+    "retail sale via mail order: catalogue shopping",
+    "retail sale via Internet: online shopping",
+    "retail sale via television, radio and telephone shopping",
+    "direct selling of goods through TV, radio commercials",
+    "internet retail trade"
+  ],
+  "excludes": [
+    "activities of online agents and market facilitators (not selling to final consumers directly)"
+  ],
+  "implementedAt": "2026-04-16T20:50:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "0910",
+  "nameEn": "Support activities for petroleum and natural gas extraction",
+  "group": "091",
+  "description": "This class includes oil and gas field services performed on a fee or contract basis: directional drilling and redrilling; derrick building, repair and dismantling; cementing oil and gas well casings; pumping of oil and gas wells; plugging and abandoning wells; liquid mud preparation for drilling; chemical treatment of oil and gas wells; oil and gas well testing.",
+  "includes": [
+    "oil and gas field services: directional drilling and redrilling",
+    "derrick building, repair and dismantling",
+    "cementing oil and gas well casings",
+    "pumping of oil and gas wells",
+    "plugging and abandoning wells",
+    "liquid mud preparation for drilling",
+    "chemical treatment of oil and gas wells",
+    "oil and gas well testing"
+  ],
+  "excludes": [
+    "oil and gas field machinery and equipment manufacturing, see 2819",
+    "geophysical surveying activities, see 7110"
+  ],
+  "implementedAt": "2026-04-15T02:30:00Z"
+}

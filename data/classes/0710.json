@@ -1,0 +1,19 @@
+{
+  "code": "0710",
+  "nameEn": "Mining of iron ores",
+  "group": "071",
+  "description": "This class includes the extraction and beneficiation of iron ores. Beneficiation includes activities such as dressing, roasting, sintering, and pelletizing of iron ore.",
+  "includes": [
+    "mining of iron ores",
+    "extraction of iron ore",
+    "iron ore beneficiation",
+    "dressing of iron ore",
+    "roasting of iron ore",
+    "sintering and pelletizing of iron ore"
+  ],
+  "excludes": [
+    "mining of other non-ferrous metal ores, see 0729",
+    "beneficiation of iron ore not associated with mining, see 2399"
+  ],
+  "implementedAt": "2026-04-15T02:20:00Z"
+}

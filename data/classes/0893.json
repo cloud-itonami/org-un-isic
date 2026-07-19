@@ -1,0 +1,17 @@
+{
+  "code": "0893",
+  "nameEn": "Extraction of salt",
+  "group": "089",
+  "description": "This class includes extraction of salt from underground including by dissolving and pumping, salt production by evaporation of sea water or other saline waters, crushing, purification and refining of salt by the producer.",
+  "includes": [
+    "mining of rock salt",
+    "extraction of salt from underground by dissolving and pumping",
+    "salt production by evaporation of sea water or other saline waters",
+    "crushing, purification and refining of salt by the producer"
+  ],
+  "excludes": [
+    "processing of salt into food-grade salt, see 1079",
+    "manufacture of industrial salts, see 2019"
+  ],
+  "implementedAt": "2026-04-15T02:20:00Z"
+}

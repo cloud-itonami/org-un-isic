@@ -1,0 +1,17 @@
+{
+  "code": "9411",
+  "nameEn": "Activities of business and employers membership organizations",
+  "group": "941",
+  "description": "This class includes the activities of organizations whose members' interests centre on the development and prosperity of business enterprises.",
+  "includes": [
+    "activities of employers' organizations",
+    "activities of trade and industry associations",
+    "activities of chambers of commerce and industry",
+    "activities of business federations"
+  ],
+  "excludes": [
+    "activities of professional membership organizations, see 9412",
+    "activities of trade unions, see 9420"
+  ],
+  "implementedAt": "2026-04-17T21:00:00Z"
+}

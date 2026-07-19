@@ -1,0 +1,22 @@
+{
+  "code": "2815",
+  "nameEn": "Manufacture of ovens, furnaces and furnace burners",
+  "group": "281",
+  "description": "This class includes the manufacture of industrial or laboratory furnaces and ovens, and furnace burners.",
+  "includes": [
+    "manufacture of industrial or laboratory electric ovens and furnaces",
+    "manufacture of industrial or laboratory non-electric ovens and furnaces",
+    "manufacture of furnace burners",
+    "manufacture of incinerators",
+    "manufacture of cremators",
+    "manufacture of drying ovens",
+    "manufacture of microwave ovens for industrial use"
+  ],
+  "excludes": [
+    "manufacture of domestic cooking equipment, see 2750",
+    "manufacture of agricultural dryers, see 2825",
+    "manufacture of bakery ovens, see 2825",
+    "manufacture of dental furnaces, see 3250"
+  ],
+  "implementedAt": "2026-04-16T02:20:00Z"
+}

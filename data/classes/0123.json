@@ -1,0 +1,11 @@
+{
+  "code": "0123",
+  "nameEn": "Growing of citrus fruits",
+  "group": "012",
+  "description": "This class includes the growing of citrus fruits.",
+  "includes": [
+    "growing of citrus fruits: grapefruit and pomelo; lemons and limes; oranges; tangerines, mandarins, clementines; other citrus fruits"
+  ],
+  "excludes": [],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

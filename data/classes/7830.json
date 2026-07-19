@@ -1,0 +1,17 @@
+{
+  "code": "7830",
+  "nameEn": "Other human resources provision",
+  "group": "783",
+  "description": "This class includes providing human resources for client businesses, where the client directs the work, but the service provider is responsible for the employment of the workers.",
+  "includes": [
+    "long-term contract staffing activities",
+    "employee leasing activities",
+    "co-employment activities",
+    "professional employer organization activities"
+  ],
+  "excludes": [
+    "placement agency activities, see 7810",
+    "temporary employment agency activities, see 7820"
+  ],
+  "implementedAt": "2026-04-17T12:40:00Z"
+}

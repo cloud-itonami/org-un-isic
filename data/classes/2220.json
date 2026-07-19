@@ -1,0 +1,29 @@
+{
+  "code": "2220",
+  "nameEn": "Manufacture of plastics products",
+  "group": "222",
+  "description": "This class includes the processing of new or spent (recycled) plastics materials into intermediate or final products, using such processes as compression moulding; extrusion moulding; injection moulding; blow moulding; casting.",
+  "includes": [
+    "manufacture of semi-manufactures of plastics products",
+    "manufacture of finished plastics products: plastic plates, sheets, blocks, film, foil, strip",
+    "manufacture of plastics tubes, pipes, hoses and fittings",
+    "manufacture of plastics packaging goods: bags, bottles, boxes, cases, crates, containers",
+    "manufacture of plastics floor, wall and ceiling coverings",
+    "manufacture of plastics plumbing fittings",
+    "manufacture of plastics tableware, kitchenware and other household articles",
+    "manufacture of plastics furniture and parts",
+    "manufacture of plastics builders' ware: doors, windows, frames, shutters, blinds",
+    "manufacture of plastics garments and clothing accessories",
+    "manufacture of other plastics products",
+    "manufacture of artificial guts (sausage casings) from plastics materials"
+  ],
+  "excludes": [
+    "manufacture of plastics in primary forms, see 2013",
+    "manufacture of synthetic rubber in primary forms, see 2013",
+    "manufacture of articles of foam rubber, see 2219",
+    "manufacture of sport goods of plastics, see 3230",
+    "manufacture of games and toys of plastics, see 3240",
+    "manufacture of imitation jewellery, see 3212"
+  ],
+  "implementedAt": "2026-04-15T12:30:00Z"
+}

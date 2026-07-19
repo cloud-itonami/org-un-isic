@@ -1,0 +1,14 @@
+{
+  "code": "4723",
+  "nameEn": "Retail sale of tobacco products in specialised stores",
+  "group": "472",
+  "description": "This class includes the retail sale of tobacco products in specialised stores.",
+  "includes": [
+    "retail sale of cigarettes, cigars, pipe tobacco",
+    "retail sale of smoking accessories: pipes, lighters, matches"
+  ],
+  "excludes": [
+    "retail sale of food and beverages, see 4721, 4722"
+  ],
+  "implementedAt": "2026-04-16T16:50:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "5120",
+  "nameEn": "Freight air transport and space transport",
+  "group": "512",
+  "description": "This class includes the transport of freight by air and all space transport.",
+  "includes": [
+    "carriage of freight by air: scheduled and charter flights",
+    "operation of cargo airlines",
+    "launching of satellites and space vehicles",
+    "space transport of freight and people"
+  ],
+  "excludes": [
+    "passenger air transport, see 5110"
+  ],
+  "implementedAt": "2026-04-16T23:00:00Z"
+}

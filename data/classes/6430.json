@@ -1,0 +1,21 @@
+{
+  "code": "6430",
+  "nameEn": "Trusts, funds and similar financial entities",
+  "group": "643",
+  "description": "This class includes legal entities organized to pool securities or other financial assets without managing them on a day-to-day basis.",
+  "includes": [
+    "open-end investment funds (mutual funds)",
+    "closed-end investment funds",
+    "unit investment trusts",
+    "hedge funds",
+    "private equity funds",
+    "venture capital funds",
+    "real estate investment trusts (REITs)",
+    "real estate investment funds"
+  ],
+  "excludes": [
+    "activities of holding companies, see 6420",
+    "fund management activities, see 6630"
+  ],
+  "implementedAt": "2026-04-17T06:10:00Z"
+}

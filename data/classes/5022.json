@@ -1,0 +1,14 @@
+{
+  "code": "5022",
+  "nameEn": "Inland freight water transport",
+  "group": "504",
+  "description": "This class includes the transport of freight on inland waterways.",
+  "includes": [
+    "transport of freight on rivers, canals, lakes and other inland waterways",
+    "towing and pushing of barges or other non-motorised watercraft on inland waterways"
+  ],
+  "excludes": [
+    "sea and coastal freight water transport, see 5012"
+  ],
+  "implementedAt": "2026-04-16T22:40:00Z"
+}

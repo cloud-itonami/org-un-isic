@@ -1,0 +1,18 @@
+{
+  "code": "4620",
+  "nameEn": "Wholesale of agricultural raw materials and live animals",
+  "group": "462",
+  "description": "This class includes the wholesale of agricultural raw materials, live animals and animal raw materials.",
+  "includes": [
+    "wholesale of grain, oilseeds and animal feeds: corn, wheat, rice, soybeans",
+    "wholesale of flowers and plants",
+    "wholesale of live animals",
+    "wholesale of hides, skins and leather",
+    "wholesale of unmanufactured tobacco",
+    "wholesale of rubber and plastic in primary forms"
+  ],
+  "excludes": [
+    "wholesale of food derived from raw agricultural products, see 4630"
+  ],
+  "implementedAt": "2026-04-16T13:40:00Z"
+}

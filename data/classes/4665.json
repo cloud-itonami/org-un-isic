@@ -1,0 +1,17 @@
+{
+  "code": "4665",
+  "nameEn": "Wholesale of other intermediate products",
+  "group": "466",
+  "description": "This class includes the wholesale of other intermediate products used in production.",
+  "includes": [
+    "wholesale of chemical products: acids, industrial salts",
+    "wholesale of plastics materials in primary forms",
+    "wholesale of rubber",
+    "wholesale of paper and paperboard, books, magazines and newspapers",
+    "wholesale of packaging materials"
+  ],
+  "excludes": [
+    "wholesale of agricultural raw materials and live animals, see 4620"
+  ],
+  "implementedAt": "2026-04-16T15:40:00Z"
+}

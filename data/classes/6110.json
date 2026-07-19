@@ -1,0 +1,17 @@
+{
+  "code": "6110",
+  "nameEn": "Wired telecommunications activities",
+  "group": "611",
+  "description": "This class includes operating, maintaining or providing access to facilities for the transmission of voice, data, text, sound and video using wired telecommunications networks.",
+  "includes": [
+    "operating and maintaining cable and other wired telecommunications networks",
+    "provision of wired telephone services",
+    "provision of wired internet access services (DSL, cable, fiber)",
+    "provision of cable television services"
+  ],
+  "excludes": [
+    "wireless telecommunications, see 6120",
+    "satellite telecommunications, see 6130"
+  ],
+  "implementedAt": "2026-04-17T03:40:00Z"
+}

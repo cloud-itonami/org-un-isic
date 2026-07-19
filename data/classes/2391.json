@@ -1,0 +1,16 @@
+{
+  "code": "2391",
+  "nameEn": "Manufacture of refractory products",
+  "group": "239",
+  "description": "This class includes the manufacture of refractory ceramic goods.",
+  "includes": [
+    "manufacture of refractory mortars, concretes and similar compositions",
+    "manufacture of refractory ceramic goods: retorts, crucibles, muffles, nozzles, plugs, supports, cupels, tubes, pipes, sheaths and rods",
+    "manufacture of refractory bricks, blocks, tiles and similar refractory ceramic constructional goods",
+    "manufacture of refractory goods containing magnesite, dolomite or chromite"
+  ],
+  "excludes": [
+    "manufacture of refractory cement, see 2394"
+  ],
+  "implementedAt": "2026-04-15T12:50:00Z"
+}

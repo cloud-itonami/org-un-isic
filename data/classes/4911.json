@@ -1,0 +1,17 @@
+{
+  "code": "4911",
+  "nameEn": "Passenger rail transport, interurban",
+  "group": "491",
+  "description": "This class includes the carriage of passengers on railways between cities and other urban areas.",
+  "includes": [
+    "railway transportation of passengers between cities and regions",
+    "operation of sleeping and dining cars on interurban railways",
+    "operation of high-speed rail services",
+    "interurban and intercity rail passenger services"
+  ],
+  "excludes": [
+    "urban and suburban passenger land transport by rail, see 4921",
+    "support activities for land transport, see 5221"
+  ],
+  "implementedAt": "2026-04-16T21:10:00Z"
+}

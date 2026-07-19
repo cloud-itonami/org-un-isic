@@ -1,0 +1,19 @@
+{
+  "code": "4312",
+  "nameEn": "Site preparation",
+  "group": "431",
+  "description": "This class includes the preparation of sites for subsequent construction activities.",
+  "includes": [
+    "drainage of construction sites",
+    "land clearing and grubbing",
+    "earthmoving: digging, filling and levelling construction sites",
+    "trench digging, rock removal, blasting",
+    "preparation of mining sites: removing overburden and other development and preparation of mineral properties and sites",
+    "excavation and earthmoving"
+  ],
+  "excludes": [
+    "test drilling and boring, see 4313",
+    "oil and gas field exploration, see 0910"
+  ],
+  "implementedAt": "2026-04-16T11:40:00Z"
+}

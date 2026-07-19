@@ -1,0 +1,20 @@
+{
+  "code": "3314",
+  "nameEn": "Repair of electrical equipment",
+  "group": "331",
+  "description": "This class includes the repair and maintenance of industrial electrical equipment.",
+  "includes": [
+    "repair and maintenance of electric motors, generators and transformers",
+    "repair and maintenance of electricity distribution and control apparatus",
+    "repair and maintenance of industrial and commercial electric lighting equipment",
+    "repair and maintenance of batteries and accumulators",
+    "repair and maintenance of wiring devices",
+    "repair of electric household appliances (non-consumer — industrial grade)"
+  ],
+  "excludes": [
+    "repair of domestic electrical appliances (household), see 9522",
+    "repair of consumer electronics, see 9521",
+    "repair of electrical wiring in buildings, see 4321"
+  ],
+  "implementedAt": "2026-04-16T08:20:00Z"
+}

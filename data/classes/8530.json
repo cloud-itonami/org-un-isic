@@ -1,0 +1,18 @@
+{
+  "code": "8530",
+  "nameEn": "Higher education",
+  "group": "853",
+  "description": "This class includes the provision of post-secondary and higher education leading to academic or professional degrees.",
+  "includes": [
+    "university education",
+    "college and polytechnic education",
+    "post-graduate education",
+    "professional schools (law, medicine, business, etc.)",
+    "technical and vocational education beyond secondary level"
+  ],
+  "excludes": [
+    "secondary education, see 8521 and 8522",
+    "adult education n.e.c., see 8549"
+  ],
+  "implementedAt": "2026-04-17T17:00:00Z"
+}

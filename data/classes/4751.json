@@ -1,0 +1,18 @@
+{
+  "code": "4751",
+  "nameEn": "Retail sale of textiles in specialised stores",
+  "group": "475",
+  "description": "This class includes the retail sale of textiles in specialised stores.",
+  "includes": [
+    "retail sale of fabrics, yarn, threads and sewing notions",
+    "retail sale of household textiles: bed linen, curtains, towels",
+    "retail sale of floor coverings (soft): carpets, rugs",
+    "retail sale of haberdashery: buttons, ribbons, hooks",
+    "retail sale of needlework kits and supplies"
+  ],
+  "excludes": [
+    "retail sale of clothing, see 4771",
+    "retail sale of carpets and hard floor coverings, see 4753"
+  ],
+  "implementedAt": "2026-04-16T17:30:00Z"
+}

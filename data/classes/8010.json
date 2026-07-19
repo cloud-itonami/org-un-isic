@@ -1,0 +1,18 @@
+{
+  "code": "8010",
+  "nameEn": "Private security activities",
+  "group": "801",
+  "description": "This class includes the provision of one or more of the following: guard services, patrol services, watchman services, armored car services and guard dog services.",
+  "includes": [
+    "guard and patrol activities",
+    "armored car service activities",
+    "bodyguard activities",
+    "polygraph activities",
+    "fingerprinting services"
+  ],
+  "excludes": [
+    "public order and safety activities, see 8422",
+    "security systems service activities, see 8020"
+  ],
+  "implementedAt": "2026-04-17T13:20:00Z"
+}

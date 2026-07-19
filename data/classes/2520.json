@@ -1,0 +1,25 @@
+{
+  "code": "2520",
+  "nameEn": "Manufacture of weapons and ammunition",
+  "group": "252",
+  "description": "This class includes the manufacture of military fighting vehicles, weapons and ammunition.",
+  "includes": [
+    "manufacture of heavy weapons: artillery, mobile guns, rocket launchers, torpedoes, heavy machine guns",
+    "manufacture of small arms: revolvers, shotguns, light machine guns, rifles, pistols",
+    "manufacture of air or gas guns and pistols",
+    "manufacture of ammunition: bombs, mines, torpedoes, grenades, cartridges and other ammunition and projectiles",
+    "manufacture of hunting, sporting or protective firearms and ammunition",
+    "manufacture of military fighting vehicles: tanks, armed amphibious vehicles, military armoured personnel carriers",
+    "manufacture of swords, bayonets etc.",
+    "manufacture of gunpowder and propellants",
+    "manufacture of fireworks and pyrotechnic articles (see also 2029)"
+  ],
+  "excludes": [
+    "manufacture of explosives, see 2029",
+    "manufacture of nuclear weapons, see 2520",
+    "forging, pressing, stamping and roll-forming of metal, see 2591",
+    "manufacture of cutlery, see 2593",
+    "manufacture of space vehicles, see 3030"
+  ],
+  "implementedAt": "2026-04-15T15:10:00Z"
+}

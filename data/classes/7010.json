@@ -1,0 +1,18 @@
+{
+  "code": "7010",
+  "nameEn": "Activities of head offices",
+  "group": "701",
+  "description": "This class includes the overseeing and managing of other units of the company or enterprise; undertaking the strategic or organizational planning and decision making role of the company or enterprise.",
+  "includes": [
+    "activities of head offices",
+    "corporate offices activities",
+    "district and regional offices activities",
+    "subsidiary management offices",
+    "centralized administrative offices activities"
+  ],
+  "excludes": [
+    "activities of holding companies (not managing), see 6420",
+    "management consultancy activities, see 7020"
+  ],
+  "implementedAt": "2026-04-17T09:20:00Z"
+}

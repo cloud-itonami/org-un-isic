@@ -1,0 +1,18 @@
+{
+  "code": "8541",
+  "nameEn": "Sports and recreation education",
+  "group": "854",
+  "description": "This class includes the provision of instruction in athletic activities.",
+  "includes": [
+    "sports and athletics instruction",
+    "swimming instruction",
+    "martial arts schools",
+    "tennis and golf instruction",
+    "fitness and aerobic instruction",
+    "riding academies"
+  ],
+  "excludes": [
+    "activities of sport clubs and sports facilities, see 9311 and 9312"
+  ],
+  "implementedAt": "2026-04-17T17:10:00Z"
+}

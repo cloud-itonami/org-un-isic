@@ -1,0 +1,23 @@
+{
+  "code": "0149",
+  "nameEn": "Raising of other animals",
+  "group": "014",
+  "description": "This class includes raising and breeding of other animals such as semi-domesticated or wild animals, bees, silkworms, pet animals (except fish), and other animals not elsewhere classified.",
+  "includes": [
+    "raising and breeding of semi-domesticated or wild animals: ostriches and emus; other birds (except poultry); insects; rabbits and other fur animals",
+    "production of furskins, reptile or bird skins from ranching operation",
+    "operation of worm farms, land mollusc farms, snail farms etc.",
+    "raising of silkworms, production of silkworm cocoons",
+    "raising of bees, production of honey and beeswax",
+    "raising and breeding of pet animals (except fish): cats and dogs; birds, such as parrots etc.; hamsters etc.",
+    "raising of diverse animals"
+  ],
+  "excludes": [
+    "production of hides and skins from hunting and trapping, see 0170",
+    "raising of fish, see 0321, 0322",
+    "operation of animal shelters, see 7500",
+    "training of pet animals, see 9609",
+    "pet care services (boarding, grooming, sitting), see 9609"
+  ],
+  "implementedAt": "2026-04-15T00:30:00Z"
+}

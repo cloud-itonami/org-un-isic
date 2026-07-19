@@ -1,0 +1,21 @@
+{
+  "code": "3320",
+  "nameEn": "Installation of industrial machinery and equipment",
+  "group": "332",
+  "description": "This class includes the specialised installation of industrial machinery and equipment in industrial plants.",
+  "includes": [
+    "installation of industrial machinery in industrial plant: boilers, engines, turbines",
+    "installation of industrial process control equipment",
+    "installation of other industrial equipment: conveyor systems, overhead cranes",
+    "dismantling large-scale machinery and equipment",
+    "installation of bowling alley equipment",
+    "installation of escalators and elevators (non-construction)"
+  ],
+  "excludes": [
+    "installation of electrical wiring and fixtures, see 4321",
+    "construction of foundations for machinery, see 4290",
+    "installation of heating, ventilation, air conditioning equipment, see 4322",
+    "installation of lifts/escalators as part of building construction, see 4329"
+  ],
+  "implementedAt": "2026-04-16T08:50:00Z"
+}

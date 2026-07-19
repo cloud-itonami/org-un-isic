@@ -1,0 +1,25 @@
+{
+  "code": "2710",
+  "nameEn": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+  "group": "271",
+  "description": "This class includes the manufacture of electric motors, generators, transformers and electricity distribution and control apparatus.",
+  "includes": [
+    "manufacture of electric motors, except for starting motors of internal combustion engines",
+    "manufacture of electric generators",
+    "manufacture of alternators",
+    "manufacture of generating sets (engine-generator combinations)",
+    "manufacture of transformers for power distribution and industrial use",
+    "manufacture of voltage regulators for power supply",
+    "manufacture of electricity distribution and control apparatus: switch-gear and switch-board apparatus, fuses, switches, lightning arrestors, voltage limiters, voltage surge suppressors",
+    "manufacture of power rectifiers",
+    "manufacture of uninterruptible power supplies (UPS)",
+    "manufacture of welding apparatus, electric or laser"
+  ],
+  "excludes": [
+    "manufacture of electronic components, see 2610",
+    "manufacture of electric motors for vehicles, see 2910",
+    "manufacture of starting motors for internal combustion engines, see 2930",
+    "manufacture of generators for bicycles (dynamos), see 3091"
+  ],
+  "implementedAt": "2026-04-16T00:30:00Z"
+}

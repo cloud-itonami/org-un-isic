@@ -1,0 +1,20 @@
+{
+  "code": "3822",
+  "nameEn": "Treatment and disposal of hazardous waste",
+  "group": "382",
+  "description": "This class includes the treatment and disposal of hazardous waste.",
+  "includes": [
+    "operation and use of disposal sites for hazardous waste",
+    "treatment and disposal of radioactive, medical, and biological waste",
+    "treatment of hazardous waste by incineration or other methods",
+    "treatment of used motor oil and other oils",
+    "treatment and disposal of explosives",
+    "neutralization of chemical waste",
+    "processing of nuclear waste"
+  ],
+  "excludes": [
+    "treatment and disposal of non-hazardous waste, see 3821",
+    "remediation of contaminated sites, see 3900"
+  ],
+  "implementedAt": "2026-04-16T10:20:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "8549",
+  "nameEn": "Other education n.e.c.",
+  "group": "854",
+  "description": "This class includes education not elsewhere classified.",
+  "includes": [
+    "driving school and flying school activities",
+    "language school activities",
+    "computer training activities (with curriculum content)",
+    "tutoring services",
+    "adult literacy programs"
+  ],
+  "excludes": [
+    "pre-primary and primary education, see 8510",
+    "secondary education, see 8521-8522",
+    "higher education, see 8530",
+    "sports and cultural education, see 8541-8542",
+    "computer training without curriculum, see 6209"
+  ],
+  "implementedAt": "2026-04-17T17:30:00Z"
+}

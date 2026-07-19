@@ -1,0 +1,18 @@
+{
+  "code": "2818",
+  "nameEn": "Manufacture of power-driven hand tools",
+  "group": "281",
+  "description": "This class includes the manufacture of power-driven hand tools.",
+  "includes": [
+    "manufacture of hand tools with self-contained electric motor: drills, chainsaws, circular saws, jigsaws, planers, routers, sanders",
+    "manufacture of hand tools with self-contained pneumatic motor: nail guns, spray guns, impact wrenches",
+    "manufacture of hand tools with self-contained combustion engine: chainsaws, lawn mowers",
+    "manufacture of powder-actuated hand tools"
+  ],
+  "excludes": [
+    "manufacture of hand tools without power, see 2593",
+    "manufacture of professional electrical equipment, see 2790",
+    "manufacture of domestic appliances, see 2750"
+  ],
+  "implementedAt": "2026-04-16T02:50:00Z"
+}

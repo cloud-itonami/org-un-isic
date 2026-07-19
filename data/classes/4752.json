@@ -1,0 +1,17 @@
+{
+  "code": "4752",
+  "nameEn": "Retail sale of hardware, paints and glass in specialised stores",
+  "group": "475",
+  "description": "This class includes the retail sale of hardware, DIY supplies, paints and glass in specialised stores.",
+  "includes": [
+    "retail sale of hardware: tools, screws, nails",
+    "retail sale of paints, varnishes and lacquers",
+    "retail sale of flat glass and mirrors",
+    "retail sale of DIY materials and supplies",
+    "retail sale of garden equipment: spades, rakes, pruning equipment"
+  ],
+  "excludes": [
+    "retail sale of electrical tools, see 4759"
+  ],
+  "implementedAt": "2026-04-16T17:40:00Z"
+}

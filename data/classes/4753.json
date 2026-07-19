@@ -1,0 +1,16 @@
+{
+  "code": "4753",
+  "nameEn": "Retail sale of carpets, rugs, wall and floor coverings in specialised stores",
+  "group": "475",
+  "description": "This class includes the retail sale of floor coverings and wall coverings in specialised stores.",
+  "includes": [
+    "retail sale of carpets, rugs, mats",
+    "retail sale of linoleum and other hard floor coverings",
+    "retail sale of wallpaper and wall coverings",
+    "retail sale of curtains and blinds"
+  ],
+  "excludes": [
+    "retail sale of soft textiles and household linen, see 4751"
+  ],
+  "implementedAt": "2026-04-16T17:50:00Z"
+}

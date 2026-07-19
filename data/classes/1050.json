@@ -1,0 +1,23 @@
+{
+  "code": "1050",
+  "nameEn": "Manufacture of dairy products",
+  "group": "105",
+  "description": "This class includes the manufacture of dairy products such as fresh liquid milk, butter, cheese, ice cream, and other dairy-based products from raw milk.",
+  "includes": [
+    "manufacture of fresh liquid milk, pasteurized, sterilized, homogenized or ultra-heat treated",
+    "manufacture of cream from fresh liquid milk",
+    "manufacture of dried or condensed milk",
+    "manufacture of butter",
+    "manufacture of cheese and curd",
+    "manufacture of yoghurt",
+    "manufacture of ice cream and other edible ice",
+    "manufacture of casein and lactose",
+    "manufacture of whey"
+  ],
+  "excludes": [
+    "manufacture of animal fats, see 1010",
+    "manufacture of soya milk, see 1080",
+    "retail sale of dairy products, see 4711"
+  ],
+  "implementedAt": "2026-04-15T03:20:00Z"
+}

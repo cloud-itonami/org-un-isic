@@ -1,0 +1,18 @@
+{
+  "code": "4741",
+  "nameEn": "Retail sale of computers, peripheral units, software and telecommunications equipment in specialised stores",
+  "group": "474",
+  "description": "This class includes the retail sale of computers, peripherals, software and telecommunications equipment.",
+  "includes": [
+    "retail sale of computers: laptops, desktops, tablets",
+    "retail sale of computer peripheral equipment: printers, monitors, keyboards",
+    "retail sale of software (excluding video games)",
+    "retail sale of telecommunications equipment: mobile phones, telephones, fax machines",
+    "retail sale of consumer electronics: TVs, radios, stereo equipment"
+  ],
+  "excludes": [
+    "retail sale of video game equipment, see 4764",
+    "retail sale of audio and video equipment, see 4742"
+  ],
+  "implementedAt": "2026-04-16T17:10:00Z"
+}

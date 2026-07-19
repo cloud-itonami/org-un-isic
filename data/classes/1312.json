@@ -1,0 +1,20 @@
+{
+  "code": "1312",
+  "nameEn": "Weaving of textiles",
+  "group": "131",
+  "description": "This class includes the weaving of textiles from any textile material including cotton, wool, silk, flax and man-made fibres.",
+  "includes": [
+    "weaving of cotton-type textiles",
+    "weaving of wool-type textiles",
+    "weaving of silk-type textiles",
+    "weaving of linen-type textiles",
+    "weaving of fabrics from man-made filaments or fibres",
+    "manufacture of woven pile fabrics and velvet"
+  ],
+  "excludes": [
+    "preparation and spinning of textile fibres, see 1311",
+    "finishing of textiles, see 1313",
+    "manufacture of knitted and crocheted fabrics, see 1391"
+  ],
+  "implementedAt": "2026-04-15T06:00:00Z"
+}

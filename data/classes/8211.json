@@ -1,0 +1,16 @@
+{
+  "code": "8211",
+  "nameEn": "Combined office administrative service activities",
+  "group": "821",
+  "description": "This class includes the provision of a combination of administrative services, such as reception, financial planning, billing and record-keeping, personnel and physical distribution and logistics.",
+  "includes": [
+    "combined office administrative services",
+    "document preparation activities",
+    "invoicing services",
+    "administrative management services"
+  ],
+  "excludes": [
+    "specific office administrative activities when performed separately, see relevant class"
+  ],
+  "implementedAt": "2026-04-17T14:30:00Z"
+}

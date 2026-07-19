@@ -1,0 +1,16 @@
+{
+  "code": "4711",
+  "nameEn": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+  "group": "471",
+  "description": "This class includes the retail sale of a large variety of goods of which food products, beverages or tobacco predominate.",
+  "includes": [
+    "retail sale in supermarkets, hypermarkets and other large non-specialised food stores",
+    "retail sale in general stores where the predominant part of sales is food, beverages or tobacco",
+    "retail sale in grocery stores with a general food range",
+    "convenience stores with food predominating"
+  ],
+  "excludes": [
+    "retail sale in stores where food is not predominating, see 4719"
+  ],
+  "implementedAt": "2026-04-16T16:10:00Z"
+}

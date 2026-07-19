@@ -1,0 +1,21 @@
+{
+  "code": "3012",
+  "nameEn": "Building of pleasure and sporting boats",
+  "group": "301",
+  "description": "This class includes the building of pleasure and sporting boats.",
+  "includes": [
+    "building of inflatable boats and rafts",
+    "building of sailboats with or without auxiliary motor",
+    "building of motor boats",
+    "building of canoes, kayaks, rowing boats, skiffs",
+    "building of personal watercraft (jet skis)",
+    "building of windsurfers",
+    "building of rubber dinghies",
+    "manufacture of parts for pleasure and sporting boats"
+  ],
+  "excludes": [
+    "building of commercial vessels and warships, see 3011",
+    "manufacture of outboard motors, see 3011"
+  ],
+  "implementedAt": "2026-04-16T05:00:00Z"
+}

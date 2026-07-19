@@ -1,0 +1,18 @@
+{
+  "code": "6120",
+  "nameEn": "Wireless telecommunications activities",
+  "group": "612",
+  "description": "This class includes operating and maintaining wireless telecommunications networks.",
+  "includes": [
+    "operating and maintaining cellular networks: 2G, 3G, 4G, 5G",
+    "provision of cellular telephone services (mobile phone services)",
+    "provision of wireless internet access",
+    "operation of paging networks",
+    "operation of wireless networks for data"
+  ],
+  "excludes": [
+    "wired telecommunications, see 6110",
+    "satellite telecommunications, see 6130"
+  ],
+  "implementedAt": "2026-04-17T03:50:00Z"
+}

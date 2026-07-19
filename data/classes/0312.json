@@ -1,0 +1,19 @@
+{
+  "code": "0312",
+  "nameEn": "Freshwater fishing",
+  "group": "031",
+  "description": "This class includes fishing on a commercial basis in inland waters, including the taking of freshwater crustaceans and molluscs, other freshwater aquatic animals and plants.",
+  "includes": [
+    "fishing on a commercial basis in inland waters",
+    "taking of freshwater crustaceans and molluscs",
+    "taking of freshwater aquatic animals",
+    "gathering of freshwater materials",
+    "service activities incidental to freshwater fishing"
+  ],
+  "excludes": [
+    "processing of fish on specialized vessels or on land, see 1020",
+    "fishing for sport or recreation and related service activities, see 9319",
+    "inspection and patrol and other fishery protection service activities, see 8423"
+  ],
+  "implementedAt": "2026-04-15T01:30:00Z"
+}

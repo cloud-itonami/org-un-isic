@@ -1,0 +1,16 @@
+{
+  "code": "1391",
+  "nameEn": "Manufacture of knitted and crocheted fabrics",
+  "group": "139",
+  "description": "This class includes the manufacture of knitted and crocheted fabrics and articles.",
+  "includes": [
+    "manufacture of warp knit fabrics",
+    "manufacture of weft knit fabrics",
+    "manufacture of knitted or crocheted fabrics"
+  ],
+  "excludes": [
+    "manufacture of knitted and crocheted apparel, see 1430",
+    "manufacture of carpets and rugs, see 1393"
+  ],
+  "implementedAt": "2026-04-15T06:20:00Z"
+}

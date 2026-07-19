@@ -1,0 +1,17 @@
+{
+  "code": "9512",
+  "nameEn": "Repair of communication equipment",
+  "group": "951",
+  "description": "This class includes the repair and maintenance of communication equipment.",
+  "includes": [
+    "repair and maintenance of mobile phones and smartphones",
+    "repair and maintenance of telephone sets and answering machines",
+    "repair and maintenance of fax machines",
+    "repair and maintenance of two-way radios"
+  ],
+  "excludes": [
+    "repair of computers, see 9511",
+    "repair of consumer electronics, see 9521"
+  ],
+  "implementedAt": "2026-04-17T22:10:00Z"
+}

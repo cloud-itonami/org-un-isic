@@ -1,0 +1,21 @@
+{
+  "code": "0170",
+  "nameEn": "Hunting, trapping and related service activities",
+  "group": "017",
+  "description": "This class includes hunting and trapping on a commercial basis; taking of animals (dead or alive) for food, fur, skin, or for use in research, in zoos or as pets; producing fur skins, reptile or bird skins from hunting or trapping activities.",
+  "includes": [
+    "hunting and trapping on a commercial basis",
+    "taking of animals (dead or alive) for food, fur, skin or for use in research, in zoos or as pets",
+    "producing fur skins, reptile or bird skins from hunting or trapping activities",
+    "land-based catching of sea mammals such as walrus and seal"
+  ],
+  "excludes": [
+    "production of fur skins, reptile or bird skins from ranching operations, see 014",
+    "raising of game animals on ranching operations, see 014",
+    "catching of whales, see 0311",
+    "production of hides and skins originating from slaughterhouses, see 1010",
+    "hunting for sport or recreation and related service activities, see 9319",
+    "service activities to promote hunting and trapping, see 9499"
+  ],
+  "implementedAt": "2026-04-15T01:00:00Z"
+}

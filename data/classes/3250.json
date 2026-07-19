@@ -1,0 +1,26 @@
+{
+  "code": "3250",
+  "nameEn": "Manufacture of medical and dental instruments and supplies",
+  "group": "325",
+  "description": "This class includes the manufacture of medical, surgical, dental and veterinary instruments and supplies.",
+  "includes": [
+    "manufacture of surgical and medical instruments: scalpels, forceps, clamps, retractors",
+    "manufacture of syringes, needles, catheters, cannulae",
+    "manufacture of dental instruments and supplies: drills, dental chairs, amalgam, dental wax",
+    "manufacture of orthopaedic and prosthetic appliances: artificial limbs, joints, orthopaedic supports",
+    "manufacture of eyeglasses and spectacle frames",
+    "manufacture of contact lenses",
+    "manufacture of ophthalmic goods: magnifying glasses for reading",
+    "manufacture of medical thermometers",
+    "manufacture of wheelchairs and other invalid carriages",
+    "manufacture of stretchers, operating tables, hospital beds with mechanical fittings",
+    "manufacture of first-aid boxes and kits",
+    "manufacture of stethoscopes, blood pressure measuring instruments"
+  ],
+  "excludes": [
+    "manufacture of pharmaceuticals, see 2100",
+    "manufacture of irradiation, electromedical and electrotherapeutic equipment, see 2660",
+    "manufacture of measuring and testing instruments, see 2651"
+  ],
+  "implementedAt": "2026-04-16T07:10:00Z"
+}

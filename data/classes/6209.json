@@ -1,0 +1,19 @@
+{
+  "code": "6209",
+  "nameEn": "Other information technology and computer service activities",
+  "group": "620",
+  "description": "This class includes other IT and computer service activities not elsewhere classified.",
+  "includes": [
+    "computer disaster recovery services",
+    "installation of personal computers",
+    "software installation services",
+    "computer training (without curriculum content)",
+    "other IT support activities n.e.c."
+  ],
+  "excludes": [
+    "computer programming, see 6201",
+    "computer consultancy, see 6202",
+    "repair of computers, see 9511"
+  ],
+  "implementedAt": "2026-04-17T04:40:00Z"
+}

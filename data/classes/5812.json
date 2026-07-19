@@ -1,0 +1,17 @@
+{
+  "code": "5812",
+  "nameEn": "Publishing of directories and mailing lists",
+  "group": "581",
+  "description": "This class includes the publishing of mailing lists and directories of all kinds.",
+  "includes": [
+    "publishing of telephone directories",
+    "publishing of address books and mailing lists",
+    "publishing of professional and trade directories",
+    "publishing of other directories and compilations"
+  ],
+  "excludes": [
+    "book publishing, see 5811",
+    "database activities, see 6311"
+  ],
+  "implementedAt": "2026-04-17T01:50:00Z"
+}

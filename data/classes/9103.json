@@ -1,0 +1,18 @@
+{
+  "code": "9103",
+  "nameEn": "Botanical and zoological gardens and nature reserves activities",
+  "group": "910",
+  "description": "This class includes the operation of botanical and zoological gardens and nature reserves, including wildlife preserves.",
+  "includes": [
+    "botanical garden activities",
+    "zoological garden activities",
+    "aquarium and marine life center activities",
+    "nature reserve activities",
+    "wildlife sanctuary activities"
+  ],
+  "excludes": [
+    "museum activities, see 9102",
+    "amusement and theme park activities, see 9321"
+  ],
+  "implementedAt": "2026-04-17T19:50:00Z"
+}

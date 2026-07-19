@@ -1,0 +1,17 @@
+{
+  "code": "4775",
+  "nameEn": "Retail sale of cosmetic and toilet articles in specialised stores",
+  "group": "477",
+  "description": "This class includes the retail sale of cosmetic and toilet articles in specialised stores.",
+  "includes": [
+    "retail sale of perfumes and toilet waters",
+    "retail sale of cosmetics: make-up, lipstick, foundation",
+    "retail sale of soap and toiletries",
+    "retail sale of hair products: shampoo, conditioner, hair dye",
+    "retail sale of beauty products in beauty and cosmetics stores"
+  ],
+  "excludes": [
+    "retail sale in pharmacies, see 4773"
+  ],
+  "implementedAt": "2026-04-16T19:30:00Z"
+}

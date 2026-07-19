@@ -1,0 +1,22 @@
+{
+  "code": "4330",
+  "nameEn": "Building completion and finishing",
+  "group": "433",
+  "description": "This class includes activities that contribute to the completion or finishing of a construction.",
+  "includes": [
+    "installation of doors, windows, door and window frames of wood or other materials",
+    "installation of fitted kitchens, staircases, shop fittings and the like",
+    "interior completion such as ceilings, wooden wall coverings, movable partitions",
+    "laying, tiling, hanging or fitting: tiles and flagstones, parquet and other wooden floor coverings",
+    "wall tiling and wall papering",
+    "floor sanding",
+    "painting and glazing",
+    "plastering",
+    "installation of external doors, internal partitions",
+    "provision of finishing service such as interior finishing (plasterboard, plastering, painting, floor laying)"
+  ],
+  "excludes": [
+    "installation of major kitchen appliances, see 4329"
+  ],
+  "implementedAt": "2026-04-16T12:30:00Z"
+}

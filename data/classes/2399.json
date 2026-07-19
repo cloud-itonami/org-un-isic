@@ -1,0 +1,24 @@
+{
+  "code": "2399",
+  "nameEn": "Manufacture of other non-metallic mineral products n.e.c.",
+  "group": "239",
+  "description": "This class includes the manufacture of a variety of non-metallic mineral products not elsewhere classified.",
+  "includes": [
+    "manufacture of friction material and unmounted articles thereof: brake linings, brake pads, clutch facings",
+    "manufacture of mineral insulating materials: slag wool, rock wool, similar mineral wools",
+    "manufacture of articles of asphalt or similar materials: asphalt-based adhesives, coaltar pitch, asphalt felt",
+    "manufacture of articles of bitumen: bituminous roofing felt, bitumen-based paints",
+    "manufacture of graphite and other non-metallic mineral products",
+    "manufacture of natural abrasive products",
+    "manufacture of artificial corundum",
+    "manufacture of mica products",
+    "manufacture of articles of pumice stone",
+    "manufacture of bituminous waterproofing materials"
+  ],
+  "excludes": [
+    "manufacture of glass fibres, see 2310",
+    "manufacture of refractory ceramic products, see 2391",
+    "manufacture of ceramic building materials, see 2392"
+  ],
+  "implementedAt": "2026-04-15T13:50:00Z"
+}

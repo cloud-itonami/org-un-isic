@@ -1,0 +1,21 @@
+{
+  "code": "1811",
+  "nameEn": "Printing",
+  "group": "181",
+  "description": "This class includes printing of products such as newspapers, books, periodicals, business forms, greeting cards and other materials, and associated support activities such as bookbinding, plate-making and data imaging.",
+  "includes": [
+    "printing of newspapers, journals and periodicals",
+    "printing of books and brochures",
+    "printing of maps, atlases, posters",
+    "printing of advertising catalogues, prospectuses and other printed advertising",
+    "printing of stamps, banknotes, cheques and other security papers",
+    "printing on labels and tags",
+    "printing of wallpaper",
+    "printing directly onto textiles, plastic, glass, metal, wood"
+  ],
+  "excludes": [
+    "manufacture of pre-press services, see 1812",
+    "reproduction of recorded media, see 1820"
+  ],
+  "implementedAt": "2026-04-15T09:50:00Z"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@etzhayyim/open-isic-appview-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AppView Worker for com.etzhayyim.apps.isic.* XRPC. Proxies to lg-open-isic langserver. ADR-2605180900 Phase 7.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@etzhayyim/kotodama-host-sdk": "workspace:*",
+    "hono": "^4.12.30"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260714.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.110.0"
+  }
+}

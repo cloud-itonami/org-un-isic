@@ -1,0 +1,18 @@
+{
+  "code": "2591",
+  "nameEn": "Forging, pressing, stamping and roll-forming of metal; powder metallurgy",
+  "group": "259",
+  "description": "This class includes the forging, pressing, stamping and roll-forming of metal and manufacture of sintered metal articles.",
+  "includes": [
+    "forging of metal: manufacture of iron and steel forgings and non-ferrous metal forgings",
+    "pressing, stamping and roll-forming of metal",
+    "powder metallurgy: manufacture of sintered metal articles by compression of metallic powders (gears, bushings, bearings, etc.)",
+    "manufacture of metal valves and fittings by forging"
+  ],
+  "excludes": [
+    "manufacture of metal in primary forms, see 2410, 2420",
+    "manufacture of wire, see 2410, 2420",
+    "manufacture of metal door and window frames by forging, see 2511"
+  ],
+  "implementedAt": "2026-04-15T15:20:00Z"
+}

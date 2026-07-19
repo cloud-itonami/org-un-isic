@@ -1,0 +1,31 @@
+{
+  "code": "2620",
+  "nameEn": "Manufacture of computers and peripheral equipment",
+  "group": "262",
+  "description": "This class includes the manufacture of and/or assembly of electronic computers and computer peripheral equipment.",
+  "includes": [
+    "manufacture of desktop computers",
+    "manufacture of laptop computers",
+    "manufacture of mainframe computers and supercomputers",
+    "manufacture of workstations",
+    "manufacture of computer servers",
+    "manufacture of tablet computers",
+    "manufacture of computer terminals",
+    "manufacture of computer storage units",
+    "manufacture of printers",
+    "manufacture of monitors",
+    "manufacture of keyboards",
+    "manufacture of mice, joysticks and trackball devices",
+    "manufacture of scanners, including bar code scanners",
+    "manufacture of smart card readers",
+    "manufacture of virtual reality helmets",
+    "manufacture of computer projectors"
+  ],
+  "excludes": [
+    "manufacture of electronic components and boards, see 2610",
+    "manufacture of electronic games, see 2640",
+    "manufacture of television sets, see 2640",
+    "manufacture of hand-held computers (PDAs), see 2620"
+  ],
+  "implementedAt": "2026-04-15T16:10:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "2432",
+  "nameEn": "Casting of non-ferrous metals",
+  "group": "243",
+  "description": "This class includes the casting of non-ferrous metals and alloys.",
+  "includes": [
+    "casting of light metals: aluminium, magnesium",
+    "casting of heavy metals: copper, zinc, lead, tin",
+    "casting of precious metals: gold, silver, platinum group metals",
+    "casting of semi-finished products of non-ferrous metals",
+    "die-casting of non-ferrous metal products"
+  ],
+  "excludes": [
+    "manufacture of basic precious and other non-ferrous metals, see 2420",
+    "casting of iron and steel, see 2431"
+  ],
+  "implementedAt": "2026-04-15T14:30:00Z"
+}

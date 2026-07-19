@@ -1,0 +1,19 @@
+{
+  "code": "0163",
+  "nameEn": "Post-harvest crop activities",
+  "group": "016",
+  "description": "This class includes post-harvest crop activities aimed at preparing agricultural products for the primary market.",
+  "includes": [
+    "preparation of crops for primary markets: cleaning, trimming, grading, disinfecting",
+    "cotton ginning",
+    "preparation of tobacco leaves, e.g. drying",
+    "preparation of cocoa beans, e.g. peeling",
+    "waxing of fruit"
+  ],
+  "excludes": [
+    "preparation of agricultural crops for primary markets by the producer, see divisions 01, 10 or 11",
+    "cleaning and preliminary preparation of tobacco leaves, see 0115",
+    "wholesale of agricultural raw materials, see 4620"
+  ],
+  "implementedAt": "2026-04-15T00:50:00Z"
+}

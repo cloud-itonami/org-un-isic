@@ -1,0 +1,19 @@
+{
+  "code": "4530",
+  "nameEn": "Sale of motor vehicle parts and accessories",
+  "group": "453",
+  "description": "This class includes the wholesale and retail sale of all kinds of parts, components, supplies, tools and accessories for motor vehicles.",
+  "includes": [
+    "wholesale and retail sale of motor vehicle parts and accessories: engines, tyres, wheels",
+    "wholesale and retail sale of motor vehicle electrical components",
+    "wholesale and retail sale of tools and equipment for servicing motor vehicles",
+    "retail sale of automotive fuel and lubricants",
+    "retail sale of car audio and entertainment systems",
+    "retail sale of motor oil and transmission fluid"
+  ],
+  "excludes": [
+    "retail sale of automotive fuel in specialised stores (service stations), see 4730",
+    "maintenance and repair of motor vehicles, see 4520"
+  ],
+  "implementedAt": "2026-04-16T13:10:00Z"
+}

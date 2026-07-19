@@ -1,0 +1,19 @@
+{
+  "code": "2513",
+  "nameEn": "Manufacture of steam generators, except central heating hot water boilers",
+  "group": "251",
+  "description": "This class includes the manufacture of steam or other vapour generating boilers and nuclear reactors.",
+  "includes": [
+    "manufacture of steam or other vapour generating boilers",
+    "manufacture of auxiliary plant for use with steam generators: condensers, economisers, superheaters, steam collectors and accumulators",
+    "manufacture of nuclear reactors, except isotope separators",
+    "manufacture of parts for marine or power boilers",
+    "pipe system construction comprising further processing of tubes generally to make pressure vessels, main-line pipelines, distribution networks, steam pipelines"
+  ],
+  "excludes": [
+    "manufacture of central heating boilers and radiators, see 2521",
+    "manufacture of boiler-turbine sets (turbines + connected boilers), see 2811",
+    "manufacture of instantaneous or storage water heaters, see 2750"
+  ],
+  "implementedAt": "2026-04-15T15:00:00Z"
+}

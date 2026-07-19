@@ -1,0 +1,19 @@
+{
+  "code": "7730",
+  "nameEn": "Renting and leasing of other machinery, equipment and tangible goods",
+  "group": "773",
+  "description": "This class includes the renting and leasing of machinery, equipment and tangible goods not elsewhere classified.",
+  "includes": [
+    "renting and leasing of agricultural machinery and equipment",
+    "renting and leasing of construction and civil engineering machinery and equipment",
+    "renting and leasing of office machinery and equipment",
+    "renting and leasing of computers",
+    "renting and leasing of engines and turbines",
+    "renting and leasing of watercraft and aircraft"
+  ],
+  "excludes": [
+    "renting of motor vehicles, see 7710",
+    "financial leasing, see 6491"
+  ],
+  "implementedAt": "2026-04-17T12:00:00Z"
+}

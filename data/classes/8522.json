@@ -1,0 +1,16 @@
+{
+  "code": "8522",
+  "nameEn": "Technical and vocational secondary education",
+  "group": "852",
+  "description": "This class includes the provision of secondary education with technical and vocational emphasis.",
+  "includes": [
+    "vocational and technical secondary education",
+    "trade school education at secondary level",
+    "technology-based secondary education"
+  ],
+  "excludes": [
+    "general secondary education, see 8521",
+    "higher technical education, see 8530"
+  ],
+  "implementedAt": "2026-04-17T16:50:00Z"
+}

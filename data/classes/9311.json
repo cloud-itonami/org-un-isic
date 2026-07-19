@@ -1,0 +1,18 @@
+{
+  "code": "9311",
+  "nameEn": "Operation of sports facilities",
+  "group": "931",
+  "description": "This class includes the operation and management of indoor or outdoor sports facilities for water sports, winter sports or other sports activities.",
+  "includes": [
+    "operation of stadiums and arenas",
+    "operation of swimming pools",
+    "operation of golf courses",
+    "operation of bowling alleys",
+    "operation of athletic tracks"
+  ],
+  "excludes": [
+    "activities of sports clubs, see 9312",
+    "fitness and recreation sports centers, see 9319"
+  ],
+  "implementedAt": "2026-04-17T20:10:00Z"
+}

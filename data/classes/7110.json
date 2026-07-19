@@ -1,0 +1,19 @@
+{
+  "code": "7110",
+  "nameEn": "Architectural and engineering activities and related technical consultancy",
+  "group": "711",
+  "description": "This class includes the provision of architectural services, engineering services, drafting services, building inspection services and surveying and mapping services.",
+  "includes": [
+    "architectural services",
+    "engineering design and consulting",
+    "town and city planning activities",
+    "landscape architectural services",
+    "quantity surveying activities",
+    "geophysical, geologic and seismic surveys"
+  ],
+  "excludes": [
+    "technical testing and analysis, see 7120",
+    "scientific research and development, see 7210 and 7220"
+  ],
+  "implementedAt": "2026-04-17T09:40:00Z"
+}

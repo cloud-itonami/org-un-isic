@@ -1,0 +1,17 @@
+{
+  "code": "2021",
+  "nameEn": "Manufacture of pesticides and other agrochemical products",
+  "group": "202",
+  "description": "This class includes the manufacture of pesticides and other agrochemical products.",
+  "includes": [
+    "manufacture of insecticides, rodenticides, fungicides, herbicides",
+    "manufacture of anti-sprouting products, plant growth regulators",
+    "manufacture of disinfectants for agriculture",
+    "manufacture of other agrochemical products"
+  ],
+  "excludes": [
+    "manufacture of fertilizers and nitrogen compounds, see 2012",
+    "manufacture of soap and detergents for non-agricultural use, see 2023"
+  ],
+  "implementedAt": "2026-04-15T11:10:00Z"
+}

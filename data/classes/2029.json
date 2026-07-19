@@ -1,0 +1,25 @@
+{
+  "code": "2029",
+  "nameEn": "Manufacture of other chemical products n.e.c.",
+  "group": "202",
+  "description": "This class includes the manufacture of a variety of chemical products not elsewhere classified.",
+  "includes": [
+    "manufacture of photographic plates, films, sensitized paper and other sensitized unexposed materials",
+    "manufacture of photographic chemicals (developers, fixers etc.)",
+    "manufacture of gelatin and its derivatives",
+    "manufacture of adhesives and glues",
+    "manufacture of essential oils",
+    "manufacture of writing and drawing ink",
+    "manufacture of matches",
+    "manufacture of pyrotechnic products: fireworks, signal flares, rain rockets, fog signals etc.",
+    "manufacture of chemical preparations for photographic uses",
+    "manufacture of composite diagnostic preparations",
+    "manufacture of fatty acids, waxes and amines from oils and fats",
+    "manufacture of activated carbon, lubricating oil additives, composite solvents and thinners, drawing ink, stencil correcting fluid and other chemical products"
+  ],
+  "excludes": [
+    "manufacture of separately chemically defined compounds in bulk, see 2011-2013",
+    "manufacture of pharmaceutical preparations, see 2100"
+  ],
+  "implementedAt": "2026-04-15T11:40:00Z"
+}

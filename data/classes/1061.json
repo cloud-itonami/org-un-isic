@@ -1,0 +1,19 @@
+{
+  "code": "1061",
+  "nameEn": "Manufacture of grain mill products",
+  "group": "106",
+  "description": "This class includes the milling of flour or meal from cereals and vegetables. It includes the milling, cleaning and polishing of rice, and manufacture of flour mixes and prepared blended flour and dough for bread, cakes, biscuits or pancakes.",
+  "includes": [
+    "grain milling: production of flour, groats, meal or pellets of wheat, rye, oats, corn or other cereals",
+    "rice milling: production of husked, milled, polished, glazed, parboiled or converted rice",
+    "manufacture of flour mixes and prepared dough",
+    "production of breakfast foods prepared by milling cereals",
+    "manufacture of corn flour and meal"
+  ],
+  "excludes": [
+    "manufacture of starch products, see 1062",
+    "manufacture of prepared animal feeds, see 1080",
+    "manufacture of cereal breakfast foods by processes other than milling, see 1074"
+  ],
+  "implementedAt": "2026-04-15T03:30:00Z"
+}

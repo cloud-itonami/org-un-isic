@@ -1,0 +1,18 @@
+{
+  "code": "8422",
+  "nameEn": "Defence activities",
+  "group": "842",
+  "description": "This class includes activities of the provision of military defence services.",
+  "includes": [
+    "military defence activities",
+    "administration of defence affairs",
+    "operation of armed forces",
+    "civil defence activities",
+    "foreign military aid activities"
+  ],
+  "excludes": [
+    "military hospitals, see 8610",
+    "military police activities, see 8423"
+  ],
+  "implementedAt": "2026-04-17T16:00:00Z"
+}

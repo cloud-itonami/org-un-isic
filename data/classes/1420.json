@@ -1,0 +1,19 @@
+{
+  "code": "1420",
+  "nameEn": "Manufacture of articles of fur",
+  "group": "142",
+  "description": "This class includes the manufacture of articles made of fur skins.",
+  "includes": [
+    "manufacture of fur apparel and clothing accessories",
+    "manufacture of fur-lined clothing",
+    "manufacture of articles of apparel made of artificial fur",
+    "manufacture of plates, crosses and similar forms of fur skins",
+    "manufacture of fur skin articles: rugs, poufs"
+  ],
+  "excludes": [
+    "production of raw fur skins, see 0140, 0150",
+    "dressing and dyeing of fur, see 1511",
+    "manufacture of imitation furs (knitted or woven pile fabrics), see 1391, 1312"
+  ],
+  "implementedAt": "2026-04-15T07:40:00Z"
+}

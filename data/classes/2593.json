@@ -1,0 +1,23 @@
+{
+  "code": "2593",
+  "nameEn": "Manufacture of cutlery, hand tools and general hardware",
+  "group": "259",
+  "description": "This class includes the manufacture of cutlery, hand tools and general hardware of metal.",
+  "includes": [
+    "manufacture of cutlery: knives, forks, spoons, ladles, skimmers, fish slices, cake servers, fish knives, butter knives, tongs",
+    "manufacture of razors and razor blades",
+    "manufacture of scissors, hair clippers",
+    "manufacture of hand tools: pliers, screwdrivers, wrenches, spanners, hammers, files, rasps, saws",
+    "manufacture of interchangeable tools for hand tools or machine tools: drills, punches, milling cutters, turning tools",
+    "manufacture of agricultural hand tools: spades, shovels, rakes, scythes, sickles, forks, hoes",
+    "manufacture of locks, padlocks and keys",
+    "manufacture of hinges, castors and similar hardware",
+    "manufacture of safes, armoured doors etc.",
+    "manufacture of steel wool and iron or steel pot-scourers"
+  ],
+  "excludes": [
+    "manufacture of machines for sharpening tools, see 2818",
+    "manufacture of professional medical instruments and cutlery, see 3250"
+  ],
+  "implementedAt": "2026-04-15T15:40:00Z"
+}

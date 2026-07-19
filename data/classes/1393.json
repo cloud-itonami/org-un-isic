@@ -1,0 +1,20 @@
+{
+  "code": "1393",
+  "nameEn": "Manufacture of carpets and rugs",
+  "group": "139",
+  "description": "This class includes the manufacture of carpets, rugs and textile floor coverings.",
+  "includes": [
+    "manufacture of woven carpets and rugs",
+    "manufacture of tufted carpets and rugs",
+    "manufacture of carpets and rugs of needleloom felt and other needleloom products",
+    "manufacture of carpet tiles",
+    "manufacture of coconut, rush and similar floor coverings",
+    "manufacture of carpets of plaited or woven strips"
+  ],
+  "excludes": [
+    "manufacture of mats and matting, see 1629",
+    "manufacture of floor coverings of cork, see 1629",
+    "manufacture of resilient floor coverings such as vinyl, linoleum, see 2220"
+  ],
+  "implementedAt": "2026-04-15T06:40:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "8430",
+  "nameEn": "Compulsory social security activities",
+  "group": "843",
+  "description": "This class includes the funding and administration of government-provided social security programs.",
+  "includes": [
+    "administration of sickness insurance programs",
+    "administration of maternity insurance programs",
+    "administration of disability insurance programs",
+    "administration of retirement and survivors insurance programs",
+    "administration of unemployment insurance programs",
+    "administration of work accident and occupational disease insurance programs"
+  ],
+  "excludes": [
+    "non-compulsory social security, see 6530",
+    "welfare activities, see 8810, 8890"
+  ],
+  "implementedAt": "2026-04-17T16:20:00Z"
+}

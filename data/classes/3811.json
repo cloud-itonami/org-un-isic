@@ -1,0 +1,19 @@
+{
+  "code": "3811",
+  "nameEn": "Collection of non-hazardous waste",
+  "group": "381",
+  "description": "This class includes the collection of non-hazardous solid or non-solid waste, including mixed materials.",
+  "includes": [
+    "collection of non-hazardous solid waste (garbage) in local areas: household and commercial waste",
+    "operation of waste transfer stations for non-hazardous waste",
+    "collection of recyclable materials (paper, glass, metals, plastics)",
+    "collection of used cooking oils and fats",
+    "operation of dustbins and waste bins in public places",
+    "collection of waste from construction and demolition sites (non-hazardous)"
+  ],
+  "excludes": [
+    "collection of hazardous waste, see 3812",
+    "recycling/sorting of materials, see 3830"
+  ],
+  "implementedAt": "2026-04-16T09:50:00Z"
+}

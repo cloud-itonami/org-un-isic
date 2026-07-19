@@ -1,0 +1,16 @@
+{
+  "code": "5629",
+  "nameEn": "Other food service activities",
+  "group": "562",
+  "description": "This class includes food service activities for captive markets on a contractual basis.",
+  "includes": [
+    "operation of canteens for employers, hospitals, schools, etc. on a contractual basis",
+    "operation of food concession stands at sports and similar facilities",
+    "preparation and delivery of food for other enterprises",
+    "industrial catering activities"
+  ],
+  "excludes": [
+    "event catering, see 5621"
+  ],
+  "implementedAt": "2026-04-17T01:20:00Z"
+}

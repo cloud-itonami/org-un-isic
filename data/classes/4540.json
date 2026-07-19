@@ -1,0 +1,16 @@
+{
+  "code": "4540",
+  "nameEn": "Sale, maintenance and repair of motorcycles and related parts and accessories",
+  "group": "454",
+  "description": "This class includes the sale, maintenance and repair of motorcycles and their parts and accessories.",
+  "includes": [
+    "wholesale and retail sale of motorcycles and mopeds",
+    "wholesale and retail sale of parts and accessories for motorcycles",
+    "maintenance and repair of motorcycles"
+  ],
+  "excludes": [
+    "wholesale and retail sale of bicycles and invalid carriages, see respective retail trade classes",
+    "repair of bicycles, see 9529"
+  ],
+  "implementedAt": "2026-04-16T13:20:00Z"
+}

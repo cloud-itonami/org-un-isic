@@ -1,0 +1,29 @@
+{
+  "code": "3299",
+  "nameEn": "Other manufacturing n.e.c.",
+  "group": "329",
+  "description": "This class includes the manufacture of various products not elsewhere classified.",
+  "includes": [
+    "manufacture of protective safety equipment: helmets, safety harnesses, life vests",
+    "manufacture of pens, pencils, fountain pens, felt-tip pens and other similar articles",
+    "manufacture of pencil leads, crayons, pastels, chalks",
+    "manufacture of artificial flowers, fruit and foliage",
+    "manufacture of buttons, press-studs, snap fasteners, hooks and eyes, buckles",
+    "manufacture of zips",
+    "manufacture of umbrellas and parasols",
+    "manufacture of walking sticks and canes",
+    "manufacture of cigarette lighters and parts thereof",
+    "manufacture of smoking pipes",
+    "manufacture of typewriter and similar ribbons",
+    "manufacture of wigs, false beards, eyebrows",
+    "manufacture of candles, tapers",
+    "manufacture of natural sponges",
+    "manufacture of goods not elsewhere classified: rosaries, coffins, floral wreaths, taxidermy items"
+  ],
+  "excludes": [
+    "manufacture of matches, see 2029",
+    "manufacture of jewellery boxes, see 3299",
+    "manufacture of medical instruments, see 3250"
+  ],
+  "implementedAt": "2026-04-16T07:40:00Z"
+}

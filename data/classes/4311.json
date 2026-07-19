@@ -1,0 +1,15 @@
+{
+  "code": "4311",
+  "nameEn": "Demolition",
+  "group": "431",
+  "description": "This class includes the demolition or wrecking of buildings and other structures.",
+  "includes": [
+    "demolition or wrecking of buildings and other structures",
+    "clearing of building sites",
+    "dismantling of steel mills and similar industrial plants"
+  ],
+  "excludes": [
+    "disposal of waste, see 3821, 3822"
+  ],
+  "implementedAt": "2026-04-16T11:30:00Z"
+}

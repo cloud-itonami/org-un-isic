@@ -1,0 +1,16 @@
+{
+  "code": "7710",
+  "nameEn": "Renting and leasing of motor vehicles",
+  "group": "771",
+  "description": "This class includes the renting and operational leasing of automobiles and other motor vehicles without a driver.",
+  "includes": [
+    "renting and leasing of automobiles",
+    "renting and leasing of trucks and commercial vehicles",
+    "renting and leasing of motorcycles and campers without a driver"
+  ],
+  "excludes": [
+    "renting of motor vehicles with driver, see 4922",
+    "financial leasing, see 6491"
+  ],
+  "implementedAt": "2026-04-17T11:20:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "7120",
+  "nameEn": "Technical testing and analysis",
+  "group": "712",
+  "description": "This class includes the performance of physical, chemical and other analytical testing of all types of materials and products.",
+  "includes": [
+    "testing and measuring of all types of materials",
+    "composition and purity testing",
+    "quality control activities (testing and measuring)",
+    "safety testing",
+    "radiography testing services for pipes and welds",
+    "vehicle testing activities",
+    "calibration of measuring instruments",
+    "food testing and analysis"
+  ],
+  "excludes": [
+    "agricultural testing activities, see 7490",
+    "life sciences testing, see 7490",
+    "medical diagnostic activities, see 8620"
+  ],
+  "implementedAt": "2026-04-17T09:50:00Z"
+}

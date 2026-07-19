@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "open-isic-appview",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-18",
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    {
+      "pattern": "isic.etzhayyim.com/*",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "LG_ISIC_ENDPOINT": "https://lg-open-isic.etzhayyim.com"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

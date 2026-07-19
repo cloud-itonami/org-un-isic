@@ -1,0 +1,21 @@
+{
+  "code": "4321",
+  "nameEn": "Electrical installation",
+  "group": "432",
+  "description": "This class includes the installation of electrical systems in buildings and civil engineering structures.",
+  "includes": [
+    "installation of electrical wiring and fittings",
+    "installation of telecommunications systems",
+    "installation of computer networks and cable television systems",
+    "installation of satellite dishes",
+    "installation of fire alarms",
+    "installation of burglar alarm systems",
+    "installation of street lighting and electrical signals",
+    "installation of electrical generating sets and transformers"
+  ],
+  "excludes": [
+    "construction of communication transmission lines, see 4220",
+    "installation of household appliances, see 4329"
+  ],
+  "implementedAt": "2026-04-16T12:00:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "code": "5011",
+  "nameEn": "Sea and coastal passenger water transport",
+  "group": "501",
+  "description": "This class includes the transport of passengers on sea-going vessels along coastal and inland routes.",
+  "includes": [
+    "transport of passengers by sea-going vessels: ferries, cruise ships",
+    "operation of water taxis on sea routes",
+    "coastal passenger shipping services",
+    "operation of excursion boats on sea and coastal routes"
+  ],
+  "excludes": [
+    "inland passenger water transport, see 5021",
+    "water taxi on inland waterways, see 5021"
+  ],
+  "implementedAt": "2026-04-16T22:10:00Z"
+}

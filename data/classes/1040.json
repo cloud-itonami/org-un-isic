@@ -1,0 +1,21 @@
+{
+  "code": "1040",
+  "nameEn": "Manufacture of vegetable and animal oils and fats",
+  "group": "104",
+  "description": "This class includes the manufacture of crude and refined oils and fats from vegetable or animal materials, except rendering or refining of lard and other edible animal fats.",
+  "includes": [
+    "manufacture of crude vegetable oils: olive oil, soya-bean oil, palm oil, sunflower-seed oil, cotton-seed oil, rape, colza or mustard oil, linseed oil, etc.",
+    "manufacture of refined vegetable oils: olive oil, soya-bean oil, palm oil, sunflower-seed oil, cotton-seed oil, rape, colza or mustard oil, linseed oil, etc.",
+    "manufacture of non-defatted flour or meal of oil seeds, oilnuts or oil kernels",
+    "manufacture of animal oils and fats from fish or marine mammals",
+    "manufacture of lard and other edible animal fats",
+    "manufacture of degras, residues of oil processing"
+  ],
+  "excludes": [
+    "wet corn milling, see 1062",
+    "manufacture of margarine, see 1079",
+    "rendering of lard and other edible animal fat, see 1010",
+    "treatment of oil for industrial purposes, see 2029"
+  ],
+  "implementedAt": "2026-04-15T03:10:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "code": "5914",
+  "nameEn": "Motion picture projection activities",
+  "group": "591",
+  "description": "This class includes the projection of motion pictures in cinemas.",
+  "includes": [
+    "operation of cinemas and movie theatres",
+    "drive-in movie theatres",
+    "film clubs and cinema societies (showing films)"
+  ],
+  "excludes": [
+    "distribution of motion pictures, see 5913"
+  ],
+  "implementedAt": "2026-04-17T03:00:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "2592",
+  "nameEn": "Treatment and coating of metals; machining",
+  "group": "259",
+  "description": "This class includes the treatment and coating of metals and the general machining of metal parts.",
+  "includes": [
+    "plating, anodising etc. of metals",
+    "heat treatment of metals",
+    "deburring, sandblasting, tumbling, cleaning of metals",
+    "painting and engraving of metals",
+    "non-permanent protection of metals: oiling, greasing, rust-proofing",
+    "general machining operations on metal: turning, boring, milling, eroding, planing, lapping, broaching, levelling, sawing, grinding, sharpening, polishing, welding",
+    "cutting of metals",
+    "manufacture of metal stampings"
+  ],
+  "excludes": [
+    "activities of blacksmiths, see 2599",
+    "manufacture of metal hand tools, see 2593",
+    "sharpening of tools, see 3319"
+  ],
+  "implementedAt": "2026-04-15T15:30:00Z"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "3100",
+  "nameEn": "Manufacture of furniture",
+  "group": "310",
+  "description": "This class includes the manufacture of furniture and related products of any material.",
+  "includes": [
+    "manufacture of chairs and seats: office chairs, household chairs, theatre seats, barbers' chairs",
+    "manufacture of sofas, sofa beds",
+    "manufacture of office furniture: desks, bookcases, filing cabinets",
+    "manufacture of kitchen furniture: kitchen cabinets, kitchen units",
+    "manufacture of bedroom furniture: beds, wardrobes, dressing tables",
+    "manufacture of living room furniture: tables, shelving units, display cabinets",
+    "manufacture of garden furniture: outdoor chairs, tables",
+    "manufacture of wooden, metal, plastic and other furniture for retail stores, restaurants, hotels",
+    "manufacture of mattresses: spring mattresses, stuffed mattresses, cellular rubber or plastic mattresses",
+    "manufacture of furniture fittings: hinges, castors, knobs, handles"
+  ],
+  "excludes": [
+    "manufacture of lamps and lighting equipment, see 2740",
+    "manufacture of signs and advertising displays, see 3290",
+    "manufacture of stuffed animals (soft toys), see 3240",
+    "installation of furniture on ships, in aircraft, etc. — covered by the respective transport equipment class"
+  ],
+  "implementedAt": "2026-04-16T06:10:00Z"
+}

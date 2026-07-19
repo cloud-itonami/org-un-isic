@@ -1,0 +1,28 @@
+{
+  "code": "2599",
+  "nameEn": "Manufacture of other fabricated metal products n.e.c.",
+  "group": "259",
+  "description": "This class includes the manufacture of a variety of fabricated metal products not elsewhere classified.",
+  "includes": [
+    "manufacture of metal cable, braided wire and similar articles",
+    "manufacture of coated or cored wire for welding and similar purposes",
+    "manufacture of nails, tacks, staples (excluding staples for offices), bolts, nuts, screws, rivets and similar fasteners",
+    "manufacture of springs (except watch springs): leaf springs, coil springs, helical springs, torsion bar springs",
+    "manufacture of chain (except power transmission chain)",
+    "manufacture of cans and containers of metal (except tanks and reservoirs)",
+    "manufacture of household articles of metal: pots, pans, trays, tins, jacks, weights",
+    "manufacture of metal boxes, crates, drums, canisters",
+    "manufacture of metal crowns and closures",
+    "manufacture of metal anchors, grappling irons, ships' propellers",
+    "manufacture of metal signs (non-electric), number plates",
+    "activities of blacksmiths"
+  ],
+  "excludes": [
+    "manufacture of tanks and reservoirs, see 2512",
+    "manufacture of steam generators, see 2513",
+    "manufacture of weapons and ammunition, see 2520",
+    "forging, pressing, stamping and roll-forming of metal, see 2591",
+    "manufacture of cutlery and hand tools, see 2593"
+  ],
+  "implementedAt": "2026-04-15T15:50:00Z"
+}

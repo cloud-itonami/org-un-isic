@@ -1,0 +1,22 @@
+{
+  "code": "0311",
+  "nameEn": "Marine fishing",
+  "group": "031",
+  "description": "This class includes fishing on a commercial basis in ocean and coastal waters, including the taking of marine crustaceans and molluscs, whales, other aquatic animals and plants.",
+  "includes": [
+    "fishing on a commercial basis in ocean and coastal waters",
+    "taking of marine crustaceans and molluscs",
+    "catching of whales",
+    "taking of other marine aquatic animals: turtles, sea squirts, tunicates, sea urchins etc.",
+    "gathering of marine organisms and materials: natural pearls, sponges, coral, algae",
+    "activities of vessels engaged both in fishing and in processing and preserving of fish",
+    "service activities incidental to marine fishing"
+  ],
+  "excludes": [
+    "catching of marine mammals, except whales, e.g. walruses, seals, see 0170",
+    "processing of whales on land or on specialized vessels, see 1020",
+    "fishing for sport or recreation and related service activities, see 9319",
+    "inspection and patrol and other fishery protection service activities, see 8423"
+  ],
+  "implementedAt": "2026-04-15T01:30:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "code": "9200",
+  "nameEn": "Gambling and betting activities",
+  "group": "920",
+  "description": "This class includes the operation of gambling facilities such as casinos, bingo halls, video gaming terminals and lotteries.",
+  "includes": [
+    "casino activities",
+    "slot machine operations",
+    "lottery operations",
+    "bingo hall activities",
+    "off-track betting operations",
+    "online gambling activities"
+  ],
+  "excludes": [
+    "horse racing activities, see 9319",
+    "card game activities for entertainment, see 9329"
+  ],
+  "implementedAt": "2026-04-17T20:00:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "code": "0129",
+  "nameEn": "Growing of other perennial crops",
+  "group": "012",
+  "description": "This class includes the growing of other perennial crops, such as natural rubber trees and Christmas trees grown on plantations.",
+  "includes": [
+    "growing of natural rubber trees",
+    "growing of Christmas trees grown on plantations",
+    "growing of trees for extraction of sap",
+    "growing of vegetable materials of a kind used primarily for plaiting, stuffing, padding, dyeing or tanning"
+  ],
+  "excludes": [
+    "growing of rough-cut Christmas trees on forest land, see 0220",
+    "natural extraction of sap, gums or rubber, see 0230"
+  ],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

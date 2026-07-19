@@ -1,0 +1,18 @@
+{
+  "code": "2395",
+  "nameEn": "Manufacture of articles of concrete, cement and plaster",
+  "group": "239",
+  "description": "This class includes the manufacture of articles of concrete, cement and plaster for use in construction and other purposes.",
+  "includes": [
+    "manufacture of boards, sheets, panels, tiles and similar articles of vegetable fibre, straw or wood waste agglomerated with cement, plaster or other mineral binders",
+    "manufacture of precast concrete, cement or artificial stone articles for construction: tiles, flagstones, bricks, boards, sheets, panels, pipes, posts, fencing",
+    "manufacture of prefabricated structural components of concrete for building or civil engineering",
+    "manufacture of plaster articles: boards, sheets, panels",
+    "manufacture of other articles of concrete, plaster and cement: statues, furniture, bas-reliefs, flowerpots, ornamental items"
+  ],
+  "excludes": [
+    "manufacture of refractory cement, see 2394",
+    "manufacture of ceramic building materials, see 2392"
+  ],
+  "implementedAt": "2026-04-15T13:30:00Z"
+}

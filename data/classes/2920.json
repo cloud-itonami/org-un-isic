@@ -1,0 +1,21 @@
+{
+  "code": "2920",
+  "nameEn": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+  "group": "292",
+  "description": "This class includes the manufacture of bodies for motor vehicles and the manufacture of trailers and semi-trailers.",
+  "includes": [
+    "manufacture of bodies, including cabs, for motor vehicles",
+    "manufacture of trailers and semi-trailers: box trailers, tanker trailers, flatbed trailers",
+    "manufacture of caravans and camper vans",
+    "manufacture of container trailers",
+    "manufacture of horse trailers",
+    "manufacture of vehicle body parts: doors, windows, fenders, guards, bumpers, instrument panels",
+    "finishing of motor vehicle bodies: painting, trim work"
+  ],
+  "excludes": [
+    "manufacture of parts and accessories for motor vehicles, see 2930",
+    "manufacture of motor vehicles, see 2910",
+    "manufacture of trailers specially designed for the transport of highly radioactive materials, see 2829"
+  ],
+  "implementedAt": "2026-04-16T04:30:00Z"
+}

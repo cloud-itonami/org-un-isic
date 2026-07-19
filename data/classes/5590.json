@@ -1,0 +1,16 @@
+{
+  "code": "5590",
+  "nameEn": "Other accommodation",
+  "group": "559",
+  "description": "This class includes the provision of temporary or longer-term accommodation not elsewhere classified.",
+  "includes": [
+    "provision of accommodation in student residences, school dormitories, workers' quarters",
+    "provision of accommodation in rooming and boarding houses",
+    "provision of accommodation in railway sleeping cars"
+  ],
+  "excludes": [
+    "short-term accommodation in hotels, see 5510",
+    "long-term residential accommodation, see 6810"
+  ],
+  "implementedAt": "2026-04-17T00:50:00Z"
+}

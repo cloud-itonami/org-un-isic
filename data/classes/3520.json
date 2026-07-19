@@ -1,0 +1,19 @@
+{
+  "code": "3520",
+  "nameEn": "Manufacture of gas; distribution of gaseous fuels through mains",
+  "group": "352",
+  "description": "This class includes the manufacture of gas and the distribution of gaseous fuels through a system of mains.",
+  "includes": [
+    "manufacture of gaseous fuels with a specified calorific value by carbonization, gasification and other processes (coal gas, water gas, producer gas, similar gases)",
+    "transport and distribution of gaseous fuels through mains",
+    "sale of gas to the user through mains",
+    "liquefied petroleum gas (LPG) distribution and trade through mains"
+  ],
+  "excludes": [
+    "extraction and refining of natural gas, see 0620",
+    "operation of coke ovens, see 1910",
+    "manufacture of industrial gases, see 2011",
+    "wholesale of gaseous fuels, see 4661"
+  ],
+  "implementedAt": "2026-04-16T09:10:00Z"
+}

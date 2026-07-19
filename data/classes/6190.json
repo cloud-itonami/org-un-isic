@@ -1,0 +1,18 @@
+{
+  "code": "6190",
+  "nameEn": "Other telecommunications activities",
+  "group": "619",
+  "description": "This class includes other telecommunications activities not elsewhere classified.",
+  "includes": [
+    "provision of specialized telecommunications services: telex, telegraph, radio navigation",
+    "provision of internet access using infrastructure operated by another entity",
+    "activities of internet exchange points (IXPs)",
+    "provision of telecommunications services via existing telecom infrastructures"
+  ],
+  "excludes": [
+    "wired telecommunications, see 6110",
+    "wireless telecommunications, see 6120",
+    "satellite telecommunications, see 6130"
+  ],
+  "implementedAt": "2026-04-17T04:10:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "2740",
+  "nameEn": "Manufacture of electric lighting equipment",
+  "group": "274",
+  "description": "This class includes the manufacture of electric light bulbs and tubes and other illumination equipment.",
+  "includes": [
+    "manufacture of electric light bulbs and tubes: incandescent, fluorescent, high-intensity discharge, ultraviolet, infra-red, etc.",
+    "manufacture of filaments",
+    "manufacture of electric lighting equipment: ceiling lighting fixtures, chandeliers, desk and floor lamps, outdoor lighting fixtures, portable lamps",
+    "manufacture of LED light bulbs and tubes",
+    "manufacture of lighting equipment for transportation",
+    "manufacture of non-electrical lighting equipment",
+    "manufacture of parts of lighting equipment"
+  ],
+  "excludes": [
+    "manufacture of wiring devices, see 2733",
+    "manufacture of electrical signalling equipment, see 2790",
+    "manufacture of optical instruments and equipment, see 2670"
+  ],
+  "implementedAt": "2026-04-16T01:10:00Z"
+}

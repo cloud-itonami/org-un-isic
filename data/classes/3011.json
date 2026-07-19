@@ -1,0 +1,22 @@
+{
+  "code": "3011",
+  "nameEn": "Building of ships and floating structures",
+  "group": "301",
+  "description": "This class includes the building of ships and floating structures for commercial and other uses.",
+  "includes": [
+    "building of commercial vessels: cargo ships, tankers, bulk carriers, container ships, ferries, cruise ships",
+    "building of warships",
+    "building of fishing vessels and factory ships",
+    "building of hovercraft (except recreational)",
+    "building of floating structures: floating docks, pontoons, coffer-dams, floating platforms, floating piers, floating landing stages, buoys, floating tanks",
+    "building of drillships and floating oil and gas platforms",
+    "manufacture of marine engines (outboard and inboard)"
+  ],
+  "excludes": [
+    "building of sports and recreational boats, see 3012",
+    "manufacture of navigational instruments, see 2651",
+    "manufacture of ship or boat propellers, see 2599",
+    "construction of harbour and port facilities, see 4290"
+  ],
+  "implementedAt": "2026-04-16T04:50:00Z"
+}

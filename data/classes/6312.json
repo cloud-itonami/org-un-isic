@@ -1,0 +1,17 @@
+{
+  "code": "6312",
+  "nameEn": "Web portals",
+  "group": "631",
+  "description": "This class includes the operation of web sites that use a search engine to generate and maintain extensive databases of Internet addresses and content.",
+  "includes": [
+    "operation of web search portals",
+    "internet portal sites",
+    "web search services",
+    "provision of internet addresses and content in extensive databases"
+  ],
+  "excludes": [
+    "data processing and hosting activities, see 6311",
+    "news agency activities, see 6391"
+  ],
+  "implementedAt": "2026-04-17T05:10:00Z"
+}

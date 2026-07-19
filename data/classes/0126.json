@@ -1,0 +1,13 @@
+{
+  "code": "0126",
+  "nameEn": "Growing of oleaginous fruits",
+  "group": "012",
+  "description": "This class includes the growing of oleaginous fruits.",
+  "includes": [
+    "growing of oleaginous fruits: coconuts; olives; oil palms; other oleaginous fruits"
+  ],
+  "excludes": [
+    "growing of soya beans, groundnuts and other oil seeds, see 0111"
+  ],
+  "implementedAt": "2026-04-15T00:10:00Z"
+}

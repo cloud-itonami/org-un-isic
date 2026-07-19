@@ -1,0 +1,17 @@
+{
+  "code": "5820",
+  "nameEn": "Software publishing",
+  "group": "582",
+  "description": "This class includes the publishing of ready-made (non-customised) software.",
+  "includes": [
+    "publishing of ready-to-use computer software: operating systems, business applications",
+    "publishing of computer games: video games for consoles and computers",
+    "publishing of off-the-shelf accounting, word processing, spreadsheet software"
+  ],
+  "excludes": [
+    "reproduction of software, see 1820",
+    "custom software development, see 6201",
+    "retail sale of packaged software, see 4741"
+  ],
+  "implementedAt": "2026-04-17T02:20:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "code": "0119",
+  "nameEn": "Growing of other non-perennial crops",
+  "group": "011",
+  "description": "This class includes the growing of non-perennial crops not elsewhere classified, including forage crops, cut flowers, sugar beet seeds and other crop seeds.",
+  "includes": [
+    "growing of swedes, mangolds, fodder roots, clover, alfalfa (lucerne), sainfoin, fodder maize and other grasses, kale and similar forage products",
+    "production of sugar beet seeds and seeds of forage plants",
+    "growing of flowers",
+    "production of cut flowers and flower buds",
+    "production of flower seeds"
+  ],
+  "excludes": [
+    "growing of cereals, leguminous crops and oil seeds, see 0111",
+    "growing of rice, see 0112",
+    "growing of vegetables and melons, roots and tubers, see 0113",
+    "growing of sugar cane, see 0114",
+    "growing of tobacco, see 0115",
+    "growing of fibre crops, see 0116",
+    "growing of perennial crops, see groups 012 and 013",
+    "growing of plants for use in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes, see 0128"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

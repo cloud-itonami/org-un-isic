@@ -1,0 +1,18 @@
+{
+  "code": "5920",
+  "nameEn": "Sound recording and music publishing activities",
+  "group": "592",
+  "description": "This class includes the production and release of original sound recordings and music publishing.",
+  "includes": [
+    "production of original sound recordings: CDs, tapes, digital recordings",
+    "recording of sound in a studio or elsewhere",
+    "music publishing: acquiring rights, licensing music",
+    "production of original records, compact discs and tapes",
+    "radio jingle production"
+  ],
+  "excludes": [
+    "reproduction of recorded media, see 1820",
+    "publishing of music books and scores, see 5819"
+  ],
+  "implementedAt": "2026-04-17T03:10:00Z"
+}

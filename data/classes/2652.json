@@ -1,0 +1,22 @@
+{
+  "code": "2652",
+  "nameEn": "Manufacture of watches and clocks",
+  "group": "265",
+  "description": "This class includes the manufacture of watches, clocks and timing devices.",
+  "includes": [
+    "manufacture of watches and watch parts: cases, mechanisms, movements, straps, bracelets",
+    "manufacture of clocks and clock parts: alarm clocks, wall clocks, bedside clocks, stopwatches",
+    "manufacture of time registers and time recorders",
+    "manufacture of instrument panel clocks and other timing devices for vehicles and aircraft",
+    "manufacture of parking meters",
+    "manufacture of clock or watch springs",
+    "manufacture of time switches and other timing devices",
+    "repair of watches and clocks"
+  ],
+  "excludes": [
+    "manufacture of electronic components used in watches and clocks, see 2610",
+    "manufacture of measuring and control instruments, see 2651",
+    "manufacture of jewellery for watches, see 3211"
+  ],
+  "implementedAt": "2026-04-15T16:50:00Z"
+}

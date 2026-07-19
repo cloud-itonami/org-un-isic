@@ -1,0 +1,20 @@
+{
+  "code": "9609",
+  "nameEn": "Other personal service activities n.e.c.",
+  "group": "960",
+  "description": "This class includes other personal service activities not elsewhere classified.",
+  "includes": [
+    "pet care services (grooming, boarding, training)",
+    "shoe shine activities",
+    "astrological and spiritualist activities",
+    "social escort services",
+    "genealogy research activities",
+    "parking lot attendant activities"
+  ],
+  "excludes": [
+    "laundry and dry cleaning, see 9601",
+    "hairdressing and beauty treatment, see 9602",
+    "funeral activities, see 9603"
+  ],
+  "implementedAt": "2026-04-17T23:40:00Z"
+}

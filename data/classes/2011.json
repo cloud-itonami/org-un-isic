@@ -1,0 +1,21 @@
+{
+  "code": "2011",
+  "nameEn": "Manufacture of basic chemicals",
+  "group": "201",
+  "description": "This class includes the manufacture of basic chemicals such as industrial gases, inorganic and organic chemicals, and petrochemicals.",
+  "includes": [
+    "manufacture of industrial gases: liquid air, compressed air, refrigerant gases, mixed industrial gases, inert gases, oxygen, nitrogen, hydrogen, carbon dioxide",
+    "manufacture of dyes and pigments from any source in basic form",
+    "manufacture of other basic inorganic chemicals: acids, alkalis, salts",
+    "manufacture of other basic organic chemicals: alcohols, glycols, aldehydes, ketones, carboxylic acids, phenols",
+    "manufacture of petrochemicals: ethylene, propylene, butylene, benzene, toluene, xylene",
+    "manufacture of synthetic glycerine",
+    "manufacture of activated carbon, carbon black, graphite"
+  ],
+  "excludes": [
+    "manufacture of refined petroleum products, see 1920",
+    "manufacture of fertilizers and nitrogen compounds, see 2012",
+    "manufacture of plastics in primary forms, see 2013"
+  ],
+  "implementedAt": "2026-04-15T10:40:00Z"
+}

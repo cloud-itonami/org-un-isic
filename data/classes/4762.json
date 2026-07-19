@@ -1,0 +1,15 @@
+{
+  "code": "4762",
+  "nameEn": "Retail sale of music and video recordings in specialised stores",
+  "group": "476",
+  "description": "This class includes the retail sale of music and video recordings in specialised stores.",
+  "includes": [
+    "retail sale of recorded music: CDs, vinyl records, cassette tapes",
+    "retail sale of video recordings: DVDs, Blu-ray discs, video tapes",
+    "retail sale of blank recording media"
+  ],
+  "excludes": [
+    "retail sale of video game equipment and software, see 4764"
+  ],
+  "implementedAt": "2026-04-16T18:20:00Z"
+}

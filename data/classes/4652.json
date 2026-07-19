@@ -1,0 +1,16 @@
+{
+  "code": "4652",
+  "nameEn": "Wholesale of electronic and telecommunications equipment and parts",
+  "group": "465",
+  "description": "This class includes the wholesale of electronic and telecommunications equipment and parts.",
+  "includes": [
+    "wholesale of electronic valves and tubes and other electronic components",
+    "wholesale of telecommunication equipment and supplies",
+    "wholesale of satellite dishes",
+    "wholesale of consumer electronics"
+  ],
+  "excludes": [
+    "wholesale of computers and computer peripheral equipment, see 4651"
+  ],
+  "implementedAt": "2026-04-16T14:30:00Z"
+}

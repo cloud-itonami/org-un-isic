@@ -1,0 +1,18 @@
+{
+  "code": "8292",
+  "nameEn": "Packaging activities",
+  "group": "829",
+  "description": "This class includes packaging activities on a fee or contract basis, whether or not these involve an automated process.",
+  "includes": [
+    "bottling of liquids",
+    "packaging of solids (blister packaging, foil-covered, etc.)",
+    "labelling, stamping and imprinting activities",
+    "parcel packing and gift-wrapping",
+    "blister packaging services"
+  ],
+  "excludes": [
+    "packaging as part of the production process, see appropriate manufacturing class",
+    "packaging performed for transport purposes, see 5221"
+  ],
+  "implementedAt": "2026-04-17T15:20:00Z"
+}

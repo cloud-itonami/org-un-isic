@@ -1,0 +1,18 @@
+{
+  "code": "6411",
+  "nameEn": "Central banking",
+  "group": "641",
+  "description": "This class includes the activities of central banks.",
+  "includes": [
+    "issuance of currency",
+    "management and supervision of overall banking activities",
+    "management of foreign exchange reserves",
+    "monetary policy operations",
+    "holding of foreign exchange reserves",
+    "supervisory activities over the banking system"
+  ],
+  "excludes": [
+    "other monetary intermediation, see 6419"
+  ],
+  "implementedAt": "2026-04-17T05:40:00Z"
+}

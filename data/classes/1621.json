@@ -1,0 +1,18 @@
+{
+  "code": "1621",
+  "nameEn": "Manufacture of veneer sheets and wood-based panels",
+  "group": "162",
+  "description": "This class includes the manufacture of veneer sheets and wood-based panels such as plywood, particle board, oriented strand board and fibreboard.",
+  "includes": [
+    "manufacture of veneer sheets",
+    "manufacture of plywood, blockboard, laminboard and battenboard",
+    "manufacture of particle board and oriented strand board",
+    "manufacture of fibre building board: hardboard, medium-density fibreboard (MDF)",
+    "manufacture of densified wood"
+  ],
+  "excludes": [
+    "sawmilling and planing of wood, see 1610",
+    "manufacture of furniture, see 3100"
+  ],
+  "implementedAt": "2026-04-15T08:40:00Z"
+}

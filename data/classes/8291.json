@@ -1,0 +1,16 @@
+{
+  "code": "8291",
+  "nameEn": "Activities of collection agencies and credit bureaus",
+  "group": "829",
+  "description": "This class includes activities of collecting overdue accounts, and activities of credit bureaus.",
+  "includes": [
+    "debt collection services",
+    "collection agency activities",
+    "credit bureau and credit rating activities",
+    "creditworthiness investigation services"
+  ],
+  "excludes": [
+    "other activities auxiliary to financial services, see 6619"
+  ],
+  "implementedAt": "2026-04-17T15:10:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "code": "6629",
+  "nameEn": "Other activities auxiliary to insurance and pension funding",
+  "group": "662",
+  "description": "This class includes other auxiliary activities for insurance and pension funding not elsewhere classified.",
+  "includes": [
+    "salvage activities for insurance purposes",
+    "insurance information services",
+    "actuarial services not for insurance purposes",
+    "pension advisory services",
+    "average and loss adjusters not for insurance purposes"
+  ],
+  "excludes": [
+    "risk and damage evaluation, see 6621",
+    "activities of insurance agents and brokers, see 6622"
+  ],
+  "implementedAt": "2026-04-17T08:20:00Z"
+}

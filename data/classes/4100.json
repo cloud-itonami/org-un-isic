@@ -1,0 +1,21 @@
+{
+  "code": "4100",
+  "nameEn": "Construction of buildings",
+  "group": "410",
+  "description": "This class includes the general construction of all kinds of buildings and structures.",
+  "includes": [
+    "construction of all types of residential buildings: single-family houses, multi-family buildings, apartment blocks",
+    "construction of commercial buildings: office buildings, stores, warehouses",
+    "construction of industrial buildings: factories, workshops",
+    "construction of public buildings: schools, hospitals, government buildings",
+    "construction of agricultural buildings",
+    "erection of prefabricated buildings on site",
+    "renovation and repair of existing buildings",
+    "construction of specialised buildings: sports facilities, churches, theatres"
+  ],
+  "excludes": [
+    "construction of industrial facilities (factories excluding buildings), see 4290",
+    "subdivision of real estate into lots, see 6810"
+  ],
+  "implementedAt": "2026-04-16T10:50:00Z"
+}

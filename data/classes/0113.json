@@ -1,0 +1,23 @@
+{
+  "code": "0113",
+  "nameEn": "Growing of vegetables and melons, roots and tubers",
+  "group": "011",
+  "description": "This class includes the growing of vegetables, melons, roots and tubers, including organic farming and growing of genetically modified vegetables.",
+  "includes": [
+    "growing of leafy or stem vegetables, such as: artichokes; asparagus; cabbages; cauliflower and broccoli; lettuce and chicory; spinach; other leafy or stem vegetables",
+    "growing of melons: watermelons; other melons",
+    "growing of other vegetables, such as: tomatoes; vegetables grown for their fruit n.e.c.",
+    "growing of root, bulb or tuberous vegetables, such as: carrots; turnips; garlic; onions (including shallots); leeks and other alliaceous vegetables; other root, bulb or tuberous vegetables",
+    "growing of mushrooms and truffles",
+    "production of vegetable seeds, except beet seeds",
+    "growing of sugar beet",
+    "growing of other vegetables",
+    "growing of roots and tubers, such as: potatoes; sweet potatoes; cassava; yams; other roots and tubers"
+  ],
+  "excludes": [
+    "growing of chillies, peppers (capsicum spp.) and other spice crops, see 0128",
+    "growing of mushroom spawn, see 0130",
+    "growing of sugar beet seeds, see 0130"
+  ],
+  "implementedAt": "2026-04-15T00:00:00Z"
+}

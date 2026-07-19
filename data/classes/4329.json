@@ -1,0 +1,18 @@
+{
+  "code": "4329",
+  "nameEn": "Other construction installation",
+  "group": "432",
+  "description": "This class includes installation activities not elsewhere classified in buildings and other structures.",
+  "includes": [
+    "installation of lifts, escalators and travelators",
+    "insulation work: thermal, sound or vibration insulation",
+    "installation of illuminated advertisement boards and signs",
+    "installation of fencing",
+    "installation of commercial refrigeration equipment: walk-in coolers, display cases"
+  ],
+  "excludes": [
+    "installation of electrical wiring, see 4321",
+    "installation of plumbing, heating and air-conditioning, see 4322"
+  ],
+  "implementedAt": "2026-04-16T12:20:00Z"
+}
