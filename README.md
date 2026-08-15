@@ -4,9 +4,26 @@ Machine-readable ISIC Rev.4 (UN Statistics Division, International Standard
 Industrial Classification of All Economic Activities, Revision 4) published as
 JSON and served through the shared LangServer + LangGraph + UDF runtime.
 
-- 21 Sections -> 88 Divisions -> **272 Groups** -> 428 Classes
+- **Rev.4** (`data/classes/`): 21 Sections -> 88 Divisions -> **272 Groups** -> 428 Classes
+- **Rev.5** (`data/rev5/`): 22 Sections -> 87 Divisions -> 258 Groups -> **463 Classes**
 - Source taxonomy: https://unstats.un.org/unsd/classifications/Econ/isic (public domain)
 - License: Apache-2.0 (code) / public domain (UN data)
+
+## Two revisions, and the asymmetry between them
+
+Rev.4 is mirrored from per-class JSON that carries `description` and `includes`
+— the actual activities the UN lists for each class. Rev.5 is mirrored from the
+official `ISIC_Rev_5_english_structure.csv`, which carries **code and title
+only**: the Rev.5 explanatory notes are published as PDF and XLSX, so there is
+no machine-readable `includes` for Rev.5 here. Anything derived from `includes`
+is Rev.4-only, and that is a property of what the UN publishes rather than a
+gap in this mirror. `data/rev5/upstream.edn` records the pin, the sha256, the
+encoding (the CSV is latin-1, not UTF-8 — its only non-ASCII byte is a
+non-breaking space) and the one normalisation applied to the generated JSON.
+
+**There is no Rev.4 <-> Rev.5 correspondence table here** because none is
+linked from the UN landing page. Resolve a code against the revision it was
+declared in; do not map Rev.5 codes onto Rev.4 and call them resolved.
 
 ## Goal
 

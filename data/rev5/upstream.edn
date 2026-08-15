@@ -1,0 +1,41 @@
+;; The pinned upstream for the ISIC Rev.5 mirror.
+;;
+;; classes.json is GENERATED from the CSV below (4-digit classes only). Neither
+;; file is hand-edited. To take a new release: replace the CSV, update :sha256
+;; and :fetched-at, regenerate, read the diff.
+;;
+;; Why the CSV and not the explanatory notes: the notes are published only as
+;; PDF and XLSX, so the includes/excludes text that Rev.4's JSON carries has no
+;; machine-readable Rev.5 equivalent. Rev.5 classes here have a title and NO
+;; includes, and anything derived from includes is therefore Rev.4-only. Stated
+;; so the asymmetry is not mistaken for missing data.
+
+{:schema "un.isic.rev5.upstream.v1"
+ :revision "ISIC Rev.5"
+ :authority "UN Statistics Division"
+ :source-url "https://unstats.un.org/unsd/classifications/Econ/Download/In Text/ISIC_Rev_5_english_structure.csv"
+ :landing-page "https://unstats.un.org/unsd/classifications/Econ/isic"
+ :file "data/rev5/ISIC_Rev_5_english_structure.csv"
+ :sha256 "fc408f57bd3a4f33c35a4f384ec0010283dd72774892c8d48ae1330a8caeb57f"
+ :bytes 45481
+ :fetched-at "2026-08-15"
+ :license "public domain (UN data)"
+
+ ;; NOT utf-8. The only non-ASCII byte in the whole file is 0xa0, a
+ ;; non-breaking space, and the UN page declares charset=iso-8859-1. The CSV is
+ ;; kept byte-identical to upstream so its sha256 is upstream's; the generated
+ ;; classes.json normalises U+00A0 to a plain space, which is a transformation
+ ;; and is declared here rather than left as a surprise -- a title that looks
+ ;; equal to another and is not compares badly everywhere downstream.
+ :encoding "latin-1 (ASCII + U+00A0 only)"
+ :titles-containing-nbsp 2
+ :nbsp-normalised-in "data/rev5/classes.json"
+
+ :levels-by-code-length {1: 22, 2: 87, 3: 258, 4: 463}
+ :four-digit-classes 463
+
+ ;; The download link was READ off the landing page, not guessed: two guessed
+ ;; URLs (ISIC5_ISIC4_correspondence.xlsx and a .txt structure) both 404'd. No
+ ;; correspondence table is linked from that page, so Rev.5 codes are resolved
+ ;; against Rev.5 rather than mapped onto Rev.4.
+ :correspondence-table :not-linked-from-the-landing-page}
