@@ -37,26 +37,117 @@
   :classes-in-both 414
   :class-titles-that-differ 33
   :differing-codes ["1010", "3830", "4210", "4390", "4669", "4690", "4711", "4719", "4721", "4722", "4723", "4730", "4741", "4742", "4751", "4752", "4753", "4759", "4761", "4762", "4763", "4764", "4771", "4772", "4773", "4774", "5120", "5510", "6499", "6612", "6619", "9101", "9601"]
-  :direction-of-difference
-  "The other source's wording matches ISIC Rev.5 in the cases inspected: 1010 is
-   'Processing and preserving of meat' there and in Rev.5, while the mirrored
-   per-class data says 'Processing and preserving of meat and meat products'.
-   4210 likewise reads 'Construction of roads and railways' there against
-   'Construction of roads and motorways' mirrored."
+  ;; SUPERSEDED 2026-08-15. The earlier reading here was that the legacy path
+ ;; serves Rev.5 wording under its old name. That generalised from the two codes
+ ;; that had been inspected, and measuring all 33 refutes it: only 7 of the 33
+ ;; match Rev.5 exactly, and 6 of them are codes Rev.5 does not contain at all.
+ ;; Whole-file, the legacy .txt is far CLOSER to the mirror than to Rev.5 --
+ ;; 414 of its 419 codes are shared with the mirror against 366 with Rev.5.
+ :direction-of-difference
+ "Measured over all 33, not the 2 inspected. The legacy .txt is an ISIC Rev.4
+  vintage and not Rev.5 under an old name. What the difference actually is:
+  17 of the 33 are purely orthographic (specialized/specialised) and vanish under
+  -ise/-ize normalisation; the rest are punctuation and wording (Short term vs
+  Short-term, archives vs archive) plus a handful of genuine content differences."
+
+ ;; ── and then the finding that reframes the whole dispute ─────────────────
+ ;;
+ ;; Chasing one of those content differences settled a bigger question. 4774 reads
+ ;; "Retail sale of second-hand goods" in the UN's file and "Retail sale of
+ ;; medical and orthopaedic goods in specialised stores" in the mirror -- not a
+ ;; wording variant but a different industry under one code. It is not an
+ ;; off-by-one either: tested across all 413 adjacent shared pairs, ZERO cases
+ ;; where mirrored[n] matches legacy[n-1].
+ ;;
+ ;; The mirror subdivides the 4-digit level differently, in British orthography,
+ ;; using the EU's vocabulary.
+ :what-the-mirror-actually-is
+ {:measured-at "2026-08-15"
   :conclusion
-  "WHICH ONE IS ISIC REV.4 CANNOT BE SETTLED FROM HERE. Either the legacy path
-   now serves updated content under its old name, or the mirrored data is a
-   different vintage. So the file was NOT ingested: adding it as Rev.4 would
-   give a disputed table an authoritative-looking pin, which is worse than the
-   documentation gap it would appear to close."}
+  "THE MIRRORED PER-CLASS DATA IS NOT THE UN'S ISIC REV.4. On the evidence below
+   it belongs to the European NACE family, whose 4-digit level subdivides ISIC's
+   classes further. Which NACE revision is NOT identified here: no NACE source is
+   pinned in this workspace, and naming a revision without one would repeat the
+   mistake this record exists to document."
+  :evidence
+  {:codes-only-in-mirror
+   {:count 14
+    :codes ["1395" "1396" "3291" "3292" "3299" "4313" "4664" "4665" "4775"
+            "4776" "4777" "4778" "4779" "8410"]
+    :why-this-is-evidence
+    "These four-digit codes DO NOT EXIST in the UN's own ISIC Rev.4 file, and
+     their titles are the finer EU subdivisions: 4775 cosmetic and toilet
+     articles, 4776 flowers and pet food, 4777 watches and jewellery, 4779
+     second-hand goods -- where ISIC has a single 4773 'other retail sale of new
+     goods' and 4774 'second-hand goods'. 4313 'Test drilling and boring' and
+     1395 'non-wovens ... except apparel' are likewise EU-level classes."}
+   :codes-only-in-un-file
+   {:count 5
+    :codes ["2733" "3290" "8411" "8412" "8413"]
+    :why-this-is-evidence
+    "The mirror has none of ISIC's three public-administration classes
+     8411/8412/8413, carrying a single 8410 instead."}
+   :orthography
+   {:un-file {:-ize 30 :-ise 8}
+    :mirror {:-ise 34 :-ize 9 :orthopaedic 1}
+    :why-this-is-evidence
+    "UN ISIC publishes in American spelling and Eurostat in British. The mirror
+     also contains 'orthopaedic' and 'Dispensing chemist', which is EU wording
+     and not ISIC wording."}
+   :not-an-off-by-one
+   {:adjacent-pairs-tested 413
+    :cases-where-mirror-matches-the-previous-code 0}}
+  :how-the-legacy-file-was-checked
+  "Fetched to a temporary path and sha256-verified against :other-sha256 above
+   before any comparison, then discarded. It is still NOT ingested -- this
+   measurement is about what the two sources are, and giving the disputed table a
+   pin was never the goal."}
+  ;; Rewritten 2026-08-15. This said the question could not be settled from here,
+  ;; which was true of the question as it was then framed -- WHICH of the two is
+  ;; Rev.4 -- and stopped being the interesting question once all 33 differences
+  ;; were measured instead of two. One of the candidates is not ISIC at all.
+  :conclusion
+  "SETTLED IN ONE DIRECTION, STILL OPEN IN THE OTHER. The legacy .txt is an ISIC
+   Rev.4 vintage: it is not Rev.5 wearing an old name (only 7 of the 33 disputed
+   titles match Rev.5, 6 of its codes are absent from Rev.5) and it shares 414 of
+   419 codes with the mirror against 366 with Rev.5. The mirror, by contrast, is
+   measurably NOT the UN's ISIC Rev.4 -- see :what-the-mirror-actually-is.
+
+   What remains open is not which vintage is authoritative but which
+   CLASSIFICATION the 122 businesses meant, which is a question about them and
+   not about these files. See :owner-decision.
+
+   The legacy file is STILL NOT INGESTED, and the reason has not changed: this
+   measurement needed to read it, not to publish it. It was fetched to a
+   temporary path, sha256-verified against the pin recorded here, compared, and
+   discarded."}
 
  :consequences
- ["Rev.4 class TITLES from this mirror are unpinned. 122 cloud-itonami"
-  " businesses currently take an industry name from them (see"
-  " 90-docs/valueflows/itonami-business-vf.datoms.edn), and 33 of the 414"
-  " overlapping titles are disputed."
+ ["122 cloud-itonami businesses take an industry name from this mirror (see"
+  " 90-docs/valueflows/itonami-business-vf.datoms.edn), under the label ISIC"
+  " Rev.4, from a table that is measurably not ISIC Rev.4. For most of them the"
+  " name is close enough to be unremarkable; for a business on a code the EU"
+  " subdivides differently it can be the wrong industry entirely, which is what"
+  " 4774 demonstrates."
   "Rev.4 GROUP titles are unavailable at any level of confidence, so a Rev.4"
   " group-level code (24 blueprints declare one) is reported as unresolvable"
-  " with a reason rather than given a title from the disputed source."
-  "Resolving this needs an owner decision about which vintage of Rev.4 is"
-  " authoritative, then a pinned re-ingest. It is not derivable here."]}
+  " with a reason rather than given a title from this source."
+  "This repository is named org-un-isic and attributes its Rev.4 half to the UN."
+  " That attribution is wrong for the data currently in data/classes."]
+
+ ;; What the owner is actually deciding, now that the question has changed. The
+ ;; earlier framing -- 'which vintage of Rev.4 is authoritative' -- was the wrong
+ ;; question, because only one of the two candidates is ISIC at all.
+ :owner-decision
+ {:changed-at "2026-08-15"
+  :was "Which vintage of ISIC Rev.4 is authoritative, then a pinned re-ingest."
+  :is
+  "Whether this repository should mirror ISIC Rev.4 (in which case data/classes
+   is replaced by a pinned ingest of the UN file whose sha256 is already recorded
+   above, and 419 classes rather than 428), or whether the NACE-family data is
+   the one the businesses actually want (in which case it belongs in a repo named
+   for its real origin -- the origin plane's reverse-DNS rule would make that
+   eu-europa-nace or similar -- with its own pin, and org-un-isic mirrors ISIC)."
+  :not-derivable-here
+  "Which one the businesses want is a question about the businesses, not about
+   the data. Nothing in the blueprints says which classification they meant."}}
