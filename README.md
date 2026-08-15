@@ -21,6 +21,16 @@ gap in this mirror. `data/rev5/upstream.edn` records the pin, the sha256, the
 encoding (the CSV is latin-1, not UTF-8 — its only non-ASCII byte is a
 non-breaking space) and the one normalisation applied to the generated JSON.
 
+⚠ **The Rev.4 half of this mirror is unpinned, and measurably disputed.**
+`data/classes/*.json` carries no source URL, sha256 or fetch date, and the UN's
+legacy `ISIC_Rev_4_english_structure.txt` (still 200, not linked from the
+landing page) disagrees with it on **33 of 414** overlapping class titles and on
+the level counts. The differences read as Rev.5 wording. Which one is Rev.4
+cannot be settled here, so that file was deliberately NOT ingested — giving a
+disputed table an authoritative-looking pin is worse than the gap it appears to
+close. See `data/PROVENANCE.edn`; resolving it needs an owner decision and a
+pinned re-ingest.
+
 **There is no Rev.4 <-> Rev.5 correspondence table here** because none is
 linked from the UN landing page. Resolve a code against the revision it was
 declared in; do not map Rev.5 codes onto Rev.4 and call them resolved.

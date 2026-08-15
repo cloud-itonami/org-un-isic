@@ -1,0 +1,62 @@
+;; Where each mirrored revision came from — and where that is UNKNOWN.
+;;
+;; Rev.5 is pinned (data/rev5/upstream.edn: URL, sha256, fetch date, encoding).
+;; **Rev.4 IS NOT.** data/classes/*.json carries no source URL, no sha256 and no
+;; fetch date; the README names only the UN landing page, and the git history is
+;; a single squashed "chore: extract app repository". 428 files, provenance
+;; unknown.
+;;
+;; That would be a documentation gap and nothing more, except that it is
+;; MEASURABLY in conflict with what the UN serves today.
+
+{:schema "un.isic.provenance.v1"
+ :measured-at "2026-08-15"
+
+ :rev5 {:pinned? true :record "data/rev5/upstream.edn"}
+
+ :rev4
+ {:pinned? false
+  :files 428
+  :fields ["code" "nameEn" "group" "description" "includes"]
+  :source-url :unknown
+  :sha256 :unknown
+  :fetched-at :unknown
+  :git-history "single squashed commit b0028c6 'chore: extract app repository'"}
+
+ ;; The conflict, measured rather than asserted. The legacy UN path
+ ;; ISIC_Rev_4_english_structure.txt still returns 200, and it does not agree
+ ;; with the mirrored per-class data.
+ :rev4-conflict
+ {:other-source "https://unstats.un.org/unsd/classifications/Econ/Download/In Text/ISIC_Rev_4_english_structure.txt"
+  :other-sha256 "18b645efc5a0b001fda5852cfd0690eb579011651e405631e50cb2d271ee2cc6"
+  :other-bytes 40195
+  :fetched-at "2026-08-15"
+  :not-linked-from-landing-page true
+  :levels-in-other-source {:sections 21 :divisions 88 :groups 238 :classes 419}
+  :levels-claimed-by-readme {:sections 21 :divisions 88 :groups 272 :classes 428}
+  :classes-in-both 414
+  :class-titles-that-differ 33
+  :differing-codes ["1010", "3830", "4210", "4390", "4669", "4690", "4711", "4719", "4721", "4722", "4723", "4730", "4741", "4742", "4751", "4752", "4753", "4759", "4761", "4762", "4763", "4764", "4771", "4772", "4773", "4774", "5120", "5510", "6499", "6612", "6619", "9101", "9601"]
+  :direction-of-difference
+  "The other source's wording matches ISIC Rev.5 in the cases inspected: 1010 is
+   'Processing and preserving of meat' there and in Rev.5, while the mirrored
+   per-class data says 'Processing and preserving of meat and meat products'.
+   4210 likewise reads 'Construction of roads and railways' there against
+   'Construction of roads and motorways' mirrored."
+  :conclusion
+  "WHICH ONE IS ISIC REV.4 CANNOT BE SETTLED FROM HERE. Either the legacy path
+   now serves updated content under its old name, or the mirrored data is a
+   different vintage. So the file was NOT ingested: adding it as Rev.4 would
+   give a disputed table an authoritative-looking pin, which is worse than the
+   documentation gap it would appear to close."}
+
+ :consequences
+ ["Rev.4 class TITLES from this mirror are unpinned. 122 cloud-itonami"
+  " businesses currently take an industry name from them (see"
+  " 90-docs/valueflows/itonami-business-vf.datoms.edn), and 33 of the 414"
+  " overlapping titles are disputed."
+  "Rev.4 GROUP titles are unavailable at any level of confidence, so a Rev.4"
+  " group-level code (24 blueprints declare one) is reported as unresolvable"
+  " with a reason rather than given a title from the disputed source."
+  "Resolving this needs an owner decision about which vintage of Rev.4 is"
+  " authoritative, then a pinned re-ingest. It is not derivable here."]}
