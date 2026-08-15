@@ -33,6 +33,11 @@
 
  :levels-by-code-length {1: 22, 2: 87, 3: 258, 4: 463}
  :four-digit-classes 463
+ ;; All four levels are generated from the same CSV, because a blueprint may
+ ;; legitimately classify at group level rather than class level -- 27 of
+ ;; cloud-itonami's declare a 3-digit code, and treating those as unresolvable
+ ;; was reading a coarser classification as a broken one.
+ :generated {"classes.json" 463 "groups.json" 258 "divisions.json" 87 "sections.json" 22}
 
  ;; The download link was READ off the landing page, not guessed: two guessed
  ;; URLs (ISIC5_ISIC4_correspondence.xlsx and a .txt structure) both 404'd. No

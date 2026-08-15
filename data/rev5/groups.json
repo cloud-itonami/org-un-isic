@@ -1,0 +1,1292 @@
+{
+  "011": {
+    "code": "011",
+    "division": "01",
+    "nameEn": "Growing of non-perennial crops"
+  },
+  "012": {
+    "code": "012",
+    "division": "01",
+    "nameEn": "Growing of perennial crops"
+  },
+  "013": {
+    "code": "013",
+    "division": "01",
+    "nameEn": "Plant propagation"
+  },
+  "014": {
+    "code": "014",
+    "division": "01",
+    "nameEn": "Animal production"
+  },
+  "015": {
+    "code": "015",
+    "division": "01",
+    "nameEn": "Mixed farming"
+  },
+  "016": {
+    "code": "016",
+    "division": "01",
+    "nameEn": "Support activities to agriculture and post-harvest crop activities"
+  },
+  "017": {
+    "code": "017",
+    "division": "01",
+    "nameEn": "Hunting, trapping and related service activities"
+  },
+  "021": {
+    "code": "021",
+    "division": "02",
+    "nameEn": "Silviculture and other forestry activities"
+  },
+  "022": {
+    "code": "022",
+    "division": "02",
+    "nameEn": "Logging"
+  },
+  "023": {
+    "code": "023",
+    "division": "02",
+    "nameEn": "Gathering of non-wood forest products"
+  },
+  "024": {
+    "code": "024",
+    "division": "02",
+    "nameEn": "Support services to forestry"
+  },
+  "031": {
+    "code": "031",
+    "division": "03",
+    "nameEn": "Fishing"
+  },
+  "032": {
+    "code": "032",
+    "division": "03",
+    "nameEn": "Aquaculture"
+  },
+  "033": {
+    "code": "033",
+    "division": "03",
+    "nameEn": "Support activities for fishing and aquaculture"
+  },
+  "051": {
+    "code": "051",
+    "division": "05",
+    "nameEn": "Mining of hard coal"
+  },
+  "052": {
+    "code": "052",
+    "division": "05",
+    "nameEn": "Mining of lignite"
+  },
+  "061": {
+    "code": "061",
+    "division": "06",
+    "nameEn": "Extraction of crude petroleum"
+  },
+  "062": {
+    "code": "062",
+    "division": "06",
+    "nameEn": "Extraction of natural gas"
+  },
+  "071": {
+    "code": "071",
+    "division": "07",
+    "nameEn": "Mining of iron ores"
+  },
+  "072": {
+    "code": "072",
+    "division": "07",
+    "nameEn": "Mining of non-ferrous metal ores"
+  },
+  "081": {
+    "code": "081",
+    "division": "08",
+    "nameEn": "Quarrying of stone, sand and clay"
+  },
+  "089": {
+    "code": "089",
+    "division": "08",
+    "nameEn": "Mining and quarrying n.e.c."
+  },
+  "091": {
+    "code": "091",
+    "division": "09",
+    "nameEn": "Support activities for petroleum and natural gas extraction"
+  },
+  "099": {
+    "code": "099",
+    "division": "09",
+    "nameEn": "Support activities for other mining and quarrying"
+  },
+  "101": {
+    "code": "101",
+    "division": "10",
+    "nameEn": "Processing and preserving of meat"
+  },
+  "102": {
+    "code": "102",
+    "division": "10",
+    "nameEn": "Processing and preserving of fish, crustaceans and molluscs"
+  },
+  "103": {
+    "code": "103",
+    "division": "10",
+    "nameEn": "Processing and preserving of fruit and vegetables"
+  },
+  "104": {
+    "code": "104",
+    "division": "10",
+    "nameEn": "Manufacture of vegetable and animal oils and fats"
+  },
+  "105": {
+    "code": "105",
+    "division": "10",
+    "nameEn": "Manufacture of dairy products"
+  },
+  "106": {
+    "code": "106",
+    "division": "10",
+    "nameEn": "Manufacture of grain mill products, starches and starch products"
+  },
+  "107": {
+    "code": "107",
+    "division": "10",
+    "nameEn": "Manufacture of other food products"
+  },
+  "108": {
+    "code": "108",
+    "division": "10",
+    "nameEn": "Manufacture of prepared animal feeds"
+  },
+  "110": {
+    "code": "110",
+    "division": "11",
+    "nameEn": "Manufacture of beverages"
+  },
+  "120": {
+    "code": "120",
+    "division": "12",
+    "nameEn": "Manufacture of tobacco products"
+  },
+  "131": {
+    "code": "131",
+    "division": "13",
+    "nameEn": "Spinning, weaving and finishing of textiles"
+  },
+  "139": {
+    "code": "139",
+    "division": "13",
+    "nameEn": "Manufacture of other textiles"
+  },
+  "141": {
+    "code": "141",
+    "division": "14",
+    "nameEn": "Manufacture of wearing apparel, except fur apparel"
+  },
+  "142": {
+    "code": "142",
+    "division": "14",
+    "nameEn": "Manufacture of articles of fur"
+  },
+  "143": {
+    "code": "143",
+    "division": "14",
+    "nameEn": "Manufacture of knitted and crocheted apparel"
+  },
+  "151": {
+    "code": "151",
+    "division": "15",
+    "nameEn": "Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness"
+  },
+  "152": {
+    "code": "152",
+    "division": "15",
+    "nameEn": "Manufacture of footwear"
+  },
+  "161": {
+    "code": "161",
+    "division": "16",
+    "nameEn": "Sawmilling and planing of wood"
+  },
+  "162": {
+    "code": "162",
+    "division": "16",
+    "nameEn": "Manufacture of products of wood, cork, straw and plaiting materials"
+  },
+  "170": {
+    "code": "170",
+    "division": "17",
+    "nameEn": "Manufacture of paper and paper products"
+  },
+  "181": {
+    "code": "181",
+    "division": "18",
+    "nameEn": "Printing and service activities related to printing"
+  },
+  "182": {
+    "code": "182",
+    "division": "18",
+    "nameEn": "Reproduction of recorded media"
+  },
+  "191": {
+    "code": "191",
+    "division": "19",
+    "nameEn": "Manufacture of coke oven products"
+  },
+  "192": {
+    "code": "192",
+    "division": "19",
+    "nameEn": "Manufacture of refined petroleum products; manufacture of fossil fuel products"
+  },
+  "201": {
+    "code": "201",
+    "division": "20",
+    "nameEn": "Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+  },
+  "202": {
+    "code": "202",
+    "division": "20",
+    "nameEn": "Manufacture of other chemical products"
+  },
+  "203": {
+    "code": "203",
+    "division": "20",
+    "nameEn": "Manufacture of man-made fibres"
+  },
+  "210": {
+    "code": "210",
+    "division": "21",
+    "nameEn": "Manufacture of pharmaceuticals, medicinal chemical and botanical products"
+  },
+  "221": {
+    "code": "221",
+    "division": "22",
+    "nameEn": "Manufacture of rubber products"
+  },
+  "222": {
+    "code": "222",
+    "division": "22",
+    "nameEn": "Manufacture of plastics products"
+  },
+  "231": {
+    "code": "231",
+    "division": "23",
+    "nameEn": "Manufacture of glass and glass products"
+  },
+  "239": {
+    "code": "239",
+    "division": "23",
+    "nameEn": "Manufacture of non-metallic mineral products n.e.c."
+  },
+  "241": {
+    "code": "241",
+    "division": "24",
+    "nameEn": "Manufacture of basic iron and steel"
+  },
+  "242": {
+    "code": "242",
+    "division": "24",
+    "nameEn": "Manufacture of basic precious and other non-ferrous metals"
+  },
+  "243": {
+    "code": "243",
+    "division": "24",
+    "nameEn": "Casting of metals"
+  },
+  "251": {
+    "code": "251",
+    "division": "25",
+    "nameEn": "Manufacture of structural metal products, tanks, reservoirs and steam generators"
+  },
+  "252": {
+    "code": "252",
+    "division": "25",
+    "nameEn": "Manufacture of weapons and ammunition"
+  },
+  "259": {
+    "code": "259",
+    "division": "25",
+    "nameEn": "Manufacture of other fabricated metal products; metalworking service activities"
+  },
+  "261": {
+    "code": "261",
+    "division": "26",
+    "nameEn": "Manufacture of electronic components and boards"
+  },
+  "262": {
+    "code": "262",
+    "division": "26",
+    "nameEn": "Manufacture of computers and peripheral equipment"
+  },
+  "263": {
+    "code": "263",
+    "division": "26",
+    "nameEn": "Manufacture of communication equipment"
+  },
+  "264": {
+    "code": "264",
+    "division": "26",
+    "nameEn": "Manufacture of consumer electronics"
+  },
+  "265": {
+    "code": "265",
+    "division": "26",
+    "nameEn": "Manufacture of measuring, testing, navigating and control equipment; watches and clocks"
+  },
+  "266": {
+    "code": "266",
+    "division": "26",
+    "nameEn": "Manufacture of irradiation, electromedical and electrotherapeutic equipment"
+  },
+  "267": {
+    "code": "267",
+    "division": "26",
+    "nameEn": "Manufacture of optical instruments and photographic equipment"
+  },
+  "268": {
+    "code": "268",
+    "division": "26",
+    "nameEn": "Manufacture of magnetic and optical media"
+  },
+  "271": {
+    "code": "271",
+    "division": "27",
+    "nameEn": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"
+  },
+  "272": {
+    "code": "272",
+    "division": "27",
+    "nameEn": "Manufacture of batteries and accumulators"
+  },
+  "273": {
+    "code": "273",
+    "division": "27",
+    "nameEn": "Manufacture of wiring and wiring devices"
+  },
+  "274": {
+    "code": "274",
+    "division": "27",
+    "nameEn": "Manufacture of lighting equipment"
+  },
+  "275": {
+    "code": "275",
+    "division": "27",
+    "nameEn": "Manufacture of domestic appliances"
+  },
+  "279": {
+    "code": "279",
+    "division": "27",
+    "nameEn": "Manufacture of other electrical equipment"
+  },
+  "281": {
+    "code": "281",
+    "division": "28",
+    "nameEn": "Manufacture of general-purpose machinery"
+  },
+  "282": {
+    "code": "282",
+    "division": "28",
+    "nameEn": "Manufacture of special-purpose machinery"
+  },
+  "291": {
+    "code": "291",
+    "division": "29",
+    "nameEn": "Manufacture of motor vehicles"
+  },
+  "292": {
+    "code": "292",
+    "division": "29",
+    "nameEn": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"
+  },
+  "293": {
+    "code": "293",
+    "division": "29",
+    "nameEn": "Manufacture of parts and accessories for motor vehicles"
+  },
+  "301": {
+    "code": "301",
+    "division": "30",
+    "nameEn": "Building of ships and boats"
+  },
+  "302": {
+    "code": "302",
+    "division": "30",
+    "nameEn": "Manufacture of railway locomotives and rolling stock"
+  },
+  "303": {
+    "code": "303",
+    "division": "30",
+    "nameEn": "Manufacture of air and spacecraft and related machinery"
+  },
+  "304": {
+    "code": "304",
+    "division": "30",
+    "nameEn": "Manufacture of military fighting vehicles"
+  },
+  "309": {
+    "code": "309",
+    "division": "30",
+    "nameEn": "Manufacture of transport equipment n.e.c."
+  },
+  "310": {
+    "code": "310",
+    "division": "31",
+    "nameEn": "Manufacture of furniture"
+  },
+  "321": {
+    "code": "321",
+    "division": "32",
+    "nameEn": "Manufacture of jewellery, bijouterie and related articles"
+  },
+  "322": {
+    "code": "322",
+    "division": "32",
+    "nameEn": "Manufacture of musical instruments"
+  },
+  "323": {
+    "code": "323",
+    "division": "32",
+    "nameEn": "Manufacture of sports goods"
+  },
+  "324": {
+    "code": "324",
+    "division": "32",
+    "nameEn": "Manufacture of games and toys"
+  },
+  "325": {
+    "code": "325",
+    "division": "32",
+    "nameEn": "Manufacture of medical and dental instruments and supplies"
+  },
+  "329": {
+    "code": "329",
+    "division": "32",
+    "nameEn": "Other manufacturing n.e.c."
+  },
+  "331": {
+    "code": "331",
+    "division": "33",
+    "nameEn": "Repair and maintenance of fabricated metal products, machinery and equipment"
+  },
+  "332": {
+    "code": "332",
+    "division": "33",
+    "nameEn": "Installation of industrial machinery and equipment"
+  },
+  "351": {
+    "code": "351",
+    "division": "35",
+    "nameEn": "Electric power generation, transmission and distribution activities"
+  },
+  "352": {
+    "code": "352",
+    "division": "35",
+    "nameEn": "Manufacture of gas; distribution of gaseous fuels through mains"
+  },
+  "353": {
+    "code": "353",
+    "division": "35",
+    "nameEn": "Steam and air conditioning supply"
+  },
+  "354": {
+    "code": "354",
+    "division": "35",
+    "nameEn": "Activities of brokers and agents for electric power and natural gas"
+  },
+  "360": {
+    "code": "360",
+    "division": "36",
+    "nameEn": "Water collection, treatment and supply"
+  },
+  "370": {
+    "code": "370",
+    "division": "37",
+    "nameEn": "Sewerage"
+  },
+  "381": {
+    "code": "381",
+    "division": "38",
+    "nameEn": "Waste collection activities"
+  },
+  "382": {
+    "code": "382",
+    "division": "38",
+    "nameEn": "Waste treatment and disposal"
+  },
+  "383": {
+    "code": "383",
+    "division": "38",
+    "nameEn": "Materials and other waste recovery"
+  },
+  "390": {
+    "code": "390",
+    "division": "39",
+    "nameEn": "Remediation and other waste management service activities"
+  },
+  "410": {
+    "code": "410",
+    "division": "41",
+    "nameEn": "Construction of residential and non-residential buildings"
+  },
+  "421": {
+    "code": "421",
+    "division": "42",
+    "nameEn": "Construction of roads and railways"
+  },
+  "422": {
+    "code": "422",
+    "division": "42",
+    "nameEn": "Construction of utility projects"
+  },
+  "429": {
+    "code": "429",
+    "division": "42",
+    "nameEn": "Construction of other civil engineering projects"
+  },
+  "431": {
+    "code": "431",
+    "division": "43",
+    "nameEn": "Demolition and site preparation"
+  },
+  "432": {
+    "code": "432",
+    "division": "43",
+    "nameEn": "Electrical, plumbing and other construction installation activities"
+  },
+  "433": {
+    "code": "433",
+    "division": "43",
+    "nameEn": "Building completion and finishing"
+  },
+  "434": {
+    "code": "434",
+    "division": "43",
+    "nameEn": "Intermediation service activities for specialized construction services"
+  },
+  "439": {
+    "code": "439",
+    "division": "43",
+    "nameEn": "Other specialized construction activities"
+  },
+  "461": {
+    "code": "461",
+    "division": "46",
+    "nameEn": "Wholesale on a fee or contract basis"
+  },
+  "462": {
+    "code": "462",
+    "division": "46",
+    "nameEn": "Wholesale of agricultural raw materials and live animals"
+  },
+  "463": {
+    "code": "463",
+    "division": "46",
+    "nameEn": "Wholesale of food, beverages and tobacco"
+  },
+  "464": {
+    "code": "464",
+    "division": "46",
+    "nameEn": "Wholesale of household goods"
+  },
+  "465": {
+    "code": "465",
+    "division": "46",
+    "nameEn": "Wholesale of machinery, equipment and supplies"
+  },
+  "466": {
+    "code": "466",
+    "division": "46",
+    "nameEn": "Wholesale of motor vehicles, motorcycles and related parts and accessories"
+  },
+  "467": {
+    "code": "467",
+    "division": "46",
+    "nameEn": "Other specialized wholesale"
+  },
+  "469": {
+    "code": "469",
+    "division": "46",
+    "nameEn": "Non-specialized wholesale trade"
+  },
+  "471": {
+    "code": "471",
+    "division": "47",
+    "nameEn": "Non-specialized retail sale"
+  },
+  "472": {
+    "code": "472",
+    "division": "47",
+    "nameEn": "Retail sale of food, beverages and tobacco"
+  },
+  "473": {
+    "code": "473",
+    "division": "47",
+    "nameEn": "Retail sale of automotive fuel"
+  },
+  "474": {
+    "code": "474",
+    "division": "47",
+    "nameEn": "Retail sale of information and communication equipment"
+  },
+  "475": {
+    "code": "475",
+    "division": "47",
+    "nameEn": "Retail sale of other household equipment"
+  },
+  "476": {
+    "code": "476",
+    "division": "47",
+    "nameEn": "Retail sale of cultural and recreational goods"
+  },
+  "477": {
+    "code": "477",
+    "division": "47",
+    "nameEn": "Retail sale of other goods, except motor vehicles and motorcycles"
+  },
+  "478": {
+    "code": "478",
+    "division": "47",
+    "nameEn": "Retail sale of motor vehicles, motorcycles and related parts and accessories"
+  },
+  "479": {
+    "code": "479",
+    "division": "47",
+    "nameEn": "Intermediation service activities for retail sale"
+  },
+  "491": {
+    "code": "491",
+    "division": "49",
+    "nameEn": "Transport via railways"
+  },
+  "492": {
+    "code": "492",
+    "division": "49",
+    "nameEn": "Other land transport"
+  },
+  "493": {
+    "code": "493",
+    "division": "49",
+    "nameEn": "Transport via pipeline"
+  },
+  "501": {
+    "code": "501",
+    "division": "50",
+    "nameEn": "Sea and coastal water transport"
+  },
+  "502": {
+    "code": "502",
+    "division": "50",
+    "nameEn": "Inland water transport"
+  },
+  "511": {
+    "code": "511",
+    "division": "51",
+    "nameEn": "Passenger air transport"
+  },
+  "512": {
+    "code": "512",
+    "division": "51",
+    "nameEn": "Freight air transport"
+  },
+  "521": {
+    "code": "521",
+    "division": "52",
+    "nameEn": "Warehousing and storage"
+  },
+  "522": {
+    "code": "522",
+    "division": "52",
+    "nameEn": "Support activities for transportation"
+  },
+  "523": {
+    "code": "523",
+    "division": "52",
+    "nameEn": "Intermediation service activities for transportation"
+  },
+  "531": {
+    "code": "531",
+    "division": "53",
+    "nameEn": "Postal activities"
+  },
+  "532": {
+    "code": "532",
+    "division": "53",
+    "nameEn": "Courier activities"
+  },
+  "533": {
+    "code": "533",
+    "division": "53",
+    "nameEn": "Intermediation service activities for postal and courier activities"
+  },
+  "551": {
+    "code": "551",
+    "division": "55",
+    "nameEn": "Hotels and similar accommodation activities"
+  },
+  "552": {
+    "code": "552",
+    "division": "55",
+    "nameEn": "Other short term accommodation activities"
+  },
+  "553": {
+    "code": "553",
+    "division": "55",
+    "nameEn": "Camping grounds, recreational vehicle parks and trailer parks"
+  },
+  "554": {
+    "code": "554",
+    "division": "55",
+    "nameEn": "Intermediation service activities for accommodation"
+  },
+  "559": {
+    "code": "559",
+    "division": "55",
+    "nameEn": "Other accommodation n.e.c."
+  },
+  "561": {
+    "code": "561",
+    "division": "56",
+    "nameEn": "Restaurants and mobile food service activities"
+  },
+  "562": {
+    "code": "562",
+    "division": "56",
+    "nameEn": "Event catering and other food service activities"
+  },
+  "563": {
+    "code": "563",
+    "division": "56",
+    "nameEn": "Beverage serving activities"
+  },
+  "564": {
+    "code": "564",
+    "division": "56",
+    "nameEn": "Intermediation service activities for food and beverage services activities"
+  },
+  "581": {
+    "code": "581",
+    "division": "58",
+    "nameEn": "Publishing of books, newspapers, periodicals and other publishing activities"
+  },
+  "582": {
+    "code": "582",
+    "division": "58",
+    "nameEn": "Software publishing"
+  },
+  "591": {
+    "code": "591",
+    "division": "59",
+    "nameEn": "Motion picture, video and television programme activities"
+  },
+  "592": {
+    "code": "592",
+    "division": "59",
+    "nameEn": "Sound recording and music publishing activities"
+  },
+  "601": {
+    "code": "601",
+    "division": "60",
+    "nameEn": "Radio broadcasting and audio distribution activities"
+  },
+  "602": {
+    "code": "602",
+    "division": "60",
+    "nameEn": "Television programming, broadcasting and video distribution activities"
+  },
+  "603": {
+    "code": "603",
+    "division": "60",
+    "nameEn": "News agency and other content distribution activities"
+  },
+  "611": {
+    "code": "611",
+    "division": "61",
+    "nameEn": "Wired, wireless, and satellite telecommunication activities"
+  },
+  "612": {
+    "code": "612",
+    "division": "61",
+    "nameEn": "Telecommunication reselling activities and intermediation service activities for telecommunication"
+  },
+  "619": {
+    "code": "619",
+    "division": "61",
+    "nameEn": "Other telecommunication activities"
+  },
+  "621": {
+    "code": "621",
+    "division": "62",
+    "nameEn": "Computer programming activities"
+  },
+  "622": {
+    "code": "622",
+    "division": "62",
+    "nameEn": "Computer consultancy and computer facilities management activities"
+  },
+  "629": {
+    "code": "629",
+    "division": "62",
+    "nameEn": "Other information technology and computer service activities"
+  },
+  "631": {
+    "code": "631",
+    "division": "63",
+    "nameEn": "Computing infrastructure, data processing, hosting and related activities"
+  },
+  "639": {
+    "code": "639",
+    "division": "63",
+    "nameEn": "Web search portals activities and other information service activities"
+  },
+  "641": {
+    "code": "641",
+    "division": "64",
+    "nameEn": "Monetary intermediation"
+  },
+  "642": {
+    "code": "642",
+    "division": "64",
+    "nameEn": "Activities of holding companies and financing conduits"
+  },
+  "643": {
+    "code": "643",
+    "division": "64",
+    "nameEn": "Activities of trusts, funds and similar financial entities"
+  },
+  "649": {
+    "code": "649",
+    "division": "64",
+    "nameEn": "Other financial service activities, except insurance and pension funding activities"
+  },
+  "651": {
+    "code": "651",
+    "division": "65",
+    "nameEn": "Insurance"
+  },
+  "652": {
+    "code": "652",
+    "division": "65",
+    "nameEn": "Reinsurance"
+  },
+  "653": {
+    "code": "653",
+    "division": "65",
+    "nameEn": "Pension funding"
+  },
+  "661": {
+    "code": "661",
+    "division": "66",
+    "nameEn": "Activities auxiliary to financial services, except insurance and pension funding"
+  },
+  "662": {
+    "code": "662",
+    "division": "66",
+    "nameEn": "Activities auxiliary to insurance and pension funding"
+  },
+  "663": {
+    "code": "663",
+    "division": "66",
+    "nameEn": "Fund management activities"
+  },
+  "681": {
+    "code": "681",
+    "division": "68",
+    "nameEn": "Real estate activities with own or leased property"
+  },
+  "682": {
+    "code": "682",
+    "division": "68",
+    "nameEn": "Real estate activities on a fee or contract basis"
+  },
+  "691": {
+    "code": "691",
+    "division": "69",
+    "nameEn": "Legal activities"
+  },
+  "692": {
+    "code": "692",
+    "division": "69",
+    "nameEn": "Accounting, bookkeeping and auditing activities; tax consultancy"
+  },
+  "701": {
+    "code": "701",
+    "division": "70",
+    "nameEn": "Activities of head offices"
+  },
+  "702": {
+    "code": "702",
+    "division": "70",
+    "nameEn": "Business and other management consultancy activities"
+  },
+  "711": {
+    "code": "711",
+    "division": "71",
+    "nameEn": "Architectural and engineering, and related technical consultancy activities"
+  },
+  "712": {
+    "code": "712",
+    "division": "71",
+    "nameEn": "Technical testing and analysis"
+  },
+  "721": {
+    "code": "721",
+    "division": "72",
+    "nameEn": "Research and experimental development on natural sciences and engineering"
+  },
+  "722": {
+    "code": "722",
+    "division": "72",
+    "nameEn": "Research and experimental development on social sciences and humanities"
+  },
+  "731": {
+    "code": "731",
+    "division": "73",
+    "nameEn": "Advertising activities"
+  },
+  "732": {
+    "code": "732",
+    "division": "73",
+    "nameEn": "Market research and public opinion polling activities"
+  },
+  "733": {
+    "code": "733",
+    "division": "73",
+    "nameEn": "Public relations activities"
+  },
+  "741": {
+    "code": "741",
+    "division": "74",
+    "nameEn": "Specialized design activities"
+  },
+  "742": {
+    "code": "742",
+    "division": "74",
+    "nameEn": "Photographic activities"
+  },
+  "743": {
+    "code": "743",
+    "division": "74",
+    "nameEn": "Translation and interpretation activities"
+  },
+  "749": {
+    "code": "749",
+    "division": "74",
+    "nameEn": "Other professional, scientific and technical activities n.e.c."
+  },
+  "750": {
+    "code": "750",
+    "division": "75",
+    "nameEn": "Veterinary activities"
+  },
+  "771": {
+    "code": "771",
+    "division": "77",
+    "nameEn": "Rental and leasing of motor vehicles"
+  },
+  "772": {
+    "code": "772",
+    "division": "77",
+    "nameEn": "Rental and leasing of personal and household goods"
+  },
+  "773": {
+    "code": "773",
+    "division": "77",
+    "nameEn": "Rental and leasing of other machinery, equipment and tangible goods"
+  },
+  "774": {
+    "code": "774",
+    "division": "77",
+    "nameEn": "Leasing of intellectual property and similar products, except copyrighted works"
+  },
+  "775": {
+    "code": "775",
+    "division": "77",
+    "nameEn": "Intermediation service activities for rental and leasing of tangible goods and non-financial intangible assets"
+  },
+  "781": {
+    "code": "781",
+    "division": "78",
+    "nameEn": "Activities of employment placement agencies"
+  },
+  "782": {
+    "code": "782",
+    "division": "78",
+    "nameEn": "Temporary employment agency activities and other human resource provisions"
+  },
+  "791": {
+    "code": "791",
+    "division": "79",
+    "nameEn": "Travel agency and tour operator activities"
+  },
+  "799": {
+    "code": "799",
+    "division": "79",
+    "nameEn": "Other travel related activities"
+  },
+  "801": {
+    "code": "801",
+    "division": "80",
+    "nameEn": "Investigation and security activities"
+  },
+  "811": {
+    "code": "811",
+    "division": "81",
+    "nameEn": "Combined facilities support activities"
+  },
+  "812": {
+    "code": "812",
+    "division": "81",
+    "nameEn": "Cleaning activities"
+  },
+  "813": {
+    "code": "813",
+    "division": "81",
+    "nameEn": "Landscape service activities"
+  },
+  "821": {
+    "code": "821",
+    "division": "82",
+    "nameEn": "Office administrative and support activities"
+  },
+  "822": {
+    "code": "822",
+    "division": "82",
+    "nameEn": "Activities of call centres"
+  },
+  "823": {
+    "code": "823",
+    "division": "82",
+    "nameEn": "Organization of conventions and trade shows"
+  },
+  "824": {
+    "code": "824",
+    "division": "82",
+    "nameEn": "Intermediation service activities for business support activities n.e.c., except financial intermediation"
+  },
+  "829": {
+    "code": "829",
+    "division": "82",
+    "nameEn": "Business support service activities n.e.c."
+  },
+  "841": {
+    "code": "841",
+    "division": "84",
+    "nameEn": "Administration of the State and the economic, social and environmental policies of the community"
+  },
+  "842": {
+    "code": "842",
+    "division": "84",
+    "nameEn": "Provision of services to the community as a whole"
+  },
+  "843": {
+    "code": "843",
+    "division": "84",
+    "nameEn": "Compulsory social security activities"
+  },
+  "851": {
+    "code": "851",
+    "division": "85",
+    "nameEn": "Pre-primary education"
+  },
+  "852": {
+    "code": "852",
+    "division": "85",
+    "nameEn": "Primary education"
+  },
+  "853": {
+    "code": "853",
+    "division": "85",
+    "nameEn": "Secondary and post-secondary non-tertiary education"
+  },
+  "854": {
+    "code": "854",
+    "division": "85",
+    "nameEn": "Tertiary education"
+  },
+  "855": {
+    "code": "855",
+    "division": "85",
+    "nameEn": "Other education"
+  },
+  "856": {
+    "code": "856",
+    "division": "85",
+    "nameEn": "Educational support activities"
+  },
+  "861": {
+    "code": "861",
+    "division": "86",
+    "nameEn": "Hospital activities"
+  },
+  "862": {
+    "code": "862",
+    "division": "86",
+    "nameEn": "Medical and dental practice activities"
+  },
+  "869": {
+    "code": "869",
+    "division": "86",
+    "nameEn": "Other human health activities"
+  },
+  "871": {
+    "code": "871",
+    "division": "87",
+    "nameEn": "Residential nursing care activities"
+  },
+  "872": {
+    "code": "872",
+    "division": "87",
+    "nameEn": "Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse"
+  },
+  "873": {
+    "code": "873",
+    "division": "87",
+    "nameEn": "Residential care activities for older persons or persons with physical disabilities"
+  },
+  "879": {
+    "code": "879",
+    "division": "87",
+    "nameEn": "Other residential care activities"
+  },
+  "881": {
+    "code": "881",
+    "division": "88",
+    "nameEn": "Social work activities without accommodation for older persons or persons with disabilities"
+  },
+  "889": {
+    "code": "889",
+    "division": "88",
+    "nameEn": "Other social work activities without accommodation"
+  },
+  "901": {
+    "code": "901",
+    "division": "90",
+    "nameEn": "Arts creation activities"
+  },
+  "902": {
+    "code": "902",
+    "division": "90",
+    "nameEn": "Activities of performing arts"
+  },
+  "903": {
+    "code": "903",
+    "division": "90",
+    "nameEn": "Support activities to arts creation and performing arts"
+  },
+  "911": {
+    "code": "911",
+    "division": "91",
+    "nameEn": "Library and archive activities"
+  },
+  "912": {
+    "code": "912",
+    "division": "91",
+    "nameEn": "Museum, collection, historical site and monument activities"
+  },
+  "913": {
+    "code": "913",
+    "division": "91",
+    "nameEn": "Conservation, restoration and other support activities for cultural heritage"
+  },
+  "914": {
+    "code": "914",
+    "division": "91",
+    "nameEn": "Botanical and zoological garden and nature reserve activities"
+  },
+  "920": {
+    "code": "920",
+    "division": "92",
+    "nameEn": "Gambling and betting activities"
+  },
+  "931": {
+    "code": "931",
+    "division": "93",
+    "nameEn": "Sports activities"
+  },
+  "932": {
+    "code": "932",
+    "division": "93",
+    "nameEn": "Amusement and recreation activities"
+  },
+  "941": {
+    "code": "941",
+    "division": "94",
+    "nameEn": "Activities of business, employers and professional membership organizations"
+  },
+  "942": {
+    "code": "942",
+    "division": "94",
+    "nameEn": "Activities of trade unions"
+  },
+  "949": {
+    "code": "949",
+    "division": "94",
+    "nameEn": "Activities of other membership organizations"
+  },
+  "951": {
+    "code": "951",
+    "division": "95",
+    "nameEn": "Repair and maintenance of computers and communication equipment"
+  },
+  "952": {
+    "code": "952",
+    "division": "95",
+    "nameEn": "Repair and maintenance of personal and household goods"
+  },
+  "953": {
+    "code": "953",
+    "division": "95",
+    "nameEn": "Repair and maintenance of motor vehicles and motorcycles"
+  },
+  "954": {
+    "code": "954",
+    "division": "95",
+    "nameEn": "Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles"
+  },
+  "961": {
+    "code": "961",
+    "division": "96",
+    "nameEn": "Washing and cleaning of textile and fur products"
+  },
+  "962": {
+    "code": "962",
+    "division": "96",
+    "nameEn": "Hairdressing, beauty treatment, day spa and similar activities"
+  },
+  "963": {
+    "code": "963",
+    "division": "96",
+    "nameEn": "Funeral and related activities"
+  },
+  "964": {
+    "code": "964",
+    "division": "96",
+    "nameEn": "Intermediation service activities for personal services"
+  },
+  "969": {
+    "code": "969",
+    "division": "96",
+    "nameEn": "Other personal service activities n.e.c."
+  },
+  "970": {
+    "code": "970",
+    "division": "97",
+    "nameEn": "Activities of households as employers of domestic personnel"
+  },
+  "981": {
+    "code": "981",
+    "division": "98",
+    "nameEn": "Undifferentiated goods-producing activities of private households for own use"
+  },
+  "982": {
+    "code": "982",
+    "division": "98",
+    "nameEn": "Undifferentiated service-producing activities of private households for own use"
+  },
+  "990": {
+    "code": "990",
+    "division": "99",
+    "nameEn": "Activities of extraterritorial organizations and bodies"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "A": {
+    "code": "A",
+    "nameEn": "Agriculture, forestry and fishing"
+  },
+  "B": {
+    "code": "B",
+    "nameEn": "Mining and quarrying"
+  },
+  "C": {
+    "code": "C",
+    "nameEn": "Manufacturing"
+  },
+  "D": {
+    "code": "D",
+    "nameEn": "Electricity, gas, steam and air conditioning supply"
+  },
+  "E": {
+    "code": "E",
+    "nameEn": "Water supply; sewerage, waste management and remediation activities"
+  },
+  "F": {
+    "code": "F",
+    "nameEn": "Construction"
+  },
+  "G": {
+    "code": "G",
+    "nameEn": "Wholesale and retail trade"
+  },
+  "H": {
+    "code": "H",
+    "nameEn": "Transportation and storage"
+  },
+  "I": {
+    "code": "I",
+    "nameEn": "Accommodation and food service activities"
+  },
+  "J": {
+    "code": "J",
+    "nameEn": "Publishing, broadcasting, and content production and distribution activities"
+  },
+  "K": {
+    "code": "K",
+    "nameEn": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
+  },
+  "L": {
+    "code": "L",
+    "nameEn": "Financial and insurance activities"
+  },
+  "M": {
+    "code": "M",
+    "nameEn": "Real estate activities"
+  },
+  "N": {
+    "code": "N",
+    "nameEn": "Professional, scientific and technical activities"
+  },
+  "O": {
+    "code": "O",
+    "nameEn": "Administrative and support service activities"
+  },
+  "P": {
+    "code": "P",
+    "nameEn": "Public administration and defence; compulsory social security"
+  },
+  "Q": {
+    "code": "Q",
+    "nameEn": "Education"
+  },
+  "R": {
+    "code": "R",
+    "nameEn": "Human health and social work activities"
+  },
+  "S": {
+    "code": "S",
+    "nameEn": "Arts, sports and recreation"
+  },
+  "T": {
+    "code": "T",
+    "nameEn": "Other service activities"
+  },
+  "U": {
+    "code": "U",
+    "nameEn": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use"
+  },
+  "V": {
+    "code": "V",
+    "nameEn": "Activities of extraterritorial organizations and bodies"
+  }
+}
