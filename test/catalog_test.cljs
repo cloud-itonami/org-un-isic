@@ -1,0 +1,270 @@
+#!/usr/bin/env nbb
+;; test/catalog_test.cljs — does catalog.edn still describe THIS repository?
+;;
+;; catalog.edn is the repository's ingest catalog: for each table, the
+;; address the bytes came from, and for the one table whose address is unknown,
+;; a measurement of what it actually is. Both halves rot in ways that are
+;; invisible from the file itself.
+;;
+;;   The pins rot when a committed file is regenerated and the recorded digest
+;;   is not. A consumer who trusts the catalog then never touches the bytes that
+;;   would have contradicted it.
+;;
+;;   The measurement rots faster. It says 381 of 428 class titles match the UN's
+;;   ISIC Rev.4 and names the 47 that do not. Edit one title in data/classes and
+;;   every one of those numbers is stale, while the file goes on asserting them
+;;   in the confident past tense. The reference tables are deliberately NOT
+;;   committed here, so this check cannot re-derive the verdicts offline -- what
+;;   it can do is refuse to let them outlive the titles they were measured on.
+;;   That is what :titles-digest is for.
+;;
+;; And one invariant that is about the catalog's honesty rather than its
+;; accuracy: a table whose provenance is unknown must keep saying so. Writing a
+;; plausible-looking URL next to an unpinned table is the exact mistake
+;; data/PROVENANCE.edn exists to document -- "giving a disputed table an
+;; authoritative-looking pin is worse than the gap it appears to close".
+;;
+;; ## Exit codes — "could not measure" is not "measured clean"
+;;
+;;   0  every invariant held, on a non-empty dataset
+;;   1  an invariant was violated (the message names which)
+;;   2  REFUSED — the inputs could not be read, so no claim is made
+;;
+;; Exit 2 exists because the cheapest way to write this check wrong is to let an
+;; unreadable catalog or an empty data/classes fall through the same `seq` as a
+;; clean one and print OK.
+;;
+;; Nothing here touches the network. The addresses in the catalog were verified
+;; by fetching them on the day they were recorded; re-fetching on every run would
+;; make this check fail for reasons that are not about this repository.
+;;
+;; Usage:  nbb test/catalog_test.cljs
+
+(ns catalog-test
+  (:require ["node:fs" :as fs]
+            ["node:path" :as path]
+            ["node:crypto" :as crypto]
+            [cljs.reader :as reader]
+            [clojure.string :as str]))
+
+(def root
+  (path/resolve (path/dirname (or js/__filename "test/catalog_test.cljs")) ".."))
+
+(def failures (atom []))
+(defn- fail! [invariant detail]
+  (swap! failures conj (str "FAIL " invariant ": " detail)))
+
+(defn- refuse! [why]
+  (println (str "REFUSED " why))
+  (println "catalog-check: no claim made — the inputs could not be read.")
+  (js/process.exit 2))
+
+;; ── inputs ──────────────────────────────────────────────────────────────────
+
+(defn- read-edn
+  "Read `rel` as EDN, refusing unless the WHOLE file is exactly one form.
+
+   `read-string` reads the first form and discards the rest, so a file whose map
+   closes early and trails garbage parses without complaint -- which is precisely
+   how the heredoc-written EDN in this workspace has broken before (CLAUDE.md:
+   a stray escaped quote ends the string, the map still balances, and the reader
+   returns a truncated value \"as if nothing happened\"). Wrapping the text in a
+   vector forces the reader to consume everything: trailing content becomes extra
+   elements, and unbalanced content throws."
+  [rel]
+  (let [p (path/join root rel)]
+    (when-not (fs/existsSync p) (refuse! (str rel " does not exist")))
+    (let [text  (fs/readFileSync p "utf8")
+          forms (try
+                  (reader/read-string (str "[" text "\n]"))
+                  (catch :default e
+                    (refuse! (str rel " is not readable EDN: " (.-message e)))))]
+      (when-not (= 1 (count forms))
+        (refuse! (str rel " is not one EDN form — the reader found " (count forms)
+                      ". A file whose top-level value closes early parses fine and"
+                      " returns a truncated value; this is that case.")))
+      (first forms))))
+
+(def catalog-text
+  (let [p (path/join root "catalog.edn")]
+    (when-not (fs/existsSync p) (refuse! "catalog.edn does not exist"))
+    (fs/readFileSync p "utf8")))
+
+(def catalog  (read-edn "catalog.edn"))
+(def rev5-pin (read-edn "data/rev5/upstream.edn"))
+
+(when-not (map? catalog) (refuse! "catalog.edn is not a map"))
+
+(def sources (vec (:sources catalog)))
+(def tables  (vec (:tables catalog)))
+(when-not (seq sources) (refuse! "catalog.edn lists no sources"))
+(when-not (seq tables)  (refuse! "catalog.edn lists no tables"))
+
+;; ── the dataset, as it is on disk ───────────────────────────────────────────
+
+(def classes
+  (let [dir (path/join root "data/classes")]
+    (when-not (fs/existsSync dir) (refuse! "data/classes does not exist"))
+    (let [fs* (->> (fs/readdirSync dir) (filter #(str/ends-with? % ".json")) sort)]
+      (when-not (seq fs*) (refuse! "data/classes holds no .json files"))
+      (mapv (fn [f]
+              (let [j (try (js->clj (js/JSON.parse (fs/readFileSync (path/join dir f) "utf8")))
+                           (catch :default e
+                             (refuse! (str "data/classes/" f " is not readable JSON: " (.-message e)))))]
+                [(get j "code") (get j "nameEn")]))
+            fs*))))
+
+(def class-codes (set (map first classes)))
+
+(defn- sha256 [s]
+  (-> (crypto/createHash "sha256") (.update s "utf8") (.digest "hex")))
+
+(defn- titles-digest []
+  (sha256 (str/join "\n" (map (fn [[c n]] (str c "\t" n)) classes))))
+
+(def hex64? #(and (string? %) (re-matches #"[0-9a-f]{64}" %)))
+
+;; ── invariants ──────────────────────────────────────────────────────────────
+
+(def rev4-table (first (filter #(= :rev4-classes (:id %)) tables)))
+(when-not rev4-table (refuse! "catalog.edn has no :rev4-classes table"))
+
+;; 1. the measurement was taken on the titles that are on disk now
+(let [recorded (:titles-digest rev4-table)
+      actual   (titles-digest)]
+  (when-not (hex64? recorded)
+    (fail! "catalog-records-a-titles-digest"
+           (str ":titles-digest is not a sha256: " (pr-str recorded))))
+  (when (and (hex64? recorded) (not= recorded actual))
+    (fail! "catalog-titles-digest-matches-tree"
+           (str "data/classes titles have changed since the catalog was measured. "
+                "recorded=" recorded " actual=" actual
+                " — the verdicts in :what-data-classes-is were measured on different titles."))))
+
+;; 2. and on the same number of them
+(let [w (:what-data-classes-is catalog)
+      c (:counts w)]
+  (when-not (map? c) (refuse! ":what-data-classes-is :counts is missing"))
+  (when (not= (:files rev4-table) (count classes))
+    (fail! "catalog-class-count-matches-tree"
+           (str ":rev4-classes :files=" (:files rev4-table) " but data/classes holds " (count classes))))
+  (when (not= (:mirror-classes c) (count classes))
+    (fail! "catalog-class-count-matches-tree"
+           (str ":mirror-classes=" (:mirror-classes c) " but data/classes holds " (count classes))))
+
+  ;; 3. the three verdicts partition the dataset — every class was accounted for
+  (let [parts (+ (:title-matches-isic-exactly c 0)
+                 (:title-matches-nace-not-isic c 0)
+                 (:title-matches-neither c 0))]
+    (when (not= parts (:mirror-classes c))
+      (fail! "catalog-verdicts-partition-the-dataset"
+             (str "381/20/27-style verdicts sum to " parts
+                  " but the dataset holds " (:mirror-classes c)
+                  " — some classes fall in no bucket, so the conclusion covers less than it claims."))))
+
+  ;; 4. the named findings are real codes, and there are as many as claimed
+  (doseq [[k expected]
+          [[:codes-titled-from-nace-not-isic     (:title-matches-nace-not-isic c)]
+           [:codes-titled-from-neither           (:title-matches-neither c)]
+           [:codes-absent-from-isic-present-in-nace (:codes-only-in-nace c)]
+           [:codes-absent-from-both-references   (:codes-in-neither-reference c)]]]
+    (let [lst (get w k)]
+      (cond
+        (not (sequential? lst))
+        (fail! "catalog-finding-lists-exist" (str k " is not a list"))
+
+        :else
+        (do
+          (when (not= (count lst) expected)
+            (fail! "catalog-finding-count-matches-list"
+                   (str k " holds " (count lst) " codes but :counts says " expected)))
+          (when (not= (count (set lst)) (count lst))
+            (fail! "catalog-finding-list-has-no-duplicates"
+                   (str k " repeats a code")))
+          (let [absent (remove class-codes lst)]
+            (when (seq absent)
+              (fail! "catalog-finding-codes-exist-in-tree"
+                     (str k " names codes that are not in data/classes: "
+                          (str/join " " (sort absent))
+                          " — a finding about a class that left the dataset.")))))))))
+
+;; 5. every address is cited exactly once — a catalog is not made richer by
+;;    repeating a page, and repetition is the cheapest way to look better
+(let [urls (mapv second (re-seq #"(https?://[^\"]+)\"" catalog-text))]
+  (when (empty? urls) (refuse! "catalog.edn carries no addresses at all"))
+  (let [dupes (->> urls frequencies (filter #(> (val %) 1)) (map key) sort)]
+    (when (seq dupes)
+      (fail! "catalog-cites-each-address-once"
+             (str "repeated: " (str/join " " dupes)))))
+  (let [declared (set (keep :url sources))
+        stray    (remove declared urls)]
+    (when (seq stray)
+      (fail! "catalog-addresses-are-declared-sources"
+             (str "addresses appear outside :sources: " (str/join " " (sort (set stray))))))))
+
+;; 6. a source that names an address must carry a digest and the day it was checked
+(doseq [s sources]
+  (let [id (pr-str (:id s))]
+    (when-not (string? (:url s))
+      (fail! "catalog-source-has-an-address" (str id " has no :url")))
+    (when-not (string? (:verified-at s))
+      (fail! "catalog-source-records-when-it-was-checked" (str id " has no :verified-at")))
+    (when (and (contains? #{:mirrored :reference} (:role s)) (not (hex64? (:sha256 s))))
+      (fail! "catalog-fetched-source-carries-a-digest"
+             (str id " is :role " (:role s) " but its :sha256 is " (pr-str (:sha256 s)))))))
+
+;; 7. a mirrored source's digest is the committed file's digest
+(doseq [s (filter #(= :mirrored (:role %)) sources)]
+  (when-let [rel (:committed-as s)]
+    (let [p (path/join root rel)]
+      (if-not (fs/existsSync p)
+        (fail! "catalog-mirrored-file-is-committed"
+               (str (pr-str (:id s)) " names " rel ", which is not in the tree"))
+        (let [buf (fs/readFileSync p)
+              got (-> (crypto/createHash "sha256") (.update buf) (.digest "hex"))]
+          (when (not= got (:sha256 s))
+            (fail! "catalog-mirrored-digest-matches-committed-bytes"
+                   (str rel " digests to " got " but the catalog records " (:sha256 s))))
+          (when (and (number? (:bytes s)) (not= (.-length buf) (:bytes s)))
+            (fail! "catalog-mirrored-bytes-match-committed-bytes"
+                   (str rel " is " (.-length buf) " bytes but the catalog records " (:bytes s)))))))))
+
+;; 8. the catalog and data/rev5/upstream.edn must not drift apart — two files
+;;    recording the same pin is two chances to update only one
+(let [s (first (filter #(= :un/isic-rev5-csv (:id %)) sources))]
+  (if-not s
+    (fail! "catalog-records-the-rev5-source" ":un/isic-rev5-csv is missing from :sources")
+    (do
+      (when (not= (:sha256 s) (:sha256 rev5-pin))
+        (fail! "catalog-agrees-with-rev5-upstream-record"
+               (str "catalog sha256=" (:sha256 s) " but data/rev5/upstream.edn says " (:sha256 rev5-pin))))
+      (when (not= (:url s) (:source-url rev5-pin))
+        (fail! "catalog-agrees-with-rev5-upstream-record"
+               (str "catalog url=" (pr-str (:url s))
+                    " but data/rev5/upstream.edn says " (pr-str (:source-url rev5-pin))))))))
+
+;; 9. an unpinned table must go on saying so. This is the invariant the whole
+;;    repository is a cautionary tale about.
+(doseq [t tables]
+  (when (false? (:pinned? t))
+    (when-not (= :unknown (:source-url t))
+      (fail! "catalog-unpinned-table-declares-unknown-provenance"
+             (str (pr-str (:id t)) " is :pinned? false but names a :source-url "
+                  (pr-str (:source-url t))
+                  " — an unpinned table must not carry an authoritative-looking address.")))
+    (when-not (= :unknown (:sha256 t))
+      (fail! "catalog-unpinned-table-declares-unknown-provenance"
+             (str (pr-str (:id t)) " is :pinned? false but carries :sha256 " (pr-str (:sha256 t)))))))
+
+;; ── report ──────────────────────────────────────────────────────────────────
+
+(println (str "SCANNED\tclasses=" (count classes)
+              "\tsources=" (count sources)
+              "\ttables=" (count tables)))
+
+(if (seq @failures)
+  (do (doseq [f @failures] (println f))
+      (println (str "catalog-check: " (count @failures) " invariant(s) violated"))
+      (js/process.exit 1))
+  (do (println "catalog-check: OK")
+      (js/process.exit 0)))

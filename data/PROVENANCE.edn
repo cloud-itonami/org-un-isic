@@ -14,6 +14,16 @@
 
  :rev5 {:pinned? true :record "data/rev5/upstream.edn"}
 
+ ;; ⚠ SUPERSEDED IN PART, 2026-09-01. :what-the-mirror-actually-is below reached
+ ;; the conclusion that data/classes "IS NOT THE UN'S ISIC REV.4" and belongs to
+ ;; the NACE family. Measuring all 428 classes against BOTH references -- rather
+ ;; than the 33 whose titles differed from one of them -- refutes that: 381 of
+ ;; 428 titles (89%) match the UN's ISIC Rev.4 exactly, and the NACE
+ ;; contamination is localised, 25 of its 47 classes in division 47 alone.
+ ;; catalog.edn carries the replacement measurement, the pinned NACE
+ ;; reference it was made against, and the per-code lists. What did NOT change:
+ ;; the Rev.4 half is still unpinned, and its source address is still unknown.
+
  :rev4
  {:pinned? false
   :files 428
@@ -63,12 +73,21 @@
  ;; using the EU's vocabulary.
  :what-the-mirror-actually-is
  {:measured-at "2026-08-15"
+  ;; SUPERSEDED 2026-09-01 by catalog.edn :what-data-classes-is. Kept
+  ;; because the evidence below is sound and still worth reading -- every code
+  ;; it lists really is a NACE class absent from ISIC. What was wrong was the
+  ;; scope of the inference, and it was wrong for the same reason the reading
+  ;; above it was struck out: a sample drawn from the DIFFERENCES between the
+  ;; mirror and the UN file is a sample drawn from division 47, where NACE
+  ;; subdivides ISIC most heavily. 20 of those 33 codes are in division 47.
+  ;; NACE Rev.2 is now pinned (Eurostat SDMX codelist, digest in
+  ;; catalog.edn), so the comparison no longer has to be one-sided.
   :conclusion
-  "THE MIRRORED PER-CLASS DATA IS NOT THE UN'S ISIC REV.4. On the evidence below
-   it belongs to the European NACE family, whose 4-digit level subdivides ISIC's
-   classes further. Which NACE revision is NOT identified here: no NACE source is
-   pinned in this workspace, and naming a revision without one would repeat the
-   mistake this record exists to document."
+  "SUPERSEDED. Read as: the mirror CONTAINS NACE Rev.2 material, concentrated in
+   division 47. It is not, in the whole, NACE -- 381 of 428 titles match the UN's
+   ISIC Rev.4 exactly, against 246 of 343 shared codes matching NACE Rev.2. The
+   evidence collected below is about the 47 classes that are not ISIC. See
+   catalog.edn :what-data-classes-is for the measurement over all 428."
   :evidence
   {:codes-only-in-mirror
    {:count 14
@@ -122,18 +141,27 @@
    temporary path, sha256-verified against the pin recorded here, compared, and
    discarded."}
 
+ ;; Rewritten 2026-09-01 against the measurement over all 428 classes. The first
+ ;; bullet said the table is "measurably not ISIC Rev.4", which was the
+ ;; superseded reading; the exposure is real but far narrower than that implied.
  :consequences
  ["122 cloud-itonami businesses take an industry name from this mirror (see"
-  " 90-docs/valueflows/itonami-business-vf.datoms.edn), under the label ISIC"
-  " Rev.4, from a table that is measurably not ISIC Rev.4. For most of them the"
-  " name is close enough to be unremarkable; for a business on a code the EU"
-  " subdivides differently it can be the wrong industry entirely, which is what"
-  " 4774 demonstrates."
+  " 90-docs/valueflows/itonami-business-vf.datoms.edn) under the label ISIC"
+  " Rev.4. For 381 of the 428 classes that label is exactly right. The exposure"
+  " is the other 47 -- 20 titled from NACE Rev.2, 27 from neither reference --"
+  " and for a business on one of those a code can name a different industry"
+  " entirely, which is what 4774 demonstrates. The 47 are listed by code in"
+  " catalog.edn, so the affected businesses can be identified rather than"
+  " estimated."
   "Rev.4 GROUP titles are unavailable at any level of confidence, so a Rev.4"
   " group-level code (24 blueprints declare one) is reported as unresolvable"
-  " with a reason rather than given a title from this source."
+  " with a reason rather than given a title from this source. Measured"
+  " 2026-09-01: README.md claims 272 groups for the Rev.4 half, which is NACE"
+  " Rev.2's group count exactly; ISIC Rev.4 has 238."
   "This repository is named org-un-isic and attributes its Rev.4 half to the UN."
-  " That attribution is wrong for the data currently in data/classes."]
+  " For 89% of the classes that attribution is correct. It is wrong for the 47"
+  " listed in catalog.edn, which is a data defect to repair rather than a"
+  " misnaming of the repository."]
 
  ;; What the owner is actually deciding, now that the question has changed. The
  ;; earlier framing -- 'which vintage of Rev.4 is authoritative' -- was the wrong
@@ -141,13 +169,15 @@
  :owner-decision
  {:changed-at "2026-08-15"
   :was "Which vintage of ISIC Rev.4 is authoritative, then a pinned re-ingest."
+  ;; Narrowed 2026-09-01. The choice below was framed as re-home-everything or
+  ;; replace-everything, which followed from believing the whole table was NACE.
+  ;; It is not, so neither branch is what the evidence now supports.
   :is
-  "Whether this repository should mirror ISIC Rev.4 (in which case data/classes
-   is replaced by a pinned ingest of the UN file whose sha256 is already recorded
-   above, and 419 classes rather than 428), or whether the NACE-family data is
-   the one the businesses actually want (in which case it belongs in a repo named
-   for its real origin -- the origin plane's reverse-DNS rule would make that
-   eu-europa-nace or similar -- with its own pin, and org-un-isic mirrors ISIC)."
+  "Whether to repair the 47 classes listed in catalog.edn from the pinned UN
+   file -- which would also drop the 12 NACE-only codes and resolve 3292 and 8410,
+   leaving 419 ISIC Rev.4 classes -- or to keep the table as it is because the
+   businesses classified against it as it is. Re-homing all 428 files to a
+   NACE-named repository is NOT indicated: 381 of them are ISIC Rev.4."
   :not-derivable-here
   "Which one the businesses want is a question about the businesses, not about
    the data. Nothing in the blueprints says which classification they meant."}}

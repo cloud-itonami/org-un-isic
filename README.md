@@ -4,7 +4,9 @@ Machine-readable ISIC Rev.4 (UN Statistics Division, International Standard
 Industrial Classification of All Economic Activities, Revision 4) published as
 JSON and served through the shared LangServer + LangGraph + UDF runtime.
 
-- **Rev.4** (`data/classes/`): 21 Sections -> 88 Divisions -> **272 Groups** -> 428 Classes
+- **Rev.4** (`data/classes/`): 428 Classes. (The "272 Groups" this line used to
+  claim is NACE Rev.2's group count, not ISIC Rev.4's, which is 238 — and no
+  group-level files exist here. Measured 2026-09-01, see `catalog.edn`.)
 - **Rev.5** (`data/rev5/`): 22 Sections -> 87 Divisions -> 258 Groups -> **463 Classes**
 - Source taxonomy: https://unstats.un.org/unsd/classifications/Econ/isic (public domain)
 - License: Apache-2.0 (code) / public domain (UN data)
@@ -21,15 +23,25 @@ gap in this mirror. `data/rev5/upstream.edn` records the pin, the sha256, the
 encoding (the CSV is latin-1, not UTF-8 — its only non-ASCII byte is a
 non-breaking space) and the one normalisation applied to the generated JSON.
 
-⚠ **The Rev.4 half of this mirror is unpinned, and measurably disputed.**
-`data/classes/*.json` carries no source URL, sha256 or fetch date, and the UN's
-legacy `ISIC_Rev_4_english_structure.txt` (still 200, not linked from the
-landing page) disagrees with it on **33 of 414** overlapping class titles and on
-the level counts. The differences read as Rev.5 wording. Which one is Rev.4
-cannot be settled here, so that file was deliberately NOT ingested — giving a
-disputed table an authoritative-looking pin is worse than the gap it appears to
-close. See `data/PROVENANCE.edn`; resolving it needs an owner decision and a
-pinned re-ingest.
+⚠ **The Rev.4 half of this mirror is unpinned, and 47 of its 428 classes are
+not ISIC.** `data/classes/*.json` carries no source URL, sha256 or fetch date,
+and git history is one squashed commit, so where these bytes came from is not
+recoverable. What they *are* was measured on 2026-09-01 against two pinned
+references — the UN's legacy `ISIC_Rev_4_english_structure.txt` and Eurostat's
+NACE Rev.2 SDMX codelist:
+
+- **381 of 428** class titles (89%) match the UN's ISIC Rev.4 exactly.
+- **20** match NACE Rev.2 and not ISIC; **27** match neither.
+- **25 of those 47** are in division 47 (retail trade), where NACE subdivides
+  ISIC most heavily. Of 88 divisions, 53 lean ISIC and 3 lean NACE.
+
+So this is ISIC Rev.4 with localised NACE contamination, not a NACE table. Both
+reference files were fetched, digest-verified and discarded — deliberately NOT
+ingested, because giving a disputed table an authoritative-looking pin is worse
+than the gap it appears to close. The addresses, digests, per-code lists and
+method are in **`catalog.edn`**; `data/PROVENANCE.edn` keeps the earlier
+readings and why each was superseded. Repairing the 47 is an owner decision:
+122 cloud-itonami businesses take an industry name from this table.
 
 **There is no Rev.4 <-> Rev.5 correspondence table here** because none is
 linked from the UN landing page. Resolve a code against the revision it was
@@ -44,8 +56,15 @@ without scraping the UN PDF.
 ## Layout
 
 ```
-data/classes/{code}.json    one file per 4-digit Class (authoritative data)
+catalog.edn            every table here, and the address it came from
+data/PROVENANCE.edn         what is unpinned, and the readings that were superseded
+data/classes/{code}.json    one file per 4-digit Class (Rev.4, unpinned)
+data/rev5/                  Rev.5, pinned (see data/rev5/upstream.edn)
 ```
+
+`nbb test/catalog_test.cljs` checks that `catalog.edn` still describes the
+files that are actually here — exit 0 clean, 1 violated, **2 refused** when the
+inputs could not be read.
 
 Each class JSON carries `code`, `nameEn`, `group`, `description`, `includes[]`,
 `excludes[]`, and `implementedAt`. The group → division → section ancestry is
