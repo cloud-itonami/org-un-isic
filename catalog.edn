@@ -1,0 +1,228 @@
+;; catalog.edn — every table this repository carries, and the address it came
+;; from.
+;;
+;; It sits at the top level rather than under data/ because it describes data/
+;; rather than being part of it: a reader asking "where did these bytes come
+;; from" should not have to find the answer inside the thing being asked about.
+;;
+;; Why this file exists. Until 2026-09-01 the repository held 435 files under
+;; data/ and exactly ONE source address among them (data/PROVENANCE.edn's
+;; :other-source). data/rev5/upstream.edn pins the Rev.5 CSV properly, but
+;; there was no single place that answered "where did each of these tables come
+;; from", so the answer had to be reassembled from prose in three files. A
+;; corpus whose provenance is spread across prose is a corpus whose provenance
+;; drifts one file at a time.
+;;
+;; Every address below was fetched on :measured-at, returned 200 with zero
+;; redirects, and is recorded at its terminal address. Each appears exactly
+;; ONCE in this file; test/catalog_test.cljs enforces that, because the cheapest
+;; way to make a provenance catalog look richer than it is is to cite the same
+;; page several times.
+;;
+;; What this file does NOT do: it does not ingest the two reference tables. They
+;; were fetched to a temporary path, digested, compared and discarded — the same
+;; discipline data/PROVENANCE.edn already applied to the UN's legacy .txt. The
+;; digests are recorded so the comparison below can be re-run and contradicted.
+
+{:schema "un.isic.ingest-catalog.v1"
+ :measured-at "2026-09-01"
+
+ ;; ── the addresses ─────────────────────────────────────────────────────────
+ ;;
+ ;; :role distinguishes what the repository DOES with each one:
+ ;;   :mirrored  — bytes are committed here and the digest is the upstream's
+ ;;   :reference — fetched to compare against, deliberately not committed
+ ;;   :landing   — the human page the download link was read off, not guessed
+
+ :sources
+ [{:id :un/isic-landing
+   :role :landing
+   :authority "UN Statistics Division"
+   :url "https://unstats.un.org/unsd/classifications/Econ/isic"
+   :verified-at "2026-09-01" :http 200 :redirects 0}
+
+  {:id :un/isic-rev5-csv
+   :role :mirrored
+   :authority "UN Statistics Division"
+   :revision "ISIC Rev.5"
+   :url "https://unstats.un.org/unsd/classifications/Econ/Download/In Text/ISIC_Rev_5_english_structure.csv"
+   :verified-at "2026-09-01" :http 200 :redirects 0
+   :sha256 "fc408f57bd3a4f33c35a4f384ec0010283dd72774892c8d48ae1330a8caeb57f"
+   :bytes 45481
+   :committed-as "data/rev5/ISIC_Rev_5_english_structure.csv"
+   ;; Three-way agreement re-measured on 2026-09-01: upstream today, the
+   ;; committed file, and the digest data/rev5/upstream.edn recorded on
+   ;; 2026-08-15 are the same bytes. The pin has not rotted.
+   :reverified :upstream-equals-committed-equals-recorded-pin}
+
+  {:id :un/isic-rev4-structure-txt
+   :role :reference
+   :authority "UN Statistics Division"
+   :revision "ISIC Rev.4"
+   :url "https://unstats.un.org/unsd/classifications/Econ/Download/In Text/ISIC_Rev_4_english_structure.txt"
+   :verified-at "2026-09-01" :http 200 :redirects 0
+   :sha256 "18b645efc5a0b001fda5852cfd0690eb579011651e405631e50cb2d271ee2cc6"
+   :bytes 40195
+   :not-linked-from-landing-page true
+   :levels {:sections 21 :divisions 88 :groups 238 :classes 419}
+   ;; Same digest data/PROVENANCE.edn recorded on 2026-08-15, re-fetched and
+   ;; re-verified 17 days later.
+   :reverified :upstream-equals-recorded-pin}
+
+  {:id :eurostat/nace-rev2-sdmx
+   :role :reference
+   :authority "Eurostat"
+   :revision "NACE Rev.2"
+   :url "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/codelist/ESTAT/NACE_R2"
+   :verified-at "2026-09-01" :http 200 :redirects 0
+   :media-type "application/vnd.sdmx.structure+xml;version=2.1"
+   :codelist-version "19.2"
+   :prepared "2026-04-21T15:38:52.914Z"
+   :sha256 "9f8598cd9460a3ced11743b881f01eb1259d711664e1526a9d0c24e577fb80df"
+   :bytes 1034251
+   :levels {:sections 21 :divisions 88 :groups 272 :classes 615}
+   ;; The response carries a per-message <m:ID> and <m:Prepared> in its header,
+   ;; which normally means the whole-file digest is not a pin. Measured: two
+   ;; fetches minutes apart returned byte-identical responses, header included.
+   ;; The structures-only digest is recorded anyway, so a future release that
+   ;; changes only the header can still be told apart from one that changes the
+   ;; codelist.
+   :sha256-structures-only "0f28e2854869afd1a9023619cb7cc1074ccc3c11d6649b47a4acca8d5fba447b"
+   :structures-bytes 1033559
+   :digest-stability :byte-identical-across-two-fetches-same-day}
+
+  {:id :eurostat/nace-landing
+   :role :landing
+   :authority "Eurostat"
+   :url "https://ec.europa.eu/eurostat/web/nace"
+   :verified-at "2026-09-01" :http 200 :redirects 0
+   ;; Eurostat's older RAMON download endpoints now 404. The SDMX codelist
+   ;; address above was reached from this page, not guessed.
+   :ramon-retired true}]
+
+ ;; ── the tables ────────────────────────────────────────────────────────────
+
+ :tables
+ [{:id :rev5
+   :path "data/rev5/"
+   :source :un/isic-rev5-csv
+   :pinned? true
+   :generated ["classes.json" "groups.json" "divisions.json" "sections.json"]
+   :levels {:sections 22 :divisions 87 :groups 258 :classes 463}
+   :record "data/rev5/upstream.edn"}
+
+  {:id :rev4-classes
+   :path "data/classes/"
+   :source :unknown
+   :pinned? false
+   :files 428
+   :fields ["code" "nameEn" "group" "description" "includes" "excludes" "implementedAt"]
+   ;; The whole point of the measurement below. The bytes are here; the address
+   ;; they came from is not, and no fetch recovers it — git history is a single
+   ;; squashed commit.
+   :source-url :unknown :sha256 :unknown :fetched-at :unknown
+   ;; sha256 over the sorted "code<TAB>nameEn" lines of data/classes/*.json,
+   ;; LF-joined, no trailing newline. Recomputed by test/catalog_test.cljs so
+   ;; the verdicts below cannot outlive the titles they were measured on.
+   :titles-digest "8ac9ad0e30ac7c58034be6c5dd8c460306e0c14338c886b231d447a2f4db49c5"
+   :titles-digest-bytes 20682}]
+
+ ;; ── what data/classes actually is ─────────────────────────────────────────
+ ;;
+ ;; SUPERSEDES the conclusion data/PROVENANCE.edn reached on 2026-08-15
+ ;; (:what-the-mirror-actually-is), which read: "THE MIRRORED PER-CLASS DATA IS
+ ;; NOT THE UN'S ISIC REV.4 ... it belongs to the European NACE family".
+ ;;
+ ;; That is wrong, and it is wrong in a way that record had already warned
+ ;; against once. Its own earlier reading was struck out for having
+ ;; "generalised from the two codes that had been inspected"; the replacement
+ ;; then generalised from the 33 codes whose titles differed from the UN file —
+ ;; and 20 of those 33 are in division 47 alone. Retail trade is the one place
+ ;; NACE subdivides ISIC most heavily, so a sample drawn from the differences
+ ;; is a sample drawn from division 47.
+ ;;
+ ;; Measured here against BOTH pinned references instead of one, over all 428
+ ;; classes rather than over the differences.
+
+ :what-data-classes-is
+ {:measured-at "2026-09-01"
+  :method
+  "Both reference tables fetched to a temporary path and digest-verified against
+   :sources above. Four-digit classes extracted from each (ISIC: rows whose code
+   is exactly 4 digits; NACE: SDMX codes matching <section letter><4 digits>).
+   Both extractions reproduce the published level counts of their revision
+   exactly -- 21/88/238/419 for ISIC Rev.4 and 21/88/272/615 for NACE Rev.2 --
+   which is the available self-check that the extraction is not silently lossy.
+   Titles compared after collapsing whitespace, stripping surrounding quotes and
+   a trailing period, and lowercasing. No -ise/-ize normalisation: orthography is
+   evidence here, not noise."
+
+  :conclusion
+  "data/classes IS predominantly the UN's ISIC Rev.4. 381 of its 428 class
+   titles (89%) match the UN file exactly. It carries NACE Rev.2 contamination
+   that is localised, not pervasive: 20 titles match NACE and not ISIC, 27 match
+   neither, and 25 of those 47 are in division 47 (retail trade). Of 88
+   divisions, 53 lean ISIC and 3 lean NACE. The earlier reading -- that the
+   table belongs to the NACE family -- describes division 47 and does not
+   generalise."
+
+  :counts
+  {:mirror-classes 428
+   :title-matches-isic-exactly 381
+   :title-matches-nace-not-isic 20
+   :title-matches-neither 27
+   :codes-shared-with-isic 414
+   :codes-shared-with-nace 343
+   :codes-in-both-references 331
+   :codes-only-in-isic 83
+   :codes-only-in-nace 12
+   :codes-in-neither-reference 2}
+
+  :divisions
+  {:total 88 :isic-leaning 53 :nace-leaning 3 :tie-or-neither 32
+   :nace-leaning-codes ["47" "64" "96"]
+   :division-47 {:mirror-classes 30 :match-isic 5 :match-nace 18}}
+
+  ;; The actionable lists. These are subsets of data/classes and are checked to
+  ;; be so; a code that leaves the dataset cannot linger here as a finding.
+  :codes-titled-from-nace-not-isic
+  ["1395" "3291" "3299" "4313" "4690" "4711" "4719" "4730" "4751" "4752"
+   "4753" "4759" "4771" "4772" "4773" "4774" "4775" "4778" "6499" "9601"]
+
+  :codes-titled-from-neither
+  ["1010" "1396" "3292" "3830" "4210" "4390" "4664" "4665" "4669" "4721"
+   "4722" "4723" "4741" "4742" "4761" "4762" "4763" "4764" "4776" "4777"
+   "4779" "5120" "5510" "6612" "6619" "8410" "9101"]
+
+  :codes-absent-from-isic-present-in-nace
+  ["1395" "1396" "3291" "3299" "4313" "4664" "4665" "4775" "4776" "4777"
+   "4778" "4779"]
+
+  :codes-absent-from-both-references ["3292" "8410"]
+
+  ;; One further measurement, on the layer this repository does not carry files
+  ;; for. README.md claims the Rev.4 half has 272 groups. ISIC Rev.4 has 238;
+  ;; NACE Rev.2 has 272. The claimed group count is NACE's exactly, which is
+  ;; consistent with a tree whose skeleton was taken from NACE and whose class
+  ;; titles were filled, mostly, from ISIC.
+  :group-count-claim
+  {:readme-claims 272 :isic-rev4-has 238 :nace-rev2-has 272
+   :note "No group-level files exist in this repository, so this compares a
+          prose claim against two measured counts and nothing more."}}
+
+ ;; ── what is still open ────────────────────────────────────────────────────
+
+ :open
+ {:owner-decision
+  "Narrower than data/PROVENANCE.edn's framing. Re-homing 428 files to a
+   NACE-named repository is not indicated: 381 of them are ISIC Rev.4. What is
+   indicated is replacing the 47 classes listed above from the pinned UN file,
+   which would also drop the 12 NACE-only codes and resolve 3292 and 8410. That
+   is a data change with downstream effect (122 cloud-itonami businesses take an
+   industry name from this table) and is not made here."
+  :not-derivable-here
+  "Which classification the 122 businesses meant is a question about them, not
+   about these files. Nothing in the blueprints says."
+  :rev4-provenance
+  "Still :unknown, and the measurement does not recover it. Knowing the table is
+   mostly ISIC Rev.4 is not knowing which publication it was copied from."}}
