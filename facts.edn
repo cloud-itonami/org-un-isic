@@ -1,0 +1,184 @@
+;; Regulatory source register for the ISIC mirror's authorities.
+;;
+;; This repository mirrors the UN's International Standard Industrial
+;; Classification (Rev.4 per-class JSON, Rev.5 structure CSV) and measures its
+;; own Rev.4 half against a second authority, Eurostat's NACE Rev.2. catalog.edn
+;; records what the tables here CAME FROM; this file is the different thing --
+;; the list of authorities a claim in this repository may be traced to, each
+;; carrying the check that establishes it.
+;;
+;; Shape is tx-data (a vector of entity maps), so it loads with
+;;   (d/transact conn (edn/read-string (slurp "facts.edn")))
+;; :source/id is the join key. A source not in this table has NO spec-basis for
+;; this repository -- extend the table, never invent an id or a URL.
+;;
+;; VERIFIED BY `nbb scripts/verify-facts.cljs`, which re-fetches every entry.
+;; Each carries a :source/verify tag naming WHICH check establishes it.
+;;
+;;   :page-identity  Fetch and require four things together: a 2xx, a final
+;;                   URL that is still the page asked for, the declared
+;;                   charset, and the <title> recorded below.
+;;
+;;   :page-text      All of :page-identity, plus every string in
+;;                   :page/must-contain present in the de-tagged body.
+;;
+;; (The sibling ministry registers also carry :e-gov-law-id for statutes. This
+;; register cites no statute: the authorities here are UN Statistics Division
+;; and Eurostat pages, not Japanese law. The verifier keeps the e-Gov branch
+;; and its self-test so the check stays exercised; no entry uses it.)
+;;
+;; HOST ASSUMPTIONS ARE MEASURED AT RUN TIME, NOT DATED IN A COMMENT.
+;; The :host-behaviour entities below say what each host does with a path that
+;; does not exist. The verifier fetches a nonexistent path on every host in
+;; the register on every run and fails if the answer has changed.
+;;
+;; Measured 2026-09-01: BOTH hosts answer **404**, not 403, for a path that
+;; does not exist, with a real not-found page served at the requested URL.
+;; unstats.un.org's is a small (1245-byte) IIS page titled
+;; "404 - File or directory not found."; ec.europa.eu's is a large
+;; (about 158 KB) page titled "Status 404 - Eurostat" carrying the full site
+;; navigation. Neither host has been seen to serve a bot challenge to a paced
+;; client, and 404 is not 2xx, so status still discriminates -- but a checker
+;; written to expect the go.jp hosts' 403 refusal would misreport two hosts
+;; that answered perfectly clearly. The status each host actually returned is
+;; pinned in :host/missing-status and re-measured on every run.
+;;
+;; :source/covers says why an entry is in the register. Claims stop at the
+;; level actually checked -- page identity, and for the :page-text pages the
+;; strings read on 2026-09-01. No CSV, TXT or PDF is asserted as read, because
+;; none was; the files themselves are catalog.edn's business, not this
+;; register's.
+
+[
+ ;; ── What each host does with a path that does not exist ────────────────────
+ ;; Re-measured on every run. A change here invalidates the check that rests
+ ;; on it, which is the point of writing it down as data.
+
+ {:source/id "host.unstats-un-org"
+  :source/kind :host-behaviour
+  :host/name "unstats.un.org"
+  :host/missing-path :refuses
+  :host/missing-status 404
+  :source/note "UN Statistics Division. A nonexistent path answers 404 with a
+                1245-byte IIS page titled \"404 - File or directory not
+                found.\", served at the requested URL. The title of that page
+                differs from every real page on the host (which are titled
+                \"UNSD &mdash; ...\"), so both status and title separate a real
+                page from an invented one. No bot challenge observed from a
+                paced client."}
+
+ {:source/id "host.ec-europa-eu"
+  :source/kind :host-behaviour
+  :host/name "ec.europa.eu"
+  :host/missing-path :refuses
+  :host/missing-status 404
+  :source/note "European Commission hosts, Eurostat included. A nonexistent
+                path under /eurostat answers 404 with a roughly 158 KB page
+                titled \"Status 404 - Eurostat\" -- larger than most real pages
+                on the host, because it carries the full site navigation. Body
+                size is not a signal; the status and the distinct title are."}
+
+ ;; ── UN Statistics Division pages ──────────────────────────────────────────
+
+ {:source/id "un.isic-landing"
+  :source/kind :agency-page
+  :source/title "ISIC classification landing page"
+  :source/publisher "United Nations Statistics Division"
+  :source/url "https://unstats.un.org/unsd/classifications/Econ/isic"
+  :source/verify :page-text
+  :page/title "UNSD &mdash; ISIC"
+  :page/must-contain ["International Standard Industrial Classification"
+                      "Rev. 5"
+                      "Rev. 4"]
+  :source/retrieved-at "2026-09-01"
+  :source/covers #{:isic-rev4 :isic-rev5 :classification-authority}
+  :source/note "The landing page data/rev5/upstream.edn and catalog.edn both
+                trace the Rev.5 CSV to. The strings pinned above are the
+                classification's full name and the two revisions this mirror
+                carries. The structure files themselves (CSV/TXT) are NOT
+                asserted here: they have no HTML title for :page-identity to
+                check and their digests are catalog.edn's job."}
+
+ {:source/id "un.econ-index"
+  :source/kind :agency-page
+  :source/title "Classifications on economic statistics index"
+  :source/publisher "United Nations Statistics Division"
+  :source/url "https://unstats.un.org/unsd/classifications/Econ"
+  :source/verify :page-identity
+  :page/title "UNSD &mdash; Classifications on economic statistics"
+  :source/retrieved-at "2026-09-01"
+  :source/covers #{:classification-authority}
+  :source/note "The economic-classifications index both cited pages hang off.
+                Title only; its links were not enumerated, so nothing about
+                which downloads it offers is asserted."}
+
+ {:source/id "un.cpc-landing"
+  :source/kind :agency-page
+  :source/title "CPC classification landing page"
+  :source/publisher "United Nations Statistics Division"
+  :source/url "https://unstats.un.org/unsd/classifications/Econ/cpc"
+  :source/verify :page-text
+  :page/title "UNSD &mdash; CPC"
+  :page/must-contain ["Central Product Classification"
+                      "CPC Ver. 2.1"]
+  :source/retrieved-at "2026-09-01"
+  :source/covers #{:cpc :classification-authority}
+  :source/note "The Central Product Classification, the product-side
+                counterpart of ISIC, which PROJECT.jsonld lists in its
+                vocabulary context. Cited at identity-plus-text only: no CPC
+                code, structure count or correspondence to ISIC is asserted,
+                because none was read."}
+
+ ;; ── Eurostat (the second authority this repository measures against) ──────
+
+ {:source/id "eurostat.nace-landing"
+  :source/kind :agency-page
+  :source/title "NACE overview page"
+  :source/publisher "Eurostat (European Commission)"
+  :source/url "https://ec.europa.eu/eurostat/web/nace"
+  :source/verify :page-identity
+  :page/title "Overview - NACE - Eurostat"
+  :source/retrieved-at "2026-09-01"
+  :source/covers #{:nace-rev2 :classification-authority}
+  :source/note "The page catalog.edn records as the route to the NACE Rev.2
+                SDMX codelist this repository measured data/classes against.
+                This register establishes that the authority's page is served
+                and identified; the codelist itself and its digest are
+                catalog.edn's business."}
+
+ ;; ── What this register does not establish ──────────────────────────────────
+
+ {:source/id "register.coverage"
+  :source/kind :coverage
+  :coverage/entries 4
+  :coverage/by-verify {:page-identity 2 :page-text 2}
+  :coverage/verified-at "2026-09-01"
+  :coverage/covered #{:isic-rev4 :isic-rev5 :cpc :nace-rev2
+                      :classification-authority}
+  :coverage/not-covered
+  ["Every data file. The Rev.5 CSV, the Rev.4 structure TXT and the NACE SDMX
+    codelist are bytes, not pages: they carry no HTML title for :page-identity
+    to check. Their digests, sizes and the three-way agreement between
+    upstream, committed copy and recorded pin are catalog.edn's and
+    data/rev5/upstream.edn's business, and are re-verified there."
+   "Page content beyond the pinned strings. Which downloads the ISIC landing
+    offers, what the CPC page says about correspondence tables, and anything
+    else on the four cited pages is not asserted -- only the titles and the
+    must-contain strings read on 2026-09-01."
+   "Any statement that data/classes IS the UN's Rev.4. catalog.edn measures it
+    as predominantly ISIC Rev.4 with localised NACE contamination and records
+    47 disputed titles; this register's authority citations do not make the
+    mirror more pinned than that measurement says it is."
+   "A Rev.4 <-> Rev.5 correspondence table. None is linked from the UN landing
+    page (catalog.edn records this), and this register cites none."
+   "The COFOG classification. No COFOG landing page exists under
+    unstats.un.org/unsd/classifications/Econ/cofog -- measured 2026-09-01 as
+    HTTP 404 -- and this register cites nothing for it."
+   "Whether either host could be read in a tight loop. A paced run (a few
+    requests, seconds apart) was never challenged; no claim is made about
+    burst behaviour, and the verifier fetches serially for that reason."]
+  :source/note "This entity is checked against the file: the verifier compares
+                :coverage/entries and :coverage/by-verify with what it actually
+                read, so a source added without updating this block is a
+                failure rather than a silent drift."}
+]
