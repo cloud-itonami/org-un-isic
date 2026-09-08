@@ -14,7 +14,7 @@
   `start-cron` returns nil when disabled or when no specs reference a known graph
   — behaviour-equivalent for open-isic's empty `crons`. The fire-input logic +
   spec filtering are faithful and covered by tests."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [cheshire.core :as json])))
 
 (def ^:dynamic *config*
