@@ -4,7 +4,7 @@
   taxonomy / store edges are injectable here, so validation + the verification
   decision rule + the drill-down topology verify under bb with stubs)."
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [langgraph.graph :as g]
             [lg-open-isic.store :as store]
             [lg-open-isic.cron :as cron]

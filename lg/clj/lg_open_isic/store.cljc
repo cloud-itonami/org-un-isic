@@ -15,7 +15,7 @@
     (write-record! record-map) → {:vertex_id <str>} | {:error <str>} | {}
   The default appends to an in-process atom (`mem-log`) and returns a synthetic
   vertex id, so graphs verify end-to-end under bb with no external store."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:dynamic repo-did
   "Repository DID supplied by the host adapter when deployment configuration
@@ -30,7 +30,7 @@
   (at://<repo>/com.etzhayyim.apps.openIsic.classification/<key>)."
   [record]
   (let [key (-> (str (or (:subject record) (:entity record) "anon"))
-                str/lower-case
+                str/lower
                 (str/replace #"[^a-z0-9]+" "-")
                 (str/replace #"(^-+|-+$)" ""))
         code (or (:code record) "0000")]

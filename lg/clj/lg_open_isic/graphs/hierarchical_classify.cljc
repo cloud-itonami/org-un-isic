@@ -19,7 +19,7 @@
   langgraph-clj's recursion-limit guards runaway loops, replacing any python
   RetryPolicy/recursion cap.) Persistence → the kotoba Datom-log store seam,
   NOT RisingWave (substrate boundary)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [langgraph.graph :as g]
             [lg-open-isic.graphs.classify-entity :as ce]
             [lg-open-isic.store :as store]))

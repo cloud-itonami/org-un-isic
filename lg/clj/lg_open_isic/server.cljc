@@ -25,7 +25,7 @@
      (kotoba/datomic-isomorphic, ADR-2605312345).
    - /runs/stream computes events then flushes them as SSE (not incrementally
      streamed). JSON output keys mirror the clj state (kebab) where not pinned."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [langgraph.graph :as g]
             [lg-open-isic.graphs.health :as health]
             [lg-open-isic.graphs.classify-entity :as classify-entity]
