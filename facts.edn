@@ -12,7 +12,7 @@
 ;; :source/id is the join key. A source not in this table has NO spec-basis for
 ;; this repository -- extend the table, never invent an id or a URL.
 ;;
-;; VERIFIED BY `nbb scripts/verify-facts.cljs`, which re-fetches every entry.
+;; VERIFIED BY `nbb scripts/verify-facts.kotoba`, which re-fetches every entry.
 ;; Each carries a :source/verify tag naming WHICH check establishes it.
 ;;
 ;;   :page-identity  Fetch and require four things together: a 2xx, a final

@@ -15,7 +15,7 @@
 ;;
 ;; Every address below was fetched on :measured-at, returned 200 with zero
 ;; redirects, and is recorded at its terminal address. Each appears exactly
-;; ONCE in this file; test/catalog_test.cljs enforces that, because the cheapest
+;; ONCE in this file; test/catalog_test.kotoba enforces that, because the cheapest
 ;; way to make a provenance catalog look richer than it is is to cite the same
 ;; page several times.
 ;;
@@ -122,7 +122,7 @@
    ;; squashed commit.
    :source-url :unknown :sha256 :unknown :fetched-at :unknown
    ;; sha256 over the sorted "code<TAB>nameEn" lines of data/classes/*.json,
-   ;; LF-joined, no trailing newline. Recomputed by test/catalog_test.cljs so
+   ;; LF-joined, no trailing newline. Recomputed by test/catalog_test.kotoba so
    ;; the verdicts below cannot outlive the titles they were measured on.
    :titles-digest "8ac9ad0e30ac7c58034be6c5dd8c460306e0c14338c886b231d447a2f4db49c5"
    :titles-digest-bytes 20682}]

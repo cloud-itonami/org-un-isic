@@ -62,7 +62,7 @@ data/classes/{code}.json    one file per 4-digit Class (Rev.4, unpinned)
 data/rev5/                  Rev.5, pinned (see data/rev5/upstream.edn)
 ```
 
-`nbb test/catalog_test.cljs` checks that `catalog.edn` still describes the
+`nbb test/catalog_test.kotoba` checks that `catalog.edn` still describes the
 files that are actually here — exit 0 clean, 1 violated, **2 refused** when the
 inputs could not be read.
 
