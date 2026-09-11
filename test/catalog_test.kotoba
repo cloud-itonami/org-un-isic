@@ -1,4 +1,4 @@
-#!/usr/bin/env nbb
+#!/usr/bin/env kbb
 ;; test/catalog_test.cljs — does catalog.edn still describe THIS repository?
 ;;
 ;; catalog.edn is the repository's ingest catalog: for each table, the
@@ -38,7 +38,7 @@
 ;; by fetching them on the day they were recorded; re-fetching on every run would
 ;; make this check fail for reasons that are not about this repository.
 ;;
-;; Usage:  nbb test/catalog_test.cljs
+;; Usage:  kbb --backend sci test/catalog_test.cljk
 
 (ns catalog-test
   (:require ["node:fs" :as fs]
