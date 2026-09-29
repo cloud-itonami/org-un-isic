@@ -8,7 +8,7 @@
 
   PORT NOTE (deviation): the kotodama `build_graph()` is in an external crate not
   present in this app tree, so this twin reconstructs the DOCUMENTED behaviour
-  (app CLAUDE.md): 'Dynamic LLM drill-down from Section → Division → Group →
+  (app AGENTS.md): 'Dynamic LLM drill-down from Section → Division → Group →
   Class using the com.etzhayyim.apps.openIsic.getTaxonomy tool.' Two injectable
   seams stand in for the tool + the LLM choice:
     *fetch-taxonomy* (level path) → seq of {:code :nameEn} candidate children
