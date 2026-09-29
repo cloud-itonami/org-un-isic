@@ -2,7 +2,7 @@
   "Injectable store seam — clj replacement for `lg/lg_open_isic/checkpointer.py`
   (the RW-compat `_RwAsyncPostgresSaver`), ADR-2606280030.
 
-  SUBSTRATE-BOUNDARY (CLAUDE.md / MIGRATION-TODO): the Python checkpointer
+  SUBSTRATE-BOUNDARY (AGENTS.md / MIGRATION-TODO): the Python checkpointer
   writes LangGraph checkpoints to RisingWave PG :4566. RisingWave / Postgres are
   DEPRECATED per the charter (ADR-2605262130); the canonical persistence target
   is the kotoba Datom log (Datomic-isomorphic, swappable per the actor `:db-api`

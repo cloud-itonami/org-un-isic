@@ -7,12 +7,12 @@
 
   PORT NOTE (deviation): the kotodama `build_graph()` lives in an external crate
   (`40-engine/kotoba/crates/kotoba-kotodama/py`) NOT present in this app tree, so
-  this twin reconstructs the DOCUMENTED behaviour from the app CLAUDE.md rather
+  this twin reconstructs the DOCUMENTED behaviour from the app AGENTS.md rather
   than transliterating opaque bytecode:
     - 'Direct routing to explicit 4-digit class tools' → a single injectable
       classifier seam (`*classify*`) defaulting to the Murakumo loopback LLM
       gateway (LiteLLM 127.0.0.1:4000, ADR-2605215000), fleet-guarded.
-    - Verification decision rule (CLAUDE.md): confidence ≥0.9 → authoritative,
+    - Verification decision rule (AGENTS.md): confidence ≥0.9 → authoritative,
       ≥0.5 → community, <0.5 → candidate. Implemented as the pure
       `verification-for-confidence` (UDF `openIsic.verificationForConfidence`).
     - Persistence → the injectable kotoba Datom-log store seam (lg-open-isic.store),
@@ -30,7 +30,7 @@
 ;; ── verification decision rule (UDF openIsic.verificationForConfidence) ─────
 
 (defn verification-for-confidence
-  "Pure: map a confidence ∈ [0,1] to a verification tier (CLAUDE.md table)."
+  "Pure: map a confidence ∈ [0,1] to a verification tier (AGENTS.md table)."
   [confidence]
   (let [c (double (or confidence 0.0))]
     (cond

@@ -66,7 +66,7 @@
 
    `read-string` reads the first form and discards the rest, so a file whose map
    closes early and trails garbage parses without complaint -- which is precisely
-   how the heredoc-written EDN in this workspace has broken before (CLAUDE.md:
+   how the heredoc-written EDN in this workspace has broken before (AGENTS.md:
    a stray escaped quote ends the string, the map still balances, and the reader
    returns a truncated value \"as if nothing happened\"). Wrapping the text in a
    vector forces the reader to consume everything: trailing content becomes extra
